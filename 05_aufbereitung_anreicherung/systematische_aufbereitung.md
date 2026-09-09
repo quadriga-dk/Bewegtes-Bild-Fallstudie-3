@@ -44,17 +44,31 @@ Die folgende Tabelle zeigt alle `13 Felder` des Korpusmetadatenschemas mit ihren
 Felder ohne Mapping sind projektspezifische Erweiterungen ohne direkte Entsprechung in einem der beiden Standards.
 
 <style>
+/* Dark mode color scheme */
+html[data-mode="dark"] .table-clean code {
+  background-color: #444;
+  color: #f0f0f0;
+}
+
+/* Light mode color scheme */
+html[data-mode="light"] .table-clean code {
+  background-color: #f3f3f3;
+  color: #6e1c72;
+}
+
 .table-clean {
     border-collapse: collapse;
     width: 100%;
     font-size: 15px;
 }
+
 .table-clean th {
     text-align: left;
     padding: 8px 6px;
     border-bottom: 1px solid #ccc;
     font-weight: bold;
 }
+
 .table-clean td {
     padding: 8px 6px;
     border-bottom: 1px solid #eee;
