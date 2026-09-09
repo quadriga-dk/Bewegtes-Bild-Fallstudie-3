@@ -81,6 +81,26 @@ Die folgenden Konventionen gelten laut dem Verbund Forschungsdaten Bildung und d
 Für zusammengesetzte Datei- und Ordnernamen haben sich diese vier Konventionen als Best Practice gezeigt {cite}`RatSWD_2023`:
 
 <style>
+/* Dark mode color scheme */
+html[data-mode="dark"] .table-clean code {
+  background-color: #444;
+  color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1px 5px;
+  font-size: 0.9em;
+}
+
+/* Light mode color scheme */
+html[data-mode="light"] .table-clean code {
+  background-color: #f3f3f3;
+  color: #6e1c72;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1px 5px;
+  font-size: 0.9em;
+}
+
 .table-clean {
     border-collapse: collapse;
     width: 100%;
@@ -100,13 +120,6 @@ Für zusammengesetzte Datei- und Ordnernamen haben sich diese vier Konventionen 
     vertical-align: top;
 }
 
-.table-clean code {
-    background-color: #f5f5f5;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 1px 5px;
-    font-size: 0.9em;
-}
 </style>
 <table class="table-clean">
   <thead>

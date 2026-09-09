@@ -374,9 +374,10 @@ Eine detailierte Auflistung von relevanten Repositorien und Repositorien-Findern
 .interactive-checklist {
   margin: 1.25rem 0;
   padding: 1rem 1.2rem;
-  border: 1px solid #d9d9d9;
+  border: 1px solid var(--pst-color-border);
   border-radius: 8px;
-  background: #fafafa;
+  background: var(--pst-color-surface);
+  color: var(--pst-color-text-base);
 }
 
 .interactive-checklist label {
@@ -388,10 +389,11 @@ Eine detailierte Auflistung von relevanten Repositorien und Repositorien-Findern
 .interactive-checklist input[type="checkbox"] {
   margin-right: 0.55rem;
   transform: scale(1.1);
+  accent-color: var(--pst-color-primary);
 }
 
 .interactive-checklist label:has(input:checked) {
-  color: #666;
+  color: var(--pst-color-text-muted);
   text-decoration: line-through;
 }
 
@@ -403,16 +405,18 @@ Eine detailierte Auflistung von relevanten Repositorien und Repositorien-Findern
 .reset-checklist {
   margin-top: 1rem;
   padding: 0.45rem 0.75rem;
-  border: 1px solid #aaa;
+  border: 1px solid var(--pst-color-border);
   border-radius: 5px;
-  background: white;
+  background: var(--pst-color-background);
+  color: var(--pst-color-text-base);
   cursor: pointer;
 }
 
 .reset-checklist:hover {
-  background: #f0f0f0;
+  background: var(--pst-color-surface);
 }
 </style>
+
 
 <script>
 (function () {
