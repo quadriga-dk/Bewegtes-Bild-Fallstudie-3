@@ -262,7 +262,7 @@ Arbeitskopie
 
 Darüber hinaus sollten folgende Maßnahmen ebenfalls mitbedacht werden:
 
-1. Automatische Backups bevorzugen: Manuelle Backups sind fehleranfällig, mit automatischen Backups sind regelmäßige Speicherprozesse sichergestellt.
+1. Automatische Backups bevorzugen: Manuelle Backups sind fehleranfällig, mit automatischen Backups sind regelmäßige Speicherprozesse sichergestellt. Dabei ist eine mitlaufende Synchronisation zu vermeiden, da diese lokale Löschungen oder Korrumpierungen von Dateien sofort auf die Cloud überträgt. Es empfiehlt sich hier, mit einer version-history zu arbeiten.
 2. Verantwortlichkeiten festlegen: Eine hauptverantwortliche Person festlegen, um etwaige Verwirrungen und Unklarheiten zu minimieren.
 3. Backups kontrollieren: In regelmäßigen Abständen sollte geprüft werden, ob die Datenwiederherstellung aus dem Backup tatsächlich funktioniert.
 4. Aufbewahrungsdauer definieren: Bereits zu Projektbeginn sollte festgelegt werden, wie lange Backups aufbewahrt werden – und wann sie zuverlässig gelöscht werden.

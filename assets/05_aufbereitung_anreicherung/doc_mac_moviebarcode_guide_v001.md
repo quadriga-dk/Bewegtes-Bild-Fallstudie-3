@@ -99,7 +99,7 @@ Die Einzelframes werden durchnummeriert im Arbeitsverzeichnis abgelegt.
 Der Prozess des Ermittelns der FPS und der Extraktion der Einzelframes lässt sich mit folgendem Bash-Script automatisieren. Achten Sie dabei darauf, den Dateinamen Ihrer Quelldatei als Wert für `VIDEO` einzusetzen und die gewünschte Breite Ihres finalen Barcodes als Wert für `FRAME_COUNT`:
 
 ```Bash
-VIDEO="barcode_test.mkv"
+VIDEO=barcode_test.mkv
 FRAME_COUNT=2520
 
 # Videodauer ermitteln
@@ -132,7 +132,7 @@ Der Parameter `x720` gibt hier die Höhe der skalierten Version in Pixeln an und
 
 ### 3.2.4. Automatisierung der gesamten Barcodeerstellung via Bash-Script
 
-Tragen Sie die gewünschten Parameter in die ersten Zeilen ein:
+Erstellen Sie mit einem Texteditor (Visua Studio Code, nano, vim, etc.) eine Scriptdatei, beispielsweise moviebarcode_script.sh. Machen sie die Datei mit "chmod + x moviebarcode_script.sh" ausführbar. In die Scriptdatei kopieren sie folgenden Scriptblock und passen die entsprechenden Parameter in den ersten Zeilen an:
 
 ```Bash
 # Parameter
@@ -160,3 +160,5 @@ magick "${OUTFILE}_${PRIMARY_HEIGHT}.png" -resize x$SCALED_HEIGHT "${OUTFILE}_72
 # Extrahierte Einzelframes löschen
 rm frame_*.png
 ```
+
+Dieses Script kann angepasst und direkt in eine PowerShell-Session kopiert werden. Es kann aber auch mit einem Texteditor (NotePad++, Visual Studio Code, etc.) in einer Scriptdatei, beispielsweise moviebarcode_script.sh im Arbeitsverzeichnis gespeichert und mit ".\moviebarcode_script.sh" aufgerufen werden. Es sollten automatisch die Einzelframes extrahiert und zu einem Moviebarcode zusammengefügt werden.

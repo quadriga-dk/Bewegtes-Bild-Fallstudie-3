@@ -149,7 +149,7 @@ Daraus ergeben sich sechs Lizenzkombinationen sowie zusätzlich die Lizenz <a hr
 <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" class="external-link" target="_blank">CC BY-NC-ND</a> ·
 <a href="https://creativecommons.org/publicdomain/zero/1.0/" class="external-link" target="_blank">CC0</a>
 
-Wer im Sinne der {ref}`FAIR-Prinzipien <leitlinien-fair>` handelt will, sollte für Forschungsdaten die möglichst offene Lizenz <a href="https://creativecommons.org/licenses/by/4.0/" class="external-link" target="_blank">CC BY 4.0</a> wählen, da sie die Nachnutzung und Zitierbarkeit unter Namensnennung sicherstellt {cite}`Forschungsdateninfo_CC_oJ`.
+Wer im Sinne der {ref}`FAIR-Prinzipien <leitlinien-fair>` handeln will, sollte für Forschungsdaten die möglichst offene Lizenz <a href="https://creativecommons.org/licenses/by/4.0/" class="external-link" target="_blank">CC BY 4.0</a> wählen, da sie die Nachnutzung und Zitierbarkeit unter Namensnennung sicherstellt {cite}`Forschungsdateninfo_CC_oJ`.
 
 ```{admonition} Keine Lizenzangabe
 :class: caution
@@ -159,7 +159,7 @@ Ohne explizite Lizenzangabe gilt automatisch das Urheberrecht, das heißt, dass 
 
 #### Was ist der Unterschied zwischen 4.0 und 3.0?
 
-Die CC-Versionen 4.0 sind die aktuellen und überarbeiteten Lizenzverträge, welche ausdrücklich empfohlen werden {cite}`UniversityMinnesota_oJ`. Ab Version 4.0 decken die CC-Lizenzen ebenfalls Datenbankrechte ab. Insofern sind die Lizenzen auch explizit für Forschungsdaten geeignet. forschungsdaten\.info weist darauf hin, dass bei früheren Versionen die Schutzwirkung fraglich ist {cite}`Forschungsdateninfo_CC_oJ`.
+Die CC-Versionen 4.0 sind die aktuellen und überarbeiteten Lizenzverträge, welche ausdrücklich empfohlen werden {cite}`UniversityMinnesota_oJ`. Ab Version 4.0 decken die CC-Lizenzen ebenfalls Datenbankrechte ab. Insofern sind die Lizenzen auch explizit für Forschungsdaten geeignet. forschungsdaten.info weist darauf hin, dass bei früheren Versionen die Schutzwirkung fraglich ist {cite}`Forschungsdateninfo_CC_oJ`.
 
 #### Welche Lizenz passt zu meinen Daten?
 
