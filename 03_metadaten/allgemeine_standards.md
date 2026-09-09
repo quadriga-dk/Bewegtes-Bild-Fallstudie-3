@@ -98,7 +98,7 @@ Dublin Core und die 15 Elemente
   </tr>
   <tr>
     <td><strong>dc:format</strong></td>
-    <td>Format/Medium der Ressource (z. B. PDF, PNG, audio/mpeg, txt/xml)</td>
+    <td>Format/Medium der Ressource (z. B. <code>pdf</code>, <code>png</code>, audio/mpeg, <code>txt</code>/<code>xml</code>)</td>
   </tr>
   <tr>
     <td><strong>dc:identifier</strong></td>
@@ -214,7 +214,7 @@ Beide Metadatenstandards sind auch in den Digital Humanities etabliert und biete
   </summary>
   <ul style="margin-top:0.6rem;">
     <li>Welche zeitlichen und technischen Ressourcen bzw. Kapazitäten gibt es im Projekt, um sich ggf. auch in komplexere Schemata einzuarbeiten?</li>
-    <li>Stehen Personen mit Vorwissen zu Metadatenstandards oder technischen Formaten (z. B. `xml`, `tei`, `rdf`) zur Verfügung?</li>
+    <li>Stehen Personen mit Vorwissen zu Metadatenstandards oder technischen Formaten (z. B. <code>xml</code>, <code>tei</code>, <code>rdf</code>) zur Verfügung?</li>
   </ul>
 </details>
 
