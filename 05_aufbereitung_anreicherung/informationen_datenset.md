@@ -49,7 +49,7 @@ Das Datenset umfasst fünf zentrale Datentypen, wobei aufgrund urheberrechtliche
 ````{margin}
 ```{admonition} Formate
 :class: hinweis
-Was ist `yml`,`csv`,`json`? Details hierzu: [Systematische Datenaufbereitung](../05_aufbereitung_anreicherung/systematische_aufbereitung.md) und [Formate, Konvertierung, Dokumentation](../05_aufbereitung_anreicherung/formatierung_anpassung.md).
+Was ist `yaml`,`csv`,`json`? Details hierzu: [Systematische Datenaufbereitung](../05_aufbereitung_anreicherung/systematische_aufbereitung.md) und [Formate, Konvertierung, Dokumentation](../05_aufbereitung_anreicherung/formatierung_anpassung.md).
 ```
 ````
 
@@ -58,7 +58,7 @@ Was ist `yml`,`csv`,`json`? Details hierzu: [Systematische Datenaufbereitung](..
 * Annotationsdaten: 78 Annotationspakete in den Formaten `azp` und `json`
 * Moviebarcodes: 303 Visualisierungen im Format `png`
 * Metadaten: tabellarische Beschreibungen des Korpus in den Formaten `xlsx`, `csv`, `html` und `json`
-* Metadatenschema im `yml`-Format 
+* Metadatenschema im `yaml`-Format 
 
 Die Metadaten dienen einerseits der Dokumentation und Beschreibung und andererseits der Strukturierung und Verknüpfung der einzelnen Datensätze. 
 
