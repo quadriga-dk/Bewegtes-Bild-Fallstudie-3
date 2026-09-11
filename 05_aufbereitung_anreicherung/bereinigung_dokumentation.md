@@ -351,7 +351,7 @@ Wie eine finale `README`-Datei für publizierte Forschungsdaten aussehen kann, z
 ````{margin}
 ```{admonition} Lizenz- und Zitationshinweis
 :class: hinweis
-Mehr zum Thema Zitation `CITATION.cff` und Lizenzen `LICENSE.MD` gibt es im Kapitel [TODO:LINK].
+Mehr zum Thema Zitation `CITATION.cff` und Lizenzen `LICENSE.MD` gibt es in [Kapitel 6.1.](../06_publikation_repositorien/versionierung_lizenzierung.md)
 ```
 ````
 
@@ -397,7 +397,7 @@ name: daten-dokumentation
 Dokumentationsebenen für die Datenpublikation
 ```
 
-Mit der Aufbereitung, Bereinigung und Dokumentation der Forschungsdaten sind die wesentlichen Voraussetzungen für die Publikation geschaffen. Bevor in [Kapitel 6. Publikation von Datensets in einem Repositorium](../06_publikation_repositorien/toc_06.md) die konkreten Schritte der Veröffentlichung behandelt werden, greift der folgende Exkurs die vorgestellten Überlegungen und Impulse aus Kapitel 3.3. [diskriminierungssensiblen Metadaten](../03_metadaten/diskriminierungssensible_metadaten.md) wieder auf und führt eine punktuelle exemplarische Überprüfung anhand der Korpusmetadaten des Projektes durch.
+Mit der Aufbereitung, Bereinigung und Dokumentation der Forschungsdaten sind die wesentlichen Voraussetzungen für die Publikation geschaffen. Bevor in [Kapitel 6. Publikation von Datensets in einem Repositorium](../06_publikation_repositorien/toc_06.md) die konkreten Schritte der Veröffentlichung behandelt werden, greift der folgende Exkurs die vorgestellten Überlegungen und Impulse aus [Kapitel 3.3. diskriminierungssensiblen Metadaten](../03_metadaten/diskriminierungssensible_metadaten.md) wieder auf und führt eine punktuelle exemplarische Überprüfung anhand der Korpusmetadaten des Projektes durch.
 
 ## Literatur
 
