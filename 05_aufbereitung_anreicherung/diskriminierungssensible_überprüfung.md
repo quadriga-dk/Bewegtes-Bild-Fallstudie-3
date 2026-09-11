@@ -2,10 +2,10 @@
 
 ```{admonition} Hinweis: Vorwissen und Kontext
 :class: hinweis
-Die Inhalte dieses Kapitels bauen auf dem Abschnitt [Diskriminierungssensible Metadaten](../03_metadaten/diskriminierungssensible_metadaten.md) des dritten Lernmoduls auf. Dort finden sich die theoretischen Grundlagen, Fallbeispiele und Methoden einer diskriminierungssensiblen Metadatenpraxis.
+Die Inhalte dieses Kapitels bauen auf dem Abschnitt [Diskriminierungssensible Metadaten (Kapitel 3.3.)](../03_metadaten/diskriminierungssensible_metadaten.md) des dritten Lernmoduls auf. Dort finden sich die theoretischen Grundlagen, Fallbeispiele und Methoden einer diskriminierungssensiblen Metadatenpraxis.
 ```
 
-Die folgenden Überprüfungen wurden exemplarisch anhand ausgewählter Leitfragen aus dem im Kapitel Diskriminierungssensible Metadaten vorgestellten {ref}`Fragenkatalog <fragenkatalog-metadaten>` durchgeführt. Sie erheben keinen Anspruch auf Vollständigkeit, sondern dokumentieren mögliche Ansätze, um kritische Perspektiven in die eigene Datenpraxis zu integrieren.
+Die folgenden Überprüfungen wurden exemplarisch anhand ausgewählter Leitfragen aus dem im Kapitel Diskriminierungssensible Metadaten vorgestellten {ref}`Fragenkatalog (Kapitel 3.3.)<fragenkatalog-metadaten>` durchgeführt. Sie erheben keinen Anspruch auf Vollständigkeit, sondern dokumentieren mögliche Ansätze, um kritische Perspektiven in die eigene Datenpraxis zu integrieren.
 
 ## Vorbereitungen: Datenbereinigung
 
@@ -197,7 +197,7 @@ erhebt keinen Anspruch auf Vollständigkeit:
 ````{margin}
 ```{admonition} Hinweis: ISO-Standards
 :class: hinweis
-Mehr Informationen zu ISO-Standards gibt es im Abschnitt {ref}`ISO-Standards <iso-standards>`.
+Mehr Informationen zu ISO-Standards gibt es im Abschnitt {ref}`ISO-Standards (Kapitel 5.3.) <iso-standards>`.
 ```
 ````
 

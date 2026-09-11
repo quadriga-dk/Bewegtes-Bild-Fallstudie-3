@@ -2,7 +2,7 @@
 
 ```{admonition} Story
 :class: story
-Das filmwissenschaftliche Teilprojekt der FU Berlin hat sich nun alle wichtigen Grundlagen zur [Versionierung, Lizenzierung und Zitierfähigkeit](./versionierung_lizenzierung.md) angeschaut und die wichtigen Durchführungsschritte dazu eingeleitet. 
+Das filmwissenschaftliche Teilprojekt der FU Berlin hat sich nun alle wichtigen Grundlagen zur [Versionierung, Lizenzierung und Zitierfähigkeit (Kapitel 6.1.)](./versionierung_lizenzierung.md) angeschaut und die wichtigen Durchführungsschritte dazu eingeleitet. 
 Doch bevor das Datenset und alle notwendigen Dateien tatsächlich in das Repository auf GitHub hochgeladen werden können, fehlt noch ein häufig vernachlässigter Bestandteil der Arbeit mit Forschungsdaten: Das Aufräumen und Organisieren der Daten. Im Projektalltag sind Daten und Dateien häufig lokal oder auf verschiedenen Clouddiensten gleichzeitig verstreut, unterschiedlich benannt und in inkonsistenten Ordnerstrukturen abgelegt. Vor der Veröffentlichung müssen sie also kuratiert, vereinheitlicht und publikationsreif strukturiert werden. Die wichtigsten Schritte hierzu werden in den nachfolgenden Abschnitten behandelt.
 ```
 
@@ -17,7 +17,7 @@ Die folgenden Empfehlungen haben sich nach dem <a href="https://www.konsortswd.d
 
 * Die Struktur ist **hierarchisch** gegliedert und umfasst **maximal drei Unterordner-Ebenen**
 * Die Benennung ist **klar, konsistent und selbsterklärend**
-* Eine {ref}`README-Datei <dokumentation>` im Wurzelverzeichnis dokumentiert die Struktur und ihre Logik
+* Eine {ref}`README-Datei (Kapitel 5.4.)<dokumentation>` im Wurzelverzeichnis dokumentiert die Struktur und ihre Logik
 * In Projekten mit mehreren Beteiligten werden **Verantwortlichkeiten** festgelegt: Wer darf neue Ordner anlegen? Wer verwaltet den Zugriff?
 
 Weitere Dokumentationsdateien – zum Beispiel zu einer bestimmten Methode eines konkretes Datentyps – können den jeweiligen zugehörigen Ordnern beigelegt werden.
@@ -51,7 +51,7 @@ intervening-world-projections-dataset/ # Rootverzeichnis
 ```
 
 In dieser Struktur werden Forschungsdaten (`data/`), Dokumentationsdateien (`documentation/`), das projekteigene 
-{ref}`YAML-Schema <yaml-schema>`, sowie projektweite Dateien (LICENSE, CITATION) voneinander getrennt.  Innerhalb von `data/` sind die drei Datentypen – Annotationen, Moviebarcodes und Metadaten – in eigenen Unterordnern organisiert.
+{ref}`YAML-Schema (Kapitel 5.3.)<yaml-schema>`, sowie projektweite Dateien (LICENSE, CITATION) voneinander getrennt.  Innerhalb von `data/` sind die drei Datentypen – Annotationen, Moviebarcodes und Metadaten – in eigenen Unterordnern organisiert.
 
 Desweiteren ist es ratsam, Ordner (hier: `assets/`) für Bilder oder Visualisierungen anzulegen, die für Erklärungs- und Veranschaulichungszwecke genutzt werden aber nicht Teil des Datensets sind. 
 
@@ -152,7 +152,7 @@ html[data-mode="light"] .table-clean code {
 Die Namen sollten den *Inhalt* beschreiben und dabei "so kurz wie möglich, aber so lange wie nötig" sein, um die Dateien oder Ordner verständlich zu machen {cite}`RatSWD_2023`.
 
 
-Für Forschungsdaten und Dokumentationsdateien hat sich `snake_case` als gut lesbare und weitverbreitete Konvention etabliert. Sie wird auch im {ref}`Metadatenschema <projekt-metadatenschema>` dieses Projekts verwendet. 
+Für Forschungsdaten und Dokumentationsdateien hat sich `snake_case` als gut lesbare und weitverbreitete Konvention etabliert. Sie wird auch im {ref}`Metadatenschema (Kapitel 5.3.)<projekt-metadatenschema>` dieses Projekts verwendet. 
 
  **Nicht empfohlen** sind Dateibenennungen wie `Beispieldatei_final`, `Beispieldatei_final2`, `Beispieldatei_FINAL_wirklich` `Beispieldatei_Bearbeitung_neu`. Sie lassen keine sinnvolle Sortierung zu, signalisieren keinen klar definierten Versionsstand und sind für andere unverständlich und nicht interpretierbar {cite}`VerbundFDB_Dateien_oJ`. 
 
@@ -167,7 +167,7 @@ Alle weiteren Dateien (Metadaten und Dokumentationen) sind kleingeschrieben und 
 
 ## Versionierung ohne Git
 
-Im Abschnitt zur {ref}`Versionierung <versionierung>` im vorigen Kapitel wurde <a href="https://semver.org/" class="external-link" target="_blank">Semantic Versioning</a> (SemVer) für Git-basierte Workflows vorgestellt. Wenn keine Versionskontrolle mit Git verwendet wird, etwa in frühen Projektphasen oder bei der Zusammenarbeit über Cloud-Dienste, lässt sich folgendes, überschaubares Versionierungssystem übernehmen, das sich aus SemVer ableiten lässt. **Im Dateinamen** kann zwischen größeren und kleineren Änderungen unterschieden werden {cite}`VerbundFDB_Dateien_oJ`:
+Im Abschnitt zur {ref}`Versionierung (Kapitel 6.1.)<versionierung>` im vorigen Kapitel wurde <a href="https://semver.org/" class="external-link" target="_blank">Semantic Versioning</a> (SemVer) für Git-basierte Workflows vorgestellt. Wenn keine Versionskontrolle mit Git verwendet wird, etwa in frühen Projektphasen oder bei der Zusammenarbeit über Cloud-Dienste, lässt sich folgendes, überschaubares Versionierungssystem übernehmen, das sich aus SemVer ableiten lässt. **Im Dateinamen** kann zwischen größeren und kleineren Änderungen unterschieden werden {cite}`VerbundFDB_Dateien_oJ`:
 
 ```
 corpus_metadata_v1-0.csv   →   corpus_metadata_v2-0.csv   (größere Änderung)
@@ -214,7 +214,7 @@ Ein Changelog ist ein Änderungsprotokoll, zumeist angelegt als reine Textdatei,
 
 ## Datensicherung und Backup
 
-Wie kann Datenverlust minimiert oder vermieden werden? Datensicherung ist, wie die Organisation und Kuratierung der Daten, kein einmaliger Schritt, sondern eine prozessbegleitende Aufgabe. Oftmals werden Sicherungsstrategien bereits in [Datenmanagementplänen](../02_forschungsdaten_fdm/datenmanagementplan.md) festgehalten. In der Praxis gerät die Sicherung der Daten jedoch häufig in Vergessenheit. Daher soll es in diesem Abschnitt darum gehen, bewährte Sicherungsstrategien und Aspekte der Datensicherung vorzustellen.
+Wie kann Datenverlust minimiert oder vermieden werden? Datensicherung ist, wie die Organisation und Kuratierung der Daten, kein einmaliger Schritt, sondern eine prozessbegleitende Aufgabe. Oftmals werden Sicherungsstrategien bereits in [Datenmanagementplänen (Kapitel 2.5.)](../02_forschungsdaten_fdm/datenmanagementplan.md) festgehalten. In der Praxis gerät die Sicherung der Daten jedoch häufig in Vergessenheit. Daher soll es in diesem Abschnitt darum gehen, bewährte Sicherungsstrategien und Aspekte der Datensicherung vorzustellen.
 
 ### Speicherorte und Speicherlösungen
 

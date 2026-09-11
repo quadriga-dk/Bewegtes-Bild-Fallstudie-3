@@ -12,9 +12,9 @@ name: semver-license-pid
 Versionieren, lizenzieren, zitieren (KI-generiert)
 ```
 
-Die [systematische Aufbereitung der Daten](../05_aufbereitung_anreicherung/systematische_aufbereitung.md) ist abgeschlossen und die zu publizierenden Datensätze sowie Metadaten liegen in [offenen Formaten](../05_aufbereitung_anreicherung/formatierung_anpassung.md) vor. Auch die notwendigen {ref}`Dokumentationsdateien  <dokumentation>` (`README.md`, Guides, Tutorials usw.) wurden erstellt, um die Daten zu kontextualisieren und die angewandten Methoden nachvollziehbar zu machen. Doch wie geht es anschließend weiter?
+Die [systematische Aufbereitung der Daten (Kapitel 5.3.)](../05_aufbereitung_anreicherung/systematische_aufbereitung.md) ist abgeschlossen und die zu publizierenden Datensätze sowie Metadaten liegen in [offenen Formaten (Kapitel 5.4.)](../05_aufbereitung_anreicherung/formatierung_anpassung.md) vor. Auch die notwendigen {ref}`Dokumentationsdateien  (Kapitel 5.4.)<dokumentation>` (`README.md`, Guides, Tutorials usw.) wurden erstellt, um die Daten zu kontextualisieren und die angewandten Methoden nachvollziehbar zu machen. Doch wie geht es anschließend weiter?
 
-Das filmwissenschaftliche Teilprojekt <a href="https://www.sfb-intervenierende-kuenste.de/teilprojekte/C/C05/index.html" class="external-link" target="_blank">"C05 Intervenierende Weltentwürfe: Audiovisualität des Klimawandels"</a> hat bereits mehrere Publikationswege evaluiert und sich dazu entschieden, das Datenset in einem ersten Veröffentlichungsschritt auf GitHub/Zenodo zu publizieren. Mehr Informationen zu Repositorien können im Kapitel [Publikationswege und -formate](../04_einführung_publikation/publikationswege_formate.md) abgerufen werden.
+Das filmwissenschaftliche Teilprojekt <a href="https://www.sfb-intervenierende-kuenste.de/teilprojekte/C/C05/index.html" class="external-link" target="_blank">"C05 Intervenierende Weltentwürfe: Audiovisualität des Klimawandels"</a> hat bereits mehrere Publikationswege evaluiert und sich dazu entschieden, das Datenset in einem ersten Veröffentlichungsschritt auf GitHub/Zenodo zu publizieren. Mehr Informationen zu Repositorien können im Kapitel [Publikationswege und -formate (Kapitel 4.2.)](../04_einführung_publikation/publikationswege_formate.md) abgerufen werden.
 
 Bevor die Daten auf GitHub hochgeladen werden, sollten zunächst Fragen der Versionierung, Lizenzvergabe und Zitierfähigkeit berücksichtigt werden. Die folgenden drei Abschnitte erläutern die dafür relevanten Grundlagen praxisnah und exemplarisch.
 `````
@@ -162,7 +162,7 @@ Daraus ergeben sich sechs Lizenzkombinationen sowie zusätzlich die Lizenz <a hr
 <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" class="external-link" target="_blank">CC BY-NC-ND</a> ·
 <a href="https://creativecommons.org/publicdomain/zero/1.0/" class="external-link" target="_blank">CC0</a>
 
-Wer im Sinne der {ref}`FAIR-Prinzipien <leitlinien-fair>` handeln will, sollte für Forschungsdaten die möglichst offene Lizenz <a href="https://creativecommons.org/licenses/by/4.0/" class="external-link" target="_blank">CC BY 4.0</a> wählen, da sie die Nachnutzung und Zitierbarkeit unter Namensnennung sicherstellt {cite}`Forschungsdateninfo_CC_oJ`.
+Wer im Sinne der {ref}`FAIR-Prinzipien (Kapitel 2.5.)<leitlinien-fair>` handeln will, sollte für Forschungsdaten die möglichst offene Lizenz <a href="https://creativecommons.org/licenses/by/4.0/" class="external-link" target="_blank">CC BY 4.0</a> wählen, da sie die Nachnutzung und Zitierbarkeit unter Namensnennung sicherstellt {cite}`Forschungsdateninfo_CC_oJ`.
 
 ```{admonition} Keine Lizenzangabe
 :class: caution
@@ -227,7 +227,7 @@ Das Copyleft Lizenzmodell erlaubt Nutzenden die freie Bearbeitung und Verbreitun
 
 Die Lizenzierung von Forschungsdaten und Forschungsmaterial ist durch das geltende Urheberrecht an audiovisuellem Material recht komplex. Primärdaten wie Filme, Filmausschnitte, Screenshots oder Videomaterial sind urheberrechtlich geschützt und können in der Regel **nicht offen publiziert werden**. Eine Ausnahme ist das Bildzitatrecht, das unter bestimmten Bedingungen greift (in Deutschland geregelt in §51 des Urheberrechtsgesetzes (UrhG)).
 
-Für die Publikation von {ref}`Primär- und Sekundärdaten  <primär-sekundär>` gelten folgende Empfehlungen:
+Für die Publikation von {ref}`Primär- und Sekundärdaten (Kapitel 2.3.)<primär-sekundär>` gelten folgende Empfehlungen:
 
 * **Primärdaten** (z. B. Film-, Bild- und Videomaterial): Können aufgrund des Urheberrechts in der Regel nicht publiziert werden, es sei denn, die Rechte wurden ausdrücklich eingeholt oder das Material ist Public Domain. In diesem Fall gilt die **Ursprungslizenz** des Materials.
 * **Sekundärdaten** (z. B. Annotationen, Metadaten, Analysen, Transkripte, Dokumentationen usw.): Können unter CC-Lizenz publiziert werden, da sie eigenständige wissenschaftliche Werke darstellen.
@@ -235,7 +235,7 @@ Für die Publikation von {ref}`Primär- und Sekundärdaten  <primär-sekundär>`
 (sonderfall-moviebarcodes)=
 #### Sonderfall Moviebarcodes
 
-Moviebarcodes stellen einen Sonderfall dar und sind nicht lizenzierungspflichtig. Informationen zur konkreten rechtlichen Einordnung gibt es {ref}`hier <rechtliche-einordnung>`. Sofern keine projektspezifischen Anforderungen entgegenstehen, empfiehlt sich die Wahl einer der beiden hier vorgestellten Varianten:
+Moviebarcodes stellen einen Sonderfall dar und sind nicht lizenzierungspflichtig. Informationen zur konkreten rechtlichen Einordnung gibt es in {ref}`Kapitel 5.2. <rechtliche-einordnung>`. Sofern keine projektspezifischen Anforderungen entgegenstehen, empfiehlt sich die Wahl einer der beiden hier vorgestellten Varianten:
 
 **Variante 1**: Hinweis in der Lizenz-Dokumentation
 
@@ -332,7 +332,7 @@ Die vollständige Lizenzdokumentation ist in der <a href="https://github.com/SFB
 
 ```{admonition} Was ist eine LICENSE-Datei?
 :class: hinweis
-Ähnliche wie die `README`-Datei, ist eine `LICENSE.md` eine einfache Textdatei im {ref}`Markdown-Format <ergebnis-interpretieren>`, die die rechtlichen Nutzungsbedingungen eines Datensatzes oder Repositoriums definiert. Es wird als Best Practice empfohlen, die Lizenzdatei dem Projektrepository hinzuzufügen.
+Ähnliche wie die `README`-Datei, ist eine `LICENSE.md` eine einfache Textdatei im {ref}`Markdown-Format (Kapitel 5.4.)<ergebnis-interpretieren>`, die die rechtlichen Nutzungsbedingungen eines Datensatzes oder Repositoriums definiert. Es wird als Best Practice empfohlen, die Lizenzdatei dem Projektrepository hinzuzufügen.
 ```
 
 ```{admonition} Weiterführende Links und Ressourcen zum Thema Lizenzen
@@ -349,9 +349,9 @@ Die vollständige Lizenzdokumentation ist in der <a href="https://github.com/SFB
 (daten-zitieren)=
 ## Daten zitierbar machen
 
-Im letzten Teil dieses Kapitels soll es nun um die Zitierfähigkeit der Daten gehen. Wie Publikationen, so sollten auch Forschungsdaten korrekt angegeben und zitiert werden. Um die eigenen Forschungsdaten zitierbar zu machen, gibt es unterschiedliche Wege. In dem Kapitel zu [allgemeinen Metadatenstandards](../03_metadaten/allgemeine_standards.md) sind wir bereits kurz auf {ref}`Dublin Core <dublin-core-header>` und {ref}`DataCite <data-cite-header>` eingegangen. Neben diesen Varianten, ist die Nutzung des sogenannten Citation File Format (CFF) für Daten und Software, insbesondere in Git-Repositorien, sehr verbreitet. 
+Im letzten Teil dieses Kapitels soll es nun um die Zitierfähigkeit der Daten gehen. Wie Publikationen, so sollten auch Forschungsdaten korrekt angegeben und zitiert werden. Um die eigenen Forschungsdaten zitierbar zu machen, gibt es unterschiedliche Wege. In Kapitel [Kapitel 3.1. allgemeinen Metadatenstandards](../03_metadaten/allgemeine_standards.md) sind wir bereits kurz auf {ref}`Dublin Core <dublin-core-header>` und {ref}`DataCite <data-cite-header>` eingegangen. Neben diesen Varianten, ist die Nutzung des sogenannten Citation File Format (CFF) für Daten und Software, insbesondere in Git-Repositorien, sehr verbreitet. 
 
-Die `CITATION.cff` ist eine standardisierte Metadatendatei im {ref}`YAML-Format <metadatenschema-template>`, die beschreibt, wie ein Datensatz oder eine Software korrekt zitiert werden soll. Sie wird von GitHub und Zenodo direkt unterstützt. Wer das Repo besucht, kann die Zitationsinformationen also mit einem Klick exportieren.
+Die `CITATION.cff` ist eine standardisierte Metadatendatei im {ref}`YAML-Format (Kapitel 5.3.)<metadatenschema-template>`, die beschreibt, wie ein Datensatz oder eine Software korrekt zitiert werden soll. Sie wird von GitHub und Zenodo direkt unterstützt. Wer das Repo besucht, kann die Zitationsinformationen also mit einem Klick exportieren.
 
 ```{figure} ../assets/06_publikation_repositorien/abb_k06_cff_github.png
 ---
@@ -402,7 +402,7 @@ Mehr Informationen zu **persistenten Identifikatoren** gibt es in unserer  <a hr
 ````
 
 Wichtig für die Zitierfähigkeit der Daten ist in jedem Fall ein **persistenter Identifikator** (kurz: PID). Dies ist für Forschungsdaten häufig eine DOI (**D**igital **O**bject **I**dentifier), also ein eindeutiger und permanenter Identifikator für digitale Objekte wie beispielsweise wissenschaftliche Aufsätze, Publikationen, Forschungsdaten oder Videos. Ähnlich wie eine ISBN-Nummer, dienen DOI's dazu, Objekte im Internet dauerhaft auffindbar und zitierbar zu machen. Eine DOI besteht häufig aus einer Aneinanderreihung von Zahlen. Die Kennung beginnt immer mit 10, zum Beispiel: `doi:10.1000/199` {cite}`FUBerlin_DOI_oJ`.
-Die DOI sollte in der `CITATION.cff` angegeben werden. Viele Repositorien vergeben DOIs bei einer Publikation automatisch. Eine Übersicht für Repositorien mit DOI-Vergabe findet sich {ref}`hier <repositorien-doivergabe>`. 
+Die DOI sollte in der `CITATION.cff` angegeben werden. Viele Repositorien vergeben DOIs bei einer Publikation automatisch. Eine Übersicht für Repositorien mit DOI-Vergabe findet sich in {ref}`Kapitel 4.2. <repositorien-doivergabe>`. 
 
 ```{admonition} DOI-Vergabe und GitHub
 :class: hinweis

@@ -3,7 +3,7 @@
 ```{admonition} Story
 :class: story
 Die Forschungsdaten des Projekts wurden kuratiert, sinnvoll benannt und in einer passenden und nachvollziehbaren 
-Ordnerhierarchie strukturiert. (vgl. hierzu Kapitel [Kuratierung & Organisation](../06_publikation_repositorien/kuratierung_organisation.md) ) Diese Struktur kann direkt für den Upload der Daten in einem Repositorium übernommen werden. Der nächste Schritt ist die konkrete Publikation: Wie erstelle ich ein Repository? Wie lade ich die Daten hoch? Und wie stelle ich sicher, dass der Datensatz zitierfähig, versioniert und langzeitverfügbar ist?
+Ordnerhierarchie strukturiert. (vgl. hierzu [Kapitel 6.2. Kuratierung & Organisation](../06_publikation_repositorien/kuratierung_organisation.md) ) Diese Struktur kann direkt für den Upload der Daten in einem Repositorium übernommen werden. Der nächste Schritt ist die konkrete Publikation: Wie erstelle ich ein Repository? Wie lade ich die Daten hoch? Und wie stelle ich sicher, dass der Datensatz zitierfähig, versioniert und langzeitverfügbar ist?
 
           Forschungsprojekt
                  │
@@ -24,7 +24,7 @@ Ordnerhierarchie strukturiert. (vgl. hierzu Kapitel [Kuratierung & Organisation]
 ````{margin}
 ```{admonition} Hinweis: Repositorien
 :class: hinweis
-Mehr Informationen zu Repositorien gibt es im Kapitel [Publikationswege und -formate](../04_einführung_publikation/publikationswege_formate.md).
+Mehr Informationen zu Repositorien gibt es in [Kapitel 4.2. Publikationswege und -formate](../04_einführung_publikation/publikationswege_formate.md).
 ```
 ````
 
@@ -125,7 +125,7 @@ Das Repository in VS Code öffnen
 
 Dort sollte ebenfalls der GitHub-Account verknüpft werden. Hierzu links unten auf den Profil-Button klicken und einloggen.
 
-Die Ordnerstruktur kann jetzt lokal angelegt werden, entweder durch Drag und Drop bereits vorbereiteter Ordner/Dateien oder durch Neuanlage direkt im Editor (vgl. Kapitel [Kuratierung & Organisation](../06_publikation_repositorien/kuratierung_organisation.md) zur empfohlenen Ordnerstruktur).
+Die Ordnerstruktur kann jetzt lokal angelegt werden, entweder durch Drag und Drop bereits vorbereiteter Ordner/Dateien oder durch Neuanlage direkt im Editor (vgl. [Kapitel 6.2. Kuratierung & Organisation](../06_publikation_repositorien/kuratierung_organisation.md) zur empfohlenen Ordnerstruktur).
 
 ```{figure} ../assets/06_publikation_repositorien/abb_k06_ordner_anlegen_vs_code.png
 ---
@@ -155,9 +155,9 @@ Visualisierungen und Bilder, die Erklärungszwecken dienen, sollten in einen sep
 
 Einige Dateien werden von GitHub automatisch erkannt und besonders angezeigt, wenn sie im Wurzelverzeichnis (Root) des Repositories liegen und exakt so benannt sind:
 
-* `README.md` → wird als Startseite des Repositories gerendert (vgl. Abschnitt {ref}`Dokumentation <dokumentation>`)
-* `LICENSE` → wird als Lizenzinformation erkannt und verlinkt (vgl. Abschnitt {ref}`Lizenzierung <lizenzierung>`)
-* `CITATION.cff` → wird als Zitationshinweis angezeigt (vgl. Abschnitt {ref}`Daten zitierbar machen <daten-zitieren>`)
+* `README.md` → wird als Startseite des Repositories gerendert (vgl. Abschnitt {ref}`Dokumentation (Kapitel 5.4.)<dokumentation>`)
+* `LICENSE` → wird als Lizenzinformation erkannt und verlinkt (vgl. Abschnitt {ref}`Lizenzierung (Kapitel 6.1.)<lizenzierung>`)
+* `CITATION.cff` → wird als Zitationshinweis angezeigt (vgl. Abschnitt {ref}`Daten zitierbar machen (Kapitel 6.1.)<daten-zitieren>`)
 
 Für Dokumentationsdateien wie `README.md` oder `LICENSE.md` empfiehlt sich bei der Bearbeitung eine Live Preview im Editor. In VS Code lässt sich diese mit `Cmd+Shift+V` (macOS) bzw. `Strg+Shift+V` (Windows/Linux) öffnen. So ist sofort 
 sichtbar, wie die Datei auf GitHub gerendert aussehen wird.
@@ -238,7 +238,7 @@ Detaillierte Informationen zu Branches und Pull Requests gibt es auf den Dokumen
 
 ### ​​Schritt 6: Release, Versionierung und DOI
 
-Wenn der Datensatz publikationsreif ist, wird ein **Release** erstellt, also eine benannte und getaggte Version des Repositories zu einem bestimmten Zeitpunkt. Releases folgen den Konventionen von <a href="https://semver.org/" class="external-link" target="_blank">Semantic Versioning</a> (SemVer): `MAJOR.MINOR.PATCH` (z. B. `v1.0.0`, vgl. hierzu den Abschnitt {ref}`Versionierung <versionierung>`).
+Wenn der Datensatz publikationsreif ist, wird ein **Release** erstellt, also eine benannte und getaggte Version des Repositories zu einem bestimmten Zeitpunkt. Releases folgen den Konventionen von <a href="https://semver.org/" class="external-link" target="_blank">Semantic Versioning</a> (SemVer): `MAJOR.MINOR.PATCH` (z. B. `v1.0.0`, vgl. hierzu den Abschnitt {ref}`Versionierung (Kapitel 6.1.)<versionierung>`).
 
 Anschließend kann über die **Zenodo-GitHub-Integration** auf Zenodo automatisch ein DOI für den Release vergeben werden.
 
@@ -269,13 +269,13 @@ Einen neuen Release auf GitHub erstellen und taggen
 
 ### Schritt 7: Langzeitarchivierung und Fachrepositorien
 
-Wie bereits erwähnt, empfehlen sich nach der Erstpublikation auf GitHub und Zenodo die Inanspruchnahme weiterer Publikationsorte für die fachspezifische Sichtbarkeit sowie die Langzeitverfügbarkeit nach den {ref}`FAIR-Prinzipien  <leitlinien-fair>` und den {ref}`DFG-Leitlinien <leitlinien-dfg>` (Aufbewahrung mind. 10 Jahre):
+Wie bereits erwähnt, empfehlen sich nach der Erstpublikation auf GitHub und Zenodo die Inanspruchnahme weiterer Publikationsorte für die fachspezifische Sichtbarkeit sowie die Langzeitverfügbarkeit nach den {ref}`FAIR-Prinzipien  (Kapitel 2.5.)<leitlinien-fair>` und den {ref}`DFG-Leitlinien (Kapitel 2.5.)<leitlinien-dfg>` (Aufbewahrung mind. 10 Jahre):
 
 1. Institutionelles Repositorium, sofern von der Hochschule eines zur Verfügung gestellt wird
 2. Für film- und medienwissenschaftliche Forschungsdaten kann auf FID Media (früher media/rep) verwiesen werden. Es ist geeignet für die fachspezifische Auffindbarkeit des Datensatzes. Was bei der Einreichung beachtet werden sollte und welche Schritte hierfür nötig sind, kann in der <a href="https://www.uni-marburg.de/de/fb09/medienwissenschaft/forschung/forschungsprojekte/mediarep/projektmitglieder" class="external-link" target="_blank">Handreichung für Autor:innen – in fünf Schritten zur Publikation auf FID Media Publish</a> eingesehen werden.
 
 Weitere fachspezifische Repositorien können auf Repositorien-Findern wie <a href="https://www.re3data.org/" class="external-link" target="_blank">re3data – Registry of Research Data Repositories</a> sowie <a href="https://risources.dfg.de/" class="external-link" target="_blank">RIsources – Portal für Forschungsinfrastrukturen der DFG</a> gesucht werden.
-Eine detailierte Auflistung von relevanten Repositorien und Repositorien-Findern in der Film- und Medienwissenschaft gibt es im Kapitel [Ressourcen und Entscheidungshilfen](../04_einführung_publikation/ressourcen_entscheidungshilfen.md).
+Eine detailierte Auflistung von relevanten Repositorien und Repositorien-Findern in der Film- und Medienwissenschaft gibt es in [Kapitel 4.3. Ressourcen und Entscheidungshilfen](../04_einführung_publikation/ressourcen_entscheidungshilfen.md).
 
 ## Checkliste: Workflow Datenpublikation
 

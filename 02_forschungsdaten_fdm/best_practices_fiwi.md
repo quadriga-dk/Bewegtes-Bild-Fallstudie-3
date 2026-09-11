@@ -32,7 +32,7 @@ Neben den im Vorfeld thematisierten allgemeinen Standards, haben wir nachfolgend
 2. **Formate**: Interoperable Formate wählen (z. B. `csv`, `json`, `mkv`, `png`); ggf. Digitalisierungs- und Bildqualität prüfen, technische Metadaten festhalten
 3. **Rechte & Lizenzen**: Dies betrifft Nutzungsrechte, Lizenzbedingungen, Archivstatus (Fassungen) und Einschränkungen bei Weiterverwendung und Publikation
 4. **Nachnutzbarkeit**: Metadaten und Dokumentationen (z. B. `README` oder Protokolle) für jedes Datenobjekt; Entstehung, Auswahl, Bearbeitungsschritte, Annotationsmethoden, Softwareversionen und Analyseverfahren dokumentieren
-5. **Infrastruktur**: Regelmäßige Backups (z. B. von Annotationsdateien), früh archivieren und ggf. an Formatmigrationen denken (insbesondere bei softwarespezifischen Annotationsformaten wie `azp`(Advene) oder `eaf`(ELAN)).
+5. **Infrastruktur**: Regelmäßige Backups (z. B. von Annotationsdateien), früh archivieren und ggf. an Formatmigrationen denken (insbesondere bei softwarespezifischen Annotationsformaten wie `azp` (Advene) oder `eaf` (ELAN)).
 
 ## Literatur
 

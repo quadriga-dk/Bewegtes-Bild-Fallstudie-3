@@ -3,7 +3,7 @@
 Ergänzend zur eigenen Datenerhebung besteht ebenso die Möglichkeit, auf bereits vorhandene oder veröffentlichte Forschungsdaten anderer Projekte zurückzugreifen.
 
 Die Nachnutzung solcher Daten kann den Forschungsprozess erheblich bereichern, neue kreative Wissensdynamiken entstehen lassen und den Austausch zwischen verschiedenen Institutionen und Akteur:innen anregen {cite}`dang_forschungsdatenmanagement_2020`. Der Prozess wissenschaftlicher Erkenntnisgewinnung erweist sich als umso stabiler und nachhaltiger, je mehr auf dem vorhandenen Wissen der Fachdisziplin aufgebaut wird; dies schließt die Miteinbeziehung oder gar Neuperspektivierung bereits existierender Daten ein {cite}`RatSWD_2023`.
-So können etwa vergleichende Analysen durchgeführt werden, Annotationspraktiken angeeignet, übernommen und erweitert oder bestehende Datensätze weiterentwickelt werden. Voraussetzung für eine "kreative und inklusive Wissensproduktion" {cite}`dang_forschungsdatenmanagement_2020` ist die uneingeschränkte Verfügbarmachung von Daten, so Dang. Welche Prinzipien hierbei eine Rolle spielen, werden wir im Kapitel [Forschungsdatenmanagement](../02_forschungsdaten_fdm/forschungsdatenmanagement.md) diskutieren.
+So können etwa vergleichende Analysen durchgeführt werden, Annotationspraktiken angeeignet, übernommen und erweitert oder bestehende Datensätze weiterentwickelt werden. Voraussetzung für eine "kreative und inklusive Wissensproduktion" {cite}`dang_forschungsdatenmanagement_2020` ist die uneingeschränkte Verfügbarmachung von Daten, so Dang. Welche Prinzipien hierbei eine Rolle spielen, werden wir im [Kapitel 2.5. Forschungsdatenmanagement](../02_forschungsdaten_fdm/forschungsdatenmanagement.md) diskutieren.
 
 ## Arten der Nachnutzung
 
@@ -24,7 +24,7 @@ Für die Nachnutzung bietet es sich an, zunächst nach offenen Repositorien und 
 
 ```{admonition} Ressourcenübersicht
 :class: hinweis
-Im Kapitel [Ressourcen und Entscheidungshilfen](../04_einführung_publikation/ressourcen_entscheidungshilfen.md) gehen wir auf konkrete Beispiele im Detail ein – sowohl auf publizierte film- und medienwissenschaftliche Daten aus verschiedenen Projekten und Institutionen als auch auf gängige Repositorien und Datenbanken. Eine ausführliche Übersicht relevanter Repositorien/Projekte/Tools/Infrastrukturen stellen wir dort ebenfalls kommentiert bereit.
+Im [Kapitel 4.3. Ressourcen und Entscheidungshilfen](../04_einführung_publikation/ressourcen_entscheidungshilfen.md) gehen wir auf konkrete Beispiele im Detail ein – sowohl auf publizierte film- und medienwissenschaftliche Daten aus verschiedenen Projekten und Institutionen als auch auf gängige Repositorien und Datenbanken. Eine ausführliche Übersicht relevanter Repositorien/Projekte/Tools/Infrastrukturen stellen wir dort ebenfalls kommentiert bereit.
 ```
 ## Ethische Aspekte und gute wissenschaftliche Praxis
 
@@ -34,11 +34,11 @@ Im Kapitel [Ressourcen und Entscheidungshilfen](../04_einführung_publikation/re
 Mehr Informationen zur **Datenzitierung** gibt es in unserer  <a href="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/5_1_Datenzitierung.html" class="external-link" target="_blank">QUADRIGA Fallstudie: "Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen Bildungsbericht"</a>.
 ```
 ````
-Wichtig ist, die Nachnutzung transparent zu kommunizieren und ordnungsgemäß zu zitieren, sodass Herkunft, Kontext und Lizenzbedingungen nachvollziehbar bleiben. Nachgenutzte Datensätze sollten also ähnlich wie wissenschaftliche Publikationen behandelt werden, d. h. mit vollständiger Quellenangabe, [persistenten Identifikatoren](../06_publikation_repositorien/versionierung_lizenzierung.md) (z. B. DOI falls vorhanden) und Verweis auf [Lizenzbedingungen](../06_publikation_repositorien/versionierung_lizenzierung.md).
+Wichtig ist, die Nachnutzung transparent zu kommunizieren und ordnungsgemäß zu zitieren, sodass Herkunft, Kontext und Lizenzbedingungen nachvollziehbar bleiben. Nachgenutzte Datensätze sollten also ähnlich wie wissenschaftliche Publikationen behandelt werden, d. h. mit vollständiger Quellenangabe, [persistenten Identifikatoren (Kapitel 6.1.)](../06_publikation_repositorien/versionierung_lizenzierung.md) (z. B. DOI falls vorhanden) und Verweis auf [Lizenzbedingungen (Kapitel 6.1.)](../06_publikation_repositorien/versionierung_lizenzierung.md).
 
 ```{admonition} Was ist eine DOI?
 :class: hinweis
-Die Abkürzung DOI steht für **D**igital **O**bject **I**dentifier und ist ein eindeutiger und permanenter Identifikator für digitale Objekte wie beispielsweise wissenschaftliche Aufsätze, Publikationen, Forschungsdaten oder Videos. Ähnlich wie eine ISBN-Nummer dienen DOI’s dazu, Objekte im Internet dauerhaft auffindbar und zitierbar zu machen. Mehr Infos zum DOI gibt es auch im Kapitel [Versionierung, Lizenzierung, Zitierfähigkeit](../06_publikation_repositorien/versionierung_lizenzierung.md).
+Die Abkürzung DOI steht für **D**igital **O**bject **I**dentifier und ist ein eindeutiger und permanenter Identifikator für digitale Objekte wie beispielsweise wissenschaftliche Aufsätze, Publikationen, Forschungsdaten oder Videos. Ähnlich wie eine ISBN-Nummer dienen DOI’s dazu, Objekte im Internet dauerhaft auffindbar und zitierbar zu machen. Mehr Infos zum DOI gibt es auch im Kapitel [Versionierung, Lizenzierung, Zitierfähigkeit (Kapitel 6.1.)](../06_publikation_repositorien/versionierung_lizenzierung.md).
 ```
 Wie bei anderen Datentypen gilt auch hier: Nachgenutzte Daten sind nie **neutral** oder **objektiv**. Sie sind Ergebnis von Auswahlprozessen, institutionellen Logiken und Strukturen sowie technologischen Bedingungen. Dies betrifft sowohl die Auswahl der erfassten Gegenstände/Filme (gibt es bevorzugte Archivbestände? Ist der untersuchte Filmkorpus westlich geprägt?) als auch die technischen Formate oder Klassifikationssysteme, die bestimmte Formen der Repräsentation bevorzugen und andere ausschließen können {cite}`drucker_digital_humanities_2021,dang_forschungsdatenmanagement_2020`.
 

@@ -51,7 +51,7 @@ Startseite der etablierten generischen Repositorien <a href="https://zenodo.org/
 
 ```{admonition} Publikation auf GitHub und Zenodo
 :class: hinweis
-Im Kapitel [Dateninfrastrukturen](../06_publikation_repositorien/dateninfrastrukturen.md) werden die Schritte zur Publikation auf GitHub und Zenodo im Detail erläutert.
+Im [Kapitel 6.3. Dateninfrastrukturen](../06_publikation_repositorien/dateninfrastrukturen.md) werden die Schritte zur Publikation auf GitHub und Zenodo im Detail erläutert.
 ```
 
 (repositorien-doivergabe)=
@@ -116,7 +116,7 @@ Im Kapitel [Dateninfrastrukturen](../06_publikation_repositorien/dateninfrastruk
 </table>
 <br>
 
-Im nächsten Kapitel [Ressourcen und Entscheidungshilfen](../04_einführung_publikation/ressourcen_entscheidungshilfen.md) gibt es eine ausführliche Liste mit relevanten Repositorien und Repositorienfindern - mit Schwerpunkt auf Film-, Medien -und Geistenwissenschaften.
+Im [Kapitel 4.3. Ressourcen und Entscheidungshilfen](../04_einführung_publikation/ressourcen_entscheidungshilfen.md) gibt es eine ausführliche Liste mit relevanten Repositorien und Repositorienfindern - mit Schwerpunkt auf Film-, Medien -und Geistenwissenschaften.
 
 ### Publizierte Daten in einem Repositorium: Fallbeispiel "Affektrhetoriken des Audiovisuellen"
 
@@ -216,7 +216,7 @@ name: women-film-pioneer
 ---
 Visualisierung des transnationalen Netzwerkes von Filmpionierinnen aus den Daten des <a href="https://www.informatik.uni-marburg.de/women-film-pioneers-explorer/" class="external-link" target="_blank">Women Film Pioneers Projektes</a>, © CC BY-SA 4.0
 ```
-Weitere Beispiele bzw. Auflistungen für GLAM-Datenbanken/Portale sowie (interaktive) Webseiten in der Film- und Medienwissenschaft gibt es im nächsten Kapitel [Ressourcen und Entscheidungshilfen](../04_einführung_publikation/ressourcen_entscheidungshilfen.md).
+Weitere Beispiele bzw. Auflistungen für GLAM-Datenbanken/Portale sowie (interaktive) Webseiten in der Film- und Medienwissenschaft gibt es im  [Kapitel 4.3. Ressourcen und Entscheidungshilfen](../04_einführung_publikation/ressourcen_entscheidungshilfen.md).
 
 ## APIs
 *→ Niveau: Expert:in*

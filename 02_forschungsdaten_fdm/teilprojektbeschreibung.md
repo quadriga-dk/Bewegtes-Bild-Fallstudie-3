@@ -29,7 +29,7 @@ Exemplarische Ansicht von Moviebarcodes aus dem Datenset des TPs
 
 ```{admonition} Was sind Moviebarcodes?
 :class: hinweis, dropdown
-Moviebarcodes sind algorithmisch generierte Visualisierungen, aus denen systematisch Farbinformationen eines Films, in verdichteter Form, extrahiert werden. Dabei werden Einzelbilder (Frames) durch die digitale Extrahierung als aggregierte Farbwerte in eine ganzheitliche Bildkomposition zusammengefasst – sichtbar als lineare Farbsequenzen in vertikaler Aneinanderreihung. Mehr Informationen gibt es im Kapitel [Annotationsdaten anreichern: Moviebarcodes](../05_aufbereitung_anreicherung/moviebarcodes.md).
+Moviebarcodes sind algorithmisch generierte Visualisierungen, aus denen systematisch Farbinformationen eines Films, in verdichteter Form, extrahiert werden. Dabei werden Einzelbilder (Frames) durch die digitale Extrahierung als aggregierte Farbwerte in eine ganzheitliche Bildkomposition zusammengefasst – sichtbar als lineare Farbsequenzen in vertikaler Aneinanderreihung. Mehr Informationen gibt es im [Kapitel 5.2. Annotationsdaten anreichern: Moviebarcodes](../05_aufbereitung_anreicherung/moviebarcodes.md).
 ```
 
 Die dabei entstehenden Daten sollen auch nach Projektende öffentlich verfügbar bzw. nachnutzbar sein. **Welche notwendigen Schritte braucht es für die Umsetzung zur Publikation filmwissenschaftlicher Forschungsdaten?** Das vorliegende Jupyter Notebook zeigt exemplarisch, wie diese Projektdaten organisiert, aufbereitet und veröffentlicht werden können – praxisnah und reproduzierbar.
@@ -39,7 +39,7 @@ Die dabei entstehenden Daten sollen auch nach Projektende öffentlich verfügbar
 ````{margin}
 ```{admonition} Siehe auch:
 :class: hinweis
-Auf die konkreten Vorgaben und Leitlinien gehen wir im Kapitel [Forschungsdatenmanagement](../02_forschungsdaten_fdm/forschungsdatenmanagement.md) ein.
+Auf die konkreten Vorgaben und Leitlinien gehen wir in [Kapitel 2.5. Forschungsdatenmanagement](../02_forschungsdaten_fdm/forschungsdatenmanagement.md) ein.
 ```
 ````
 Für die Umsetzung einer solchen Datenpublikation ist eine sorgfältige Planung unerlässlich. Dabei helfen etablierte Standards, den Umgang mit Forschungsdaten zu strukturieren und die Organisation zu erleichtern. Diese Standards existieren auf verschiedenen Ebenen: Zum einen gibt es allgemeine Richtlinien von Institutionen wie der [DFG](https://www.dfg.de/de/grundlagen-themen/grundlagen-und-prinzipien-der-foerderung/forschungsdaten) oder den Universitäten, zum anderen fachspezifische Vorgaben – in unserem Fall aus der Film- und Medienwissenschaft

@@ -3,11 +3,11 @@
 `````{admonition} Story
 :class: story
 
-Die Annotationsdaten wurden erhoben, die [Moviebarcodes](../05_aufbereitung_anreicherung/moviebarcodes.md) aus den Filmdateien extrahiert. Projektintern lagen bereits Dokumentationen und Filmlisten vor, allerdings uneinheitlich und ohne konkrete Systematik. Für eine Datenpublikation ist allerdings die Systematisierung unerlässlich: Daten müssen strukturiert, nachvollziehbar und interoperabel sein. Der erste Schritt ist also die systematische Aufbereitung des gesamten Korpus. Dafür wurde ein projektspezifischer Metadatenstandard entwickelt.
+Die Annotationsdaten wurden erhoben, die [Moviebarcodes (Kapitel 5.2.)](../05_aufbereitung_anreicherung/moviebarcodes.md) aus den Filmdateien extrahiert. Projektintern lagen bereits Dokumentationen und Filmlisten vor, allerdings uneinheitlich und ohne konkrete Systematik. Für eine Datenpublikation ist allerdings die Systematisierung unerlässlich: Daten müssen strukturiert, nachvollziehbar und interoperabel sein. Der erste Schritt ist also die systematische Aufbereitung des gesamten Korpus. Dafür wurde ein projektspezifischer Metadatenstandard entwickelt.
 
 ````{admonition} Leitfrage
 :class: keypoint
-Wie lassen sich unorganisierte [Forschungsdaten](../02_forschungsdaten_fdm/forschungsdaten_fiwi.md) für eine Nachnutzung systematisieren?
+Wie lassen sich unorganisierte [Forschungsdaten (Kapitel 2.3.)](../02_forschungsdaten_fdm/forschungsdaten_fiwi.md) für eine Nachnutzung systematisieren?
 ````
 ````{figure} ../assets/05_aufbereitung_anreicherung/abb_k05_rohdaten_systematisierung.png
 ---
@@ -25,15 +25,15 @@ Von den Rohdaten zur Systematisierung (KI-generiert)
 ````{margin}
 ```{admonition} Was sind Metadatenstandards?
 :class: hinweis
-Mehr Informationen zu Metadatenstandards gibt es im Kapitel [Metadaten & Metadatenstandards](../03_metadaten/toc_03.md)
+Mehr Informationen zu Metadatenstandards gibt es in [Kapitel Metadaten und Metadatenstandards](../03_metadaten/toc_03.md)
 ```
 ````
 
-Das für das SFB-Projekt entwickelte Metadatenschema orientiert sich an den Basiselementen des [DC-Schemas](../03_metadaten/allgemeine_standards.md) und des [EN 15744](../03_metadaten/metadaten_filmwissenschaft.md). Zentrale Identifikationsfelder wie `Titel`, `Identifier`, `Produktionsland`, `Jahr`, `Regie` und `Laufzeit` entsprechen standardnahen Metadatenelementen. Sie dienen einerseits der formalen Einordnung sowie Identifizierbarkeit, andererseits können durch die erfassten Elemente auch weitere Untersuchungen am Korpus ermöglicht werden, wie zum Beispiel Berechnungen von Länderanteilen oder Produktionszeiträumen. 
+Das für das SFB-Projekt entwickelte Metadatenschema orientiert sich an den Basiselementen des [DC-Schemas (Kapitel 3.1.)](../03_metadaten/allgemeine_standards.md) und des [EN 15744 (Kapitel 3.2.)](../03_metadaten/metadaten_filmwissenschaft.md). Zentrale Identifikationsfelder wie `Titel`, `Identifier`, `Produktionsland`, `Jahr`, `Regie` und `Laufzeit` entsprechen standardnahen Metadatenelementen. Sie dienen einerseits der formalen Einordnung sowie Identifizierbarkeit, andererseits können durch die erfassten Elemente auch weitere Untersuchungen am Korpus ermöglicht werden, wie zum Beispiel Berechnungen von Länderanteilen oder Produktionszeiträumen. 
 
 ```{admonition} Wie können die Metadaten genutzt werden?
 :class: hinweis
-Im Kapitel [Diskriminierungssensible Überprüfung](../05_aufbereitung_anreicherung/diskriminierungssensible_überprüfung.md) führen wir Beispielhaft anhand der Korpusmetadaten punktuell eine Überprüfung mit Fokus auf diskriminierungsensible Aspekte durch.
+In [Kapitel 5.5. Diskriminierungssensible Überprüfung](../05_aufbereitung_anreicherung/diskriminierungssensible_überprüfung.md) führen wir beispielhaft anhand der Korpusmetadaten punktuell eine Überprüfung mit Fokus auf diskriminierungsensible Aspekte durch.
 ```
 
 In der Forschungspraxis lässt sich allerdings häufig kein Schema vollständig auf den wissenschaftlichen Kontext übertragen. Dies liegt insbesondere daran, dass Forschungsprojekte eigene Untersuchungsmethoden, Korpusdefinitionen und Analysekateogorien mitbringen, die in den allgemeinen Standards keine Entsprechung finden.
@@ -220,7 +220,7 @@ Ein beispielhafter Metadatensatz für eine audiovisuelle Ressource im `json`-For
 
 ```{admonition} Was ist JSON?
 :class: hinweis
-**JavaScript Object Notation** ist ein kompaktes Dateiformat in einfacher Textform, das den Datenaustausch zwischen verschiedenen Anwendungen ermöglicht. Informationen werden dabei in Form von Schlüssel-Wert-Paaren organisiert und können zu Objekten und Listen zusammengefasst werden. Ausführlichere Informationen zum Nachlesen gibt es {ref}`hier <json-format>`.
+**JavaScript Object Notation** ist ein kompaktes Dateiformat in einfacher Textform, das den Datenaustausch zwischen verschiedenen Anwendungen ermöglicht. Informationen werden dabei in Form von Schlüssel-Wert-Paaren organisiert und können zu Objekten und Listen zusammengefasst werden. Ausführlichere Informationen zum Nachlesen gibt es {ref}`in Kapitel 5.4. <json-format>`.
 ```
 
 ## Identifier, ISO-Standards und kontrollierte Vokabulare 
@@ -299,7 +299,7 @@ Die Objekt-IDs setzen sich aus einem **Präfix**, einer **fortlaufenden numerisc
 
 Zusätzlich zu dem projektspezifischen Identifier wurde für jeden Film, wo möglich, ein IMDb-Identifer erfasst (z. B. `tt8399690`)- Dieser **externe Identifier** trägt die Bezeichtnung `imdb_id`. Er dient als stabile und öffentlich abrufbare Referenz und existiert unabhängig vom Projekt. So können Zusatzinformationen über die Filme von anderen Forschenden auch über die `imdb_id` eingesehen werden.
 
-Warum wurde IMDb als externe Referenz verwendet und nicht beispielsweise die ISAN? <a href="https://www.isan.org/de" class="external-link" target="_blank">ISAN</a> (International Standard Audiovisual Number, ISO 15706) ist der offizielle ISO-Standard zur Identifikation audiovisueller Werke, vergleichbar mit der ISBN für Bücher. In der Praxis sind ISANs allerdings sehr lückenhaft vergeben und ohne institutionellen Zugang nur schwer einsehbar. IMDb-IDs hingegen sind sehr etabliert und frei zugänglich. Die Datenbank enthält zudem eine umfangreiche Menge an katalogisierten Werken, wodurch das Auffinden von audiovisuellen Ressourcen vereinfacht wird. Alternative größere Filmdatenbanken sind unter anderem <a href="https://www.themoviedb.org/?language=de-DE" class="external-link" target="_blank">The Movie Database (TMDb)</a> sowie <a href="https://www.omdb.org/de/de" class="external-link" target="_blank">The Open Movie Database (OMDb)</a>. Da IMDb eine kommerziell betriebene Datenbank ist, ist bei der Nachnutzung der Daten Vorsicht geboten. Hierzu mehr im Kapitel [Diskriminierungssensible Überprüfung](../05_aufbereitung_anreicherung/diskriminierungssensible_überprüfung.md).
+Warum wurde IMDb als externe Referenz verwendet und nicht beispielsweise die ISAN? <a href="https://www.isan.org/de" class="external-link" target="_blank">ISAN</a> (International Standard Audiovisual Number, ISO 15706) ist der offizielle ISO-Standard zur Identifikation audiovisueller Werke, vergleichbar mit der ISBN für Bücher. In der Praxis sind ISANs allerdings sehr lückenhaft vergeben und ohne institutionellen Zugang nur schwer einsehbar. IMDb-IDs hingegen sind sehr etabliert und frei zugänglich. Die Datenbank enthält zudem eine umfangreiche Menge an katalogisierten Werken, wodurch das Auffinden von audiovisuellen Ressourcen vereinfacht wird. Alternative größere Filmdatenbanken sind unter anderem <a href="https://www.themoviedb.org/?language=de-DE" class="external-link" target="_blank">The Movie Database (TMDb)</a> sowie <a href="https://www.omdb.org/de/de" class="external-link" target="_blank">The Open Movie Database (OMDb)</a>. Da IMDb eine kommerziell betriebene Datenbank ist, ist bei der Nachnutzung der Daten Vorsicht geboten. Hierzu mehr in [Kapitel 5.5. Diskriminierungssensible Überprüfung](../05_aufbereitung_anreicherung/diskriminierungssensible_überprüfung.md).
 
 
 Welche Anforderungen allgemein für die Entwicklung guter Identifer zu beachten sind, haben wir hier in übersichtlicher Form zusammengefasst:
@@ -325,7 +325,7 @@ In den Korpusmetadaten wurden für zwei Felder kontrollierte Vokabulare festgele
 ````{margin}
 ```{admonition} Inhalte der Unterprojekte
 :class: hinweis
-Mehr Informationen zum Teilprojekt und den Unterprojekten (UPs)  gibt es im Kapitel [Teilprojekt](../02_forschungsdaten_fdm/teilprojektbeschreibung.md).
+Mehr Informationen zum Teilprojekt und den Unterprojekten (UPs)  gibt es in [Kapitel 2.2. Teilprojekt](../02_forschungsdaten_fdm/teilprojektbeschreibung.md).
 ```
 ````
 
@@ -396,14 +396,14 @@ Neben den Korpusmetadaten, die das Kernelement der Referenzierbarkeit und Dokume
 1. `annotation_medadata` für die <a href="https://github.com/SFB1512-C05-climate-film/intervening-world-projections-dataset/tree/main/data/annotations" class="external-link" target="_blank">Annotationsdatensätze</a>
 2. `moviebarcode_metadata` für die <a href="https://github.com/SFB1512-C05-climate-film/intervening-world-projections-dataset/tree/main/data/moviebarcodes" class="external-link" target="_blank">Moviebarcodes</a>
 
-Wie in den [Informationen zum Datenset](../05_aufbereitung_anreicherung/informationen_datenset.md) ausgeführt, handelt es sich hier um ein relationales Prinzip der Datenverknüpfung. Hauptverknüpfungselement ist dabei der projektinterne Identifier, die `object_id`. Jedes `azp` File sowie jede `png` hat einen einzigen, eindeutigen Identifier, der sich aus der `object_id` ableitet und somit den einzelnen audiovisuellen Ressourcen zugeordnet werden kann. In den Metadaten finden sich zudem zusätzliche Informationen, wie beispielsweise das Datum der Erstellung oder technische Komponenten. 
+Wie in den [Informationen zum Datenset (Kapitel 5.1.)](../05_aufbereitung_anreicherung/informationen_datenset.md) ausgeführt, handelt es sich hier um ein relationales Prinzip der Datenverknüpfung. Hauptverknüpfungselement ist dabei der projektinterne Identifier, die `object_id`. Jedes `azp` File sowie jede `png` hat einen einzigen, eindeutigen Identifier, der sich aus der `object_id` ableitet und somit den einzelnen audiovisuellen Ressourcen zugeordnet werden kann. In den Metadaten finden sich zudem zusätzliche Informationen, wie beispielsweise das Datum der Erstellung oder technische Komponenten.
 
 Alle hier beschriebenen Metadaten-Dateien stehen auf <a href="https://github.com/SFB1512-C05-climate-film/intervening-world-projections-dataset/tree/main/data/metadata" class="external-link" target="_blank">GitHub </a> in den Exportformaten (`xlsx`, `csv`, `html`, `json`) zur Verfügung. Einzelheiten zu den einzelnen Formaten gibt es im nächsten Kapitel.
 
 (metadatenschema-template)=
 ## Das Metadatenschema als Template
 
-Das im Rahmen des Projekts entwickelte Metadatenschema steht als downloadbares [Template](../assets/05_aufbereitung_anreicherung/doc_k05_corpus_metadata_schema_climate_film_c05.yml) im sogenannten `yaml`-Format zur Verfügung. Das Template dient als nachnutzbare Vorlage für die strukturierte Beschreibung von filmographischen Metadatensätzen und definiert die relevanten Metadatenelemente in einem maschinenlesbaren Format. Somit kann es als Ausgangspunkt für eigene Metadatenschemata aber auch zur Dokumentation, Validierung oder zur automatisierten Weiterverarbeitung in andere Formate genutzt werden. Selbstverständlich kann die Vorlage an die Bedürfnisse des eigenen Forschungskontexts angepasst werden. Im Abschnitt {ref}`Metadatenvalidierung <metadaten-validierung>` wird gezeigt, wie die Metadaten anhand des `yaml`-Schemas validiert werden.
+Das im Rahmen des Projekts entwickelte Metadatenschema steht als downloadbares [Template](../assets/05_aufbereitung_anreicherung/doc_k05_corpus_metadata_schema_climate_film_c05.yml) im sogenannten `yaml`-Format zur Verfügung. Das Template dient als nachnutzbare Vorlage für die strukturierte Beschreibung von filmographischen Metadatensätzen und definiert die relevanten Metadatenelemente in einem maschinenlesbaren Format. Somit kann es als Ausgangspunkt für eigene Metadatenschemata aber auch zur Dokumentation, Validierung oder zur automatisierten Weiterverarbeitung in andere Formate genutzt werden. Selbstverständlich kann die Vorlage an die Bedürfnisse des eigenen Forschungskontexts angepasst werden. Im Abschnitt zur {ref}`Metadatenvalidierung (Kapitel 5.4.) <metadaten-validierung>` wird gezeigt, wie die Metadaten anhand des `yaml`-Schemas validiert werden.
 
 ````{admonition} Was ist eine YAML-Datei und wie kann sie genutzt werden?
 :class: hinweis

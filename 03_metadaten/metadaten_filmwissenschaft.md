@@ -12,7 +12,7 @@ name: film-metadaten
 ````{margin}
 ```{admonition} Metadaten am Projektbeispiel
 :class: hinweis
-Wie ein Filmkorpus und zugehörige Datensätze am konkreten Projektbeispiel durch Metadaten charakterisiert werden können, zeigen wir im Kapitel [Systematische Aufbereitung](../05_aufbereitung_anreicherung/systematische_aufbereitung.md).
+Wie ein Filmkorpus und zugehörige Datensätze am konkreten Projektbeispiel durch Metadaten charakterisiert werden können, zeigen wir in [Kapitel 5.3. Systematische Aufbereitung](../05_aufbereitung_anreicherung/systematische_aufbereitung.md).
 ```
 ````
 
@@ -36,7 +36,7 @@ Dabei spielen Normdaten und Standardisierungen eine wichtige Rolle. Zwei (insbes
 ````{margin}
 ```{admonition} Dublin Core
 :class: hinweis
-Mehr Informationen zum **Dublin Core** Metadatenstandard gibt es im Kapitel [Allgemeine Metadatenstandards](../03_metadaten/allgemeine_standards.md).
+Mehr Informationen zum **Dublin Core** Metadatenstandard gibt es in [Kapitel 3.1. Allgemeine Metadatenstandards](../03_metadaten/allgemeine_standards.md).
 ```
 ````
 

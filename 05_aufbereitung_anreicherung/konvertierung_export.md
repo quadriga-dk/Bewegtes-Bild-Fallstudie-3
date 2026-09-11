@@ -525,7 +525,7 @@ Wenn die `html`-Tabelle nach dem Anpassen der `csv`-Daten nicht korrekt dargeste
 
 5. Semikolons in leeren Feldern erhalten
 
-Wie bereits im Abschnitt {ref}`XLSX zu CSV <xlsx-zu-csv>` beschrieben: Die Semikolons zwischen leeren Feldern sind *Positionsmarker* und dürfen nicht entfernt werden. Wenn z. B. `season_episode` und `episode_title` für einen Spielfilm leer sind, muss die Zeile trotzdem so aussehen:
+Wie bereits im Abschnitt {ref}`XLSX zu CSV (siehe oben)<xlsx-zu-csv>` beschrieben: Die Semikolons zwischen leeren Feldern sind *Positionsmarker* und dürfen nicht entfernt werden. Wenn z. B. `season_episode` und `episode_title` für einen Spielfilm leer sind, muss die Zeile trotzdem so aussehen:
 
 ```text
 Annihilation;f049a;tt2798920;feature film;"US;GB";2018;Alex Garland;115 Min.;PT1H55M;;;;FALSE;TRUE

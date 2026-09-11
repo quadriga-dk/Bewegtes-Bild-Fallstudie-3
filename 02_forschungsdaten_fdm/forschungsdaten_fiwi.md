@@ -62,7 +62,7 @@ Die Datenanforderungen sowie die Auswahl und Gewichtung der Inhalte sind dabei v
 ````{margin}
 ```{admonition} Diskriminierungssensible Daten
 :class: hinweis
-Mehr zum Umgang mit diskriminierungssensiblen Metadaten gibt es im Kapitel [Exkurs: Diskriminierungssensible Metadaten](../03_metadaten/diskriminierungssensible_metadaten.md)
+Mehr zum Umgang mit diskriminierungssensiblen Metadaten gibt es in [Kapitel 3.3. Exkurs: Diskriminierungssensible Metadaten](../03_metadaten/diskriminierungssensible_metadaten.md)
 ```
 ````
 Daten, die aus solchen öffentlichen oder kommerziellen Quellen genutzt (bzw. nachgenutzt) werden, sollten daher immer kritisch geprüft und kontextualisiert werden. Sowohl mit Blick auf ihre Herkunft als auch auf die expliziten oder impliziten Wertungslogiken, denen sie unterliegen.

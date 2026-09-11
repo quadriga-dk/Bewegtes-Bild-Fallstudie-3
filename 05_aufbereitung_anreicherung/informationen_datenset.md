@@ -3,7 +3,7 @@
 ````{margin}
 ```{admonition} Siehe auch:
 :class: hinweis
-Ausführliche Infos zur Projektbeschreibung und den Forschungsinhalten finden sich im Kapitel [Teilprojekt](../02_forschungsdaten_fdm/teilprojektbeschreibung.md) sowie auf der SFB-Projektseite.
+Ausführliche Infos zur Projektbeschreibung und den Forschungsinhalten finden sich in [Kapitel 2.2. Teilprojekt](../02_forschungsdaten_fdm/teilprojektbeschreibung.md) sowie auf der SFB-Projektseite.
 ````
 
 `````{admonition} Story
@@ -17,7 +17,7 @@ Die primäre Forschungsfrage des Projektes lautet: <br>
 Wie modulieren audiovisuelle Darstellungsweisen in Film, Dokumentation und Social Media Wahrnehmungsszenarien des anthropogenen Klimawandels und wie zirkulieren diese Strategien durch Transfers verschiedener Formate der Bildproduktion zwischen Wissenschaft, Journalismus, Unterhaltung und Aktivismus?
 ````
 
-Zur Beantwortung der Frage nutzte das Projekt digitale Methoden der Filmanalyse. Die dabei entstandenen [Forschungsdaten](../02_forschungsdaten_fdm/forschungsdaten.md) wurden für die Publikation aufbereitet und auf GitHub sowie Zenodo publiziert. Welche Komponenten das Datenset genau enthält und wie es strukturiert ist, soll im Folgenden erläutert werden.
+Zur Beantwortung der Frage nutzte das Projekt digitale Methoden der Filmanalyse. Die dabei entstandenen [Forschungsdaten (Kapitel 2.3.)](../02_forschungsdaten_fdm/forschungsdaten.md) wurden für die Publikation aufbereitet und auf GitHub sowie Zenodo publiziert. Welche Komponenten das Datenset genau enthält und wie es strukturiert ist, soll im Folgenden erläutert werden.
 `````
 ## Das Projektrepository
 
@@ -49,7 +49,7 @@ Das Datenset umfasst fünf zentrale Datentypen, wobei aufgrund urheberrechtliche
 ````{margin}
 ```{admonition} Formate
 :class: hinweis
-Was ist `yaml`,`csv`,`json`? Details hierzu: [Systematische Datenaufbereitung](../05_aufbereitung_anreicherung/systematische_aufbereitung.md) und [Formate, Konvertierung, Dokumentation](../05_aufbereitung_anreicherung/formatierung_anpassung.md).
+Was ist `yaml`,`csv`,`json`? Details hierzu: [Kapitel 5.3. Systematische Datenaufbereitung](../05_aufbereitung_anreicherung/systematische_aufbereitung.md) und [Kapitel 5.4. Formate, Konvertierung, Dokumentation](../05_aufbereitung_anreicherung/formatierung_anpassung.md).
 ```
 ````
 
@@ -93,7 +93,7 @@ Alle Bestandteile des Datensets werden in offenen und langfristig nutzbaren Form
 
 ```{admonition} Langzeitarchivierung und facheigene Repositorien
 :class: important
-Neben der Veröffentlichung auf GitHub sowie Zenodo unter offenen Lizenzen ist für eine gesicherte Langzeitarchivierung die Publikation in hochschuleigenen Repositorien empfohlen. Ebenso ist die Publikation in facheigenen Repositorien wie beispielsweise media/rep/ für eine größere Öffentlichkeitswirksamkeit sinnvoll. Dazu auch mehr im Kapitel [Dateninfrastrukturen](../06_publikation_repositorien/dateninfrastrukturen.md).
+Neben der Veröffentlichung auf GitHub sowie Zenodo unter offenen Lizenzen ist für eine gesicherte Langzeitarchivierung die Publikation in hochschuleigenen Repositorien empfohlen. Ebenso ist die Publikation in facheigenen Repositorien wie beispielsweise media/rep/ für eine größere Öffentlichkeitswirksamkeit sinnvoll. Dazu auch mehr im [Kapitel 6.3. Dateninfrastrukturen](../06_publikation_repositorien/dateninfrastrukturen.md).
 ```
 
 ## DMP
@@ -101,7 +101,7 @@ Neben der Veröffentlichung auf GitHub sowie Zenodo unter offenen Lizenzen ist f
 ````{margin}
 ```{admonition} Was ist ein DMP
 :class: hinweis
-Zum Nachlesen: [Datenmanagementplan](../02_forschungsdaten_fdm/datenmanagementplan.md).
+Zum Nachlesen: [Kapitel 2.5. Datenmanagementplan](../02_forschungsdaten_fdm/datenmanagementplan.md).
 ```
 ````
 

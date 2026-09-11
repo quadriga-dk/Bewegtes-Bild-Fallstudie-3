@@ -11,7 +11,7 @@ name: metadatenstandard
 ````{margin}
 ```{admonition} Markup-Sprachen/XML
 :class: hinweis
-Mehr Infos zum Thema `XML` gibt es im {ref}`vorigem Kapitel <markup-sprachen>`.
+Mehr Infos zum Thema `XML` gibt es in {ref}`Kapitel 3.1.<markup-sprachen>`.
 ```
 ````
 <br>

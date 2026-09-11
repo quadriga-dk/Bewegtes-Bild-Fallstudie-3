@@ -41,7 +41,7 @@ Ein gängiges und bewährtes Open-Source-Tool für die Datenbereinigung ist <a h
 (metadaten-validierung)=
 ## Metadatenvalidierung
 
-Im Kapitel zur systematischen Aufbereitung der Korpusmetadaten wird {ref}`ein Metadatenschema als Template <metadatenschema-template>` im `yaml`-Format vorgestellt, das genutzt wird, um die filmografischen Projektmetadaten durch kontrolliertes Vokabular, ISO-Standards und feste Muster für Schreibweisen von Werten (z.B: für `year` das pattern `"^[0-9]{4}$"` = `2018`) zu definieren, es werden also **Regeln** festgelegt. Über dieses `yaml`-Schema lassen sich mit einem Python-Skript die erfassten Metadaten im `csv`-Format auf Abweichungen oder Fehler überprüfen bzw. validieren. Das Ergebnis des Skripts ist ein Validation-Report, also eine Datei, die die gefundenen Probleme und Fehler dokumentiert. 
+Im Kapitel zur systematischen Aufbereitung der Korpusmetadaten wird {ref}`ein Metadatenschema als Template (Kapitel 5.3.)<metadatenschema-template>` im `yaml`-Format vorgestellt, das genutzt wird, um die filmografischen Projektmetadaten durch kontrolliertes Vokabular, ISO-Standards und feste Muster für Schreibweisen von Werten (z.B: für `year` das pattern `"^[0-9]{4}$"` = `2018`) zu definieren, es werden also **Regeln** festgelegt. Über dieses `yaml`-Schema lassen sich mit einem Python-Skript die erfassten Metadaten im `csv`-Format auf Abweichungen oder Fehler überprüfen bzw. validieren. Das Ergebnis des Skripts ist ein Validation-Report, also eine Datei, die die gefundenen Probleme und Fehler dokumentiert. 
 
 Das `yaml`-Schema beschreibt:
 
@@ -83,7 +83,7 @@ Ordnerstruktur für die Metadaten-Validierung
 
 Die `csv`-Datei wird also unter `data` abgelegt und das `yaml`-Schema unter `schema`. Der Einfachheit halber wurden die Dateinamen abgekürzt bzw. angepasst. Dies kann zur testweisen Durchführung übernommen werden. 
 
-Um den Python-Code anschließend ausführen zu können, muss die Python-Umgebung aktiviert werden. Hierzu bitte die Schritt-für-Schritt Anleitung aus dem vorigen Abschnitt {ref}`Python-Umgebung einrichten <python-umgebung>` befolgen. Wichtig ist, dass das Notebook in den Ordner `metadata_validation` navigiert wird. Dort wird anschließend das Notebook mit dem Code gespeichert. 
+Um den Python-Code anschließend ausführen zu können, muss die Python-Umgebung aktiviert werden. Hierzu bitte die Schritt-für-Schritt Anleitung aus dem vorigen Abschnitt {ref}`Python-Umgebung einrichten (Kapitel 5.4.)<python-umgebung>` befolgen. Wichtig ist, dass das Notebook in den Ordner `metadata_validation` navigiert wird. Dort wird anschließend das Notebook mit dem Code gespeichert. 
 
 ```{figure} ../assets/05_aufbereitung_anreicherung/abb_k05_ordnerstruktur_validation_markierung.png
 ---
@@ -192,7 +192,7 @@ else:
 (ergebnis-interpretieren)=
 ### Das Ergebnis interpretieren
 
-Im gewählten Ordnerverzeichnis sollte nun ein sogenanntes Markdown-Dokument mit der Endung `.md` gespeichert sein. Dieses Markdown-Dokument kann mit einem Code- und Text-Editor wie VS Code geöffnet werden (im Abschnitt {ref}`Dokumentation <dokumentation>` kommen wir auf das Markdown-Format zurück.)
+Im gewählten Ordnerverzeichnis sollte nun ein sogenanntes Markdown-Dokument mit der Endung `.md` gespeichert sein. Dieses Markdown-Dokument kann mit einem Code- und Text-Editor wie VS Code geöffnet werden (im Abschnitt {ref}`Dokumentation (Kapitel 5.4.)<dokumentation>` kommen wir auf das Markdown-Format zurück.)
 
 ```{admonition} Was ist Markdown?
 :class: hinweis
@@ -229,7 +229,7 @@ Ebenso müssen entsprechend bei Abweichungen die Dateipfade und -namen angepasst
 (dokumentation)=
 ## Dokumentation
 
-Gut dokumentierte Forschungsdaten sind sowohl ein wichtiger interner Bestandteil des Forschungsprozesses als auch für die Publikation unerlässlich. In den Kapiteln zum [Forschungsdatenmanagement](../02_forschungsdaten_fdm/toc_02.md) sowie zum Thema [Datenmanagementpläne](../02_forschungsdaten_fdm/datenmanagementplan.md) haben wir bereits alle grundlegenden Aspekte hierfür zusammengefasst. 
+Gut dokumentierte Forschungsdaten sind sowohl ein wichtiger interner Bestandteil des Forschungsprozesses als auch für die Publikation unerlässlich. In [Kapitel 2. Forschungsdatenmanagement](../02_forschungsdaten_fdm/toc_02.md), insb. im Abschnitt zum Thema [Datenmanagementpläne (Kapitel 2.5.)](../02_forschungsdaten_fdm/datenmanagementplan.md), haben wir bereits alle grundlegenden Aspekte hierfür zusammengefasst. 
 
 Um die Daten jedoch auch für Nutzende verständlich zu machen, braucht es offene Dokumentationsformate, die gemeinsam mit den eigentlichen Daten veröffentlicht werden.
 
@@ -237,7 +237,7 @@ In diesem Projekt haben `README`-Dateien und Tutorials diese Funktion übernomme
 
 ### Was ist eine README-Datei?
 
-Eine `README` ist eine einfache Textdatei, üblicherweise im {ref}`Markdown-Format <ergebnis-interpretieren>`, die Informationen zu einem Datensatz, einem Repository oder einem Ordner enthält. 
+Eine `README` ist eine einfache Textdatei, üblicherweise im {ref}`Markdown-Format (Kapitel 5.4.)<ergebnis-interpretieren>`, die Informationen zu einem Datensatz, einem Repository oder einem Ordner enthält. 
 
 Markdown ist sehr beutzerfreundlich und kann schnell erlernt werden. Es werden dabei einfache Zeichen zur Formatierung von Text verwendet, die gänigsten listen wir hier auf:
 
@@ -397,7 +397,7 @@ name: daten-dokumentation
 Dokumentationsebenen für die Datenpublikation
 ```
 
-Mit der Aufbereitung, Bereinigung und Dokumentation der Forschungsdaten sind die wesentlichen Voraussetzungen für die Publikation geschaffen. Bevor im sechsten Lernmodul [Publikation von Datensets in einem Repositorium](../06_publikation_repositorien/toc_06.md) die konkreten Schritte der Veröffentlichung behandelt werden, greift der folgende Exkurs die vorgestellten Überlegungen und Impulse aus dem zweiten Lernmodul zu [diskriminierungssensiblen Metadaten](../03_metadaten/diskriminierungssensible_metadaten.md) wieder auf und führt eine punktuelle exemplarische Überprüfung anhand der Korpusmetadaten des Projektes durch.
+Mit der Aufbereitung, Bereinigung und Dokumentation der Forschungsdaten sind die wesentlichen Voraussetzungen für die Publikation geschaffen. Bevor in [Kapitel 6. Publikation von Datensets in einem Repositorium](../06_publikation_repositorien/toc_06.md) die konkreten Schritte der Veröffentlichung behandelt werden, greift der folgende Exkurs die vorgestellten Überlegungen und Impulse aus Kapitel 3.3. [diskriminierungssensiblen Metadaten](../03_metadaten/diskriminierungssensible_metadaten.md) wieder auf und führt eine punktuelle exemplarische Überprüfung anhand der Korpusmetadaten des Projektes durch.
 
 ## Literatur
 

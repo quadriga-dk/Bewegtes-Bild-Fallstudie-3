@@ -45,7 +45,7 @@ Diese Einschätzung wird durch mehrere charakteristische Merkmale der Moviebarco
 
 Ergänzend sei darauf verwiesen, dass § 60d UrhG Text- und Data Mining zu wissenschaftlichen Zwecken ausdrücklich erlaubt.
 
-Da Moviebarcodes keinen Werkcharakter im urheberrechtlichen Sinne aufweisen, sind sie auch nicht lizenzierungspflichtig. Dies bedeutet streng genommen, dass es keine explizite Lizenz geben muss. Wie die konkrete Lizenzierung für Moviebarcodes aussehen kann, wird im Abschnitt zur {ref}`Lizenzierung <sonderfall-moviebarcodes>` besprochen.
+Da Moviebarcodes keinen Werkcharakter im urheberrechtlichen Sinne aufweisen, sind sie auch nicht lizenzierungspflichtig. Dies bedeutet streng genommen, dass es keine explizite Lizenz geben muss. Wie die konkrete Lizenzierung für Moviebarcodes aussehen kann, wird in {ref}`Kapitel 6.1. Lizenzierung <sonderfall-moviebarcodes>` besprochen.
 
 (moviebarcodes-guide)=
 ## Moviebarcodes selbst erstellen: Guides
