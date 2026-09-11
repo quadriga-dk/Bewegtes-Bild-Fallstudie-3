@@ -15,7 +15,7 @@ Kontextualisierte Visualisierung der Annotationsdaten
 ```
 ```{admonition} Was sind Annotationen und auf welcher Systematik beruhen die Annotationen?
 :class: hinweis, dropdown
-[TODO: Beschreibung]
+Im Kontext der Film- und Medienwissenschaft sind Annotationen als eine zeitbasierte Anreicherung von Filmen oder Videos um Metadaten bzw. Metainformationen zu verstehen. Dabei handelt es sich um ein Verfahren der (semantischen) Anreicherung von Untersuchungsgegenständen, das manuell, automatisiert oder semi-automatisch erfolgen kann. Im engeren Sinne beziehen sich Annotationen direkt auf den gesamten Untersuchungsgegenstand und sind mit ihm verknüpft, indem sie Metainformationen bereitstellen. Videoannotations-Tools ermöglichen eine zeitgenaue Markierung und Kommentierung des Materials. Dadurch können filmische Strukturen wie Rhythmen, Bewegungen oder Schnittfolgen empirisch festgehalten und sichtbar gemacht werden.
 ```
 
 Da der Analyseparameter **Farbe** für bestimmte Untersuchungszwecke sehr nützlich und relevant ist, wurden die Annotationsdaten um sogenannte Moviebarcodes angereichert.
