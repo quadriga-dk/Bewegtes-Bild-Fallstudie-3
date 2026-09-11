@@ -1,6 +1,6 @@
 # Ressourcen und Entscheidungshilfen
 
-Um den Einstieg in die Datenpublikation zu erleichtern, haben wir eine kuratierte Ressourcenübersicht zusammengestellt. Diese steht zum Herunterladen als [Excel-Tabelle](../assets/04_einführung_publikation/doc_quadriga_ressourcenuebersicht.xlsx) sowie durchsuchbar als `HTML`- Version im [Download](../assets/04_einführung_publikation/doc_quadriga_ressourcenuebersicht_v003.html) sowie engebttet hier im Book zur Verfügung. Diese Ressourcenübersicht soll bei ersten Recherchen zu **1. Datenbanken / Repositorien**, **2. Tools**, **3. Infrastrukturen** sowie **4. publizierten Forschungsdaten** helfen. Neben disziplinübergreifenden Infrastrukturen, Repositorien und Repositorienfindern, ist die dort bereitgestellte Auswahl auf die Digital Humanities mit Schwerpunkt Filmwissenschaft beschränkt.
+Um den Einstieg in die Datenpublikation zu erleichtern, haben wir eine kuratierte Ressourcenübersicht zusammengestellt. Diese steht zum Herunterladen als [Excel-Tabelle](../assets/04_einführung_publikation/doc_quadriga_ressourcenuebersicht.xlsx) sowie durchsuchbar als `html`- Version im [Download](../assets/04_einführung_publikation/doc_quadriga_ressourcenuebersicht_v003.html) sowie engebttet hier im Book zur Verfügung. Diese Ressourcenübersicht soll bei ersten Recherchen zu **1. Datenbanken / Repositorien**, **2. Tools**, **3. Infrastrukturen** sowie **4. publizierten Forschungsdaten** helfen. Neben disziplinübergreifenden Infrastrukturen, Repositorien und Repositorienfindern, ist die dort bereitgestellte Auswahl auf die Digital Humanities mit Schwerpunkt Filmwissenschaft beschränkt.
 
 ```{raw} html
 <iframe
@@ -12,7 +12,7 @@ title="ressourcen-uebersicht">
 
 ```{admonition} Orientung und erster Einstiegspunkt
 :class: important
- Die bereitgestellte Ressourcenübersicht dient als Orientierung und erhebt keinen Anspruch auf Vollständigkeit. Sie ist ausdrücklich offen für Ergänzungen. Über GitHub-Issues[TODO: Link]  können Sie uns gezielt Ergänzungsvorschläge
+ Die bereitgestellte Ressourcenübersicht dient als Orientierung und erhebt keinen Anspruch auf Vollständigkeit. Sie ist ausdrücklich offen für Ergänzungen. Über <a href="https://github.com/quadriga-dk/Bewegtes-Bild-Fallstudie-3/issues/new?template=frage.yml" class="external-link" target="_blank">GitHub-Issues</a> können Sie uns gezielt Ergänzungsvorschläge
  zukommen lassen.
 ```
 
@@ -55,7 +55,7 @@ align: center
 width: 80%
 name: rechtliche-aspekte
 ---
-Forschungsdaten veröffentlichen? Die wichtigsten rechtlichen Aspekte, © <a href="https://forschungsdaten.info/themen/rechte-und-pflichten/recht-und-forschungsdaten-ein-ueberblick/" class="external-link" target="_blank">forschungsdaten.info</a>, CC Zero
+Forschungsdaten veröffentlichen? Die wichtigsten rechtlichen Aspekte, © <a href="https://forschungsdaten.info/themen/rechte-und-pflichten/recht-und-forschungsdaten-ein-ueberblick/" class="external-link" target="_blank">forschungsdaten.info</a>, CC0
 ```
 ```{admonition} Weiterführende Links zu rechtlichen Aspekten und Bedingungen
 :class: seealso
