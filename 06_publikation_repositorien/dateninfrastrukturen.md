@@ -3,7 +3,7 @@
 ```{admonition} Story
 :class: story
 Die Forschungsdaten des Projekts wurden kuratiert, sinnvoll benannt und in einer passenden und nachvollziehbaren 
-Ordnerhierarchie strukturiert. (vgl. hierzu [Kapitel 6.2. Kuratierung & Organisation](../06_publikation_repositorien/kuratierung_organisation.md) ) Diese Struktur kann direkt für den Upload der Daten in einem Repositorium übernommen werden. Der nächste Schritt ist die konkrete Publikation: Wie erstelle ich ein Repository? Wie lade ich die Daten hoch? Und wie stelle ich sicher, dass der Datensatz zitierfähig, versioniert und langzeitverfügbar ist?
+Ordnerhierarchie strukturiert. (vgl. hierzu [Kapitel 6.2. Kuratierung & Organisation](../06_publikation_repositorien/kuratierung_organisation.md)) Diese Struktur kann direkt für den Upload der Daten in einem Repositorium übernommen werden. Der nächste Schritt ist die konkrete Publikation: Wie erstelle ich ein Repository? Wie lade ich die Daten hoch? Und wie stelle ich sicher, dass der Datensatz zitierfähig, versioniert und langzeitverfügbar ist?
 
           Forschungsprojekt
                  │

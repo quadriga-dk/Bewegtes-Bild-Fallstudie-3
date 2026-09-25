@@ -26,7 +26,7 @@ Die Versionierung von Forschungsdaten ermöglicht eine eindeutige Referenzierung
 
 Für die Versionierung existieren unterschiedliche Ansätze. Ein besonders verbreitetes System zur Versionierung ist <a href="https://semver.org/" class="external-link" target="_blank">Semantic Versioning</a>: kurz "SemVer". Ursprünglich in der Softwareentwicklung etabliert, wird es heute auch für Forschungsdaten aller Art angewandt. SemVer dokumentiert kleinteilig alle Versionsnummern und Änderungsverläufe publizierter oder publikationsreifer Software und Daten bzw. Datensätze {cite}`PrestonWerner_2013`. 
 
-Neben SemVer werden auch andere Versionierungsschemata verwendet, beispielsweise fortlaufende Versionsnummern (v1, v2...) oder datumsbasierte Versionierungen (siehe: <a href="https://calver.org/)" class="external-link" target="_blank">CalVer</a>). Für GitHub-basierte Workflows hat sich SemVer jedoch als Standard etabliert. Da das vorliegende Projekt die Daten auf GitHub/Zenodo publiziert, soll das Schema hier vorgestellt werden. 
+Neben SemVer werden auch andere Versionierungsschemata verwendet, beispielsweise fortlaufende Versionsnummern (v1, v2...) oder datumsbasierte Versionierungen (siehe: <a href="https://calver.org" class="external-link" target="_blank">CalVer</a>). Für GitHub-basierte Workflows hat sich SemVer jedoch als Standard etabliert. Da das vorliegende Projekt die Daten auf GitHub/Zenodo publiziert, soll das Schema hier vorgestellt werden. 
 
 ### Wie funktioniert das Schema?
 

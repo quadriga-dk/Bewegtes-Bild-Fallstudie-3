@@ -71,7 +71,7 @@ Die folgenden Konventionen gelten laut dem Verbund Forschungsdaten Bildung und d
 ```{admonition} Dateinamen - die wichtigsten Aspekte
 :class: keypoint
 * **Kurz, aber aussagekräftig**: Dateinamen so kurz wie möglich, so lang wie nötig. Als Richtwert gilt eine maximale Länge von 30 Zeichen; zusammen mit dem Ordnerpfad sollte die Gesamtlänge 255 Zeichen (Windows-Limit) nicht überschreiten
-* **Maschinenlesbar**: Keine Leerzeichen, Umlaute (ä, ö, ü) oder Sonderzeichen (`$`, `@`, `%`, `#`, `&`, `!`, `/`). Erlaubt: Buchstaben `a–z`, Ziffern `0–9`, Unterstriche `_` und Bindestriche `-`
+* **Maschinenlesbar**: Keine Leerzeichen, Umlaute (`ä`, `ö`, `ü`) oder Sonderzeichen (`$`, `@`, `%`, `#`, `&`, `!`, `/`). Erlaubt: Buchstaben `a–z`, Ziffern `0–9`, Unterstriche `_` und Bindestriche `-`
 * **Einheitlich und konsistent**: Immer dieselben Elemente in derselben Reihenfolge verwenden
 * **Selbsterklärend**: Der Name sollte den Inhalt der Datei beschreiben, auf generische Bezeichnungen wie `daten`, `final`, `neu` verzichten
 ```
