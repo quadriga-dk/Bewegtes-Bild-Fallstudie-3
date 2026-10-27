@@ -163,7 +163,7 @@ Taxonomien sind Benennungssysteme, bestehend aus kontrolliertem Vokabular, um Di
 Es gibt eine Vielzahl von fächerübergreifenden, generischen Metadatenstandards. Zwei der bekanntesten stellen wir kurz vor. 
 
 (dublin-core-header)=
-## Dublin Core
+### Dublin Core
 
 Ein weit verbreiteter, generischer Standard zur Beschreibung von Dokumenten und anderen Objekten ist der sogenannte <a href="https://www.dublincore.org/" class="external-link" target="_blank">Dublin Core</a>. Er besteht aus einem Set aus 15 allgemeinen, weit verbreiteten <a href="https://www.dublincore.org/specifications/dublin-core/usageguide/elements/" class="external-link" target="_blank">Elementen </a> (siehe auch <a href="https://www.ietf.org/rfc/rfc2413.txt" class="external-link" target="_blank">hier</a>), darunter beispielsweise `title`, `creator`, `subject` oder `description`, und wird vielseitig für verschiedenste Ressourcen eingesetzt  – von digitalen Objekten in Repositorien über Webseiten bis hin zu Bibliotheksbeständen {cite}`Dierkes_2021`.
 
@@ -175,7 +175,7 @@ name: dublin-core
 ---
 Dublin Core und die 15 Elemente 
 ```
-### Die 15 Elemente des DC und ihre Beschreibungen
+#### Die 15 Elemente des DC und ihre Beschreibungen
 <style>
 .table-clean {
     border-collapse: collapse;
@@ -262,7 +262,7 @@ Dublin Core und die 15 Elemente
   </tr>
 </table>
 
-### Vor- und Nachteile des DC-Metadatenschemas
+#### Vor- und Nachteile des DC-Metadatenschemas
 
 ✅ **Vorteile**
 * Weit verbreitet und international genutzt
@@ -276,7 +276,7 @@ Dublin Core und die 15 Elemente
 * Uneinheitliche Nutzungsmöglichkeiten
 
 (data-cite-header)=
-## DataCite 
+### DataCite 
 
 Das <a href="https://schema.datacite.org/" class="external-link" target="_blank">DataCite</a> Schema ist eine strukturierte Liste bestehend aus Kern-Metadaten und ihren Eigenschaften. Es wird insbesondere für die bibliographische Beschreibung von Forschungsdaten, für Publikation, Zitation sowie die Registrierung von DOIs genutzt. Bestimmte Elemente, wie z. B. `Autor` oder `Titel`, sind verpflichtende Bestandteile, andere Elemente, wie z. B. `Fachbereich` oder `Beschreibung`, werden empfohlen oder sind optional. Das Metadatenschema sowie praxisnahe <a href="https://schema.datacite.org/meta/kernel-4.6/" class="external-link" target="_blank">Anwendungsbeispiele </a> werden in `xml` und `json` zur Verfügung gestellt {cite}`DataCite_2024`. 
 Ein DataCite <a href="https://dhvlab.gwi.uni-muenchen.de/datacite-generator/" class="external-link" target="_blank">Metadatengenerator </a> (aktuell für die Schema Version 4.6.) der Ludwig-Maximilians-Universität München generiert durch Eingabe der Metadatenfelder automatisch ein DataCite-`xml`-Schema. Dieses kann heruntergeladen und in einem Repositorium der Wahl den Forschungsdaten beigefügt werden. Mehr Informationen zur Anwendung gibt es auf der 
@@ -290,7 +290,7 @@ name: data-cite
 ---
 Elemente des DataCite Schemas - *notwendig* (links) & *empfohlen* (rechts)
 ```
-### Vor- und Nachteile des DataCite-Metadatenschemas
+#### Vor- und Nachteile des DataCite-Metadatenschemas
 
 ✅ **Vorteile**
 * Enge Verknüpfung mit DOIs
