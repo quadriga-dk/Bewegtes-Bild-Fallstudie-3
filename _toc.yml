@@ -15,8 +15,6 @@ chapters:
       - file: 02_forschungsdaten_fdm/einführung_forschungsdaten
       - file: 02_forschungsdaten_fdm/teilprojektbeschreibung
       - file: 02_forschungsdaten_fdm/forschungsdaten
-        sections:
-          - file: 02_forschungsdaten_fdm/forschungsdaten_fiwi
       - file: 02_forschungsdaten_fdm/erhebung_nachnutzung
         sections: 
           - file: 02_forschungsdaten_fdm/nachnutzung_ethik

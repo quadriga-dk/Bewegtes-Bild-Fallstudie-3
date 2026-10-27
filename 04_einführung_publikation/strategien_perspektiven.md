@@ -14,7 +14,7 @@ Dataset - alles was es für die Publikation braucht
 :class: important
 Daten sind Forschungsergebnisse und sollten daher, wenn möglich, publiziert werden. Denn sie fördern den Austausch zwischen Institutionen, Projekten und Forschenden und können zu einer heterogenen und kreativen Wissensproduktion beitragen {cite}`CRDA_2025`.
 ```
-In der Filmwissenschaft sind Daten einerseits häufig an Korpusentscheidungen gebunden (Auswahl der Filme und ihre Beziehung zueinander), andererseits sind sowohl Annotations- oder Kodierarbeiten als auch bereits Extraktionen (Shotlisten, Transkripte) Forschungsergebnisse. Eine ausführliche Beschreibung und Auflistung filmwissenschaftlicher Forschungsdaten findet sich in [Kapitel 2.3. Forschungsdaten in der Film- & Medienwissenschaft](../02_forschungsdaten_fdm/forschungsdaten_fiwi.md).
+In der Filmwissenschaft sind Daten einerseits häufig an Korpusentscheidungen gebunden (Auswahl der Filme und ihre Beziehung zueinander), andererseits sind sowohl Annotations- oder Kodierarbeiten als auch bereits Extraktionen (Shotlisten, Transkripte) Forschungsergebnisse. Eine ausführliche Beschreibung und Auflistung filmwissenschaftlicher Forschungsdaten findet sich in {ref}`Kapitel 2.3. Forschungsdaten in der Film- und Medienwissenschaft <forschungadaten-fiwi>`.
 
 Welche Publikationswege sinnvoll sind, hängt von verschiedenen Faktoren ab. Orientierung geben diese vier Leitfragen:
 

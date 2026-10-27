@@ -7,7 +7,7 @@ Die Annotationsdaten wurden erhoben, die [Moviebarcodes (Kapitel 5.2.)](../05_au
 
 ````{admonition} Leitfrage
 :class: keypoint
-Wie lassen sich unorganisierte [Forschungsdaten (Kapitel 2.3.)](../02_forschungsdaten_fdm/forschungsdaten_fiwi.md) für eine Nachnutzung systematisieren?
+Wie lassen sich unorganisierte [Forschungsdaten (Kapitel 2.3.)](../02_forschungsdaten_fdm/forschungsdaten.md) für eine Nachnutzung systematisieren?
 ````
 ````{figure} ../assets/05_aufbereitung_anreicherung/abb_k05_rohdaten_systematisierung.png
 ---
