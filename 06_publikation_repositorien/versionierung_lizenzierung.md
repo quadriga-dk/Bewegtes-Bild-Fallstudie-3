@@ -349,7 +349,7 @@ Die vollständige Lizenzdokumentation ist in der <a href="https://github.com/SFB
 (daten-zitieren)=
 ## Daten zitierbar machen
 
-Im letzten Teil dieses Kapitels soll es nun um die Zitierfähigkeit der Daten gehen. Wie Publikationen, so sollten auch Forschungsdaten korrekt angegeben und zitiert werden. Um die eigenen Forschungsdaten zitierbar zu machen, gibt es unterschiedliche Wege. In Kapitel [Kapitel 3.1. allgemeinen Metadatenstandards](../03_metadaten/allgemeine_standards.md) sind wir bereits kurz auf {ref}`Dublin Core <dublin-core-header>` und {ref}`DataCite <data-cite-header>` eingegangen. Neben diesen Varianten, ist die Nutzung des sogenannten Citation File Format (CFF) für Daten und Software, insbesondere in Git-Repositorien, sehr verbreitet. 
+Im letzten Teil dieses Kapitels soll es nun um die Zitierfähigkeit der Daten gehen. Wie Publikationen, so sollten auch Forschungsdaten korrekt angegeben und zitiert werden. Um die eigenen Forschungsdaten zitierbar zu machen, gibt es unterschiedliche Wege. In [Kapitel 3.1. Einführung Metadaten](../03_metadaten/einführung_metadaten.md) sind wir bereits kurz auf {ref}`Dublin Core <dublin-core-header>` und {ref}`DataCite <data-cite-header>` eingegangen. Neben diesen Varianten, ist die Nutzung des sogenannten Citation File Format (CFF) für Daten und Software, insbesondere in Git-Repositorien, sehr verbreitet. 
 
 Die `CITATION.cff` ist eine standardisierte Metadatendatei im {ref}`YAML-Format (Kapitel 5.3.)<metadatenschema-template>`, die beschreibt, wie ein Datensatz oder eine Software korrekt zitiert werden soll. Sie wird von GitHub und Zenodo direkt unterstützt. Wer das Repo besucht, kann die Zitationsinformationen also mit einem Klick exportieren.
 

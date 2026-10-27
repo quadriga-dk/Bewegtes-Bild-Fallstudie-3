@@ -31,12 +31,13 @@ Ergebnisansicht mit der Schlagwortsuche "climate change" aus dem Katalog des <a 
 
 Dabei spielen Normdaten und Standardisierungen eine wichtige Rolle. Zwei (insbesondere in der EU) sehr bekannte Metadatenstandards für Filme sind das <a href="https://www.fiafnet.org/pages/e-resources/cataloguing-manual.html" class="external-link" target="_blank">FIAF Cataloguing Rules & Moving Image Cataloguing Manual</a> sowie die beiden Metadatenstandards <a href="https://filmstandards.org/fsc/index.php/EN_15744" class="external-link" target="_blank">EN 15744</a> und <a href="https://filmstandards.org/fsc/index.php?title=EN_15907" class="external-link" target="_blank">EN 15907</a>. Ziel der Standardisierung ist es, den Austausch von filmographischen Informationen zu fördern und einen normierten Datenaustausch zwischen Institutionen, aber auch Nutzenden zu ermöglichen {cite}`Schild_2017`.
 
+(en-schemata)=
 ## EN 15744 & EN 15907
 
 ````{margin}
 ```{admonition} Dublin Core
 :class: hinweis
-Mehr Informationen zum **Dublin Core** Metadatenstandard gibt es in [Kapitel 3.1. Allgemeine Metadatenstandards](../03_metadaten/allgemeine_standards.md).
+Mehr Informationen zum **Dublin Core** Metadatenstandard gibt es in {ref}`Kapitel 3.1. Allgemeine Metadatenstandards <allgemeine-standards>`.
 ```
 ````
 

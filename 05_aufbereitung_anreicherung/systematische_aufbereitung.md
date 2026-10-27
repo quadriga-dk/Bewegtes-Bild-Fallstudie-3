@@ -29,7 +29,7 @@ Mehr Informationen zu Metadatenstandards gibt es in [Kapitel Metadaten und Metad
 ```
 ````
 
-Das für das SFB-Projekt entwickelte Metadatenschema orientiert sich an den Basiselementen des [DC-Schemas (Kapitel 3.1.)](../03_metadaten/allgemeine_standards.md) und des [EN 15744 (Kapitel 3.2.)](../03_metadaten/metadaten_filmwissenschaft.md). Zentrale Identifikationsfelder wie `Titel`, `Identifier`, `Produktionsland`, `Jahr`, `Regie` und `Laufzeit` entsprechen standardnahen Metadatenelementen. Sie dienen einerseits der formalen Einordnung sowie Identifizierbarkeit, andererseits können durch die erfassten Elemente auch weitere Untersuchungen am Korpus ermöglicht werden, wie zum Beispiel Berechnungen von Länderanteilen oder Produktionszeiträumen. 
+Das für das SFB-Projekt entwickelte Metadatenschema orientiert sich an den Basiselementen des {ref}`DC-Schemas (Kapitel 3.1.) <dublin-core-header>` und des {ref}`EN 15744 (Kapitel 3.2.) <en-schemata>`. Zentrale Identifikationsfelder wie `Titel`, `Identifier`, `Produktionsland`, `Jahr`, `Regie` und `Laufzeit` entsprechen standardnahen Metadatenelementen. Sie dienen einerseits der formalen Einordnung sowie Identifizierbarkeit, andererseits können durch die erfassten Elemente auch weitere Untersuchungen am Korpus ermöglicht werden, wie zum Beispiel Berechnungen von Länderanteilen oder Produktionszeiträumen. 
 
 ```{admonition} Wie können die Metadaten genutzt werden?
 :class: hinweis
