@@ -16,8 +16,6 @@ chapters:
       - file: 02_forschungsdaten_fdm/teilprojektbeschreibung
       - file: 02_forschungsdaten_fdm/forschungsdaten
       - file: 02_forschungsdaten_fdm/erhebung_nachnutzung
-        sections: 
-          - file: 02_forschungsdaten_fdm/nachnutzung_ethik
       - file: 02_forschungsdaten_fdm/forschungsdatenmanagement
         sections: 
           - file: 02_forschungsdaten_fdm/datenmanagementplan
