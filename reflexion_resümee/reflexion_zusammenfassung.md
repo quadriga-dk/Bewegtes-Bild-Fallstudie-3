@@ -79,3 +79,45 @@ Zusammenfassend lassen sich aus den vorangegangenen Inhalten folgende Kernpunkte
 * Unterschiedliche Infrastrukturen können für Versionierung, DOI-Vergabe, Langzeitarchivierung oder fachspezifische Sichtbarkeit miteinander kombiniert werden.
 * Für film- und medienwissenschaftliche Forschungsdaten kann die Kombination aus generischen, institutionellen und fachspezifischen Repositorien besonders sinnvoll sein.
 ```
+
+## Nachnutzungsperspektiven
+
+```{figure} ../assets/relexion_resümee/abb_reflexion_nachnutzung.png
+---
+align: center
+width: 75%
+name: forschungsdaten-nachnutzen
+---
+Perspektiven der Nachnutzung publizierter Forschungsdaten
+```
+
+Die Publikation von Forschungsdaten steht im Forschungsprozess häufig am Ende, sie ist jedoch nicht als abgeschlossner Schritt zu verstehen. Im Sinne guter wissenschaftlicher Praxis und unter Einhaltung der FAIR-Prinzipien sollen Forschungsdaten so publiziert werden, dass sie nachhaltig und für Dritte weiternutzbar sind. Wie bereits erwähnt zählen zu einer nachhaltigen Bereitstellung, neben den eigentlichen Forschungsdaten, auch Dokumentationen, Metadaten, Schemata, Methoden, Nutzungsbeispiele und weitere Materialien.
+
+Am Beispiel des Repositorys <a href="https://github.com/SFB1512-C05-climate-film/intervening-world-projections-dataset" class="external-link" target="_blank">*Intervening World Projections: Audiovisuality of Climate Change*</a> wollen wir nachfolgend einige Nachnutzungsperspektiven skizzieren.
+
+### 1. Nachnutzung als Forschungsdatensatz
+
+Ein erstes Szenario besteht in der direkten wissenschaftlichen Nutzung der bereitgestellten Daten. Forschende können Metadaten verwendem, um das Korpus nach eigenen Fragestellungen zu untersuchen, etwa im Hinblick auf Produktionsländer, Zeiträume, Werktypen oder Kategorien der Analyse. Ebenso können die Annotationsdaten genutzt werden, um methodische Entscheidungen nachzuvollziehen, bestehende Entscheidungen zu überprüfen oder eigene qualitative und quantitative Anschlussanalysen durchzuführen. Moviebarcodes wiederum eröffnen Möglichkeiten für vergleichende visuelle Analysen auf einem abstrahierten Niveau.
+
+### 2. Nachnutzung als methodisches Beispiel und als Template
+
+Das Datenset ist nicht nur inhaltlich, sondern auch methodisch bzw. strukturell nutzbar. Das Repository zeigt, wie verschiedene Datentypen (Filme als Referenzobjekte, Annotationsdaten, Metadaten, Moviebarcodes) in Beziehung zueinander gesetzt werden können. Für Forschende, die selbst mit heterogenen, audiovisuellen Korpora arbeiten, kann es als Orientierung dienen. 
+
+Besonders relevant ist, dass das Repository explizit als Template genutzt werden soll (*public template*). Es stellt eine strukturierte Ordnerlogik sowie zentrale Dokumentationsdateien bereit und kann dadurch als Vorlage für neue Datenpublikationen übernommen werden. Hierfür müssen die übergreifenden Dateien wie `README.md`, `CITATION.cff`, `LICENSE.md` selbstverständlich angepasst werden sowie die jeweiligen Ordner (wie z. B. `data/` und `documentation/`) mit den eigenen Daten befüllt werden. Das Template zeigt, inwiefern ein Repository nicht nur als Publikation, sondern als Beispiel guter Praxis der Datenkuratierung erschlossen werden kann. 
+
+### 3. Nachnutzung in der Lehre
+
+Ein weiteres Szenario ist die Nachnutzung in der Hochschullehre. Gerade weil das Datenset unterschiedliche Datentypen, Dokumentationsformen, Lizenzbedingungen und Publikationsschritte zusammenführt, eignet es sich für forschungsnahe Lehrsettings in den Digital Humanities, der Filmwissenschaft und angrenzenden Fächern. Forschende etwa lernen,
+* wie Metadaten strukturiert werden,
+* wie Annotationen als Forschungsdaten dokumentiert werden,
+* wie offene Formate und Schemata eingesetzt werden,
+* wie Sekundärdaten aus urheberrechtlich geschütztem Primärmaterial hervorgehen,
+* und wie Datenrepositorien zur wissenschaftlichen Sichtbarkeit beitragen.
+
+### 4. Vergleichende und weiterführende Forschung
+
+Schließlich eröffnet das Datenset Perspektiven für weiterführende Forschung. So können die Daten beispielsweise mit anderen Korpora in Beziehung gesetzt oder um weitere Daten ergänzt bzw. ausgeweitet werden. Ebenso bietet es sich an, kontrastive Studien durchzuführen: zu anderen Themenfeldern, anderen Perioden, anderen medialen Formaten oder anderen methodischen Zugängen.
+
+## Schlusswort
+
+Diese Fallstudie soll einen Beitrag dazu leisten, die Publikation film- und medienwissenschaftlicher Forschungsdaten als integralen Bestandteil des Forschungsprozesses zu betrachten. Wir plädieren dafür, dass Daten nicht nur als "Zwischenergebnisse" abgehandelt, sondern als zentrale Aspekte der Forschung angesehen werden. Daher ist die Datenpublikation in der Filmwissenschaft, trotz all ihren Besonderheiten und Herausforderungen, die das Fach im Speziellen mit sich bringt, ein wichtiger Teil des Diskurses. Insbesondere vor dem Hintergrund Künstlicher Intelligenz und voranschreitender technologischer Entwicklungen braucht es nachhaltige Perspektiven der Datennutzung und eine stärkere Sichtbarkeit entsprechender Forschungspraktiken.
