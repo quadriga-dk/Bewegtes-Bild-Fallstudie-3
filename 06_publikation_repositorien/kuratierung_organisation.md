@@ -214,7 +214,7 @@ Ein Changelog ist ein Änderungsprotokoll, zumeist angelegt als reine Textdatei,
 
 ## Datensicherung und Backup
 
-Wie kann Datenverlust minimiert oder vermieden werden? Datensicherung ist, wie die Organisation und Kuratierung der Daten, kein einmaliger Schritt, sondern eine prozessbegleitende Aufgabe. Oftmals werden Sicherungsstrategien bereits in [Datenmanagementplänen (Kapitel 2.5.)](../02_forschungsdaten_fdm/datenmanagementplan.md) festgehalten. In der Praxis gerät die Sicherung der Daten jedoch häufig in Vergessenheit. Daher soll es in diesem Abschnitt darum gehen, bewährte Sicherungsstrategien und Aspekte der Datensicherung vorzustellen.
+Wie kann Datenverlust minimiert oder vermieden werden? Datensicherung ist, wie die Organisation und Kuratierung der Daten, kein einmaliger Schritt, sondern eine prozessbegleitende Aufgabe. Oftmals werden Sicherungsstrategien bereits in {ref}`Datenmanagementplänen (Kapitel 2.5.) <datenmanagement-plan>` festgehalten. In der Praxis gerät die Sicherung der Daten jedoch häufig in Vergessenheit. Daher soll es in diesem Abschnitt darum gehen, bewährte Sicherungsstrategien und Aspekte der Datensicherung vorzustellen.
 
 ### Speicherorte und Speicherlösungen
 

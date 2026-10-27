@@ -101,7 +101,7 @@ Neben der Veröffentlichung auf GitHub sowie Zenodo unter offenen Lizenzen ist f
 ````{margin}
 ```{admonition} Was ist ein DMP
 :class: hinweis
-Zum Nachlesen: [Kapitel 2.5. Datenmanagementplan](../02_forschungsdaten_fdm/datenmanagementplan.md).
+Zum Nachlesen: {ref}`Kapitel 2.5. Datenmanagementplan <datenmanagement-plan>`.
 ```
 ````
 

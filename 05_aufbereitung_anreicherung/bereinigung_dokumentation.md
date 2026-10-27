@@ -229,7 +229,7 @@ Ebenso müssen entsprechend bei Abweichungen die Dateipfade und -namen angepasst
 (dokumentation)=
 ## Dokumentation
 
-Gut dokumentierte Forschungsdaten sind sowohl ein wichtiger interner Bestandteil des Forschungsprozesses als auch für die Publikation unerlässlich. In [Kapitel 2. Forschungsdatenmanagement](../02_forschungsdaten_fdm/toc_02.md), insb. im Abschnitt zum Thema [Datenmanagementpläne (Kapitel 2.5.)](../02_forschungsdaten_fdm/datenmanagementplan.md), haben wir bereits alle grundlegenden Aspekte hierfür zusammengefasst. 
+Gut dokumentierte Forschungsdaten sind sowohl ein wichtiger interner Bestandteil des Forschungsprozesses als auch für die Publikation unerlässlich. In [Kapitel 2. Forschungsdatenmanagement](../02_forschungsdaten_fdm/toc_02.md), insb. im Abschnitt zum Thema {ref}`Datenmanagementpläne (Kapitel 2.5.) <datenmanagement-plan>`, haben wir bereits alle grundlegenden Aspekte hierfür zusammengefasst. 
 
 Um die Daten jedoch auch für Nutzende verständlich zu machen, braucht es offene Dokumentationsformate, die gemeinsam mit den eigentlichen Daten veröffentlicht werden.
 
