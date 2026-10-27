@@ -24,7 +24,22 @@
     </schema:about>
     <schema:about>
       <schema:Thing rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#keyword_1">
-        <schema:name>TODO</schema:name>
+        <schema:name>Forschungsdatenmanagement</schema:name>
+      </schema:Thing>
+    </schema:about>
+    <schema:about>
+      <schema:Thing rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#keyword_2">
+        <schema:name>Metadaten</schema:name>
+      </schema:Thing>
+    </schema:about>
+    <schema:about>
+      <schema:Thing rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#keyword_3">
+        <schema:name>Moviebarcodes</schema:name>
+      </schema:Thing>
+    </schema:about>
+    <schema:about>
+      <schema:Thing rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#keyword_4">
+        <schema:name>Repositorien</schema:name>
       </schema:Thing>
     </schema:about>
     <schema:about>
@@ -94,7 +109,10 @@ Förderkennzeichen: 16DKZ2034</schema:funding>
     </schema:hasPart>
     <schema:inLanguage>de</schema:inLanguage>
     <schema:keywords>Datenpublikation</schema:keywords>
-    <schema:keywords>TODO</schema:keywords>
+    <schema:keywords>Forschungsdatenmanagement</schema:keywords>
+    <schema:keywords>Metadaten</schema:keywords>
+    <schema:keywords>Moviebarcodes</schema:keywords>
+    <schema:keywords>Repositorien</schema:keywords>
     <schema:learningResourceType>Jupyter Book</schema:learningResourceType>
     <schema:license>
       <schema:CreativeWork rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#license_code">

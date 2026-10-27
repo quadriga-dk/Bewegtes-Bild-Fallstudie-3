@@ -62,7 +62,10 @@
   "inLanguage": "de",
   "keywords": [
     "Datenpublikation",
-    "TODO"
+    "Forschungsdatenmanagement",
+    "Metadaten",
+    "Moviebarcodes",
+    "Repositorien"
   ],
   "about": [
     {
@@ -71,7 +74,19 @@
     },
     {
       "@type": "Thing",
-      "name": "TODO"
+      "name": "Forschungsdatenmanagement"
+    },
+    {
+      "@type": "Thing",
+      "name": "Metadaten"
+    },
+    {
+      "@type": "Thing",
+      "name": "Moviebarcodes"
+    },
+    {
+      "@type": "Thing",
+      "name": "Repositorien"
     },
     {
       "@type": "Thing",
