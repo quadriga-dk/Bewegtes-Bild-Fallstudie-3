@@ -1,0 +1,74 @@
+# yaml-language-server: $schema=https://quadriga-dk.github.io/quadriga-schema/v2.0.0/schema.json
+title: Anreicherung und Publikation von Annotationsdatensets auf Repositorien
+authorLIST:
+- familyName: Demir
+  givenName: Derya
+  affiliation: Freie Universität Berlin
+  creditLIST:
+  - Writing – original draft
+  - Writing – review & editing
+  - Software
+- familyName: Grotkopp
+  givenName: Matthias
+  orcid: https://orcid.org/0000-0002-0954-3111
+  affiliation: Freie Universität Berlin
+  creditLIST:
+  - Writing – original draft
+  - Writing – review & editing
+keywordLIST:
+- Datenpublikation
+- Forschungsdatenmanagement
+- Metadaten
+- Moviebarcodes
+- Repositorien
+description: TODO
+tableOfContents: |-
+  - Einstieg
+  - Forschungsdaten und Datenmanagement in der Filmwissenschaft
+  - Metadaten und Metadatenstandards
+  - Datenpublikation in der Filmwissenschaft
+  - Aufbereitung und Anreicherung filmwissenschaftlicher Daten
+  - Publikation von Datensets in einem Repositorium
+  - Reflexion und Resümee
+  - Abschluss
+disciplineLIST:
+- übergreifend
+researchObjectTypeLIST:
+- übergreifend
+targetGroupLIST:
+- Forschende (PostDoc)
+- Forschende (Projektleitung)
+- Promovierende
+timeRequired: PT1H
+language: de
+contributorLIST:
+- familyName: DO
+  givenName: TO
+identifier: https://doi.org/TODO
+identifierGit: https://github.com/quadriga-dk/Bewegtes-Bild-Fallstudie-3
+identifierOER: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3
+chapterLIST:
+- title: TODO
+  description: TODO
+  url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3/TODO
+  timeRequired: PT1H
+  learningGoal: TODO
+  learningObjectiveLIST:
+  - description: TODO
+    competency: Orientierungswissen
+    dataFlow: übergreifend
+    bloomsCategory: 2 Verstehen
+dateIssued: '2026-11-14'
+dateModified: '2026-02-19'
+version: 1.0.0
+contextOfCreation: |-
+  Die vorliegenden Open Educational Resources wurden durch das Datenkompetenzzentrum QUADRIGA erstellt.
+
+  Förderkennzeichen: 16DKZ2034
+qualityAssurance:
+  description: https://doi.org/10.5281/zenodo.18953896
+  date: '2026-11-14'
+learningResourceType: Jupyter Book
+schemaVersion: 2.0.0
+license: https://creativecommons.org/licenses/by-sa/4.0/
+licenseCode: https://opensource.org/licenses/AGPL-3.0
