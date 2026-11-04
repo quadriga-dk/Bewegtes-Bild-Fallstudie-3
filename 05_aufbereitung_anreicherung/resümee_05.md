@@ -12,7 +12,7 @@
 :class: keypoint
 
 * Die systematische Aufbereitung eines Datensatzes erfordert ein konsistentes Metadatenschema, das projektspezifische Anforderungen mit etablierten allgemeinen sowie fachspezifischen Standards wie beispielsweise Dublin Core und EN 15744 verbindet.
-* Eindeutige interne und externe Identifier gewährleisten die stabile Zuordnung, Referenzierbarkeit und relationale Verknüpfung von audiovisuellen Ressourcen und weiteren Forschungsdaten (z.B Annotationsdaten, Moviebarcodes).
+* Eindeutige interne und externe Identifier gewährleisten die stabile Zuordnung, Referenzierbarkeit und relationale Verknüpfung von audiovisuellen Ressourcen und weiteren Forschungsdaten (z. B. Annotationsdaten, Moviebarcodes).
 * Kontrollierte Vokabulare, ISO-Standards und verbindliche Formatregeln reduzieren Inkonsistenzen und erhöhen Maschinenlesbarkeit, Interoperabilität und Auswertbarkeit der Daten.
 * Die `object_id` fungiert als zentraler Primärschlüssel, über den die verschiedenen Bestandteile des Datensets miteinander verknüpft werden.
 * Ein maschinenlesbares Metadatenschema im `yaml`-Format dokumentiert Felder, Datentypen, Mappings, Vokabulare und Validierungsregeln und kann als anpassbare Vorlage für andere Projekte nachgenutzt werden.
