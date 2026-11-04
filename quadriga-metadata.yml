@@ -222,7 +222,7 @@ contextOfCreation: 'Die vorliegenden Open Educational Resources wurden durch das
   Förderkennzeichen: 16DKZ2034'
 qualityAssurance:
   description: https://doi.org/10.5281/zenodo.18953896
-  date: '2026-11-14'
+  date: '2026-11-04'
 learningResourceType: Jupyter Book
 schemaVersion: 2.0.0
 license: https://creativecommons.org/licenses/by-sa/4.0/
