@@ -19,8 +19,8 @@ Lernmodul 3 von 5
 Folgende Lernziele können erreicht werden:
 
 ```{include} /präambel/lernziele.md
-:start-after: "<!-- START: Publikationsstrategien -->"
-:end-before: "<!-- END: Publikationsstrategien -->"
+:start-after: "<!-- START: Datenpublikation in der Filmwissenschaft -->"
+:end-before: "<!-- END: Datenpublikation in der Filmwissenschaft -->"
 ```
 
 ```{admonition} Bearbeitungszeit

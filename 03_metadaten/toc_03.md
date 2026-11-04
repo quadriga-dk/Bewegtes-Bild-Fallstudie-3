@@ -20,8 +20,8 @@ Lernmodul 2 von 5
 Folgende Lernziele können erreicht werden:
 
 ```{include} /präambel/lernziele.md
-:start-after: "<!-- START: Metadatenstandards -->"
-:end-before: "<!-- END: Metadatenstandards -->"
+:start-after: "<!-- START: Metadaten und Metadatenstandards -->"
+:end-before: "<!-- END: Metadaten und Metadatenstandards -->"
 ```
 
 ```{admonition} Bearbeitungszeit

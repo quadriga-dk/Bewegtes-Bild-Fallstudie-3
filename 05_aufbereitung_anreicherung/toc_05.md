@@ -21,8 +21,8 @@ Lernmodul 4 von 5
 Folgende Lernziele können erreicht werden:
 
 ```{include} /präambel/lernziele.md
-:start-after: "<!-- START: Aufbereitung und Anreicherung -->"
-:end-before: "<!-- END: Aufbereitung und Anreicherung -->"
+:start-after: "<!-- START: Aufbereitung und Anreicherung filmwissenschaftlicher Daten -->"
+:end-before: "<!-- END: Aufbereitung und Anreicherung filmwissenschaftlicher Daten -->"
 ```
 
 <h2>Technische Voraussetzungen</h2>
