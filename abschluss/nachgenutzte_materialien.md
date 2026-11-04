@@ -4,7 +4,7 @@
 
 |Nr.   |Material/Abbildung   |Urheber:in / Quelle   |Lizenz   |Bemerkung   |
 |------|---------------------|----------------------|---------|------------|
-|1   |Fig. 2.7 Visualiserung von Forschungsdaten   |<a href="https://forschungsdaten.info/fdm-allgemein/was-sind-forschungsdaten" class="external-link" target="_blank">forschungsdaten.info</a>   |CC0   |   |
+|1   |Fig. 2.7 Visualisierung von Forschungsdaten   |<a href="https://forschungsdaten.info/fdm-allgemein/was-sind-forschungsdaten" class="external-link" target="_blank">forschungsdaten.info</a>   |CC0   |   |
 |2   |Was sind Datenmanagementpläne?   |Kerstin Helbig et al.   |CC BY 4.0   |   |
 |3   |Fig. 3.4 xml-Beispiel   |<a href="https://www.niso.org/" class="external-link" target="_blank">NISO</a>   |CC BY-NC 4.0   |   |
 |4   |Fig. 4.8 Infografik Data Paper und Data Journals   |TU Berlin   |CC0   |   |
@@ -43,7 +43,7 @@
 |22     |Fig. 4.2 Dataset - alles was es für die Publikation braucht   |Derya Demir & Matthias Grotkopp   |CC BY-SA 4.0   |   |
 |23     |Fig. 4.3 Daten publizieren in Repositorien   |Derya Demir & Matthias Grotkopp   |CC BY-SA 4.0   |eigene Darstellung in Anlehnung an <a href="https://blog.tib.eu/2015/10/19/das-institutionelle-repositorium-der-leibniz-universitaet-hannover-startet/" class="external-link" target="_blank">Koch (2015)</a> |
 |24     |Fig. 4.13 Von der Forschungsfrage zur Publikation: Exemplarischer Workflow   |Derya Demir & Matthias Grotkopp   |CC BY-SA 4.0   |   |
-|25     |Fig. 4.14 Horizontales Baumdiagramm zu Publikationstrategien   |Derya Demir & Matthias Grotkopp   |CC BY-SA 4.0   |   |
+|25     |Fig. 4.14 Horizontales Baumdiagramm zu Publikationsstrategien   |Derya Demir & Matthias Grotkopp   |CC BY-SA 4.0   |   |
 |26     |Fig. 5.1 Lernmodul 4 von 5   |Derya Demir & Matthias Grotkopp   |CC BY-SA 4.0   |   |
 |27     |Fig. 5.3 Architektur des Datensatzes   |Derya Demir & Matthias Grotkopp   |CC BY-SA 4.0   |   |
 |28     |Fig. 5.5 Von den Rohdaten zur Systematisierung   |--   |--   |KI-generiert   |
