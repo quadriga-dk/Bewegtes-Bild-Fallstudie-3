@@ -272,7 +272,7 @@ Dublin Core und die 15 Elemente
 
 ❌ **Nachteile**
 * Eher ungeeignet für komplexere Forschungs- oder Fachdaten 
-* Keine spezifische Struktur für für Versionierung oder Zitation von Forschungsdaten
+* Keine spezifische Struktur für Versionierung oder Zitation von Forschungsdaten
 * Uneinheitliche Nutzungsmöglichkeiten
 
 (data-cite-header)=
