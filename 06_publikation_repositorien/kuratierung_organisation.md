@@ -20,7 +20,7 @@ Die folgenden Empfehlungen haben sich nach dem <a href="https://www.konsortswd.d
 * Eine {ref}`README-Datei (Kapitel 5.4.)<dokumentation>` im Wurzelverzeichnis dokumentiert die Struktur und ihre Logik
 * In Projekten mit mehreren Beteiligten werden **Verantwortlichkeiten** festgelegt: Wer darf neue Ordner anlegen? Wer verwaltet den Zugriff?
 
-Weitere Dokumentationsdateien – zum Beispiel zu einer bestimmten Methode eines konkretes Datentyps – können den jeweiligen zugehörigen Ordnern beigelegt werden.
+Weitere Dokumentationsdateien – zum Beispiel zu einer bestimmten Methode eines konkreten Datentyps – können den jeweiligen zugehörigen Ordnern beigelegt werden.
 
 ### Beispiel: Repository-Ablage des Projektdatensatzes
 
@@ -53,7 +53,7 @@ intervening-world-projections-dataset/ # Rootverzeichnis
 In dieser Struktur werden Forschungsdaten (`data/`), Dokumentationsdateien (`documentation/`), das projekteigene 
 {ref}`YAML-Schema (Kapitel 5.3.)<yaml-schema>`, sowie projektweite Dateien (LICENSE, CITATION) voneinander getrennt.  Innerhalb von `data/` sind die drei Datentypen – Annotationen, Moviebarcodes und Metadaten – in eigenen Unterordnern organisiert.
 
-Desweiteren ist es ratsam, Ordner (hier: `assets/`) für Bilder oder Visualisierungen anzulegen, die für Erklärungs- und Veranschaulichungszwecke genutzt werden aber nicht Teil des Datensets sind. 
+Des Weiteren ist es ratsam, Ordner (hier: `assets/`) für Bilder oder Visualisierungen anzulegen, die für Erklärungs- und Veranschaulichungszwecke genutzt werden, aber nicht Teil des Datensets sind. 
 
 ## Dateibenennung
 
@@ -61,7 +61,7 @@ Neben der Ordnerstruktur ist ein konsistentes **Dateibenennungssystem** entschei
 
 ```{admonition} Definieren von Regeln
 :class: important
-Es sollten klare Regeln definiert werden. Die Benennungsregeln sollten in einem projektinternen Dokument (z. B. einer README "Dateibenennungssystem/Dateibenennungsregeln"), festgehalten und für alle Projektmitglieder zugänglich gemacht werden {cite}`RatSWD_2023`. Dabei sollte zwischen der projektinternen Dateibenennung und der Benennung der zu publizierenden Daten unterschieden und diese gegebenenfalls klar voneinander getrennt werden, sollte es konkrete Abweichungen geben.
+Es sollten klare Regeln definiert werden. Die Benennungsregeln sollten in einem projektinternen Dokument (z. B. einer README "Dateibenennungssystem/Dateibenennungsregeln") festgehalten und für alle Projektmitglieder zugänglich gemacht werden {cite}`RatSWD_2023`. Dabei sollte zwischen der projektinternen Dateibenennung und der Benennung der zu publizierenden Daten unterschieden und diese gegebenenfalls klar voneinander getrennt werden, sollte es konkrete Abweichungen geben.
 ```
 
 ### Richtlinien für Dateinamen 
@@ -154,7 +154,7 @@ Die Namen sollten den *Inhalt* beschreiben und dabei "so kurz wie möglich, aber
 
 Für Forschungsdaten und Dokumentationsdateien hat sich `snake_case` als gut lesbare und weitverbreitete Konvention etabliert. Sie wird auch im {ref}`Metadatenschema (Kapitel 5.3.)<projekt-metadatenschema>` dieses Projekts verwendet. 
 
- **Nicht empfohlen** sind Dateibenennungen wie `Beispieldatei_final`, `Beispieldatei_final2`, `Beispieldatei_FINAL_wirklich` `Beispieldatei_Bearbeitung_neu`. Sie lassen keine sinnvolle Sortierung zu, signalisieren keinen klar definierten Versionsstand und sind für andere unverständlich und nicht interpretierbar {cite}`VerbundFDB_Dateien_oJ`. 
+ **Nicht empfohlen** sind Dateibenennungen wie `Beispieldatei_final`, `Beispieldatei_final2`, `Beispieldatei_FINAL_wirklich`, `Beispieldatei_Bearbeitung_neu`. Sie lassen keine sinnvolle Sortierung zu, signalisieren keinen klar definierten Versionsstand und sind für andere unverständlich und nicht interpretierbar {cite}`VerbundFDB_Dateien_oJ`. 
 
 ```{admonition} Dateibenennung im Projektrepository
 :class: hinweis
@@ -174,7 +174,7 @@ corpus_metadata_v1-0.csv   →   corpus_metadata_v2-0.csv   (größere Änderung
 corpus_metadata_v1-0.csv   →   corpus_metadata_v1-1.csv   (kleinere Änderung)
 ```
 
-In einer gesonderten Versionstabelle,  z. B. in einer Dokumentationsdatei oder in einem eigenen sogennanten `CHANGELOG.md`, kann der Änderungsverlauf zusätzlich dokumentiert werden:
+In einer gesonderten Versionstabelle,  z. B. in einer Dokumentationsdatei oder in einem eigenen sogenannten `CHANGELOG.md`, kann der Änderungsverlauf zusätzlich dokumentiert werden:
 
 <table class="table-clean">
   <thead>
@@ -227,7 +227,7 @@ Vor der Festlegung einer geeigneten Backup-Strategie ist es ratsam, die Wahl des
 * Zugriffsbeschränkungen: Können einzelne Ordner für bestimmte Personen gesperrt werden?
 * Speicherdauer: Viele tragbare Speichermedien (USB-Sticks, externe Festplatten, CDs) können die für gute wissenschaftliche Praxis geforderte Aufbewahrungsdauer von mindestens zehn Jahren nicht garantieren.
 
-Für kollaborative Forschungsprojekte empfiehlt sich die Nutzung instituitioneller Server- und Clouddienste. Diese bieten einen zentralen Zugang sowie die professionelle Administration und werden zudem von der jeweiligen Einrichtung auf Datenschutzkonformität geprüft.
+Für kollaborative Forschungsprojekte empfiehlt sich die Nutzung institutioneller Server- und Clouddienste. Diese bieten einen zentralen Zugang sowie die professionelle Administration und werden zudem von der jeweiligen Einrichtung auf Datenschutzkonformität geprüft.
 
 Neben institutionellen Server- und Clouddiensten stehen diese weiteren Speicherlösungen zur Verfügung: tragbare Speicher (💾 USB-Sticks, externe Festplatten) , lokale Speicher ( 💻 Desktop-PC, Notebook), ☁️ Cloud-Dienste anderer Einrichtungen.
 
