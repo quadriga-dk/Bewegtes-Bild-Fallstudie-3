@@ -127,9 +127,73 @@
   "hasPart": [
     {
       "@type": "LearningResource",
-      "name": "TODO",
+      "name": "Forschungsdaten und Datenmanagement in der Filmwissenschaft",
       "description": "TODO",
-      "url": "https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3/TODO",
+      "url": "https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3/02_forschungsdaten_fdm/toc_02.html",
+      "timeRequired": "PT1H",
+      "teaches": "TODO",
+      "educationalAlignment": [
+        {
+          "@type": "AlignmentObject",
+          "targetName": "TODO",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: Orientierungswissen | Bloom's: 2 Verstehen | Data Flow: übergreifend"
+        }
+      ]
+    },
+    {
+      "@type": "LearningResource",
+      "name": "Metadaten und Metadatenstandards",
+      "description": "TODO",
+      "url": "https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3/03_metadaten/toc_03.html",
+      "timeRequired": "PT1H",
+      "teaches": "TODO",
+      "educationalAlignment": [
+        {
+          "@type": "AlignmentObject",
+          "targetName": "TODO",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: Orientierungswissen | Bloom's: 2 Verstehen | Data Flow: übergreifend"
+        }
+      ]
+    },
+    {
+      "@type": "LearningResource",
+      "name": "Datenpublikation in der Filmwissenschaft",
+      "description": "TODO",
+      "url": "https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3/04_einführung_publikation/toc_04.html",
+      "timeRequired": "PT1H",
+      "teaches": "TODO",
+      "educationalAlignment": [
+        {
+          "@type": "AlignmentObject",
+          "targetName": "TODO",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: Orientierungswissen | Bloom's: 2 Verstehen | Data Flow: übergreifend"
+        }
+      ]
+    },
+    {
+      "@type": "LearningResource",
+      "name": "Aufbereitung und Anreicherung filmwissenschaftlicher Daten",
+      "description": "TODO",
+      "url": "https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3/05_aufbereitung_anreicherung/toc_05.html",
+      "timeRequired": "PT1H",
+      "teaches": "TODO",
+      "educationalAlignment": [
+        {
+          "@type": "AlignmentObject",
+          "targetName": "TODO",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: Orientierungswissen | Bloom's: 2 Verstehen | Data Flow: übergreifend"
+        }
+      ]
+    },
+    {
+      "@type": "LearningResource",
+      "name": "Publikation von Datensets in einem Repositorium",
+      "description": "TODO",
+      "url": "https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3/06_publikation_repositorien/toc_06.html",
       "timeRequired": "PT1H",
       "teaches": "TODO",
       "educationalAlignment": [

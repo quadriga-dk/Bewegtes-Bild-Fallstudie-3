@@ -5,6 +5,26 @@
     <schema:targetDescription>Competency: Orientierungswissen | Bloom's: 2 Verstehen | Data Flow: übergreifend</schema:targetDescription>
     <schema:targetName>TODO</schema:targetName>
   </schema:AlignmentObject>
+  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#chapter_1_objective_0">
+    <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
+    <schema:targetDescription>Competency: Orientierungswissen | Bloom's: 2 Verstehen | Data Flow: übergreifend</schema:targetDescription>
+    <schema:targetName>TODO</schema:targetName>
+  </schema:AlignmentObject>
+  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#chapter_2_objective_0">
+    <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
+    <schema:targetDescription>Competency: Orientierungswissen | Bloom's: 2 Verstehen | Data Flow: übergreifend</schema:targetDescription>
+    <schema:targetName>TODO</schema:targetName>
+  </schema:AlignmentObject>
+  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#chapter_3_objective_0">
+    <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
+    <schema:targetDescription>Competency: Orientierungswissen | Bloom's: 2 Verstehen | Data Flow: übergreifend</schema:targetDescription>
+    <schema:targetName>TODO</schema:targetName>
+  </schema:AlignmentObject>
+  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#chapter_4_objective_0">
+    <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
+    <schema:targetDescription>Competency: Orientierungswissen | Bloom's: 2 Verstehen | Data Flow: übergreifend</schema:targetDescription>
+    <schema:targetName>TODO</schema:targetName>
+  </schema:AlignmentObject>
   <schema:Book rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3">
     <dc:type>Jupyter Book</dc:type>
     <dcterms:tableOfContents>- Einstieg
@@ -101,10 +121,50 @@ Förderkennzeichen: 16DKZ2034</schema:funding>
       <schema:LearningResource rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#chapter_0">
         <schema:description>TODO</schema:description>
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#chapter_0_objective_0" />
-        <schema:name>TODO</schema:name>
+        <schema:name>Forschungsdaten und Datenmanagement in der Filmwissenschaft</schema:name>
         <schema:teaches>TODO</schema:teaches>
         <schema:timeRequired>PT1H</schema:timeRequired>
-        <schema:url rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3/TODO" />
+        <schema:url rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3/02_forschungsdaten_fdm/toc_02.html" />
+      </schema:LearningResource>
+    </schema:hasPart>
+    <schema:hasPart>
+      <schema:LearningResource rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#chapter_1">
+        <schema:description>TODO</schema:description>
+        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#chapter_1_objective_0" />
+        <schema:name>Metadaten und Metadatenstandards</schema:name>
+        <schema:teaches>TODO</schema:teaches>
+        <schema:timeRequired>PT1H</schema:timeRequired>
+        <schema:url rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3/03_metadaten/toc_03.html" />
+      </schema:LearningResource>
+    </schema:hasPart>
+    <schema:hasPart>
+      <schema:LearningResource rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#chapter_2">
+        <schema:description>TODO</schema:description>
+        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#chapter_2_objective_0" />
+        <schema:name>Datenpublikation in der Filmwissenschaft</schema:name>
+        <schema:teaches>TODO</schema:teaches>
+        <schema:timeRequired>PT1H</schema:timeRequired>
+        <schema:url rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3/04_einführung_publikation/toc_04.html" />
+      </schema:LearningResource>
+    </schema:hasPart>
+    <schema:hasPart>
+      <schema:LearningResource rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#chapter_3">
+        <schema:description>TODO</schema:description>
+        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#chapter_3_objective_0" />
+        <schema:name>Aufbereitung und Anreicherung filmwissenschaftlicher Daten</schema:name>
+        <schema:teaches>TODO</schema:teaches>
+        <schema:timeRequired>PT1H</schema:timeRequired>
+        <schema:url rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3/05_aufbereitung_anreicherung/toc_05.html" />
+      </schema:LearningResource>
+    </schema:hasPart>
+    <schema:hasPart>
+      <schema:LearningResource rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#chapter_4">
+        <schema:description>TODO</schema:description>
+        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#chapter_4_objective_0" />
+        <schema:name>Publikation von Datensets in einem Repositorium</schema:name>
+        <schema:teaches>TODO</schema:teaches>
+        <schema:timeRequired>PT1H</schema:timeRequired>
+        <schema:url rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3/06_publikation_repositorien/toc_06.html" />
       </schema:LearningResource>
     </schema:hasPart>
     <schema:inLanguage>de</schema:inLanguage>
