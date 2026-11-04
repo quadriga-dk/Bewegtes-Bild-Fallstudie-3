@@ -27,7 +27,7 @@ name: refubium-fu
 Exemplarische Ansicht einer Suche im <a href="https://refubium.fu-berlin.de/" class="external-link" target="_blank">Refubium</a> der FU
 ```
 
-Disziplinäre Repositorien hingegen sind institutsübergreifend und Forschungsorte der Exploration der jeweiligen Fachdisziplin {cite}`OpenAccessNetwork_2025`. Einer der wichtigsten Repositorien der Film- und Medienwissenschaft ist <a href="https://publish.fid-media.de/home" class="external-link" target="_blank">FID Media</a> (ehemals *media/rep/*). In dem Open-Access-Fachrepositorium werden Publikationen, Aufsätze, Forschungsdaten und andere Ressourcen der Film- und Medienwissenschaft kostenfrei und ohne Zugangsbeschränkung verfügbar gemacht. Es dient als zentrale Anlaufstelle für Fachinformationen und Open-Access-Publikationen in der Medienwissenschaft und ermöglicht die kostenfreie und dauerhafte Verfügbarkeit wissenschaftlicher Materialien {cite}`Blume_2024`.
+Disziplinäre Repositorien hingegen sind institutsübergreifend und Forschungsorte der Exploration der jeweiligen Fachdisziplin {cite}`OpenAccessNetwork_2025`. Eines der wichtigsten Repositorien der Film- und Medienwissenschaft ist <a href="https://publish.fid-media.de/home" class="external-link" target="_blank">FID Media</a> (ehemals *media/rep/*). In dem Open-Access-Fachrepositorium werden Publikationen, Aufsätze, Forschungsdaten und andere Ressourcen der Film- und Medienwissenschaft kostenfrei und ohne Zugangsbeschränkung verfügbar gemacht. Es dient als zentrale Anlaufstelle für Fachinformationen und Open-Access-Publikationen in der Medienwissenschaft und ermöglicht die kostenfreie und dauerhafte Verfügbarkeit wissenschaftlicher Materialien {cite}`Blume_2024`.
 
 ```{figure} ../assets/04_einführung_publikation/abb_k04_fid_media.png
 ---
@@ -116,11 +116,11 @@ Im [Kapitel 6.3. Dateninfrastrukturen](../06_publikation_repositorien/dateninfra
 </table>
 <br>
 
-Im [Kapitel 4.3. Ressourcen und Entscheidungshilfen](../04_einführung_publikation/ressourcen_entscheidungshilfen.md) gibt es eine ausführliche Liste mit relevanten Repositorien und Repositorienfindern - mit Schwerpunkt auf Film-, Medien -und Geistenwissenschaften.
+Im [Kapitel 4.3. Ressourcen und Entscheidungshilfen](../04_einführung_publikation/ressourcen_entscheidungshilfen.md) gibt es eine ausführliche Liste mit relevanten Repositorien und Repositorienfindern - mit Schwerpunkt auf Film-, Medien- und Geisteswissenschaften.
 
 ### Publizierte Daten in einem Repositorium: Fallbeispiel "Affektrhetoriken des Audiovisuellen"
 
-Das Forschungsprojekt <a href="https://www.ada.cinepoetics.fu-berlin.de/ " class="external-link" target="_blank">"Affektrhetoriken des Audiovisuellen"</a> (kurz: AdA) stellt seine filmanalytischen Annotationsdaten als ein öffentlich zugängliches Datenpaket zur Nachnutzung in einem <a href="https://github.com/ProjectAdA/public" class="external-link" target="_blank"> GitHub-Repositorum</a> zur Verfügung. Die Projektergebnisse und Forschungsartefakte umfassen: eine Filmontologie und das Vokabular <a href="https://github.com/ProjectAdA/public/tree/master/manuals" class="external-link" target="_blank">(AdA-Filmontology)</a>, ein projektspezifisches Template für die Annotation mit dem Tool Advene sowie die <a href="https://github.com/ProjectAdA/public/tree/master/annotations" class="external-link" target="_blank">Annotationsdatensätze</a> selbst {cite}`Bakels_2023`. 
+Das Forschungsprojekt <a href="https://www.ada.cinepoetics.fu-berlin.de/ " class="external-link" target="_blank">"Affektrhetoriken des Audiovisuellen"</a> (kurz: AdA) stellt seine filmanalytischen Annotationsdaten als ein öffentlich zugängliches Datenpaket zur Nachnutzung in einem <a href="https://github.com/ProjectAdA/public" class="external-link" target="_blank"> GitHub-Repositorium</a> zur Verfügung. Die Projektergebnisse und Forschungsartefakte umfassen: eine Filmontologie und das Vokabular <a href="https://github.com/ProjectAdA/public/tree/master/manuals" class="external-link" target="_blank">(AdA-Filmontology)</a>, ein projektspezifisches Template für die Annotation mit dem Tool Advene sowie die <a href="https://github.com/ProjectAdA/public/tree/master/annotations" class="external-link" target="_blank">Annotationsdatensätze</a> selbst {cite}`Bakels_2023`. 
 
 ```{figure} ../assets/04_einführung_publikation/abb_k04_ada_github.png
 ---
@@ -142,14 +142,14 @@ Das AdA-Projekt ist ein gutes Beispiel dafür, wie ein Repositorium nicht einzig
 * <a href="https://zenodo.org/records/8328663" class="external-link" target="_blank">AdA-Zenodo</a>
 ```
 
-## Data Paper / Data Jounal
+## Data Paper / Data Journal
 *→ Niveau: Basis*
 
 Ein Data Paper ist eine publizierte Dokumentation zu einem Datensatz, welcher umfangreiche Informationen über verschiedene Komponenten der Forschungsdaten enthält. In der Dokumentation wird beschrieben, wie, wann und warum die Daten erhoben wurden und was der Datensatz umfasst {cite}`Schneider_2023`. Im Vordergrund eines Data Papers steht die Beschreibung des selbst generierten oder nachgenutzten Forschungsmaterials. Die Behandlung der wissenschaftlichen Fragestellung selbst ist nicht zentral {cite}`TUBerlin_oJ`.
 
-Ähnlich wie bei wissenschaftlichen Artikeln, gibt es bei Data Papers ebenfalls Peer-Reviews.
+Ähnlich wie bei wissenschaftlichen Artikeln gibt es bei Data Papers ebenfalls Peer-Reviews.
 
-Folgende Inhalte sollte ein Data Paper enthalten:
+Folgende Inhalte sollten ein Data Paper enthalten:
 * Informationen zur Datenerhebung und -verarbeitung
 * Informationen zur Datenqualität und -struktur 
 * Potentielle Anwendungsfälle für die Nachnutzung
@@ -165,7 +165,7 @@ Infografik Data Paper und Data Journals, © <a href="https://www.tu.berlin/ub/sz
 ```
 In fachspezifischen Data Journals können Data Paper eingereicht werden. Etablierte Journals für die Film- und Medienwissenschaft bzw. Digital Humanities sind <a href="https://necsus-ejms.org/" class="external-link" target="_blank">NECSUS</a> oder das <a href="https://openhumanitiesdata.metajnl.com/" class="external-link" target="_blank">Journal of Open Humanities Data</a>.
 
-Ein Beispiel für ein Data Paper aus der Fimwissenschaft ist der Aufsatz <a href="https://necsus-ejms.org/how-to-capture-the-festival-network-reflections-on-the-film-circulation-datasets/ " class="external-link" target="_blank">"How to capture the festival network: Reflections on the Film Circulation datasets"</a> publiziert auf NECSUS von Skadi Loist und Evgenia (Zhenya) Samoilova. Darin dokumentieren die Autor:innen Kontext, Struktur, Aufbereitung und Auswertung ihres <a href="https://zenodo.org/records/7887672" class="external-link" target="_blank">Film Circulation Project Datensatzes</a> mit entsprechenden Berechnungen, Logiken und Visualisierungen {cite}`Loist_2023`. Als Necsus-Datapaper wird der Datensatz somit zugleich als eigenständiges Forschungsergebnis sichtbar. 
+Ein Beispiel für ein Data Paper aus der Filmwissenschaft ist der Aufsatz <a href="https://necsus-ejms.org/how-to-capture-the-festival-network-reflections-on-the-film-circulation-datasets/ " class="external-link" target="_blank">"How to capture the festival network: Reflections on the Film Circulation datasets"</a> publiziert auf NECSUS von Skadi Loist und Evgenia (Zhenya) Samoilova. Darin dokumentieren die Autor:innen Kontext, Struktur, Aufbereitung und Auswertung ihres <a href="https://zenodo.org/records/7887672" class="external-link" target="_blank">Film Circulation Project Datensatzes</a> mit entsprechenden Berechnungen, Logiken und Visualisierungen {cite}`Loist_2023`. Als Necsus-Datapaper wird der Datensatz somit zugleich als eigenständiges Forschungsergebnis sichtbar. 
 
 ```{figure} ../assets/04_einführung_publikation/abb_k04_ausschnitt_necsus.png
 ---
@@ -184,7 +184,7 @@ Ausschnitt aus dem <a href="https://necsus-ejms.org/how-to-capture-the-festival-
 * <a href="https://zenodo.org/records/7082126" class="external-link" target="_blank">List of data journals re3data</a>
 ```
 
-## GLAM und interaktive Websiten
+## GLAM und interaktive Websites
 *→ Niveau: Fortgeschritten / Expert:in*
 
 
@@ -230,7 +230,7 @@ Ergänzend zu den bisher genannten Publikationswegen und -formaten gibt es für 
 
 ```{admonition} Was sind API-Schnittstellen?
 :class: hinweis, dropdown
-Eine API (Application Programming Interface) ist eine Programmierschnittstelle zwischen verschiedenen Softwareanwendungen. Sie ermöglicht die automatisierte Kommunikation zwischen Programmen, um Daten oder Funktionen auszutauschen, also eine Form der „Maschine-zu-Maschine“– Kommunikation. Über APIs können Entwickler:innen auf Inhalte, Daten oder Dienste anderer Systeme zugreifen und diese in eigene Anwendungen integrieren {cite}`Poggel_2025`.
+Eine API (Application Programming Interface) ist eine Programmierschnittstelle zwischen verschiedenen Softwareanwendungen. Sie ermöglicht die automatisierte Kommunikation zwischen Programmen, um Daten oder Funktionen auszutauschen, also eine Form der „Maschine-zu-Maschine“-Kommunikation. Über APIs können Entwickler:innen auf Inhalte, Daten oder Dienste anderer Systeme zugreifen und diese in eigene Anwendungen integrieren {cite}`Poggel_2025`.
 ```
 
 Im Bereich der Digital Humanities ist das <a href="https://dracor.org/" class="external-link" target="_blank">DraCor-Projekt</a> unter der Leitung von Prof. Dr. Frank Fischer (FU Berlin) ein gutes Beispiel dafür, wie Forschungsdaten über eine API-Schnittstelle <a href="https://dracor.org/doc/api" class="external-link" target="_blank">(DraCor-API)</a> bereitgestellt werden können. DraCor (drama corpora) ist eine offene digitale Infrastruktur, die für die computergestützte Untersuchung (vorwiegend) europäischer Dramatik von der griechisch-römischen Antike bis zum 20. Jahrhundert entwickelt wurde {cite}`Fischer_2019`.
@@ -251,11 +251,11 @@ Für eine vertiefende Auseinandersetzung mit API-Schnittstellen haben wir eine k
 * <a href="https://programminghistorian.org/en/lessons/introduction-to-populating-a-website-with-api-data" class="external-link" target="_blank">Programming Historian: Introduction to Populating a Website with API Data</a>
 * <a href="https://lipogg.github.io/webscraping-mit-python/chapters/08/subchapters/01_apis.html" class="external-link" target="_blank">Lisa Poggel, Freie Universität Berlin, APIs (Exkurs)</a>
 * <a href="https://www.fh-muenster.de/de/ipd/glossar/glossar/api-application-programming-interface" class="external-link" target="_blank">FH Münster: API - Application Programming Interface</a>
-* <a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Introduction" class="external-link" target="_blank">MDN Contributers: Introduction to web APIs</a>
+* <a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Introduction" class="external-link" target="_blank">MDN Contributors: Introduction to web APIs</a>
 * <a href="https://www.youtube.com/watch?v=-mN3VyJuCjM" class="external-link" target="_blank">Alex Xu und Sahn Lam: What Is REST API? Examples And How To Use It</a>
 ```
 
-Aufbauend auf den zuvor eingeführten Grundlagen zur Datenpublikation in der Filmwissenschaft stellt das nächste Kapitel zentrale Ressourcen und Entscheidungshilfen zur Verfüung, um geeignete Infrastrukturen zu identifizieren, den Publikationsprozess zu strukturieren sowie sich über rechtliche Rahmenbedinungen zu informieren.
+Aufbauend auf den zuvor eingeführten Grundlagen zur Datenpublikation in der Filmwissenschaft stellt das nächste Kapitel zentrale Ressourcen und Entscheidungshilfen zur Verfügung, um geeignete Infrastrukturen zu identifizieren, den Publikationsprozess zu strukturieren sowie sich über rechtliche Rahmenbedingungen zu informieren.
 
 ## Literatur
 
