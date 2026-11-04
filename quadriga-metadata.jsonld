@@ -12,7 +12,7 @@
     "LearningResource"
   ],
   "name": "Anreicherung und Publikation von Annotationsdatensets auf Repositorien",
-  "description": "TODO",
+  "description": "Interaktives Lehrbuch zur praxisnahen Aufbereitung, Anreicherung und Publikation filmwissenschaftlicher Forschungsdaten auf Repositorien anhand eines konkreten Forschungsprojekts.",
   "version": "1.0.0-beta",
   "schemaVersion": "2.0.0",
   "url": "https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3",
@@ -29,6 +29,12 @@
       "givenName": "Derya",
       "familyName": "Demir",
       "name": "Derya Demir",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0009-0000-2237-9400",
+        "url": "https://orcid.org/0009-0000-2237-9400"
+      },
       "affiliation": {
         "@type": "Organization",
         "name": "Freie Universität Berlin"
@@ -54,9 +60,51 @@
   "contributor": [
     {
       "@type": "Person",
-      "givenName": "TO",
-      "familyName": "DO",
-      "name": "TO DO"
+      "givenName": "Evgenia",
+      "familyName": "Samoilova",
+      "name": "Evgenia Samoilova",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0000-0003-3858-901X",
+        "url": "https://orcid.org/0000-0003-3858-901X"
+      },
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Universität Potsdam"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Hannes",
+      "familyName": "Schnaitter",
+      "name": "Hannes Schnaitter",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0000-0002-1602-6032",
+        "url": "https://orcid.org/0000-0002-1602-6032"
+      },
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Humboldt-Universität zu Berlin"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Lamia",
+      "familyName": "Islam",
+      "name": "Lamia Islam",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0009-0001-1879-9880",
+        "url": "https://orcid.org/0009-0001-1879-9880"
+      },
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Universität Potsdam"
+      }
     }
   ],
   "inLanguage": "de",
@@ -128,9 +176,9 @@
     {
       "@type": "LearningResource",
       "name": "Forschungsdaten und Datenmanagement in der Filmwissenschaft",
-      "description": "TODO",
+      "description": "Einführung in Forschungsdaten und Forschungsdatenmanagement (FDM) mit Fokus auf die Film- und Medienwissenschaft, inklusive FAIR-Prinzipien, DFG-Leitlinien und Datenmanagementplan.",
       "url": "https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3/02_forschungsdaten_fdm/toc_02.html",
-      "timeRequired": "PT1H",
+      "timeRequired": "PT1H30M",
       "teaches": "Anwendung zentraler Prinzipien und Methoden des Forschungsdatenmanagements auf film- und medienwissenschaftliche Forschungsdaten",
       "educationalAlignment": [
         {
@@ -162,7 +210,7 @@
     {
       "@type": "LearningResource",
       "name": "Metadaten und Metadatenstandards",
-      "description": "TODO",
+      "description": "Einführung in Metadaten und gängige Metadatenstandards (u. a. Dublin Core, DataCite, EN 15744/15907) mit besonderem Blick auf diskriminierungssensible Metadatenpraxis in der Filmwissenschaft.",
       "url": "https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3/03_metadaten/toc_03.html",
       "timeRequired": "PT1H",
       "teaches": "Einordnung und Auswahl von Metadatenstandards für filmwissenschaftliche Forschungsdaten unter Berücksichtigung diskriminierungssensibler Perspektiven",
@@ -190,9 +238,9 @@
     {
       "@type": "LearningResource",
       "name": "Datenpublikation in der Filmwissenschaft",
-      "description": "TODO",
+      "description": "Strategien, Publikationswege und -formate (Repositorien, Data Paper, APIs u. a.) zur Veröffentlichung filmwissenschaftlicher Forschungsdaten sowie rechtliche Entscheidungshilfen.",
       "url": "https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3/04_einführung_publikation/toc_04.html",
-      "timeRequired": "PT1H",
+      "timeRequired": "PT40M",
       "teaches": "Perspektiven, Strategien und Wege zur Publikation filmwissenschaftlicher Forschungsdaten",
       "educationalAlignment": [
         {
@@ -212,9 +260,9 @@
     {
       "@type": "LearningResource",
       "name": "Aufbereitung und Anreicherung filmwissenschaftlicher Daten",
-      "description": "TODO",
+      "description": "Praxisnahe Aufbereitung, Formatierung, Bereinigung und Anreicherung (u. a. mit Moviebarcodes) eines filmwissenschaftlichen Forschungsdatensets anhand eines konkreten Fallbeispiels.",
       "url": "https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3/05_aufbereitung_anreicherung/toc_05.html",
-      "timeRequired": "PT1H",
+      "timeRequired": "PT1H30M",
       "teaches": "Publikationsgerechte Aufbereitung, Bereinigung und Anreicherung filmwissenschaftlicher Forschungsdaten",
       "educationalAlignment": [
         {
@@ -252,9 +300,9 @@
     {
       "@type": "LearningResource",
       "name": "Publikation von Datensets in einem Repositorium",
-      "description": "TODO",
+      "description": "Schritt-für-Schritt-Anleitung zur Publikation eines Forschungsdatensets auf GitHub und Zenodo, inklusive Versionierung, Lizenzierung, Zitierfähigkeit und Datenkuratierung.",
       "url": "https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3/06_publikation_repositorien/toc_06.html",
-      "timeRequired": "PT1H",
+      "timeRequired": "PT1H30M",
       "teaches": "Nachhaltige Publikation filmwissenschaftlicher Forschungsdaten in Repositorien unter Berücksichtigung zentraler Anforderungen des Forschungsdatenmanagements",
       "educationalAlignment": [
         {

@@ -1,13 +1,15 @@
 # yaml-language-server: $schema=https://citation-file-format.github.io/1.2.0/schema.json
 cff-version: 1.2.0
 title: Anreicherung und Publikation von Annotationsdatensets auf Repositorien
-abstract: TODO
+abstract: Interaktives Lehrbuch zur praxisnahen Aufbereitung, Anreicherung und Publikation
+  filmwissenschaftlicher Forschungsdaten auf Repositorien anhand eines konkreten Forschungsprojekts.
 type: software
 message: Please cite this software using the metadata from `preferred-citation` in
   `CITATION.cff`.
 authors: &id001
 - given-names: Derya
   family-names: Demir
+  orcid: https://orcid.org/0009-0000-2237-9400
   affiliation: Freie Universität Berlin
 - given-names: Matthias
   family-names: Grotkopp
