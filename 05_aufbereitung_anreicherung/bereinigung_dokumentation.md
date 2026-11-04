@@ -41,7 +41,7 @@ Ein gängiges und bewährtes Open-Source-Tool für die Datenbereinigung ist <a h
 (metadaten-validierung)=
 ## Metadatenvalidierung
 
-Im Kapitel zur systematischen Aufbereitung der Korpusmetadaten wird {ref}`ein Metadatenschema als Template (Kapitel 5.3.)<metadatenschema-template>` im `yaml`-Format vorgestellt, das genutzt wird, um die filmografischen Projektmetadaten durch kontrolliertes Vokabular, ISO-Standards und feste Muster für Schreibweisen von Werten (z.B: für `year` das pattern `"^[0-9]{4}$"` = `2018`) zu definieren, es werden also **Regeln** festgelegt. Über dieses `yaml`-Schema lassen sich mit einem Python-Skript die erfassten Metadaten im `csv`-Format auf Abweichungen oder Fehler überprüfen bzw. validieren. Das Ergebnis des Skripts ist ein Validation-Report, also eine Datei, die die gefundenen Probleme und Fehler dokumentiert. 
+Im Kapitel zur systematischen Aufbereitung der Korpusmetadaten wird {ref}`ein Metadatenschema als Template (Kapitel 5.3.)<metadatenschema-template>` im `yaml`-Format vorgestellt, das genutzt wird, um die filmografischen Projektmetadaten durch kontrolliertes Vokabular, ISO-Standards und feste Muster für Schreibweisen von Werten (z. B. für `year` das pattern `"^[0-9]{4}$"` = `2018`) zu definieren, es werden also **Regeln** festgelegt. Über dieses `yaml`-Schema lassen sich mit einem Python-Skript die erfassten Metadaten im `csv`-Format auf Abweichungen oder Fehler überprüfen bzw. validieren. Das Ergebnis des Skripts ist ein Validation-Report, also eine Datei, die die gefundenen Probleme und Fehler dokumentiert. 
 
 Das `yaml`-Schema beschreibt:
 
@@ -63,7 +63,7 @@ Welche Stellen abweichen und korrigiert werden müssen.
 
 ### Python-Skript zur Validierung: Schritt-für-Schritt-Anleitung
 
-```{admonition} Hinweis: Worflow ohne Anaconda
+```{admonition} Hinweis: Workflow ohne Anaconda
 :class: hinweis
 Für Nutzende, die keine Anaconda-Distribution herunterladen möchten, wird im Folgenden ein alternativer Workflow mit VS Code und der offiziellen Python-Erweiterung bereitgestellt:
 
@@ -94,7 +94,7 @@ name: validierung-mit-markierung
 Ordnerstruktur mit Notebook-Ablage
 ```
 
-Im nachfolgenden Python-Code müssen die Dateipfade CSV_FILE und SCHEMA_FILE angepasst wurden. Für unseren Beispieldatensatz bedeutet das: Für die Eingabedatei kann eingegeben werden: `data/doc_k05_beispieldatensatz.csv`. Das YAML-Schema benennen wir: `schema/doc_k05_corpus_metadata_schema_climate_film_c05`.
+Im nachfolgenden Python-Code müssen die Dateipfade CSV_FILE und SCHEMA_FILE angepasst werden. Für unseren Beispieldatensatz bedeutet das: Für die Eingabedatei kann eingegeben werden: `data/doc_k05_beispieldatensatz.csv`. Das YAML-Schema benennen wir: `schema/doc_k05_corpus_metadata_schema_climate_film_c05`.
 
 Anschließend kann folgender Python-Code in der Codezelle abgesetzt werden:
 
@@ -239,7 +239,7 @@ In diesem Projekt haben `README`-Dateien und Tutorials diese Funktion übernomme
 
 Eine `README` ist eine einfache Textdatei, üblicherweise im {ref}`Markdown-Format (Kapitel 5.4.)<ergebnis-interpretieren>`, die Informationen zu einem Datensatz, einem Repository oder einem Ordner enthält. 
 
-Markdown ist sehr beutzerfreundlich und kann schnell erlernt werden. Es werden dabei einfache Zeichen zur Formatierung von Text verwendet, die gänigsten listen wir hier auf:
+Markdown ist sehr benutzerfreundlich und kann schnell erlernt werden. Es werden dabei einfache Zeichen zur Formatierung von Text verwendet, die gängigsten listen wir hier auf:
 
 <style>
 /* Dark mode color scheme */
@@ -346,7 +346,7 @@ Weitere Details zur Syntax können im offiziellen <a href="https://www.markdowng
 
 Um eine eigene `README` zu schreiben, wird lediglich ein Text-Editor wie beispielsweise VS Code oder <a href=" https://obsidian.md/ " class="external-link" target="_blank">Obsidian</a> benötigt. Hierzu ein neues Dokument erstellen und mit der Endung `.md` speichern.
 
-Wie eine finale `README`-Datei für publizierte Forschungsdaten aussehen kann, zeigt das Datenset des <a href="https://github.com/SFB1512-C05-climate-film/intervening-world-projections-dataset" class="external-link" target="_blank">Projektrepositorys</a>. Desweiteren steht eine entsprechende Vorlage hier zur Verfügung:
+Wie eine finale `README`-Datei für publizierte Forschungsdaten aussehen kann, zeigt das Datenset des <a href="https://github.com/SFB1512-C05-climate-film/intervening-world-projections-dataset" class="external-link" target="_blank">Projektrepositorys</a>. Des Weiteren steht eine entsprechende Vorlage hier zur Verfügung:
 
 ````{margin}
 ```{admonition} Lizenz- und Zitationshinweis
