@@ -42,7 +42,7 @@ Data Dumps sind große bereitgestellte Datenmengen, die von einem Computersystem
 :class: hinweis, dropdown
 Eine API (Application Programming Interface) ist eine Programmierschnittstelle zwischen verschiedenen Softwareanwendungen. Sie ermöglicht die automatisierte Kommunikation zwischen Programmen, um Daten oder Funktionen auszutauschen, also eine Form der "Maschine-zu-Maschine"-Kommunikation. Über APIs können Entwickler:innen auf Inhalte, Daten oder Dienste anderer Systeme zugreifen und diese in eigene Anwendungen integrieren {cite}`Poggel_2025`.
 ```
-* Ebenso bietet beispielsweise das Portal <a href="https://www.wikidata.org/wiki/Wikidata:Main_Page" class="external-link" target="_blank">Wikidata</a> mittes eines <a href="https://query.wikidata.org/" class="external-link" target="_blank">SPARQL-Endpoints</a> semantische Abfragen an. Anleitungen und Abfragebeispiele sind in den Dokumentationen der Seite zu finden. 
+* Ebenso bietet beispielsweise das Portal <a href="https://www.wikidata.org/wiki/Wikidata:Main_Page" class="external-link" target="_blank">Wikidata</a> mittels eines <a href="https://query.wikidata.org/" class="external-link" target="_blank">SPARQL-Endpoints</a> semantische Abfragen an. Anleitungen und Abfragebeispiele sind in den Dokumentationen der Seite zu finden. 
 
 ```{figure} ../assets/02_forschungsdaten_fdm/abb_k02_sparql_abfrage.png
 ---
@@ -66,7 +66,7 @@ In jedem Fall sind **Lizenzbedingungen**, **Nutzungsrechte** und **Datenschutz**
 
 ```{admonition} Was ist eine "robots.txt"?
 :class: hinweis, dropdown
-Eine `robots.txt` ist eine einfache Textdatei in dem Hauptverzeichnis einer Website. Darin können Websiterbetreiber:innen vorgegeben, aus welchen Bereichen automatisierte Programme Daten auslesen können und aus welchen nicht. Teilweise enthält sie auch Angaben dazu, wie viel Zeit zwischen einzelnen Anfragen liegen soll, damit der Server nicht überlastet wird {cite}`Koster_et_al_2022,Poggel_2025`.
+Eine `robots.txt` ist eine einfache Textdatei in dem Hauptverzeichnis einer Website. Darin können Websitebetreiber:innen vorgegeben, aus welchen Bereichen automatisierte Programme Daten auslesen können und aus welchen nicht. Teilweise enthält sie auch Angaben dazu, wie viel Zeit zwischen einzelnen Anfragen liegen soll, damit der Server nicht überlastet wird {cite}`Koster_et_al_2022,Poggel_2025`.
 ```
 
 ```{figure} ../assets/02_forschungsdaten_fdm/abb_k02_webscraping.png
@@ -124,7 +124,7 @@ Wichtig ist, die Nachnutzung transparent zu kommunizieren und ordnungsgemäß zu
 
 ```{admonition} Was ist eine DOI?
 :class: hinweis
-Die Abkürzung DOI steht für **D**igital **O**bject **I**dentifier und ist ein eindeutiger und permanenter Identifikator für digitale Objekte wie beispielsweise wissenschaftliche Aufsätze, Publikationen, Forschungsdaten oder Videos. Ähnlich wie eine ISBN-Nummer dienen DOI’s dazu, Objekte im Internet dauerhaft auffindbar und zitierbar zu machen. Mehr Infos zum DOI gibt es auch im Kapitel [Versionierung, Lizenzierung, Zitierfähigkeit (Kapitel 6.1.)](../06_publikation_repositorien/versionierung_lizenzierung.md).
+Die Abkürzung DOI steht für **D**igital **O**bject **I**dentifier und ist ein eindeutiger und permanenter Identifikator für digitale Objekte wie beispielsweise wissenschaftliche Aufsätze, Publikationen, Forschungsdaten oder Videos. Ähnlich wie eine ISBN-Nummer dienen DOIs dazu, Objekte im Internet dauerhaft auffindbar und zitierbar zu machen. Mehr Infos zum DOI gibt es auch im Kapitel [Versionierung, Lizenzierung, Zitierfähigkeit (Kapitel 6.1.)](../06_publikation_repositorien/versionierung_lizenzierung.md).
 ```
 Wie bei anderen Datentypen gilt auch hier: Nachgenutzte Daten sind nie **neutral** oder **objektiv**. Sie sind Ergebnis von Auswahlprozessen, institutionellen Logiken und Strukturen sowie technologischen Bedingungen. Dies betrifft sowohl die Auswahl der erfassten Gegenstände/Filme (gibt es bevorzugte Archivbestände? Ist der untersuchte Filmkorpus westlich geprägt?) als auch die technischen Formate oder Klassifikationssysteme, die bestimmte Formen der Repräsentation bevorzugen und andere ausschließen können {cite}`drucker_digital_humanities_2021,dang_forschungsdatenmanagement_2020`.
 
