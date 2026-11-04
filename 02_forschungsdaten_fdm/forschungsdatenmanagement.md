@@ -63,7 +63,7 @@ Neben der Berücksichtigung der FAIR-Prinzipien hat die DFG disziplinübergreife
 
 Die drei Kernpunkte fassen wir hier kurz zusammen:
 
-1. In der **Projektplanung** sollen frühzeitig Überlegungen dazu festgehalten werden, welche Daten aus dem Forschungsvorhaben resultieren, wie sie generiert und ausgewertet werden, welche Konzepte für die Qualitätssicherung relevant sind, welche Datentypen anfallen, wie die langfristige Sicherung erfolgt und welche Publikationswege in Betracht komme. 
+1. In der **Projektplanung** sollen frühzeitig Überlegungen dazu festgehalten werden, welche Daten aus dem Forschungsvorhaben resultieren, wie sie generiert und ausgewertet werden, welche Konzepte für die Qualitätssicherung relevant sind, welche Datentypen anfallen, wie die langfristige Sicherung erfolgt und welche Publikationswege in Betracht kommen. 
 2. Bei der **Bereitstellung** wird angestrebt, die Forschungsdaten zeitnah und in einer nutzbaren Form (als Rohdaten oder bereits strukturiert) zugänglich zu machen und den Zugang auch bei übertragenen Verwertungsrechten (z. B. an Verlage) sicherzustellen.
 3. Für die **langfristige Sicherung** sollten klare Archivierungsstrategien formuliert werden, wobei die Daten mindestens zehn Jahre in institutionellen (d. h. hochschuleigene Repositorien wie z. B. das <a href="https://refubium.fu-berlin.de/" class="external-link" target="_blank">Refubium der FU</a>) oder fachbezogenen überregionalen Infrastrukturen aufbewahrt werden sollen (z. B. <a href="https://mediarep.org/home" class="external-link" target="_blank">media/rep/</a>, <a href="https://zenodo.org/" class="external-link" target="_blank">Zenodo</a>, <a href="https://github.com/" class="external-link" target="_blank">GitHub</a>).
 
@@ -129,7 +129,7 @@ Datenmanagementplan
   </tr>
   <tr>
     <td><strong>Art der Daten</strong></td>
-    <td>Welche Forschungsdaten fallen an (Primär- oder Sekundärdaten, Annotationen, Transkriptionen? Metadaten, Visualisierungen uvm.); werden Daten nachgenutzt? Und wenn ja: Welche Lizenzen und Bedingungen gelten dafür?</td>
+    <td>Welche Forschungsdaten fallen an (Primär- oder Sekundärdaten, Annotationen, Transkriptionen, Metadaten, Visualisierungen uvm.); werden Daten nachgenutzt? Und wenn ja: Welche Lizenzen und Bedingungen gelten dafür?</td>
   </tr>
   <tr>
     <td><strong>Datengewinnung</strong></td>
@@ -169,7 +169,7 @@ Datenmanagementplan
   </tr>
   <tr>
     <td><strong>Rechtliche Aspekte</strong></td>
-    <td>Einhaltung des Datenschutzes, Umgang mit personenbezogenen Daten, Lizenzbedingungen nachgenutzter Daten, Materialrechte (z. B. von Bildern, Videos oder Audiofiles) bzw. urheberrechtliche Aspekte, Einwilligungen für (z. B. für Interviews)</td>
+    <td>Einhaltung des Datenschutzes, Umgang mit personenbezogenen Daten, Lizenzbedingungen nachgenutzter Daten, Materialrechte (z. B. von Bildern, Videos oder Audiofiles) bzw. urheberrechtliche Aspekte, Einwilligungen (z. B. für Interviews)</td>
   </tr>
 </table>
 <br>
@@ -246,9 +246,9 @@ Trotz eines Mangels an etablierten Standards gibt es in jüngster Zeit zahlreich
 (fiwi-best-practices)=
 ### 🎞️ Konkrete Best-Practice-Hinweise 
 
-Neben den im Vorfeld thematisierten allgemeinen Standards, haben wir nachfolgend praxisnahe Empfehlungen ergänzt und zusammengefasst:
+Neben den im Vorfeld thematisierten allgemeinen Standards haben wir nachfolgend praxisnahe Empfehlungen ergänzt und zusammengefasst:
 
-1. **Daten**: Heterogenität der Daten (z. B. Film- Videodaten, Transkripte, Annotationen, Metadaten, Visualisierungen, kommentierte Screenshots, Shotdetection uvm.) berücksichtigen; erfordert klare Strukturierungen im Vorfeld
+1. **Daten**: Heterogenität der Daten (z. B. Film- und Videodaten, Transkripte, Annotationen, Metadaten, Visualisierungen, kommentierte Screenshots, Shotdetection uvm.) berücksichtigen; erfordert klare Strukturierungen im Vorfeld
 2. **Formate**: Interoperable Formate wählen (z. B. `csv`, `json`, `mkv`, `png`); ggf. Digitalisierungs- und Bildqualität prüfen, technische Metadaten festhalten
 3. **Rechte & Lizenzen**: Dies betrifft Nutzungsrechte, Lizenzbedingungen, Archivstatus (Fassungen) und Einschränkungen bei Weiterverwendung und Publikation
 4. **Nachnutzbarkeit**: Metadaten und Dokumentationen (z. B. `README` oder Protokolle) für jedes Datenobjekt; Entstehung, Auswahl, Bearbeitungsschritte, Annotationsmethoden, Softwareversionen und Analyseverfahren dokumentieren
