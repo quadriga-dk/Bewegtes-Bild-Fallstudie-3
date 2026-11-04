@@ -54,9 +54,49 @@ identifier: https://doi.org/TODO
 identifierGit: https://github.com/quadriga-dk/Bewegtes-Bild-Fallstudie-3
 identifierOER: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3
 chapterLIST:
-- title: TODO
+- title: Forschungsdaten und Datenmanagement in der Filmwissenschaft
   description: TODO
-  url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3/TODO
+  url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3/02_forschungsdaten_fdm/toc_02.html
+  timeRequired: PT1H
+  learningGoal: TODO
+  learningObjectiveLIST:
+  - description: TODO
+    competency: Orientierungswissen
+    dataFlow: übergreifend
+    bloomsCategory: 2 Verstehen
+- title: Metadaten und Metadatenstandards
+  description: TODO
+  url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3/03_metadaten/toc_03.html
+  timeRequired: PT1H
+  learningGoal: TODO
+  learningObjectiveLIST:
+  - description: TODO
+    competency: Orientierungswissen
+    dataFlow: übergreifend
+    bloomsCategory: 2 Verstehen
+- title: Datenpublikation in der Filmwissenschaft
+  description: TODO
+  url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3/04_einführung_publikation/toc_04.html
+  timeRequired: PT1H
+  learningGoal: TODO
+  learningObjectiveLIST:
+  - description: TODO
+    competency: Orientierungswissen
+    dataFlow: übergreifend
+    bloomsCategory: 2 Verstehen
+- title: Aufbereitung und Anreicherung filmwissenschaftlicher Daten
+  description: TODO
+  url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3/05_aufbereitung_anreicherung/toc_05.html
+  timeRequired: PT1H
+  learningGoal: TODO
+  learningObjectiveLIST:
+  - description: TODO
+    competency: Orientierungswissen
+    dataFlow: übergreifend
+    bloomsCategory: 2 Verstehen
+- title: Publikation von Datensets in einem Repositorium
+  description: TODO
+  url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3/06_publikation_repositorien/toc_06.html
   timeRequired: PT1H
   learningGoal: TODO
   learningObjectiveLIST:
