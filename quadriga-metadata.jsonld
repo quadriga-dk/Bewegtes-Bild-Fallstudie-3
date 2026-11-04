@@ -131,13 +131,31 @@
       "description": "TODO",
       "url": "https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3/02_forschungsdaten_fdm/toc_02.html",
       "timeRequired": "PT1H",
-      "teaches": "TODO",
+      "teaches": "Anwendung zentraler Prinzipien und Methoden des Forschungsdatenmanagements auf film- und medienwissenschaftliche Forschungsdaten",
       "educationalAlignment": [
         {
           "@type": "AlignmentObject",
-          "targetName": "TODO",
+          "targetName": "Forschungsdaten können definiert und film- und medienwissenschaftliche Daten als Primär- oder Sekundärdaten eingeordnet werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: Orientierungswissen | Bloom's: 2 Verstehen | Data Flow: übergreifend"
+          "targetDescription": "Competency: 1.1 Identifikation | Bloom's: 2 Verstehen | Data Flow: 1 Planung"
+        },
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Die Entstehung, Auswahl und Kategorisierung von Forschungsdaten kann kritisch reflektiert und die Annahme einer neutralen Datengrundlage hinterfragt werden.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: 1.2 Qualitätssicherung | Bloom's: 5 Bewerten | Data Flow: 1 Planung"
+        },
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Für eigene Fragestellungen können gängige Methoden der Datenerhebung ausgewählt und Arten der Nachnutzung unterschieden werden.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: 2.1 Erhebung; 5.2 Datenpublikation | Bloom's: 3 Anwenden | Data Flow: 2 Erhebung und Aufbereitung"
+        },
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Zentrale Standards und Planungsinstrumente des Forschungsdatenmanagements können evaluiert und ihre Bedeutung für den Umgang mit filmwissenschaftlichen Forschungsdaten beurteilt werden.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: 3.1 Organisation | Bloom's: 5 Bewerten | Data Flow: 3 Management"
         }
       ]
     },
@@ -147,13 +165,25 @@
       "description": "TODO",
       "url": "https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3/03_metadaten/toc_03.html",
       "timeRequired": "PT1H",
-      "teaches": "TODO",
+      "teaches": "Einordnung und Auswahl von Metadatenstandards für filmwissenschaftliche Forschungsdaten unter Berücksichtigung diskriminierungssensibler Perspektiven",
       "educationalAlignment": [
         {
           "@type": "AlignmentObject",
-          "targetName": "TODO",
+          "targetName": "Arten und Funktionen von Metadaten können erläutert und anhand eines Fragenkatalogs geeignete generische Metadatenstandards für ein eigenes Projekt begründet werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: Orientierungswissen | Bloom's: 2 Verstehen | Data Flow: übergreifend"
+          "targetDescription": "Competency: 3.2 Erschließung | Bloom's: 5 Bewerten | Data Flow: 3 Management"
+        },
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Fachspezifische Metadatenstandards der Filmwissenschaft können unterschieden und ihre Eignung für unterschiedliche Forschungsgegenstände und Projektszenarien abgewogen werden.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: 3.2 Erschließung | Bloom's: 5 Bewerten | Data Flow: 3 Management"
+        },
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Diskriminierende Metadaten können identifiziert und geeignete diskriminierungssensible Praktiken auf den eigenen Umgang mit sensiblen Daten übertragen werden.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: 3.2 Erschließung; 1.3 Ethik und Recht | Bloom's: 3 Anwenden | Data Flow: 3 Management"
         }
       ]
     },
@@ -163,13 +193,19 @@
       "description": "TODO",
       "url": "https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3/04_einführung_publikation/toc_04.html",
       "timeRequired": "PT1H",
-      "teaches": "TODO",
+      "teaches": "Perspektiven, Strategien und Wege zur Publikation filmwissenschaftlicher Forschungsdaten",
       "educationalAlignment": [
         {
           "@type": "AlignmentObject",
-          "targetName": "TODO",
+          "targetName": "Der Begriff der Datenpublikation kann erläutert und Leitfragen zur Wahl eines Publikationswegs benannt werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: Orientierungswissen | Bloom's: 2 Verstehen | Data Flow: übergreifend"
+          "targetDescription": "Competency: 5.2 Datenpublikation | Bloom's: 2 Verstehen | Data Flow: 5 Publikation und Nachnutzung"
+        },
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Für unterschiedliche Datenszenarien können Publikationswege verglichen und ein geeigneter Publikationsweg ausgewählt werden.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: 5.2 Datenpublikation | Bloom's: 3 Anwenden | Data Flow: 5 Publikation und Nachnutzung"
         }
       ]
     },
@@ -179,13 +215,37 @@
       "description": "TODO",
       "url": "https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3/05_aufbereitung_anreicherung/toc_05.html",
       "timeRequired": "PT1H",
-      "teaches": "TODO",
+      "teaches": "Publikationsgerechte Aufbereitung, Bereinigung und Anreicherung filmwissenschaftlicher Forschungsdaten",
       "educationalAlignment": [
         {
           "@type": "AlignmentObject",
-          "targetName": "TODO",
+          "targetName": "Moviebarcodes können aus audiovisuellen Daten erzeugt und ihre Bedeutung für die Analyse und Anreicherung filmwissenschaftlicher Forschungsdaten erläutert werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: Orientierungswissen | Bloom's: 2 Verstehen | Data Flow: übergreifend"
+          "targetDescription": "Competency: 2.3 Aufbereitung; 4.2 Visualisierung | Bloom's: 3 Anwenden | Data Flow: 2 Erhebung und Aufbereitung"
+        },
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Der Aufbau eines projektspezifischen Metadatenschemas kann erläutert und dessen Mapping auf etablierte Metadatenstandards nachvollzogen werden.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: 3.2 Erschließung | Bloom's: 2 Verstehen | Data Flow: 3 Management"
+        },
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Metadaten können in offene, nicht-proprietäre Formate konvertiert und der Datensatz für die Nachnutzung dokumentiert werden.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: 2.3 Aufbereitung; 5.2 Datenpublikation | Bloom's: 3 Anwenden | Data Flow: 2 Erhebung und Aufbereitung"
+        },
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Es können Verfahren zur automatisierten Validierung von Metadaten angewendet, Fehler und Inkonsistenzen erkannt und der Datensatz bereinigt werden.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: 2.2 Validierung; 2.3 Aufbereitung | Bloom's: 3 Anwenden | Data Flow: 2 Erhebung und Aufbereitung"
+        },
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Eine diskriminierungssensible Überprüfung kann anhand ausgewählter Metadaten durchgeführt und die Ergebnisse kritisch reflektiert werden.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: 1.2 Qualitätssicherung; 1.3 Ethik und Recht | Bloom's: 5 Bewerten | Data Flow: 1 Planung"
         }
       ]
     },
@@ -195,13 +255,25 @@
       "description": "TODO",
       "url": "https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3/06_publikation_repositorien/toc_06.html",
       "timeRequired": "PT1H",
-      "teaches": "TODO",
+      "teaches": "Nachhaltige Publikation filmwissenschaftlicher Forschungsdaten in Repositorien unter Berücksichtigung zentraler Anforderungen des Forschungsdatenmanagements",
       "educationalAlignment": [
         {
           "@type": "AlignmentObject",
-          "targetName": "TODO",
+          "targetName": "Ein Versionierungsschema sowie eine geeignete Lizenz für heterogene Forschungsdaten können ausgewählt und die Zitierfähigkeit des Datensatzes sichergestellt werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: Orientierungswissen | Bloom's: 2 Verstehen | Data Flow: übergreifend"
+          "targetDescription": "Competency: 3.1 Organisation; 1.3 Ethik und Recht; 5.2 Datenpublikation | Bloom's: 5 Bewerten | Data Flow: 3 Management"
+        },
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Anhand etablierter Best Practices kann ein Datenset publikationsgerecht organisiert und verwaltet werden.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: 3.1 Organisation | Bloom's: 3 Anwenden | Data Flow: 3 Management"
+        },
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Ein Repository kann angelegt, mit Forschungsdaten befüllt und als versionierter, zitierfähiger Release mit DOI veröffentlicht werden.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: 5.1 Aufbewahrung; 5.2 Datenpublikation | Bloom's: 3 Anwenden | Data Flow: 5 Publikation und Nachnutzung"
         }
       ]
     }
