@@ -187,7 +187,7 @@ Die Installation muss nur einmal erfolgen.
 
 ## 1.6. Python-Skript einfügen
 
-Das bereitgestellte Python-Skript kann nun vollständig in `validate_metadata.py` kopiert werden. Da das Skript nun als normale Python-Datei ausgeführt wird und nicht mehr in einem Jupyter Notebook, muss die erste Zeile entfernt werden
+Das bereitgestellte Python-Skript kann nun vollständig in `validate_metadata.py` kopiert werden. Da das Skript nun als normale Python-Datei ausgeführt wird und nicht mehr in einem Jupyter Notebook, muss die erste Zeile entfernt werden.
 
 ```python
 %pip install pandas pyyaml
@@ -216,7 +216,7 @@ Dabei gilt:
 
 ## 1.7. Skript ausführen
 
-Nach dem Speichern der Datei, kann das Skript im Terminal ausgeführt werden. Dazu kann folgender Befehl ins VS Code Terminal eingefügt werden:
+Nach dem Speichern der Datei kann das Skript im Terminal ausgeführt werden. Dazu kann folgender Befehl ins VS Code Terminal eingefügt werden:
 
 ```bash
 python validate_metadata.py
