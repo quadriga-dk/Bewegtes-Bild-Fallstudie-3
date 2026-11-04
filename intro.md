@@ -20,7 +20,7 @@ Fragen, Anregungen oder Hinweise zur OER können gerne geteilt werden:
 ```{literalinclude} /CITATION.bib
 :language: bibtex
 ```
-Demir, D. & Grotkopp, M. (2026). _Anreicherung und Publikation von Annotationsdatensets auf Repositorien. QUADRIGA Open Educational Resources: Bewegtes Bild 3_ https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3/intro.html
+Demir, D. & Grotkopp, M. (2026). _Anreicherung und Publikation von Annotationsdatensets auf Repositorien. QUADRIGA Open Educational Resources: Bewegtes Bild 3_. https://doi.org/10.5281/zenodo.23947518
 ````
 `````
 
