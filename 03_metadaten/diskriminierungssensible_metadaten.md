@@ -32,13 +32,13 @@ Genauer heißt es in einem Ausschnitt der Beschreibung:
 
 Dabei sind nicht nur die Begriffe "Häuptling" oder "Indianer" aufgrund ihrer kolonialen Prägung aus heutiger Sicht problematisch {cite}`{vgl. hierzu auch das postkoloniale Wörterbuch der}UniversitaetKoeln_2023`, ferner wird in der Inhaltsbeschreibung das koloniale Narrativ des Films ungebrochen reproduziert und übernommen: von "tapferen Westmännern" bis zu "aufgewiegelten Indianern".
 
-Zusätzlich verstärkt das im obigen Screenshot sichtbare Filmstill diese Fortschreibung. Die ausgewählte Darstellung verfestigt die kolonialen Verhältnisse des Beschreibungstextes. Dadurch wird deutlich, inwiefern durch textuelle und visuelle Metadatenelemente filmische Narrative und Ideologien nicht nur dokumentiert, sondern impliziert stabilisiert werden.
+Zusätzlich verstärkt das im obigen Screenshot sichtbare Filmstill diese Fortschreibung. Die ausgewählte Darstellung verfestigt die kolonialen Verhältnisse des Beschreibungstextes. Dadurch wird deutlich, inwiefern durch textuelle und visuelle Metadatenelemente filmische Narrative und Ideologien nicht nur dokumentiert, sondern implizit stabilisiert werden.
 
 ### Fallbeispiel 2: Rassistische Titel
 
 Neben dem Einzug diskriminierender Elemente in beschreibende Metadatenfelder stellt sich noch die Frage, wie mit der Darstellung und Reproduktion bibliographischer Angaben und deren Kontextualisierung umgegangen werden soll. Dies betrifft insbesondere Werktitel, die rassistische Sprache aufweisen. 
 
-Dogtas et al. verweisen in ihrem Aufsatz auf den Buchtitel "N*plastik"[^1] von Carl Einstein , vorzufinden in diversen Datenbanken wie beispielsweise auch im <a href="https://www.dnb.de/DE/Home/home_node.html" class="external-link" target="_blank">Katalog der Deutschen Nationalbibliothek</a> (kurz: DNB). Im vorliegenden <a href="https://d-nb.info/1022343017" class="external-link" target="_blank">Datensatz </a> der DNB wird der Titel ohne Verweis auf seine zeitgenössische Problematik kommentarlos in den Metadaten reproduziert. 
+Dogtas et al. verweisen in ihrem Aufsatz auf den Buchtitel "N*plastik"[^1] von Carl Einstein, vorzufinden in diversen Datenbanken wie beispielsweise auch im <a href="https://www.dnb.de/DE/Home/home_node.html" class="external-link" target="_blank">Katalog der Deutschen Nationalbibliothek</a> (kurz: DNB). Im vorliegenden <a href="https://d-nb.info/1022343017" class="external-link" target="_blank">Datensatz </a> der DNB wird der Titel ohne Verweis auf seine zeitgenössische Problematik kommentarlos in den Metadaten reproduziert. 
 
 ```{figure} ../assets/03_metadaten/abb_k03_buchtitel_einstein.png
 ---
@@ -49,7 +49,7 @@ name: dnb-buchtitel-einstein
 Screenshot aus dem Eintrag des <a href="https://d-nb.info/1022343017" class="external-link" target="_blank">Datensatzes</a> zum Buchtitel "N*plastik" von Carl Einstein
 ```
 
-Für Dogtas et. al. führt die Ausschreibung des N-Wortes zur kontinuierlichen Fortschreibung seiner rassistischen Implikationen sowie zur Verfestigung der dem Begriff immanenten "komplementären Fiktion der Überlegenheit *weisser*" {cite}`Dogtas_2022{Herv. i. O.}`.
+Für Dogtas et al. führt die Ausschreibung des N-Wortes zur kontinuierlichen Fortschreibung seiner rassistischen Implikationen sowie zur Verfestigung der dem Begriff immanenten "komplementären Fiktion der Überlegenheit *weisser*" {cite}`Dogtas_2022{Herv. i. O.}`.
 Die unhinterfragte Übernahme diskriminierender Praktiken und Sprache führe also dazu, dass exklusive und diskriminierende Seiten der Gesellschaft weiter Einzug in unsere Systeme und Strukturen erhalten – so das Argument.
 Das Sammeln, Bewahren und Erforschen von Ressourcen ist jedoch darauf ausgelegt, die Entstehungsmerkmale zu erhalten und sie so abzubilden, wie sie sich in ihren historischen und gesellschaftlichen Kontexten präsentierten/präsentieren. 
 
@@ -57,9 +57,9 @@ Wie also kann ein diskriminierungssensibler Umgang gefunden werden, der die aktu
 
 ## Diskriminierungssensible Praktiken 
 
-Es gibt diverse Methoden und Umgangsweisen, um diskriminierungssensible Praktiken zur Erfassung von Metadaten zu etablieren. Gängig sind insbesondere (nach Dogtas et. al.):
+Es gibt diverse Methoden und Umgangsweisen, um diskriminierungssensible Praktiken zur Erfassung von Metadaten zu etablieren. Gängig sind insbesondere (nach Dogtas et al.):
 
-1. **Disclaimer** (Titelkontexualisierung)
+1. **Disclaimer** (Titelkontextualisierung)
     * Disclaimer bzw. Statements schreiben mit dem Hinweis auf diskriminatorische Inhalte
     * Ggf. Informationen zu Strategien und Zielen zum Umgang bereitstellen
     * Bereitstellung weiterführender Informationen und Feedback-Optionen
@@ -74,7 +74,7 @@ Es gibt diverse Methoden und Umgangsweisen, um diskriminierungssensible Praktike
 
 Wie solche Strategien in der Praxis umgesetzt werden, möchten wir anhand von zwei Beispielen exemplarisch veranschaulichen:
 
-Zum einen an der kontextualisierten Beschreibung (`Kurzinhalt`) des NS-Propagandafilms *J\*d Süß*[^2] (1940) von Veit Harlan in der Datenbank der Murnau Stiftung. In der hier vorliegenden <a href="https://www.murnau-stiftung.de/movie/454" class="external-link" target="_blank">Beschreibung</a> wird der Inhalt filmnah eingeordnet ohne jedoch antisemitische und propagandistische Sprache zu übernehmen – im Gegenteil: Der Text kontextualisiert die historischen Umstände und markiert den Film ausdrücklich als propagandistisch-ideologisches Werk.
+Zum einen an der kontextualisierten Beschreibung (`Kurzinhalt`) des NS-Propagandafilms *J\*d Süß*[^2] (1940) von Veit Harlan in der Datenbank der Murnau Stiftung. In der hier vorliegenden <a href="https://www.murnau-stiftung.de/movie/454" class="external-link" target="_blank">Beschreibung</a> wird der Inhalt filmnah eingeordnet, ohne jedoch antisemitische und propagandistische Sprache zu übernehmen – im Gegenteil: Der Text kontextualisiert die historischen Umstände und markiert den Film ausdrücklich als propagandistisch-ideologisches Werk.
 
 ```{figure} ../assets/03_metadaten/abb_k03_murnau_stiftung.png
 ---
