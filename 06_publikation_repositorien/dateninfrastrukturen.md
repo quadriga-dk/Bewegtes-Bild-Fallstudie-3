@@ -45,7 +45,7 @@ Hierzu wird sowohl ein GitHub-Account als auch ein Zenodo-Account benötigt. Bei
 
 ## GitHub-Upload: Technische Voraussetzungen
 
-Git lässt sich direkt über die Kommandozeile bedienen, das ist technisch möglich, aber für die meisten Anwendungsfälle eher umständliche, denn: jede Änderung wird sofort zu einem sogenannten *Commit*, was bei mehreren kleinen Korrekturen (Tippfehler, Formatierungen) schnell zu einer unübersichtlichen Versionsgeschichte führt. Wer an Dateien weiterarbeiten und mehrere Änderungen bündeln möchte, ist mit einer grafischen Oberfläche besser bedient.
+Git lässt sich direkt über die Kommandozeile bedienen, das ist technisch möglich, aber für die meisten Anwendungsfälle eher umständlich, denn: jede Änderung wird sofort zu einem sogenannten *Commit*, was bei mehreren kleinen Korrekturen (Tippfehler, Formatierungen) schnell zu einer unübersichtlichen Versionsgeschichte führt. Wer an Dateien weiterarbeiten und mehrere Änderungen bündeln möchte, ist mit einer grafischen Oberfläche besser bedient.
 
 ```{admonition} Was ist ein Commit auf GitHub?
 :class: hinweis
@@ -197,7 +197,7 @@ Commit Message über VS Code
 
 ```{admonition} Hinweis: Commit Message Konventionen 
 :class: hinweis
-FÜr Commit Message empfiehlt sich die Verwendung oder Orientierung an <a href="https://www.conventionalcommits.org/en/v1.0.0/" class="external-link" target="_blank">Conventional Commits</a>. Conventional Commits sind ein standardisiertes Verfahren zur Erstellung von Git-Commits.
+Für Commit Message empfiehlt sich die Verwendung oder Orientierung an <a href="https://www.conventionalcommits.org/en/v1.0.0/" class="external-link" target="_blank">Conventional Commits</a>. Conventional Commits sind ein standardisiertes Verfahren zur Erstellung von Git-Commits.
 
 Beispiele:
 * `feat: add corpus metadata CSV`
@@ -275,7 +275,7 @@ Wie bereits erwähnt, empfehlen sich nach der Erstpublikation auf GitHub und Zen
 2. Für film- und medienwissenschaftliche Forschungsdaten kann auf FID Media (früher media/rep) verwiesen werden. Es ist geeignet für die fachspezifische Auffindbarkeit des Datensatzes. Was bei der Einreichung beachtet werden sollte und welche Schritte hierfür nötig sind, kann in der <a href="https://www.uni-marburg.de/de/fb09/medienwissenschaft/forschung/forschungsprojekte/mediarep/projektmitglieder" class="external-link" target="_blank">Handreichung für Autor:innen – in fünf Schritten zur Publikation auf FID Media Publish</a> eingesehen werden.
 
 Weitere fachspezifische Repositorien können auf Repositorien-Findern wie <a href="https://www.re3data.org/" class="external-link" target="_blank">re3data – Registry of Research Data Repositories</a> sowie <a href="https://risources.dfg.de/" class="external-link" target="_blank">RIsources – Portal für Forschungsinfrastrukturen der DFG</a> gesucht werden.
-Eine detailierte Auflistung von relevanten Repositorien und Repositorien-Findern in der Film- und Medienwissenschaft gibt es in [Kapitel 4.3. Ressourcen und Entscheidungshilfen](../04_einführung_publikation/ressourcen_entscheidungshilfen.md).
+Eine detaillierte Auflistung von relevanten Repositorien und Repositorien-Findern in der Film- und Medienwissenschaft gibt es in [Kapitel 4.3. Ressourcen und Entscheidungshilfen](../04_einführung_publikation/ressourcen_entscheidungshilfen.md).
 
 ## Checkliste: Workflow Datenpublikation
 
