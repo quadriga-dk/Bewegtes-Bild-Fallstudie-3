@@ -80,7 +80,7 @@ height=1080
 [/STREAM]
 ```
 
-Der `height`-Wert gibt die maximale sinnvolle Höhe des finalen Barcodes in Pixeln vor, da für alles, was darüber hinausgeht, zusätzliche Bildinformationen generiert werden müssten, die in der Quelldatei nicht vorhanden sind. Dies ist möglich, sollte aber grundsätzlich vermieden werden – außer die Quelldatei ist zu niedrig aufgelöst, um einen sinnvoll verwendbaren Barcode zu erzeugen.
+Der `height`-Wert gibt die maximale sinnvolle Höhe des finalen Barcodes in Pixeln vor, da für alles, was darüber hinausgeht, zusätzliche Bildinformationen generiert werden müssten, die in der Quelldatei nicht vorhanden sind. Dies ist möglich, sollte aber grundsätzlich vermieden werden – außer, die Quelldatei ist zu niedrig aufgelöst, um einen sinnvoll verwendbaren Barcode zu erzeugen.
 
 Die Breite des finalen Barcodes lässt sich an dieser Stelle fast beliebig festlegen – auch wenn sehr kurze Quelldateien eventuell nicht genug Frames beinhalten, um die nötige Breite zu füllen. Dies stellt im Grunde kein Problem dar, kann jedoch dazu führen, dass der Barcode in der Breite gröber aufgelöst erscheint, da Frames mehrfach ausgegeben werden, um die X-Achse zu füllen.
 
