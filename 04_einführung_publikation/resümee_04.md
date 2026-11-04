@@ -5,7 +5,7 @@
 
 * Forschungsdaten und die zugehörigen Metadaten, Dokumentationen, Codes und Workflows stellen eigenständige wissenschaftliche Forschungsergebnisse dar und sollten publiziert werden.
 * Die Wahl einer geeigneten Publikationsstrategie hängt vom Datentyp, der Zielgruppe, den geplanten Nachnutzungsszenarien sowie den rechtlichen Rahmenbedingungen ab.
-* Insbesondere in der Film- und Medienwissenschaft können auch Korpuszusammenstellungen, Annotationen und datenbasierte Analysen einen eigenständige wissenschaftliche Relevanz besitzen und für eine potenzielle Nachnutzung wichtig sein.
+* Insbesondere in der Film- und Medienwissenschaft können auch Korpuszusammenstellungen, Annotationen und datenbasierte Analysen eine eigenständige wissenschaftliche Relevanz besitzen und für eine potenzielle Nachnutzung wichtig sein.
 * Eine nachhaltige Datenpublikation sollte gemäß den etablierten Standards des FDMs und den FAIR-Prinzipien erfolgen.
 ```
 
