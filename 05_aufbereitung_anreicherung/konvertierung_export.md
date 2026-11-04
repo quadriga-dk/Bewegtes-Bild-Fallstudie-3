@@ -1,6 +1,6 @@
 # Formatkonvertierungen
 
-Dieser Abschnitt dokumentiert, wie die Metadaten aus dem Projektkorpus aus dem primären Arbeitsformat `xlsx` in die offenen Publikationsformate `cvs`, `html` und `json` exportiert bzw. überführt wurden. Die Schritte sind so aufbereitet, dass sie für eigene Datenprojekte reproduziert werden können. Für die Ver- und Bearbeitung der Dateien kann ein kostenloser Code-Editor genutzt werden. In dieser OER nutzen wir für alle Beispiele <a href="https://code.visualstudio.com/" class="external-link" target="_blank">Visual Studio Code (VS Code)</a> von Microsoft, da die Software kostenfrei verfügbar ist und auch für Einsteiger:innen leicht zugänglich. Alternativ können ebenso andere, auch nicht kommerziell betriebene Text- oder Code-Editoren verwendet werden.
+Dieser Abschnitt dokumentiert, wie die Metadaten aus dem Projektkorpus aus dem primären Arbeitsformat `xlsx` in die offenen Publikationsformate `csv`, `html` und `json` exportiert bzw. überführt wurden. Die Schritte sind so aufbereitet, dass sie für eigene Datenprojekte reproduziert werden können. Für die Ver- und Bearbeitung der Dateien kann ein kostenloser Code-Editor genutzt werden. In dieser OER nutzen wir für alle Beispiele <a href="https://code.visualstudio.com/" class="external-link" target="_blank">Visual Studio Code (VS Code)</a> von Microsoft, da die Software kostenfrei verfügbar ist und auch für Einsteiger:innen leicht zugänglich. Alternativ können ebenso andere, auch nicht kommerziell betriebene Text- oder Code-Editoren verwendet werden.
 
 (xlsx-zu-csv)=
 ## XLSX zu CSV
@@ -71,7 +71,7 @@ Was es zu beachten gilt:
 
 ```{admonition}  Warum in leeren Feldern die Semikolons beibehalten werden müssen
 :class: caution
-In einer `csv`-Datei bestimmt die Position des Semikolons, welcher Wert in welche Spalte gehört. Wird ein Semikolon aus einem Leeren Feld gelöscht,verschieben sich alle nachfolgenden Werte um eine Spalte, d. h., dass die Tabelle logisch auseinanderbricht. Leere Felder dürfen also nicht einfach weggelassen werden, sondern müssen als leere Positionen (`;;`) erhalten bleiben.
+In einer `csv`-Datei bestimmt die Position des Semikolons, welcher Wert in welche Spalte gehört. Wird ein Semikolon aus einem leeren Feld gelöscht, verschieben sich alle nachfolgenden Werte um eine Spalte, d. h., dass die Tabelle logisch auseinanderbricht. Leere Felder dürfen also nicht einfach weggelassen werden, sondern müssen als leere Positionen (`;;`) erhalten bleiben.
 ```
 
 ## CSV zu HTML
@@ -117,7 +117,7 @@ Zur Weiterverarbeitung wird das `html`-Dokument ebenfalls als [Download](../asse
 
     /* Tabellen-Grundlayout */
     table {
-      border-collapse: collapse; /* Darsellung des Gitternetzes */
+      border-collapse: collapse; /* Darstellung des Gitternetzes */
       width: 100%;
       border-radius: 8px;
       background-color: white;
@@ -328,7 +328,7 @@ Inuit Knowledge and Climate Change;f026i;tt4081544;documentary;CA;2010;"Zacharia
       allOption.textContent = 'All Columns';
       select.appendChild(allOption);
       
-      // Fügt die eizelnen Spalten als Suchfilter hinzu
+      // Fügt die einzelnen Spalten als Suchfilter hinzu
       headerNames.forEach(name => {
         const opt = document.createElement('option');
         opt.value = name;
@@ -453,7 +453,7 @@ Inuit Knowledge and Climate Change;f026i;tt4081544;documentary;CA;2010;"Zacharia
         let textToCheck = '';
         if (selectedColumn === 'all') { /* Alle Spalten werden durchsucht */
           textToCheck = tr.textContent.toLowerCase();
-        } else { /* Ansonsten: Macht ein Array aus allen Spaltenüberschriften und ermittelt die zu dursuchende Spalte */
+        } else { /* Ansonsten: Macht ein Array aus allen Spaltenüberschriften und ermittelt die zu durchsuchende Spalte */
           const header = Array.from(table.querySelectorAll('tr:first-child th'))
           .findIndex(th => th.textContent === selectedColumn);
           /* Jetzt wird der Zeileninhalt der jeweiligen Spalte durchsucht */          
@@ -507,7 +507,7 @@ Zeile 1;...
 Zeile 2;...
 `
 ```
-→ Den gesamten Inhalt zwischen den Backticks (`` ` ``) durch die eigenen CSV-Daten ersetzen. **Wichtig**: Die Backticks am Anfang und Ende müssen erhalten bleiben
+→ Den gesamten Inhalt zwischen den Backticks (`` ` ``) durch die eigenen CSV-Daten ersetzen. **Wichtig**: Die Backticks am Anfang und Ende müssen erhalten bleiben.
 
 `````{admonition} Trennzeichen anpassen (Zeile 207)
 :class: hinweis
@@ -535,8 +535,8 @@ Die vier aufeinanderfolgenden Semikolons (`;;;;`) sichern, dass `annotation_data
 
 ```{admonition} Nutzung des Skripts
 :class: keypoint
-Das `hmtl`-Skript kann auch für andere Datensätze mit abweichenden Feldern übernommen werden. Voraussetzungen hierfür sind:
-1. Die eingebunden `csv`-Daten haben eine Kopfzeile mit Spaltennamen
+Das `html`-Skript kann auch für andere Datensätze mit abweichenden Feldern übernommen werden. Voraussetzungen hierfür sind:
+1. Die eingebundenen `csv`-Daten haben eine Kopfzeile mit Spaltennamen
 2. Mit Semikolon getrennte Werte verwenden; andernfalls (wie oben beschrieben) das Trennzeichen anpassen
 ```
 
@@ -558,7 +558,7 @@ Datentypen in Programmiersprachen legen fest, welche Art von Wert in einem Feld 
 `csv` kennt diese Unterscheidung nicht. Rein technisch gesehen ist dort alles Text – auch Zahlen oder Wahrheitswerte. 
 ```
 
-Um den Beispieldatensatz, der als `csv`-Datei voliegt, auch in `json` zu konvertieren, wird ein Python-Skript verwendet. Der folgende Code arbeitet mit einigen zentralen Python-Konzepten, kann jedoch auch ohne Vorwissen ausgeführt werden. Wer noch keine Python-Erfahrung hat, findet hier kurze Erklärungen sowie Tutorials zum Vertiefen. Zum Schreiben eines eigenen Python-Skript werden allerdings vertiefende Kenntnisse benötigt.
+Um den Beispieldatensatz, der als `csv`-Datei vorliegt, auch in `json` zu konvertieren, wird ein Python-Skript verwendet. Der folgende Code arbeitet mit einigen zentralen Python-Konzepten, kann jedoch auch ohne Vorwissen ausgeführt werden. Wer noch keine Python-Erfahrung hat, findet hier kurze Erklärungen sowie Tutorials zum Vertiefen. Zum Schreiben eines eigenen Python-Skripts werden allerdings vertiefende Kenntnisse benötigt.
 
 `````{dropdown} Python-Grundkonzepte im Detail und weiterführende Links
 Neben den oben genannten Datentypen gibt es noch folgende Grundkonzepte, die für das Verständnis des Codes hilfreich sein können:
@@ -581,7 +581,7 @@ Neben den oben genannten Datentypen gibt es noch folgende Grundkonzepte, die fü
 
 Um das folgende Skript auszuführen, wird eine funktionierende Python-Umgebung mit der Bibliothek `pandas` benötigt. Nachfolgend wird die Variante vorgestellt, die für Einsteiger:innen am freundlichsten ist. Denn es gibt die Möglichkeit, Python (und alle benötigten Bibliotheken und Editoren) über die Distribution (Zusammenstellung verschiedener Pakete und Software) <a href="https://www.anaconda.com/download" class="external-link" target="_blank">Anaconda</a> herunterzuladen. Für den Download bitte den Anweisungen auf der Seite folgen.
 
-```{admonition} Hinweis: Worflow ohne Anaconda
+```{admonition} Hinweis: Workflow ohne Anaconda
 :class: hinweis
 Für Nutzende, die keine Anaconda-Distribution herunterladen möchten, wird im Folgenden ein alternativer Workflow mit VS Code und der offiziellen Python-Erweiterung bereitgestellt:
 
@@ -693,7 +693,7 @@ with open(output_datei, "w", encoding="utf-8") as f:
 print(f"Fertig. JSON gespeichert als: {output_datei}")
 ```
 
-Anschließend kann der Browsertab geschlossen werden. Um den Jupyter Server sauber zu beenden, empfiehlt es sich, in dem zuvor automatisch geöffneten Terminalfenster durch eingabe von `Control + C` bzw. `Strg + C` die Prozesse zu beenden.
+Anschließend kann der Browsertab geschlossen werden. Um den Jupyter Server sauber zu beenden, empfiehlt es sich, in dem zuvor automatisch geöffneten Terminalfenster durch Eingabe von `Control + C` bzw. `Strg + C` die Prozesse zu beenden.
 
 
 ### Das Ergebnis
