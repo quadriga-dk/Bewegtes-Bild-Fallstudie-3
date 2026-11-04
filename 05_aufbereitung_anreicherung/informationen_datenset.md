@@ -64,7 +64,7 @@ Die Metadaten dienen einerseits der Dokumentation und Beschreibung und andererse
 
 ### Struktur und Zusammenhang der Daten
 
-Die Annotationsdaten bilden das analytische Fundament des Korpus und erfassen expressive Bewegungs- und Gestaltungsmuster (Stichpunkt: Modulation von Wahrnehmungsszenarien durch audiovisuelle Gestaltungsweisen wie Bewegung, Kamera, Montage, Farbe, Licht usw.). Diese werden **angereichert** mit Moviebarcodes, durch die filmische Farb- und Helligkeitsdramaturgien und -veläufe über die gesamte Filmdauer sichtbar und analytisch greifbar werden. 
+Die Annotationsdaten bilden das analytische Fundament des Korpus und erfassen expressive Bewegungs- und Gestaltungsmuster (Stichpunkt: Modulation von Wahrnehmungsszenarien durch audiovisuelle Gestaltungsweisen wie Bewegung, Kamera, Montage, Farbe, Licht usw.). Diese werden **angereichert** mit Moviebarcodes, durch die filmische Farb- und Helligkeitsdramaturgien und -verläufe über die gesamte Filmdauer sichtbar und analytisch greifbar werden. 
 
 Die **Metadaten** sind das zentrale Verbindungselement zwischen den Datentypen. Zum einen ermöglichen sie die Identifikation der einzelnen Filme und sammeln zusätzliche Informationen über sie. Zum anderen erlauben sie eine Zuordnung der Annotationen sowie Visualisierungen und strukturieren die gesamte Organisation des Datensatzes für eine potentielle Nachnutzung. 
 
@@ -80,7 +80,7 @@ Architektur des Datensatzes
 
 Die Metadaten wurden während des Projektverlaufs manuell erhoben und in einer tabellarischen Struktur dokumentiert. Aufgrund des überschaubaren Korpus konnte eine kuratierte und kontrollierte Erfassung somit auch manuell erfolgen. 
 
-Für größere Korpora und Datensätze und Projekte mit einem gewissen technischen Know How oder der Initiative sich einzuarbeiten, eignen sich alternativ auch automatisierte bzw. semi-automatisierte Verfahren der Extraktion von Metadaten. So etwa über API Keys. API Keys sind Zugangsschlüssel, die Metadaten aus externen Datenbanken abrufen können. Diese Metadaten können dann anschließend beispielsweise mit einem `Python-Skript` als `DataFrame`, d. h. als eine strukturierte maschinenlesbare Tabelle, weiterverarbeitet und gespeichert werden. Der API Key der Seite <a href="https://www.omdbapi.com/apikey.aspx " class="external-link" target="_blank">OMDb</a> ist kostenlos, für andere Filmdatenbanken können Entgelte anfallen. 
+Für größere Korpora und Datensätze und Projekte mit einem gewissen technischen Know-how oder der Initiative, sich einzuarbeiten, eignen sich alternativ auch automatisierte bzw. semi-automatisierte Verfahren der Extraktion von Metadaten. So etwa über API Keys. API Keys sind Zugangsschlüssel, die Metadaten aus externen Datenbanken abrufen können. Diese Metadaten können dann anschließend beispielsweise mit einem `Python-Skript` als `DataFrame`, d. h. als eine strukturierte maschinenlesbare Tabelle, weiterverarbeitet und gespeichert werden. Der API Key der Seite <a href="https://www.omdbapi.com/apikey.aspx " class="external-link" target="_blank">OMDb</a> ist kostenlos, für andere Filmdatenbanken können Entgelte anfallen. 
 
 ```{admonition} Benötigte Kenntnisse
 :class: hinweis
@@ -89,7 +89,7 @@ Es werden mindestens Python Grundlagen sowie KI-Unterstützung für den Code **o
 
 ## Bereitstellung und Nachnutzung
 
-Alle Bestandteile des Datensets werden in offenen und langfristig nutzbaren Format bereitgestellt und durch Metadaten sowie Dokumentationen ergänzt.
+Alle Bestandteile des Datensets werden in offenen und langfristig nutzbaren Formaten bereitgestellt und durch Metadaten sowie Dokumentationen ergänzt.
 
 ```{admonition} Langzeitarchivierung und facheigene Repositorien
 :class: important
