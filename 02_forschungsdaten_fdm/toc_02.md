@@ -21,8 +21,8 @@ Lernmodul 1 von 5
 Folgende Lernziele können erreicht werden:
 
 ```{include} /präambel/lernziele.md
-:start-after: "<!-- START: Forschungsdatenmanagement -->"
-:end-before: "<!-- END: Forschungsdatenmanagement -->"
+:start-after: "<!-- START: Forschungsdaten und Datenmanagement in der Filmwissenschaft -->"
+:end-before: "<!-- END: Forschungsdaten und Datenmanagement in der Filmwissenschaft -->"
 ```
 
 ```{admonition} Bearbeitungszeit

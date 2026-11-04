@@ -58,52 +58,128 @@ chapterLIST:
   description: TODO
   url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3/02_forschungsdaten_fdm/toc_02.html
   timeRequired: PT1H
-  learningGoal: TODO
+  learningGoal: Anwendung zentraler Prinzipien und Methoden des Forschungsdatenmanagements
+    auf film- und medienwissenschaftliche Forschungsdaten
   learningObjectiveLIST:
-  - description: TODO
-    competency: Orientierungswissen
-    dataFlow: übergreifend
+  - description: Forschungsdaten können definiert und film- und medienwissenschaftliche
+      Daten als Primär- oder Sekundärdaten eingeordnet werden.
+    competency: 1.1 Identifikation
+    dataFlow: 1 Planung
     bloomsCategory: 2 Verstehen
+  - description: Die Entstehung, Auswahl und Kategorisierung von Forschungsdaten kann
+      kritisch reflektiert und die Annahme einer neutralen Datengrundlage hinterfragt
+      werden.
+    competency: 1.2 Qualitätssicherung
+    dataFlow: 1 Planung
+    bloomsCategory: 5 Bewerten
+  - description: Für eigene Fragestellungen können gängige Methoden der Datenerhebung
+      ausgewählt und Arten der Nachnutzung unterschieden werden.
+    competency: 2.1 Erhebung; 5.2 Datenpublikation
+    dataFlow: 2 Erhebung und Aufbereitung
+    bloomsCategory: 3 Anwenden
+  - description: Zentrale Standards und Planungsinstrumente des Forschungsdatenmanagements
+      können evaluiert und ihre Bedeutung für den Umgang mit filmwissenschaftlichen
+      Forschungsdaten beurteilt werden.
+    competency: 3.1 Organisation
+    dataFlow: 3 Management
+    bloomsCategory: 5 Bewerten
 - title: Metadaten und Metadatenstandards
   description: TODO
   url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3/03_metadaten/toc_03.html
   timeRequired: PT1H
-  learningGoal: TODO
+  learningGoal: Einordnung und Auswahl von Metadatenstandards für filmwissenschaftliche
+    Forschungsdaten unter Berücksichtigung diskriminierungssensibler Perspektiven
   learningObjectiveLIST:
-  - description: TODO
-    competency: Orientierungswissen
-    dataFlow: übergreifend
-    bloomsCategory: 2 Verstehen
+  - description: Arten und Funktionen von Metadaten können erläutert und anhand eines
+      Fragenkatalogs geeignete generische Metadatenstandards für ein eigenes Projekt
+      begründet werden.
+    competency: 3.2 Erschließung
+    dataFlow: 3 Management
+    bloomsCategory: 5 Bewerten
+  - description: Fachspezifische Metadatenstandards der Filmwissenschaft können unterschieden
+      und ihre Eignung für unterschiedliche Forschungsgegenstände und Projektszenarien
+      abgewogen werden.
+    competency: 3.2 Erschließung
+    dataFlow: 3 Management
+    bloomsCategory: 5 Bewerten
+  - description: Diskriminierende Metadaten können identifiziert und geeignete diskriminierungssensible
+      Praktiken auf den eigenen Umgang mit sensiblen Daten übertragen werden.
+    competency: 3.2 Erschließung; 1.3 Ethik und Recht
+    dataFlow: 3 Management
+    bloomsCategory: 3 Anwenden
 - title: Datenpublikation in der Filmwissenschaft
   description: TODO
   url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3/04_einführung_publikation/toc_04.html
   timeRequired: PT1H
-  learningGoal: TODO
+  learningGoal: Perspektiven, Strategien und Wege zur Publikation filmwissenschaftlicher
+    Forschungsdaten
   learningObjectiveLIST:
-  - description: TODO
-    competency: Orientierungswissen
-    dataFlow: übergreifend
+  - description: Der Begriff der Datenpublikation kann erläutert und Leitfragen zur
+      Wahl eines Publikationswegs benannt werden.
+    competency: 5.2 Datenpublikation
+    dataFlow: 5 Publikation und Nachnutzung
     bloomsCategory: 2 Verstehen
+  - description: Für unterschiedliche Datenszenarien können Publikationswege verglichen
+      und ein geeigneter Publikationsweg ausgewählt werden.
+    competency: 5.2 Datenpublikation
+    dataFlow: 5 Publikation und Nachnutzung
+    bloomsCategory: 3 Anwenden
 - title: Aufbereitung und Anreicherung filmwissenschaftlicher Daten
   description: TODO
   url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3/05_aufbereitung_anreicherung/toc_05.html
   timeRequired: PT1H
-  learningGoal: TODO
+  learningGoal: Publikationsgerechte Aufbereitung, Bereinigung und Anreicherung filmwissenschaftlicher
+    Forschungsdaten
   learningObjectiveLIST:
-  - description: TODO
-    competency: Orientierungswissen
-    dataFlow: übergreifend
+  - description: Moviebarcodes können aus audiovisuellen Daten erzeugt und ihre Bedeutung
+      für die Analyse und Anreicherung filmwissenschaftlicher Forschungsdaten erläutert
+      werden.
+    competency: 2.3 Aufbereitung; 4.2 Visualisierung
+    dataFlow: 2 Erhebung und Aufbereitung
+    bloomsCategory: 3 Anwenden
+  - description: Der Aufbau eines projektspezifischen Metadatenschemas kann erläutert
+      und dessen Mapping auf etablierte Metadatenstandards nachvollzogen werden.
+    competency: 3.2 Erschließung
+    dataFlow: 3 Management
     bloomsCategory: 2 Verstehen
+  - description: Metadaten können in offene, nicht-proprietäre Formate konvertiert
+      und der Datensatz für die Nachnutzung dokumentiert werden.
+    competency: 2.3 Aufbereitung; 5.2 Datenpublikation
+    dataFlow: 2 Erhebung und Aufbereitung
+    bloomsCategory: 3 Anwenden
+  - description: Es können Verfahren zur automatisierten Validierung von Metadaten
+      angewendet, Fehler und Inkonsistenzen erkannt und der Datensatz bereinigt werden.
+    competency: 2.2 Validierung; 2.3 Aufbereitung
+    dataFlow: 2 Erhebung und Aufbereitung
+    bloomsCategory: 3 Anwenden
+  - description: Eine diskriminierungssensible Überprüfung kann anhand ausgewählter
+      Metadaten durchgeführt und die Ergebnisse kritisch reflektiert werden.
+    competency: 1.2 Qualitätssicherung; 1.3 Ethik und Recht
+    dataFlow: 1 Planung
+    bloomsCategory: 5 Bewerten
 - title: Publikation von Datensets in einem Repositorium
   description: TODO
   url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3/06_publikation_repositorien/toc_06.html
   timeRequired: PT1H
-  learningGoal: TODO
+  learningGoal: Nachhaltige Publikation filmwissenschaftlicher Forschungsdaten in
+    Repositorien unter Berücksichtigung zentraler Anforderungen des Forschungsdatenmanagements
   learningObjectiveLIST:
-  - description: TODO
-    competency: Orientierungswissen
-    dataFlow: übergreifend
-    bloomsCategory: 2 Verstehen
+  - description: Ein Versionierungsschema sowie eine geeignete Lizenz für heterogene
+      Forschungsdaten können ausgewählt und die Zitierfähigkeit des Datensatzes sichergestellt
+      werden.
+    competency: 3.1 Organisation; 1.3 Ethik und Recht; 5.2 Datenpublikation
+    dataFlow: 3 Management
+    bloomsCategory: 5 Bewerten
+  - description: Anhand etablierter Best Practices kann ein Datenset publikationsgerecht
+      organisiert und verwaltet werden.
+    competency: 3.1 Organisation
+    dataFlow: 3 Management
+    bloomsCategory: 3 Anwenden
+  - description: Ein Repository kann angelegt, mit Forschungsdaten befüllt und als
+      versionierter, zitierfähiger Release mit DOI veröffentlicht werden.
+    competency: 5.1 Aufbewahrung; 5.2 Datenpublikation
+    dataFlow: 5 Publikation und Nachnutzung
+    bloomsCategory: 3 Anwenden
 dateIssued: '2026-11-04'
 dateModified: '2026-11-04'
 version: 1.0.0-beta

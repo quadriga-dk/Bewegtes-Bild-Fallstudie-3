@@ -19,8 +19,8 @@ Lernmodul 5 von 5
 Folgende Lernziele können erreicht werden:
 
 ```{include} /präambel/lernziele.md
-:start-after: "<!-- START: Publikation in Repositorien -->"
-:end-before: "<!-- END: Publikation in Repositorien -->"
+:start-after: "<!-- START: Publikation von Datensets in einem Repositorium -->"
+:end-before: "<!-- END: Publikation von Datensets in einem Repositorium -->"
 ```
 
 <h2>Technische Voraussetzungen</h2>

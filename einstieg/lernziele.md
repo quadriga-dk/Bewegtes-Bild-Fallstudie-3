@@ -3,7 +3,7 @@
 
 Mit dem Durchlaufen dieses Jupyter Books sollen die folgenden Lernziele erreicht werden:
 
-<!-- START: Forschungsdatenmanagement -->
+<!-- START: Forschungsdaten und Datenmanagement in der Filmwissenschaft -->
 ```{admonition} [Lernziel: Anwendung zentraler Prinzipien und Methoden des Forschungsdatenmanagements auf film- und medienwissenschaftliche Forschungsdaten](../02_forschungsdaten_fdm/toc_02.md)
 :class: lernziele
 <!-- learning-goal: Anwendung zentraler Prinzipien und Methoden des Forschungsdatenmanagements auf film- und medienwissenschaftliche Forschungsdaten -->
@@ -20,9 +20,9 @@ Mit dem Durchlaufen dieses Jupyter Books sollen die folgenden Lernziele erreicht
 4. Zentrale Standards und Planungsinstrumente des Forschungsdatenmanagements können evaluiert und ihre Bedeutung für den Umgang mit filmwissenschaftlichen Forschungsdaten beurteilt werden.
 <!-- competency: 3.1 Organisation | bloom: 5 Bewerten -->
 ```
-<!-- END: Forschungsdatenmanagement -->
+<!-- END: Forschungsdaten und Datenmanagement in der Filmwissenschaft -->
 
-<!-- START: Metadatenstandards -->
+<!-- START: Metadaten und Metadatenstandards -->
 ```{admonition} [Lernziel: Einordnung und Auswahl von Metadatenstandards für filmwissenschaftliche Forschungsdaten unter Berücksichtigung diskriminierungssensibler Perspektiven](../03_metadaten/toc_03.md)
 :class: lernziele
 <!-- learning-goal: Einordnung und Auswahl von Metadatenstandards für filmwissenschaftliche Forschungsdaten unter Berücksichtigung diskriminierungssensibler Perspektiven -->
@@ -36,9 +36,9 @@ Mit dem Durchlaufen dieses Jupyter Books sollen die folgenden Lernziele erreicht
 3. Diskriminierende Metadaten können identifiziert und geeignete diskriminierungssensible Praktiken auf den eigenen Umgang mit sensiblen Daten übertragen werden.
 <!-- competency: 3.2 Erschließung; 1.3 Ethik und Recht | bloom: 3 Anwenden -->
 ```
-<!-- END: Metadatenstandards -->
+<!-- END: Metadaten und Metadatenstandards -->
 
-<!-- START: Publikationsstrategien -->
+<!-- START: Datenpublikation in der Filmwissenschaft -->
 ```{admonition} [Lernziel: Perspektiven, Strategien und Wege zur Publikation filmwissenschaftlicher Forschungsdaten](../04_einführung_publikation/toc_04.md)
 :class: lernziele
 <!-- learning-goal: Perspektiven, Strategien und Wege zur Publikation filmwissenschaftlicher Forschungsdaten -->
@@ -49,9 +49,9 @@ Mit dem Durchlaufen dieses Jupyter Books sollen die folgenden Lernziele erreicht
 2. Für unterschiedliche Datenszenarien können Publikationswege verglichen und ein geeigneter Publikationsweg ausgewählt werden.
 <!-- competency: 5.2 Datenpublikation | bloom: 3 Anwenden -->
 ```
-<!-- END: Publikationsstrategien -->
+<!-- END: Datenpublikation in der Filmwissenschaft -->
 
-<!-- START: Aufbereitung und Anreicherung -->
+<!-- START: Aufbereitung und Anreicherung filmwissenschaftlicher Daten -->
 ```{admonition} [Lernziel: Publikationsgerechte Aufbereitung, Bereinigung und Anreicherung filmwissenschaftlicher Forschungsdaten](../05_aufbereitung_anreicherung/toc_05.md)
 :class: lernziele
 <!-- learning-goal: Publikationsgerechte Aufbereitung, Bereinigung und Anreicherung filmwissenschaftlicher Forschungsdaten -->
@@ -71,9 +71,9 @@ Mit dem Durchlaufen dieses Jupyter Books sollen die folgenden Lernziele erreicht
 5. Eine diskriminierungssensible Überprüfung kann anhand ausgewählter Metadaten durchgeführt und die Ergebnisse kritisch reflektiert werden.
 <!-- competency:  1.2 Qualitätssicherung; 1.3 Ethik und Recht | bloom: 5 Bewerten -->
 ```
-<!-- END: Aufbereitung und Anreicherung -->
+<!-- END: Aufbereitung und Anreicherung filmwissenschaftlicher Daten -->
 
-<!-- START: Publikation in Repositorien -->
+<!-- START: Publikation von Datensets in einem Repositorium -->
 ```{admonition} [Lernziel: Nachhaltige Publikation filmwissenschaftlicher Forschungsdaten in Repositorien unter Berücksichtigung zentraler Anforderungen des Forschungsdatenmanagements](../06_publikation_repositorien/toc_06.md)
 :class: lernziele
 <!-- learning-goal: Nachhaltige Publikation filmwissenschaftlicher Forschungsdaten in Repositorien unter Berücksichtigung zentraler Anforderungen des Forschungsdatenmanagements -->
@@ -87,4 +87,4 @@ Mit dem Durchlaufen dieses Jupyter Books sollen die folgenden Lernziele erreicht
 3. Ein Repository kann angelegt, mit Forschungsdaten befüllt und als versionierter, zitierfähiger Release mit DOI veröffentlicht werden.
 <!-- competency: 5.1 Aufbewahrung; 5.2 Datenpublikation | bloom: 3 Anwenden -->
 ```
-<!-- END: Publikation in Repositorien -->
+<!-- END: Publikation von Datensets in einem Repositorium -->
