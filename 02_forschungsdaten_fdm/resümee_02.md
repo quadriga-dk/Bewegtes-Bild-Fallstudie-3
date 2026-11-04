@@ -18,7 +18,7 @@
 ```{admonition} Keypoints: Erhebung und Nachnutzung
 :class: keypoint
 
-* Forschungsdaten können durch eigene Erhebungen oder durch die Nachnutzung bestehender Datensätze gewonnen werden
+* Forschungsdaten können durch eigene Erhebungen oder durch die Nachnutzung bestehender Datensätze gewonnen werden.
 * Je nach technischem Erfahrungsniveau stehen unterschiedliche Verfahren zur Datenerhebung zur Verfügung – von Annotationstools über Data Dumps, APIs und SPARQL-Abfragen bis hin zu Webscraping.
 * Die Nachnutzung bestehender Forschungsdaten ermöglicht neue wissenschaftliche Fragestellungen, vergleichende Analysen sowie die Weiterentwicklung vorhandener Datensätze.
 * Voraussetzung für eine verantwortungsvolle Nachnutzung sind eine transparente Datenzitierung sowie die Berücksichtigung von Lizenzbedingungen, Herkunft und Kontext der Forschungsdaten.
@@ -27,7 +27,7 @@
 ```{admonition} Keypoints: Forschungsdatenmanagement (FDM)
 :class: keypoint
 
-* Was ist der Lebenzyklus von Daten? Forschungsdatenmanagement begleitet den gesamten Forschungsdatenlebenszyklus, Forschungsprozesse sind jedoch keine linearen Aktivitäten, sondern gestalten sich dynamisch. Daher ist eine Anpassung der Phasen an den praktischen Forschungsalltag notwendig.
+* Was ist der Lebenszyklus von Daten? Forschungsdatenmanagement begleitet den gesamten Forschungsdatenlebenszyklus, Forschungsprozesse sind jedoch keine linearen Aktivitäten, sondern gestalten sich dynamisch. Daher ist eine Anpassung der Phasen an den praktischen Forschungsalltag notwendig.
 * Leitlinien wie die FAIR-Prinzipien und die DFG-Empfehlungen unterstützen einen strukturierten, transparenten und nachhaltigen Umgang mit Forschungsdaten.
 * Ein Datenmanagementplan (DMP) dient als zentrales Planungs- und Dokumentationsinstrument für die Organisation, Sicherung und spätere Nachnutzung von Forschungsdaten.
 * In der Film- und Medienwissenschaft erfordern insbesondere die Heterogenität der Daten sowie urheberrechtliche Fragestellungen fachspezifische Strategien und Best Practices im Forschungsdatenmanagement.
