@@ -21,7 +21,9 @@ keywordLIST:
 - Metadaten
 - Moviebarcodes
 - Repositorien
-description: Interaktives Lehrbuch zur praxisnahen Aufbereitung, Anreicherung und Publikation filmwissenschaftlicher Forschungsdaten auf Repositorien anhand eines konkreten Forschungsprojekts.
+description: Interaktives Lehrbuch zur praxisnahen Aufbereitung, Anreicherung und
+  Publikation filmwissenschaftlicher Forschungsdaten auf Repositorien anhand eines
+  konkreten Forschungsprojekts.
 tableOfContents: '- Einstieg
 
   - Forschungsdaten und Datenmanagement in der Filmwissenschaft
@@ -75,7 +77,9 @@ identifierGit: https://github.com/quadriga-dk/Bewegtes-Bild-Fallstudie-3
 identifierOER: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3
 chapterLIST:
 - title: Forschungsdaten und Datenmanagement in der Filmwissenschaft
-  description: Einführung in Forschungsdaten und Forschungsdatenmanagement (FDM) mit Fokus auf die Film- und Medienwissenschaft, inklusive FAIR-Prinzipien, DFG-Leitlinien und Datenmanagementplan.
+  description: Einführung in Forschungsdaten und Forschungsdatenmanagement (FDM) mit
+    Fokus auf die Film- und Medienwissenschaft, inklusive FAIR-Prinzipien, DFG-Leitlinien
+    und Datenmanagementplan.
   url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3/02_forschungsdaten_fdm/toc_02.html
   timeRequired: PT1H30M
   learningGoal: Anwendung zentraler Prinzipien und Methoden des Forschungsdatenmanagements
@@ -104,7 +108,9 @@ chapterLIST:
     dataFlow: 3 Management
     bloomsCategory: 5 Bewerten
 - title: Metadaten und Metadatenstandards
-  description: Einführung in Metadaten und gängige Metadatenstandards (u. a. Dublin Core, DataCite, EN 15744/15907) mit besonderem Blick auf diskriminierungssensible Metadatenpraxis in der Filmwissenschaft.
+  description: Einführung in Metadaten und gängige Metadatenstandards (u. a. Dublin
+    Core, DataCite, EN 15744/15907) mit besonderem Blick auf diskriminierungssensible
+    Metadatenpraxis in der Filmwissenschaft.
   url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3/03_metadaten/toc_03.html
   timeRequired: PT1H
   learningGoal: Einordnung und Auswahl von Metadatenstandards für filmwissenschaftliche
@@ -128,7 +134,9 @@ chapterLIST:
     dataFlow: 3 Management
     bloomsCategory: 3 Anwenden
 - title: Datenpublikation in der Filmwissenschaft
-  description: Strategien, Publikationswege und -formate (Repositorien, Data Paper, APIs u. a.) zur Veröffentlichung filmwissenschaftlicher Forschungsdaten sowie rechtliche Entscheidungshilfen.
+  description: Strategien, Publikationswege und -formate (Repositorien, Data Paper,
+    APIs u. a.) zur Veröffentlichung filmwissenschaftlicher Forschungsdaten sowie
+    rechtliche Entscheidungshilfen.
   url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3/04_einführung_publikation/toc_04.html
   timeRequired: PT40M
   learningGoal: Perspektiven, Strategien und Wege zur Publikation filmwissenschaftlicher
@@ -145,7 +153,9 @@ chapterLIST:
     dataFlow: 5 Publikation und Nachnutzung
     bloomsCategory: 3 Anwenden
 - title: Aufbereitung und Anreicherung filmwissenschaftlicher Daten
-  description:  Praxisnahe Aufbereitung, Formatierung, Bereinigung und Anreicherung (u. a. mit Moviebarcodes) eines filmwissenschaftlichen Forschungsdatensets anhand eines konkreten Fallbeispiels.
+  description: Praxisnahe Aufbereitung, Formatierung, Bereinigung und Anreicherung
+    (u. a. mit Moviebarcodes) eines filmwissenschaftlichen Forschungsdatensets anhand
+    eines konkreten Fallbeispiels.
   url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3/05_aufbereitung_anreicherung/toc_05.html
   timeRequired: PT1H30M
   learningGoal: Publikationsgerechte Aufbereitung, Bereinigung und Anreicherung filmwissenschaftlicher
@@ -178,7 +188,9 @@ chapterLIST:
     dataFlow: 1 Planung
     bloomsCategory: 5 Bewerten
 - title: Publikation von Datensets in einem Repositorium
-  description:   Schritt-für-Schritt-Anleitung zur Publikation eines Forschungsdatensets auf GitHub und Zenodo, inklusive Versionierung, Lizenzierung, Zitierfähigkeit und Datenkuratierung.
+  description: Schritt-für-Schritt-Anleitung zur Publikation eines Forschungsdatensets
+    auf GitHub und Zenodo, inklusive Versionierung, Lizenzierung, Zitierfähigkeit
+    und Datenkuratierung.
   url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3/06_publikation_repositorien/toc_06.html
   timeRequired: PT1H30M
   learningGoal: Nachhaltige Publikation filmwissenschaftlicher Forschungsdaten in

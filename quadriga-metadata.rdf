@@ -152,6 +152,7 @@
         <schema:affiliation rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#author_0_org" />
         <schema:familyName>Demir</schema:familyName>
         <schema:givenName>Derya</schema:givenName>
+        <schema:identifier rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#author_0_orcid" />
         <schema:name>Derya Demir</schema:name>
       </schema:Person>
     </schema:author>
@@ -166,33 +167,53 @@
     </schema:author>
     <schema:contributor>
       <schema:Person rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#contributor_0">
-        <schema:familyName>DO</schema:familyName>
-        <schema:givenName>TO</schema:givenName>
-        <schema:name>TO DO</schema:name>
+        <schema:affiliation rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#contributor_0_org" />
+        <schema:familyName>Samoilova</schema:familyName>
+        <schema:givenName>Evgenia</schema:givenName>
+        <schema:identifier rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#contributor_0_orcid" />
+        <schema:name>Evgenia Samoilova</schema:name>
+      </schema:Person>
+    </schema:contributor>
+    <schema:contributor>
+      <schema:Person rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#contributor_1">
+        <schema:affiliation rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#contributor_1_org" />
+        <schema:familyName>Schnaitter</schema:familyName>
+        <schema:givenName>Hannes</schema:givenName>
+        <schema:identifier rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#contributor_1_orcid" />
+        <schema:name>Hannes Schnaitter</schema:name>
+      </schema:Person>
+    </schema:contributor>
+    <schema:contributor>
+      <schema:Person rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#contributor_2">
+        <schema:affiliation rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#contributor_2_org" />
+        <schema:familyName>Islam</schema:familyName>
+        <schema:givenName>Lamia</schema:givenName>
+        <schema:identifier rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#contributor_2_orcid" />
+        <schema:name>Lamia Islam</schema:name>
       </schema:Person>
     </schema:contributor>
     <schema:dateModified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-11-04</schema:dateModified>
     <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-11-04</schema:datePublished>
-    <schema:description>TODO</schema:description>
+    <schema:description>Interaktives Lehrbuch zur praxisnahen Aufbereitung, Anreicherung und Publikation filmwissenschaftlicher Forschungsdaten auf Repositorien anhand eines konkreten Forschungsprojekts.</schema:description>
     <schema:funding>Die vorliegenden Open Educational Resources wurden durch das Datenkompetenzzentrum QUADRIGA erstellt.
 
 Förderkennzeichen: 16DKZ2034</schema:funding>
     <schema:hasPart>
       <schema:LearningResource rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#chapter_0">
-        <schema:description>TODO</schema:description>
+        <schema:description>Einführung in Forschungsdaten und Forschungsdatenmanagement (FDM) mit Fokus auf die Film- und Medienwissenschaft, inklusive FAIR-Prinzipien, DFG-Leitlinien und Datenmanagementplan.</schema:description>
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#chapter_0_objective_0" />
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#chapter_0_objective_1" />
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#chapter_0_objective_2" />
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#chapter_0_objective_3" />
         <schema:name>Forschungsdaten und Datenmanagement in der Filmwissenschaft</schema:name>
         <schema:teaches>Anwendung zentraler Prinzipien und Methoden des Forschungsdatenmanagements auf film- und medienwissenschaftliche Forschungsdaten</schema:teaches>
-        <schema:timeRequired>PT1H</schema:timeRequired>
+        <schema:timeRequired>PT1H30M</schema:timeRequired>
         <schema:url rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3/02_forschungsdaten_fdm/toc_02.html" />
       </schema:LearningResource>
     </schema:hasPart>
     <schema:hasPart>
       <schema:LearningResource rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#chapter_1">
-        <schema:description>TODO</schema:description>
+        <schema:description>Einführung in Metadaten und gängige Metadatenstandards (u. a. Dublin Core, DataCite, EN 15744/15907) mit besonderem Blick auf diskriminierungssensible Metadatenpraxis in der Filmwissenschaft.</schema:description>
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#chapter_1_objective_0" />
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#chapter_1_objective_1" />
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#chapter_1_objective_2" />
@@ -204,18 +225,18 @@ Förderkennzeichen: 16DKZ2034</schema:funding>
     </schema:hasPart>
     <schema:hasPart>
       <schema:LearningResource rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#chapter_2">
-        <schema:description>TODO</schema:description>
+        <schema:description>Strategien, Publikationswege und -formate (Repositorien, Data Paper, APIs u. a.) zur Veröffentlichung filmwissenschaftlicher Forschungsdaten sowie rechtliche Entscheidungshilfen.</schema:description>
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#chapter_2_objective_0" />
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#chapter_2_objective_1" />
         <schema:name>Datenpublikation in der Filmwissenschaft</schema:name>
         <schema:teaches>Perspektiven, Strategien und Wege zur Publikation filmwissenschaftlicher Forschungsdaten</schema:teaches>
-        <schema:timeRequired>PT1H</schema:timeRequired>
+        <schema:timeRequired>PT40M</schema:timeRequired>
         <schema:url rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3/04_einführung_publikation/toc_04.html" />
       </schema:LearningResource>
     </schema:hasPart>
     <schema:hasPart>
       <schema:LearningResource rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#chapter_3">
-        <schema:description>TODO</schema:description>
+        <schema:description>Praxisnahe Aufbereitung, Formatierung, Bereinigung und Anreicherung (u. a. mit Moviebarcodes) eines filmwissenschaftlichen Forschungsdatensets anhand eines konkreten Fallbeispiels.</schema:description>
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#chapter_3_objective_0" />
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#chapter_3_objective_1" />
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#chapter_3_objective_2" />
@@ -223,19 +244,19 @@ Förderkennzeichen: 16DKZ2034</schema:funding>
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#chapter_3_objective_4" />
         <schema:name>Aufbereitung und Anreicherung filmwissenschaftlicher Daten</schema:name>
         <schema:teaches>Publikationsgerechte Aufbereitung, Bereinigung und Anreicherung filmwissenschaftlicher Forschungsdaten</schema:teaches>
-        <schema:timeRequired>PT1H</schema:timeRequired>
+        <schema:timeRequired>PT1H30M</schema:timeRequired>
         <schema:url rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3/05_aufbereitung_anreicherung/toc_05.html" />
       </schema:LearningResource>
     </schema:hasPart>
     <schema:hasPart>
       <schema:LearningResource rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#chapter_4">
-        <schema:description>TODO</schema:description>
+        <schema:description>Schritt-für-Schritt-Anleitung zur Publikation eines Forschungsdatensets auf GitHub und Zenodo, inklusive Versionierung, Lizenzierung, Zitierfähigkeit und Datenkuratierung.</schema:description>
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#chapter_4_objective_0" />
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#chapter_4_objective_1" />
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#chapter_4_objective_2" />
         <schema:name>Publikation von Datensets in einem Repositorium</schema:name>
         <schema:teaches>Nachhaltige Publikation filmwissenschaftlicher Forschungsdaten in Repositorien unter Berücksichtigung zentraler Anforderungen des Forschungsdatenmanagements</schema:teaches>
-        <schema:timeRequired>PT1H</schema:timeRequired>
+        <schema:timeRequired>PT1H30M</schema:timeRequired>
         <schema:url rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3/06_publikation_repositorien/toc_06.html" />
       </schema:LearningResource>
     </schema:hasPart>
@@ -277,9 +298,38 @@ Förderkennzeichen: 16DKZ2034</schema:funding>
   <schema:Organization rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#author_1_org">
     <schema:name>Freie Universität Berlin</schema:name>
   </schema:Organization>
+  <schema:Organization rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#contributor_0_org">
+    <schema:name>Universität Potsdam</schema:name>
+  </schema:Organization>
+  <schema:Organization rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#contributor_1_org">
+    <schema:name>Humboldt-Universität zu Berlin</schema:name>
+  </schema:Organization>
+  <schema:Organization rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#contributor_2_org">
+    <schema:name>Universität Potsdam</schema:name>
+  </schema:Organization>
+  <schema:PropertyValue rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#author_0_orcid">
+    <schema:propertyID>ORCID</schema:propertyID>
+    <schema:url rdf:resource="https://orcid.org/0009-0000-2237-9400" />
+    <schema:value>0009-0000-2237-9400</schema:value>
+  </schema:PropertyValue>
   <schema:PropertyValue rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#author_1_orcid">
     <schema:propertyID>ORCID</schema:propertyID>
     <schema:url rdf:resource="https://orcid.org/0000-0002-0954-3111" />
     <schema:value>0000-0002-0954-3111</schema:value>
+  </schema:PropertyValue>
+  <schema:PropertyValue rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#contributor_0_orcid">
+    <schema:propertyID>ORCID</schema:propertyID>
+    <schema:url rdf:resource="https://orcid.org/0000-0003-3858-901X" />
+    <schema:value>0000-0003-3858-901X</schema:value>
+  </schema:PropertyValue>
+  <schema:PropertyValue rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#contributor_1_orcid">
+    <schema:propertyID>ORCID</schema:propertyID>
+    <schema:url rdf:resource="https://orcid.org/0000-0002-1602-6032" />
+    <schema:value>0000-0002-1602-6032</schema:value>
+  </schema:PropertyValue>
+  <schema:PropertyValue rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#contributor_2_orcid">
+    <schema:propertyID>ORCID</schema:propertyID>
+    <schema:url rdf:resource="https://orcid.org/0009-0001-1879-9880" />
+    <schema:value>0009-0001-1879-9880</schema:value>
   </schema:PropertyValue>
 </rdf:RDF>
