@@ -39,7 +39,7 @@ Das Schema folgt dem Prinzip eines dreistelligen Nummernsystems:
 3. `PATCH`: z. B.  2.1.**1** → Kleine Bugfixes oder Tippfehler, es wird nichts Strukturelles verändert, alles ist weiterhin abwärtskompatibel 
 
 
-Neben der dreistelligen Versionsnummerierung gibt es zusätzlich noch sogenannte "pre-realease version labels" bzw "pre-release tags". Sie kennzeichnen Entwicklungsstadien vor der offiziellen Veröffentlichung und signalisieren Nutzenden so, dass eine Version noch nicht vollständig oder stabil ist.
+Neben der dreistelligen Versionsnummerierung gibt es zusätzlich noch sogenannte "pre-release version labels" bzw. "pre-release tags". Sie kennzeichnen Entwicklungsstadien vor der offiziellen Veröffentlichung und signalisieren Nutzenden so, dass eine Version noch nicht vollständig oder stabil ist.
 
 Die Zeitleiste einer Version kann beispielsweise so aussehen:
 
@@ -50,7 +50,7 @@ alpha → beta → release candidate → finale Version
 ```
 
 * `alpha` steht für die frühe Entwicklungsphase, die Version ist also noch nicht vollständig bzw. in einem Rohbau und anfällig für Fehler - wird eher für interne Testungen genutzt
-* `beta` beschreibt eine weitestgehend fertige Entwicklungsstufe, die breiter getestet wird und in denen Fehler weiterhin auftreten können
+* `beta` beschreibt eine weitestgehend fertige Entwicklungsstufe, die breiter getestet wird und in der Fehler weiterhin auftreten können
 * `rc` ist die Abkürzung für "release candidate" und markiert eine quasi fertige, publikationsreife Version 
 * Die finale Version entspricht dann einem `MAJOR` Release 
 
@@ -63,7 +63,7 @@ Für Forschungsdaten ist die Verwendung von pre-release version labels je nach P
 (lizenzierung)=
 ## Lizenzierung
 
-Neben der Versionierung, ist weiterer zentraler Schritt der Publikation die Vergabe von Lizenzen. Forschende und Forschungsprojekte sollten sich frühzeitig mit der Frage der Lizenzierung auseinandersetzen, um etwaige lizenzrechtliche Unschlüssigkeiten oder Unsicherheiten bereits im Vorfeld zu klären. Denn Lizenzen legen fest, unter welchen Bedingungen andere Personen die Forschungsdaten **nutzen, bearbeiten oder weitergeben** dürfen.
+Neben der Versionierung ist ein weiterer zentraler Schritt der Publikation die Vergabe von Lizenzen. Forschende und Forschungsprojekte sollten sich frühzeitig mit der Frage der Lizenzierung auseinandersetzen, um etwaige lizenzrechtliche Unschlüssigkeiten oder Unsicherheiten bereits im Vorfeld zu klären. Denn Lizenzen legen fest, unter welchen Bedingungen andere Personen die Forschungsdaten **nutzen, bearbeiten oder weitergeben** dürfen.
 
 ### Die Creative Commons Lizenzen (CC) im Überblick
 
@@ -211,7 +211,7 @@ Für Programmcode oder beispielsweise Pythonskripte und Software jeglicher Art g
 ````{margin}
 ```{admonition} Was bedeutet "Copyleft"
 :class: hinweis
-Das Copyleft Lizenzmodell erlaubt Nutzenden die freie Bearbeitung und Verbreitung eines Werkes (z. B. Erweiterung, Veränderung), sofern jegliche Bearbeitung unter die Lizenz des ursprünglichen Werkes gestellt wird {cite}`Wikipedia_Copyleft_2024`.
+Das Copyleft-Lizenzmodell erlaubt Nutzenden die freie Bearbeitung und Verbreitung eines Werkes (z. B. Erweiterung, Veränderung), sofern jegliche Bearbeitung unter die Lizenz des ursprünglichen Werkes gestellt wird {cite}`Wikipedia_Copyleft_2024`.
 ```
 ````
 
@@ -332,7 +332,7 @@ Die vollständige Lizenzdokumentation ist in der <a href="https://github.com/SFB
 
 ```{admonition} Was ist eine LICENSE-Datei?
 :class: hinweis
-Ähnliche wie die `README`-Datei, ist eine `LICENSE.md` eine einfache Textdatei im {ref}`Markdown-Format (Kapitel 5.4.)<ergebnis-interpretieren>`, die die rechtlichen Nutzungsbedingungen eines Datensatzes oder Repositoriums definiert. Es wird als Best Practice empfohlen, die Lizenzdatei dem Projektrepository hinzuzufügen.
+Ähnlich wie die `README`-Datei ist eine `LICENSE.md` eine einfache Textdatei im {ref}`Markdown-Format (Kapitel 5.4.)<ergebnis-interpretieren>`, die die rechtlichen Nutzungsbedingungen eines Datensatzes oder Repositoriums definiert. Es wird als Best Practice empfohlen, die Lizenzdatei dem Projektrepository hinzuzufügen.
 ```
 
 ```{admonition} Weiterführende Links und Ressourcen zum Thema Lizenzen
@@ -349,7 +349,7 @@ Die vollständige Lizenzdokumentation ist in der <a href="https://github.com/SFB
 (daten-zitieren)=
 ## Daten zitierbar machen
 
-Im letzten Teil dieses Kapitels soll es nun um die Zitierfähigkeit der Daten gehen. Wie Publikationen, so sollten auch Forschungsdaten korrekt angegeben und zitiert werden. Um die eigenen Forschungsdaten zitierbar zu machen, gibt es unterschiedliche Wege. In [Kapitel 3.1. Einführung Metadaten](../03_metadaten/einführung_metadaten.md) sind wir bereits kurz auf {ref}`Dublin Core <dublin-core-header>` und {ref}`DataCite <data-cite-header>` eingegangen. Neben diesen Varianten, ist die Nutzung des sogenannten Citation File Format (CFF) für Daten und Software, insbesondere in Git-Repositorien, sehr verbreitet. 
+Im letzten Teil dieses Kapitels soll es nun um die Zitierfähigkeit der Daten gehen. Wie Publikationen, so sollten auch Forschungsdaten korrekt angegeben und zitiert werden. Um die eigenen Forschungsdaten zitierbar zu machen, gibt es unterschiedliche Wege. In [Kapitel 3.1. Einführung Metadaten](../03_metadaten/einführung_metadaten.md) sind wir bereits kurz auf {ref}`Dublin Core <dublin-core-header>` und {ref}`DataCite <data-cite-header>` eingegangen. Neben diesen Varianten ist die Nutzung des sogenannten Citation File Format (CFF) für Daten und Software, insbesondere in Git-Repositorien, sehr verbreitet. 
 
 Die `CITATION.cff` ist eine standardisierte Metadatendatei im {ref}`YAML-Format (Kapitel 5.3.)<metadatenschema-template>`, die beschreibt, wie ein Datensatz oder eine Software korrekt zitiert werden soll. Sie wird von GitHub und Zenodo direkt unterstützt. Wer das Repo besucht, kann die Zitationsinformationen also mit einem Klick exportieren.
 
@@ -390,7 +390,7 @@ Für die Erstellung einer `CITATION.cff` kann ein kostenloser Code- und Text-Edi
 ```{admonition} Generierung/Validierung
 :class: important
 Vor der Publikation sollte die `CITATION.cff` auf ihre Korrektheit überprüft werden. Dafür steht 
-<a href="https://citation-file-format.github.io/cff-initializer-javascript/#/" class="external-link" target="_blank">cffinit (CITATION.cff Generator)</a> zur Verfügung. Der Generator zeigt nicht nur Fehler an, sondern kann auch als interaktives Formular zur Erstellung einer `CITATIION.cff` genutzt werden und wird ausdrücklich zur Nutzung empfohlen.
+<a href="https://citation-file-format.github.io/cff-initializer-javascript/#/" class="external-link" target="_blank">cffinit (CITATION.cff Generator)</a> zur Verfügung. Der Generator zeigt nicht nur Fehler an, sondern kann auch als interaktives Formular zur Erstellung einer `CITATION.cff` genutzt werden und wird ausdrücklich zur Nutzung empfohlen.
 ```
 
 
@@ -401,7 +401,7 @@ Mehr Informationen zu **persistenten Identifikatoren** gibt es in unserer  <a hr
 ```
 ````
 
-Wichtig für die Zitierfähigkeit der Daten ist in jedem Fall ein **persistenter Identifikator** (kurz: PID). Dies ist für Forschungsdaten häufig eine DOI (**D**igital **O**bject **I**dentifier), also ein eindeutiger und permanenter Identifikator für digitale Objekte wie beispielsweise wissenschaftliche Aufsätze, Publikationen, Forschungsdaten oder Videos. Ähnlich wie eine ISBN-Nummer, dienen DOI's dazu, Objekte im Internet dauerhaft auffindbar und zitierbar zu machen. Eine DOI besteht häufig aus einer Aneinanderreihung von Zahlen. Die Kennung beginnt immer mit 10, zum Beispiel: `doi:10.1000/199` {cite}`FUBerlin_DOI_oJ`.
+Wichtig für die Zitierfähigkeit der Daten ist in jedem Fall ein **persistenter Identifikator** (kurz: PID). Dies ist für Forschungsdaten häufig eine DOI (**D**igital **O**bject **I**dentifier), also ein eindeutiger und permanenter Identifikator für digitale Objekte wie beispielsweise wissenschaftliche Aufsätze, Publikationen, Forschungsdaten oder Videos. Ähnlich wie eine ISBN-Nummer dienen DOIs dazu, Objekte im Internet dauerhaft auffindbar und zitierbar zu machen. Eine DOI besteht häufig aus einer Aneinanderreihung von Zahlen. Die Kennung beginnt immer mit 10, zum Beispiel: `doi:10.1000/199` {cite}`FUBerlin_DOI_oJ`.
 Die DOI sollte in der `CITATION.cff` angegeben werden. Viele Repositorien vergeben DOIs bei einer Publikation automatisch. Eine Übersicht für Repositorien mit DOI-Vergabe findet sich in {ref}`Kapitel 4.2. <repositorien-doivergabe>`. 
 
 ```{admonition} DOI-Vergabe und GitHub
