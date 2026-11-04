@@ -6,7 +6,7 @@ orphan: true
 ## 3.1. Vorbereitungen
 ### 3.1.1. Homebrew installieren
 
-Um FFmpeg und ImageMagick zu installieren benutzen wir Homebrew. Homebrew ist eine freie Paketverwaltung für MacOS. Um Homebrew zu installieren, öffnen Sie ein Terminalfenster und setzen dort folgenden Befehl ab:
+Um FFmpeg und ImageMagick zu installieren, benutzen wir Homebrew. Homebrew ist eine freie Paketverwaltung für MacOS. Um Homebrew zu installieren, öffnen Sie ein Terminalfenster und setzen dort folgenden Befehl ab:
 
 ```Bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -61,7 +61,7 @@ height=1080
 [/STREAM]
 ```
 
-Der `height`-Wert gibt die maximale sinnvolle Höhe des finalen Barcodes in Pixeln vor, da für alles, was darüber hinausgeht, zusätzliche Bildinformationen generiert werden müssten, die in der Quelldatei nicht vorhanden sind. Dies ist möglich, sollte aber grundsätzlich vermieden werden – außer die Quelldatei ist zu niedrig aufgelöst, um einen sinnvoll verwendbaren Barcode zu erzeugen.
+Der `height`-Wert gibt die maximale sinnvolle Höhe des finalen Barcodes in Pixeln vor, da für alles, was darüber hinausgeht, zusätzliche Bildinformationen generiert werden müssten, die in der Quelldatei nicht vorhanden sind. Dies ist möglich, sollte aber grundsätzlich vermieden werden – außer, die Quelldatei ist zu niedrig aufgelöst, um einen sinnvoll verwendbaren Barcode zu erzeugen.
 
 Die Breite des finalen Barcodes lässt sich an dieser Stelle fast beliebig festlegen – auch wenn sehr kurze Quelldateien eventuell nicht genug Frames beinhalten, um die nötige Breite zu füllen. Dies stellt im Grunde kein Problem dar, kann jedoch dazu führen, dass der Barcode in der Breite gröber aufgelöst erscheint, da Frames mehrfach ausgegeben werden, um die X-Achse zu füllen.
 
@@ -132,7 +132,7 @@ Der Parameter `x720` gibt hier die Höhe der skalierten Version in Pixeln an und
 
 ### 3.2.4. Automatisierung der gesamten Barcodeerstellung via Bash-Script
 
-Erstellen Sie mit einem Texteditor (Visua Studio Code, nano, vim, etc.) eine Scriptdatei, beispielsweise moviebarcode_script.sh. Machen sie die Datei mit "chmod + x moviebarcode_script.sh" ausführbar. In die Scriptdatei kopieren sie folgenden Scriptblock und passen die entsprechenden Parameter in den ersten Zeilen an:
+Erstellen Sie mit einem Texteditor (Visual Studio Code, nano, vim, etc.) eine Scriptdatei, beispielsweise moviebarcode_script.sh. Machen Sie die Datei mit "chmod + x moviebarcode_script.sh" ausführbar. In die Scriptdatei kopieren Sie folgenden Scriptblock und passen die entsprechenden Parameter in den ersten Zeilen an:
 
 ```Bash
 # Parameter
@@ -161,4 +161,4 @@ magick "${OUTFILE}_${PRIMARY_HEIGHT}.png" -resize x$SCALED_HEIGHT "${OUTFILE}_72
 rm frame_*.png
 ```
 
-Dieses Script kann angepasst und direkt in eine PowerShell-Session kopiert werden. Es kann aber auch mit einem Texteditor (NotePad++, Visual Studio Code, etc.) in einer Scriptdatei, beispielsweise moviebarcode_script.sh im Arbeitsverzeichnis gespeichert und mit ".\moviebarcode_script.sh" aufgerufen werden. Es sollten automatisch die Einzelframes extrahiert und zu einem Moviebarcode zusammengefügt werden.
+Dieses Script kann angepasst und direkt in eine PowerShell-Session kopiert werden. Es kann aber auch mit einem Texteditor (Notepad++, Visual Studio Code, etc.) in einer Scriptdatei, beispielsweise moviebarcode_script.sh im Arbeitsverzeichnis gespeichert und mit ".\moviebarcode_script.sh" aufgerufen werden. Es sollten automatisch die Einzelframes extrahiert und zu einem Moviebarcode zusammengefügt werden.
