@@ -24,7 +24,7 @@
 * Kuratierung, Dateiorganisation und Datensicherung sind prozessbegleitende Aufgaben des FMDs und schaffen die Voraussetzung für eine Publikation nach guter wissenschaftlicher Praxis.
 ```
 
-```{admonition} Keypoints: Dateninfrastrukuren und Publikation auf Repositorien
+```{admonition} Keypoints: Dateninfrastrukturen und Publikation auf Repositorien
 :class: keypoint
 
 * Für die Datenpublikation können mehrere Infrastrukturen kombiniert werden: GitHub für Versionskontrolle und kollaborative Bearbeitung, Zenodo für DOI-Vergabe und Archivierung sowie institutionelle oder fachspezifische Repositorien für Langzeitverfügbarkeit und Sichtbarkeit.
