@@ -12,7 +12,7 @@
   </schema:AlignmentObject>
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#chapter_0_objective_2">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
-    <schema:targetDescription>Competency: 2.1 Erhebung; 5.2 Datenpublikation | Bloom's: 3 Anwenden | Data Flow: 2 Erhebung und Aufbereitung</schema:targetDescription>
+    <schema:targetDescription>Competency: 2.1 Erhebung | Bloom's: 3 Anwenden | Data Flow: 2 Erhebung und Aufbereitung</schema:targetDescription>
     <schema:targetName>Für eigene Fragestellungen können gängige Methoden der Datenerhebung ausgewählt und Arten der Nachnutzung unterschieden werden.</schema:targetName>
   </schema:AlignmentObject>
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#chapter_0_objective_3">
@@ -32,7 +32,7 @@
   </schema:AlignmentObject>
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#chapter_1_objective_2">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
-    <schema:targetDescription>Competency: 3.2 Erschließung; 1.3 Ethik und Recht | Bloom's: 3 Anwenden | Data Flow: 3 Management</schema:targetDescription>
+    <schema:targetDescription>Competency: 3.2 Erschließung | Bloom's: 3 Anwenden | Data Flow: 3 Management</schema:targetDescription>
     <schema:targetName>Diskriminierende Metadaten können identifiziert und geeignete diskriminierungssensible Praktiken auf den eigenen Umgang mit sensiblen Daten übertragen werden.</schema:targetName>
   </schema:AlignmentObject>
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#chapter_2_objective_0">
@@ -47,7 +47,7 @@
   </schema:AlignmentObject>
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#chapter_3_objective_0">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
-    <schema:targetDescription>Competency: 2.3 Aufbereitung; 4.2 Visualisierung | Bloom's: 3 Anwenden | Data Flow: 2 Erhebung und Aufbereitung</schema:targetDescription>
+    <schema:targetDescription>Competency: 4.2 Visualisierung | Bloom's: 3 Anwenden | Data Flow: 4 Analyse</schema:targetDescription>
     <schema:targetName>Moviebarcodes können aus audiovisuellen Daten erzeugt und ihre Bedeutung für die Analyse und Anreicherung filmwissenschaftlicher Forschungsdaten erläutert werden.</schema:targetName>
   </schema:AlignmentObject>
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#chapter_3_objective_1">
@@ -57,22 +57,22 @@
   </schema:AlignmentObject>
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#chapter_3_objective_2">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
-    <schema:targetDescription>Competency: 2.3 Aufbereitung; 5.2 Datenpublikation | Bloom's: 3 Anwenden | Data Flow: 2 Erhebung und Aufbereitung</schema:targetDescription>
+    <schema:targetDescription>Competency: 2.3 Aufbereitung | Bloom's: 3 Anwenden | Data Flow: 2 Erhebung und Aufbereitung</schema:targetDescription>
     <schema:targetName>Metadaten können in offene, nicht-proprietäre Formate konvertiert und der Datensatz für die Nachnutzung dokumentiert werden.</schema:targetName>
   </schema:AlignmentObject>
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#chapter_3_objective_3">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
-    <schema:targetDescription>Competency: 2.2 Validierung; 2.3 Aufbereitung | Bloom's: 3 Anwenden | Data Flow: 2 Erhebung und Aufbereitung</schema:targetDescription>
+    <schema:targetDescription>Competency: 2.2 Validierung | Bloom's: 3 Anwenden | Data Flow: 2 Erhebung und Aufbereitung</schema:targetDescription>
     <schema:targetName>Es können Verfahren zur automatisierten Validierung von Metadaten angewendet, Fehler und Inkonsistenzen erkannt und der Datensatz bereinigt werden.</schema:targetName>
   </schema:AlignmentObject>
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#chapter_3_objective_4">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
-    <schema:targetDescription>Competency: 1.2 Qualitätssicherung; 1.3 Ethik und Recht | Bloom's: 5 Bewerten | Data Flow: 1 Planung</schema:targetDescription>
+    <schema:targetDescription>Competency: 1.2 Qualitätssicherung | Bloom's: 5 Bewerten | Data Flow: 1 Planung</schema:targetDescription>
     <schema:targetName>Eine diskriminierungssensible Überprüfung kann anhand ausgewählter Metadaten durchgeführt und die Ergebnisse kritisch reflektiert werden.</schema:targetName>
   </schema:AlignmentObject>
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#chapter_4_objective_0">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
-    <schema:targetDescription>Competency: 3.1 Organisation; 1.3 Ethik und Recht; 5.2 Datenpublikation | Bloom's: 5 Bewerten | Data Flow: 3 Management</schema:targetDescription>
+    <schema:targetDescription>Competency: 3.1 Organisation | Bloom's: 5 Bewerten | Data Flow: 3 Management</schema:targetDescription>
     <schema:targetName>Ein Versionierungsschema sowie eine geeignete Lizenz für heterogene Forschungsdaten können ausgewählt und die Zitierfähigkeit des Datensatzes sichergestellt werden.</schema:targetName>
   </schema:AlignmentObject>
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#chapter_4_objective_1">
@@ -82,7 +82,7 @@
   </schema:AlignmentObject>
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#chapter_4_objective_2">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
-    <schema:targetDescription>Competency: 5.1 Aufbewahrung; 5.2 Datenpublikation | Bloom's: 3 Anwenden | Data Flow: 5 Publikation und Nachnutzung</schema:targetDescription>
+    <schema:targetDescription>Competency: 5.2 Datenpublikation | Bloom's: 3 Anwenden | Data Flow: 5 Publikation und Nachnutzung</schema:targetDescription>
     <schema:targetName>Ein Repository kann angelegt, mit Forschungsdaten befüllt und als versionierter, zitierfähiger Release mit DOI veröffentlicht werden.</schema:targetName>
   </schema:AlignmentObject>
   <schema:Book rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3">

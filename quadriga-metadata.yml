@@ -74,7 +74,7 @@ chapterLIST:
     bloomsCategory: 5 Bewerten
   - description: Für eigene Fragestellungen können gängige Methoden der Datenerhebung
       ausgewählt und Arten der Nachnutzung unterschieden werden.
-    competency: 2.1 Erhebung; 5.2 Datenpublikation
+    competency: 2.1 Erhebung
     dataFlow: 2 Erhebung und Aufbereitung
     bloomsCategory: 3 Anwenden
   - description: Zentrale Standards und Planungsinstrumente des Forschungsdatenmanagements
@@ -104,7 +104,7 @@ chapterLIST:
     bloomsCategory: 5 Bewerten
   - description: Diskriminierende Metadaten können identifiziert und geeignete diskriminierungssensible
       Praktiken auf den eigenen Umgang mit sensiblen Daten übertragen werden.
-    competency: 3.2 Erschließung; 1.3 Ethik und Recht
+    competency: 3.2 Erschließung
     dataFlow: 3 Management
     bloomsCategory: 3 Anwenden
 - title: Datenpublikation in der Filmwissenschaft
@@ -134,8 +134,8 @@ chapterLIST:
   - description: Moviebarcodes können aus audiovisuellen Daten erzeugt und ihre Bedeutung
       für die Analyse und Anreicherung filmwissenschaftlicher Forschungsdaten erläutert
       werden.
-    competency: 2.3 Aufbereitung; 4.2 Visualisierung
-    dataFlow: 2 Erhebung und Aufbereitung
+    competency: 4.2 Visualisierung
+    dataFlow: 4 Analyse
     bloomsCategory: 3 Anwenden
   - description: Der Aufbau eines projektspezifischen Metadatenschemas kann erläutert
       und dessen Mapping auf etablierte Metadatenstandards nachvollzogen werden.
@@ -144,17 +144,17 @@ chapterLIST:
     bloomsCategory: 2 Verstehen
   - description: Metadaten können in offene, nicht-proprietäre Formate konvertiert
       und der Datensatz für die Nachnutzung dokumentiert werden.
-    competency: 2.3 Aufbereitung; 5.2 Datenpublikation
+    competency: 2.3 Aufbereitung
     dataFlow: 2 Erhebung und Aufbereitung
     bloomsCategory: 3 Anwenden
   - description: Es können Verfahren zur automatisierten Validierung von Metadaten
       angewendet, Fehler und Inkonsistenzen erkannt und der Datensatz bereinigt werden.
-    competency: 2.2 Validierung; 2.3 Aufbereitung
+    competency: 2.2 Validierung
     dataFlow: 2 Erhebung und Aufbereitung
     bloomsCategory: 3 Anwenden
   - description: Eine diskriminierungssensible Überprüfung kann anhand ausgewählter
       Metadaten durchgeführt und die Ergebnisse kritisch reflektiert werden.
-    competency: 1.2 Qualitätssicherung; 1.3 Ethik und Recht
+    competency: 1.2 Qualitätssicherung
     dataFlow: 1 Planung
     bloomsCategory: 5 Bewerten
 - title: Publikation von Datensets in einem Repositorium
@@ -167,7 +167,7 @@ chapterLIST:
   - description: Ein Versionierungsschema sowie eine geeignete Lizenz für heterogene
       Forschungsdaten können ausgewählt und die Zitierfähigkeit des Datensatzes sichergestellt
       werden.
-    competency: 3.1 Organisation; 1.3 Ethik und Recht; 5.2 Datenpublikation
+    competency: 3.1 Organisation
     dataFlow: 3 Management
     bloomsCategory: 5 Bewerten
   - description: Anhand etablierter Best Practices kann ein Datenset publikationsgerecht
@@ -177,7 +177,7 @@ chapterLIST:
     bloomsCategory: 3 Anwenden
   - description: Ein Repository kann angelegt, mit Forschungsdaten befüllt und als
       versionierter, zitierfähiger Release mit DOI veröffentlicht werden.
-    competency: 5.1 Aufbewahrung; 5.2 Datenpublikation
+    competency: 5.2 Datenpublikation
     dataFlow: 5 Publikation und Nachnutzung
     bloomsCategory: 3 Anwenden
 dateIssued: '2026-11-04'

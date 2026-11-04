@@ -149,7 +149,7 @@
           "@type": "AlignmentObject",
           "targetName": "Für eigene Fragestellungen können gängige Methoden der Datenerhebung ausgewählt und Arten der Nachnutzung unterschieden werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: 2.1 Erhebung; 5.2 Datenpublikation | Bloom's: 3 Anwenden | Data Flow: 2 Erhebung und Aufbereitung"
+          "targetDescription": "Competency: 2.1 Erhebung | Bloom's: 3 Anwenden | Data Flow: 2 Erhebung und Aufbereitung"
         },
         {
           "@type": "AlignmentObject",
@@ -183,7 +183,7 @@
           "@type": "AlignmentObject",
           "targetName": "Diskriminierende Metadaten können identifiziert und geeignete diskriminierungssensible Praktiken auf den eigenen Umgang mit sensiblen Daten übertragen werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: 3.2 Erschließung; 1.3 Ethik und Recht | Bloom's: 3 Anwenden | Data Flow: 3 Management"
+          "targetDescription": "Competency: 3.2 Erschließung | Bloom's: 3 Anwenden | Data Flow: 3 Management"
         }
       ]
     },
@@ -221,7 +221,7 @@
           "@type": "AlignmentObject",
           "targetName": "Moviebarcodes können aus audiovisuellen Daten erzeugt und ihre Bedeutung für die Analyse und Anreicherung filmwissenschaftlicher Forschungsdaten erläutert werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: 2.3 Aufbereitung; 4.2 Visualisierung | Bloom's: 3 Anwenden | Data Flow: 2 Erhebung und Aufbereitung"
+          "targetDescription": "Competency: 4.2 Visualisierung | Bloom's: 3 Anwenden | Data Flow: 4 Analyse"
         },
         {
           "@type": "AlignmentObject",
@@ -233,19 +233,19 @@
           "@type": "AlignmentObject",
           "targetName": "Metadaten können in offene, nicht-proprietäre Formate konvertiert und der Datensatz für die Nachnutzung dokumentiert werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: 2.3 Aufbereitung; 5.2 Datenpublikation | Bloom's: 3 Anwenden | Data Flow: 2 Erhebung und Aufbereitung"
+          "targetDescription": "Competency: 2.3 Aufbereitung | Bloom's: 3 Anwenden | Data Flow: 2 Erhebung und Aufbereitung"
         },
         {
           "@type": "AlignmentObject",
           "targetName": "Es können Verfahren zur automatisierten Validierung von Metadaten angewendet, Fehler und Inkonsistenzen erkannt und der Datensatz bereinigt werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: 2.2 Validierung; 2.3 Aufbereitung | Bloom's: 3 Anwenden | Data Flow: 2 Erhebung und Aufbereitung"
+          "targetDescription": "Competency: 2.2 Validierung | Bloom's: 3 Anwenden | Data Flow: 2 Erhebung und Aufbereitung"
         },
         {
           "@type": "AlignmentObject",
           "targetName": "Eine diskriminierungssensible Überprüfung kann anhand ausgewählter Metadaten durchgeführt und die Ergebnisse kritisch reflektiert werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: 1.2 Qualitätssicherung; 1.3 Ethik und Recht | Bloom's: 5 Bewerten | Data Flow: 1 Planung"
+          "targetDescription": "Competency: 1.2 Qualitätssicherung | Bloom's: 5 Bewerten | Data Flow: 1 Planung"
         }
       ]
     },
@@ -261,7 +261,7 @@
           "@type": "AlignmentObject",
           "targetName": "Ein Versionierungsschema sowie eine geeignete Lizenz für heterogene Forschungsdaten können ausgewählt und die Zitierfähigkeit des Datensatzes sichergestellt werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: 3.1 Organisation; 1.3 Ethik und Recht; 5.2 Datenpublikation | Bloom's: 5 Bewerten | Data Flow: 3 Management"
+          "targetDescription": "Competency: 3.1 Organisation | Bloom's: 5 Bewerten | Data Flow: 3 Management"
         },
         {
           "@type": "AlignmentObject",
@@ -273,7 +273,7 @@
           "@type": "AlignmentObject",
           "targetName": "Ein Repository kann angelegt, mit Forschungsdaten befüllt und als versionierter, zitierfähiger Release mit DOI veröffentlicht werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: 5.1 Aufbewahrung; 5.2 Datenpublikation | Bloom's: 3 Anwenden | Data Flow: 5 Publikation und Nachnutzung"
+          "targetDescription": "Competency: 5.2 Datenpublikation | Bloom's: 3 Anwenden | Data Flow: 5 Publikation und Nachnutzung"
         }
       ]
     }
