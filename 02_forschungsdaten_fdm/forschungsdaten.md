@@ -6,7 +6,7 @@ align: center
 width: 60%
 name: forschungsdaten-generisch
 ---
-Visualiserung von Forschungsdaten, © <a href="https://forschungsdaten.info/fdm-allgemein/was-sind-forschungsdaten" class="external-link" target="_blank">forschungsdaten.info</a> CC0
+Visualisierung von Forschungsdaten, © <a href="https://forschungsdaten.info/fdm-allgemein/was-sind-forschungsdaten" class="external-link" target="_blank">forschungsdaten.info</a> CC0
 ```
 
 Was sind Forschungsdaten? Eine einheitliche Definition des Begriffes gibt es bisher nicht, denn von Fachdisziplin zu Fachdisziplin kann sich die Kategorisierung unterscheiden. 
@@ -124,7 +124,7 @@ Doch wie sieht es mit dieser Unterscheidung in der Film- und Medienwissenschaft 
 (forschungadaten-fiwi)=
 ## Forschungsdaten in der Film- und Medienwissenschaft
 
-Unter film- und medienwissenschaftliche Forschungsdaten fallen diverse **textuelle, visuelle, auditive und audiovisuelle Datentypen**, die entweder primär selbst Untersuchungsgegenstand sind (z. B. ein Film) oder zu denen in sekundären Arbeitsschritten Dokumentationen und Dateien entstehen (z. B. Annotationen) {cite}`matuszkiewicz_forschungsdatenmanagement_2022`.
+Unter film- und medienwissenschaftlichen Forschungsdaten fallen diverse **textuelle, visuelle, auditive und audiovisuelle Datentypen**, die entweder primär selbst Untersuchungsgegenstand sind (z. B. ein Film) oder zu denen in sekundären Arbeitsschritten Dokumentationen und Dateien entstehen (z. B. Annotationen) {cite}`matuszkiewicz_forschungsdatenmanagement_2022`.
 
 Wie Sarah-Mai Dang herausstellt, gewinnen Forschungsdaten in der Film- und Medienwissenschaft zunehmend an Bedeutung. Diese Entwicklung sei auf mehrere Ursachen zurückzuführen: zum einen den wachsenden Diskurs um digitale Methoden und Werkzeuge in der Forschung, zum anderen den Ausbau der Digital Humanities und entsprechender Infrastrukturprojekte wie beispielsweise <a href="https://de.dariah.eu/" class="external-link" target="_blank">DARIAH-DE </a> – der deutschen Initiative für digitale Infrastrukturen in den Geistes- und Kulturwissenschaften.
 Vor diesem Hintergrund ist es notwendig, sowohl den Begriff der *Forschungsdaten* als auch die konzeptionelle Seite des *Forschungsdatenmanagements* aus der Perspektive unserer Fachdisziplin zu definieren und an die fachspezifischen Anforderungen anzupassen. Besonders relevant ist dabei die Heterogenität der Daten und Datenquellen, die aus dem Medium Bewegtbild selbst hervorgehen. Hinzu kommt die Frage des Urheberrechts für Film- und Videoquellen – eine Herausforderung, mit der die Film- und Medienwissenschaft nach wie vor konfrontiert ist {cite}`dang_forschungsdatenmanagement_2020`.
@@ -181,9 +181,9 @@ Von Primärdaten zu Sekundärdaten
 :::
 ::::
 
-Die Auseinandersetzung um die Beschaffenheit und Nutzung von Forschungsdaten ist insbesondere dann relevant, wenn die Prozesshaftigkeit der Wissensproduktion mitgedacht wird: woher kommen die Daten? Wie werden sie erhoben und aufbereitet? Wie werden sie kuratiert und verfügbar gemacht? Ferner sollte es auch immer eine kritische Auseinandersetzung über die Entstehung von Forschungsdaten und -ergebnissen geben. Denn Daten können, je nach Kontext, Biases unterliegen. Ein Anspruch auf Objektivität ist daher nicht einlösbar {cite}`dang_forschungsdatenmanagement_2020`.
+Die Auseinandersetzung um die Beschaffenheit und Nutzung von Forschungsdaten ist insbesondere dann relevant, wenn die Prozesshaftigkeit der Wissensproduktion mitgedacht wird: Woher kommen die Daten? Wie werden sie erhoben und aufbereitet? Wie werden sie kuratiert und verfügbar gemacht? Ferner sollte es auch immer eine kritische Auseinandersetzung über die Entstehung von Forschungsdaten und -ergebnissen geben. Denn Daten können, je nach Kontext, Biases unterliegen. Ein Anspruch auf Objektivität ist daher nicht einlösbar {cite}`dang_forschungsdatenmanagement_2020`.
 Ein repräsentatives Beispiel ist die weltweit größte Filmdatenbank <a href="https://www.imdb.com/de/" class="external-link" target="_blank">IMDb</a>, deren Inhalte kommerziell von Amazon betrieben und gepflegt werden.
-Die Datenanforderungen sowie die Auswahl und Gewichtung der Inhalte sind dabei von geschlechtsspezifischen und diskriminierenden Inklusions- und Exklusionsmechanismen geprägt. Welche Filme dabei als "gut" oder "schlecht" gerankt werden, hängt von diversen soziopolitischen, ökonomischen aber auch algorithmischen Variablen ab {cite:p}`drucker_digital_humanities_2021,dang_forschungsdatenmanagement_2020`. Ebenso beeinflussen etwa Kritiken, Nutzer:innenbewertungen und Kommentare die Sichtbarkeit bestimmter Filme oder Personengruppen – während andere Perspektiven systematisch marginalisiert werden {cite}`{vgl. hierzu auch}Doughman_Khreich_2025`.[^1]
+Die Datenanforderungen sowie die Auswahl und Gewichtung der Inhalte sind dabei von geschlechtsspezifischen und diskriminierenden Inklusions- und Exklusionsmechanismen geprägt. Welche Filme dabei als "gut" oder "schlecht" gerankt werden, hängt von diversen soziopolitischen, ökonomischen, aber auch algorithmischen Variablen ab {cite:p}`drucker_digital_humanities_2021,dang_forschungsdatenmanagement_2020`. Ebenso beeinflussen etwa Kritiken, Nutzer:innenbewertungen und Kommentare die Sichtbarkeit bestimmter Filme oder Personengruppen – während andere Perspektiven systematisch marginalisiert werden {cite}`{vgl. hierzu auch}Doughman_Khreich_2025`.[^1]
 ````{margin}
 ```{admonition} Diskriminierungssensible Daten
 :class: hinweis
