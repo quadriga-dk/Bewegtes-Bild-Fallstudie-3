@@ -13,6 +13,12 @@
   ],
   "name": "Anreicherung und Publikation von Annotationsdatensets auf Repositorien",
   "description": "Interaktives Lehrbuch zur praxisnahen Aufbereitung, Anreicherung und Publikation filmwissenschaftlicher Forschungsdaten auf Repositorien anhand eines konkreten Forschungsprojekts.",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.5281/zenodo.23947518",
+    "url": "https://doi.org/10.5281/zenodo.23947518"
+  },
   "version": "1.0.0-beta",
   "schemaVersion": "2.0.0",
   "url": "https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3",
