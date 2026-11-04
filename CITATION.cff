@@ -17,7 +17,7 @@ authors: &id001
   affiliation: Freie Universität Berlin
 identifiers:
 - type: doi
-  value: 10.5281/zenodo.23947518
+  value: https://doi.org/10.5281/zenodo.23948142
   description: Zenodo
 repository-code: https://github.com/quadriga-dk/Bewegtes-Bild-Fallstudie-3
 url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3
