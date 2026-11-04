@@ -33,12 +33,12 @@ Das für das SFB-Projekt entwickelte Metadatenschema orientiert sich an den Basi
 
 ```{admonition} Wie können die Metadaten genutzt werden?
 :class: hinweis
-In [Kapitel 5.5. Diskriminierungssensible Überprüfung](../05_aufbereitung_anreicherung/diskriminierungssensible_überprüfung.md) führen wir beispielhaft anhand der Korpusmetadaten punktuell eine Überprüfung mit Fokus auf diskriminierungsensible Aspekte durch.
+In [Kapitel 5.5. Diskriminierungssensible Überprüfung](../05_aufbereitung_anreicherung/diskriminierungssensible_überprüfung.md) führen wir beispielhaft anhand der Korpusmetadaten punktuell eine Überprüfung mit Fokus auf diskriminierungssensible Aspekte durch.
 ```
 
-In der Forschungspraxis lässt sich allerdings häufig kein Schema vollständig auf den wissenschaftlichen Kontext übertragen. Dies liegt insbesondere daran, dass Forschungsprojekte eigene Untersuchungsmethoden, Korpusdefinitionen und Analysekateogorien mitbringen, die in den allgemeinen Standards keine Entsprechung finden.
+In der Forschungspraxis lässt sich allerdings häufig kein Schema vollständig auf den wissenschaftlichen Kontext übertragen. Dies liegt insbesondere daran, dass Forschungsprojekte eigene Untersuchungsmethoden, Korpusdefinitionen und Analysekategorien mitbringen, die in den allgemeinen Standards keine Entsprechung finden.
 
-Für das Teilprojekt C05 bedeutet dies konkret: Das Metadatenschema wurde projektspezifisch entwickelt, in weiten Teilen lassen sich die Element jedoch auf das DC/EN-Schema mappen.
+Für das Teilprojekt C05 bedeutet dies konkret: Das Metadatenschema wurde projektspezifisch entwickelt, in weiten Teilen lassen sich die Elemente jedoch auf das DC/EN-Schema mappen.
 
 Die folgende Tabelle zeigt alle `13 Felder` des Korpusmetadatenschemas mit ihren Entsprechungen in Dublin Core (DC) und EN 15744.
 Felder ohne Mapping sind projektspezifische Erweiterungen ohne direkte Entsprechung in einem der beiden Standards.
@@ -294,15 +294,15 @@ Identifier wie `avatar_2009` wirken auf den ersten Blick einfach und sind intuit
 
 ```{admonition} Fazit
 :class: keypoint
-Die Objekt-IDs setzen sich aus einem **Präfix**, einer **fortlaufenden numerischen Kennung** und einem **Suffix** zusammen. Die numerischen Bestandteile wurden im Zuge der sukzessiven Erweiterung des Korpus vergeben und folgen keiner inhaltlichen Logik, sondern  der projektinernen Erfassungsreihenfolge. 
+Die Objekt-IDs setzen sich aus einem **Präfix**, einer **fortlaufenden numerischen Kennung** und einem **Suffix** zusammen. Die numerischen Bestandteile wurden im Zuge der sukzessiven Erweiterung des Korpus vergeben und folgen keiner inhaltlichen Logik, sondern  der projektinternen Erfassungsreihenfolge. 
 ```
 
-Zusätzlich zu dem projektspezifischen Identifier wurde für jeden Film, wo möglich, ein IMDb-Identifer erfasst (z. B. `tt8399690`)- Dieser **externe Identifier** trägt die Bezeichtnung `imdb_id`. Er dient als stabile und öffentlich abrufbare Referenz und existiert unabhängig vom Projekt. So können Zusatzinformationen über die Filme von anderen Forschenden auch über die `imdb_id` eingesehen werden.
+Zusätzlich zu dem projektspezifischen Identifier wurde für jeden Film, wo möglich, ein IMDb-Identifier erfasst (z. B. `tt8399690`)- Dieser **externe Identifier** trägt die Bezeichnung `imdb_id`. Er dient als stabile und öffentlich abrufbare Referenz und existiert unabhängig vom Projekt. So können Zusatzinformationen über die Filme von anderen Forschenden auch über die `imdb_id` eingesehen werden.
 
 Warum wurde IMDb als externe Referenz verwendet und nicht beispielsweise die ISAN? <a href="https://www.isan.org/de" class="external-link" target="_blank">ISAN</a> (International Standard Audiovisual Number, ISO 15706) ist der offizielle ISO-Standard zur Identifikation audiovisueller Werke, vergleichbar mit der ISBN für Bücher. In der Praxis sind ISANs allerdings sehr lückenhaft vergeben und ohne institutionellen Zugang nur schwer einsehbar. IMDb-IDs hingegen sind sehr etabliert und frei zugänglich. Die Datenbank enthält zudem eine umfangreiche Menge an katalogisierten Werken, wodurch das Auffinden von audiovisuellen Ressourcen vereinfacht wird. Alternative größere Filmdatenbanken sind unter anderem <a href="https://www.themoviedb.org/?language=de-DE" class="external-link" target="_blank">The Movie Database (TMDb)</a> sowie <a href="https://www.omdb.org/de/de" class="external-link" target="_blank">The Open Movie Database (OMDb)</a>. Da IMDb eine kommerziell betriebene Datenbank ist, ist bei der Nachnutzung der Daten Vorsicht geboten. Hierzu mehr in [Kapitel 5.5. Diskriminierungssensible Überprüfung](../05_aufbereitung_anreicherung/diskriminierungssensible_überprüfung.md).
 
 
-Welche Anforderungen allgemein für die Entwicklung guter Identifer zu beachten sind, haben wir hier in übersichtlicher Form zusammengefasst:
+Welche Anforderungen allgemein für die Entwicklung guter Identifier zu beachten sind, haben wir hier in übersichtlicher Form zusammengefasst:
 
 ```{admonition} Anforderungen an gute Identifier
 :class: Keypoint
