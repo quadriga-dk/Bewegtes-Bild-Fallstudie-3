@@ -90,7 +90,7 @@ add-summative-assessment-module
 ## Richtlinien 
 
 * Verwendung des Imperativs (z.B. "add" statt "added")
-* Verwendung von Kleinbuchstaben mit Außnahme von spezifischen Dateinamen (z.B. README.md)
+* Verwendung von Kleinbuchstaben mit Ausnahme von spezifischen Dateinamen (z. B. README.md)
 * Formulierung kurzer und prägnanter Aussagen
 * Verwendung von Englisch für Konsistenz 
 * Formate und Richtlinien der hier formulierten Standards gelten auch für `pull request`
