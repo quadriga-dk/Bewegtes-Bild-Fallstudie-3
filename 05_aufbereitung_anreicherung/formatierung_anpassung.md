@@ -3,7 +3,7 @@
 Werden Forschungsdaten in Repositorien veröffentlicht, so ist es wichtig, Dateiformate zu wählen, die einen langfristigen Zugang sichern und die Nachnutzbarkeit bzw. Wiederverwendung durch Dritte ermöglichen {cite}`Forschungsdateninfo_Dateiformate_2026`. Grundsätzlich empfiehlt es sich nach den 
 {ref}`FAIR-Prinzipien (Kapitel 2.5.)<leitlinien-fair>` **offene** und  **nicht-proprietäre Formate** zu wählen, darunter zählen beispielsweise Formate wie `csv` oder `json`, hierzu gleich mehr. Doch was bedeutet offen und nicht-proprietär genau?
 
-Nicht-proprietäre Formate sind Formate, die sich ohne die "dazugehörigen Anwendungs-, Hilfs- oder Systemprogramme öffnen, bearbeiten und speichern lassen" {cite}`Forschungsdateninfo_Dateiformate_2026`. Das bedeutet, dass keine spezifische, ggf. kostenpflichtige Software zur Verarbeitung und Weiterverwendung der Daten notwendig ist. Dies ist eine Grundvoraussetzung dafür, dass Daten langfristig nutzbar sind und bleiben – unabhängig davon, ob eine bestimmte Software, Programme oder Tools in 10 oder 20 Jahren noch verfügbar sind. Für die Speicherung in nicht-proprietären Formate ist es notwendig, die Daten zu exportieren bzw. zu konvertieren. 
+Nicht-proprietäre Formate sind Formate, die sich ohne die "dazugehörigen Anwendungs-, Hilfs- oder Systemprogramme öffnen, bearbeiten und speichern lassen" {cite}`Forschungsdateninfo_Dateiformate_2026`. Das bedeutet, dass keine spezifische, ggf. kostenpflichtige Software zur Verarbeitung und Weiterverwendung der Daten notwendig ist. Dies ist eine Grundvoraussetzung dafür, dass Daten langfristig nutzbar sind und bleiben – unabhängig davon, ob eine bestimmte Software, Programme oder Tools in 10 oder 20 Jahren noch verfügbar sind. Für die Speicherung in nicht-proprietären Formaten ist es notwendig, die Daten zu exportieren bzw. zu konvertieren. 
 
 ```{admonition} Datenverlust bedenken
 :class: danger
@@ -12,11 +12,11 @@ forschungsdaten\.info empfiehlt, möglichst beide Formate, also das Original sow
 
 Neben der Notwendigkeit der Langzeitsicherung spielen auch andere Prinzipien dabei eine wichtige Rolle: **Maschinenlesbarkeit** und **Interoperabilität**. Maschinenlesbare Formate ermöglichen es, die Daten automatisiert zu verarbeiten, zu filtern und in andere Systeme zu importieren {cite}`FUBerlin_2021`. Interoperabilität heißt, dass Daten mit unterschiedlichen Tools und in unterschiedlichen Kontexten genutzt werden können, ohne an ein bestimmtes System gebunden zu sein {cite}`Wilkinson_2016`.
 
-Im Rahmen des Projekt-Repositoriums stellen wir die Korpus,- Annotations- und Moviebarcodemetadaten in den Formaten `xlsx`, `csv`, `html` und `json` zur Verfügung.
+Im Rahmen des Projekt-Repositoriums stellen wir die Korpus-, Annotations- und Moviebarcodemetadaten in den Formaten `xlsx`, `csv`, `html` und `json` zur Verfügung.
 
 ```{admonition} An Formatkonvertierung aller Forschungsdaten denken!
 :class: important
-Neben den Metadaten, werden die Annotationspakete ebenfalls als `json`-Export bereitgestellt, die Moviebarcodes sind bereits als `png` Dateien ein offenes Format. Alle gängigen Annotationstools verfügen über Exportfunktionen, mehr Informationen können in den jeweiligen begleitenden Dokumentationen oder Manuals der verwendeten Tools nachgelesen werden.
+Neben den Metadaten werden die Annotationspakete ebenfalls als `json`-Export bereitgestellt, die Moviebarcodes sind bereits als `png`-Dateien ein offenes Format. Alle gängigen Annotationstools verfügen über Exportfunktionen, mehr Informationen können in den jeweiligen begleitenden Dokumentationen oder Manuals der verwendeten Tools nachgelesen werden.
 ```
 Im Folgenden werden die (Export-)Formate kurz vorgestellt.
 
@@ -40,7 +40,7 @@ Spirited Away;2001;JP;Hayao Miyazaki;Animation
 Parasite;2019;KR;Bong Joon-ho;Thriller
 The Zone of Interest;2023;GB;Jonathan Glazer;Drama
 ```
-Wie hier zu erkennen ist, werden die Feldtrennzeichen durch ein Semikolon `;` getrennt. **Warum ist das so?** Im deutschsprachigen Raum entspricht das Semikolon als Trennzeichen den verbreiteten Standardkonventionen von Tabellenkalkulationsprogrammen wie Microsoft Excel, da das Komma üblicherweise als Dezimaltrennzeichen genutzt wird. International ist jedoch das Komma das etablierte Trennzeichen. Beide Varianten sind möglich und erfordern etwaiige Abwegungen von Vor- und Nachteilen. 
+Wie hier zu erkennen ist, werden die Feldtrennzeichen durch ein Semikolon `;` getrennt. **Warum ist das so?** Im deutschsprachigen Raum entspricht das Semikolon als Trennzeichen den verbreiteten Standardkonventionen von Tabellenkalkulationsprogrammen wie Microsoft Excel, da das Komma üblicherweise als Dezimaltrennzeichen genutzt wird. International ist jedoch das Komma das etablierte Trennzeichen. Beide Varianten sind möglich und erfordern etwaige Abwägungen von Vor- und Nachteilen. 
 
 (json-format)=
 ## JSON (JavaScript Object Notation)
@@ -157,7 +157,7 @@ Das Grundgerüst eines `html`-Dokuments besteht aus ineinander verschachtelten E
 
 Der Kopfbereich (`<head>`) ist unsichtbar und enthält Metainformationen über die Webseite. Der Bodybereich (`<body>`) ist der sichtbare Teil, dieser definiert den Aufbau einer Website. 
 
-**2. Wichtige `hmtl`-Elemente**
+**2. Wichtige `html`-Elemente**
 
 `html` verwendet Tags, um Inhalte zu markieren. Die häufigsten Elemente sind:
 
