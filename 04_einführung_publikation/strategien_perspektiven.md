@@ -18,7 +18,7 @@ In der Filmwissenschaft sind Daten einerseits häufig an Korpusentscheidungen ge
 
 Welche Publikationswege sinnvoll sind, hängt von verschiedenen Faktoren ab. Orientierung geben diese vier Leitfragen:
 
-1. **Datentyp**:Worum handelt es sich (z. B. Korpusliste, Annotationen, Transkriptionen, Extraktionsdateien)?
+1. **Datentyp**: Worum handelt es sich (z. B. Korpusliste, Annotationen, Transkriptionen, Extraktionsdateien)?
 
 2. **Zielgruppe**: Wen soll die Veröffentlichung primär erreichen (z. B. Fachcommunity, Lehre, Archive)?
 
@@ -26,7 +26,7 @@ Welche Publikationswege sinnvoll sind, hängt von verschiedenen Faktoren ab. Ori
 
 4. **Rechte/Lizenzen**: Welche rechtlichen und lizenzrechtlichen Bedingungen gelten (z. B. Urheberrecht, Bildrechte, Persönlichkeitsrechte)?
 
-Ein solides [Forschungsdatenmanagement (Kapitel 2.5.)](../02_forschungsdaten_fdm/forschungsdatenmanagement.md) (FDM) unter Einbehaltung der {ref}`FAIR-Prinzipien (Kapitel 2.5.) <leitlinien-fair>` und {ref}`Best Practices (Kapitel 2.5.) <fiwi-best-practices>`  erleichtern die Publikation.
+Ein solides [Forschungsdatenmanagement (Kapitel 2.5.)](../02_forschungsdaten_fdm/forschungsdatenmanagement.md) (FDM) unter Einhaltung der {ref}`FAIR-Prinzipien (Kapitel 2.5.) <leitlinien-fair>` und {ref}`Best Practices (Kapitel 2.5.) <fiwi-best-practices>`  erleichtert die Publikation.
 
 In dieser Lerneinheit werden Publikationswege, -orte und -formate anhand konkreter Praxisbeispiele skizziert und anschließend durch eine Übersicht an Ressourcen sowie Orientierungshilfen zur Publikation ergänzt.
 
