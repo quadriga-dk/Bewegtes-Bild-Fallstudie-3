@@ -37,9 +37,9 @@ Entlang eines praxisnahen Beispiels eines Forschungsprojektes zeigt die vorliege
 
 Ziel ist es, Strategien zu entwickeln und aufzuzeigen, die eine standardkonforme Publikation filmwissenschaftlicher Daten und Datensätze nach den Leitlinien guter wissenschaftlicher Praxis ermöglichen. Der Fokus liegt auf der Publikation der Daten auf geeigneten Plattformen bzw. Repositorien. Dabei sollen sowohl fachspezifische Inhalte zu Metadatenstandards und Forschungsdatenmanagement vermittelt als auch grundlegende Kompetenzen und Kontexte adressiert werden.
 
-Diese Open Educational Ressource (OER) knüpft direkt an die erste QUADRIGA Fallstudie des Datentyps: *Bewegtes Bild* <a href="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-1/intro.html" class="external-link" target="_blank">"Affektrhetorik in Online-Videos zur Klimakrise. Datengestützte Analysen audiovisueller Muster"</a> an. Dort wird, ausgehend von einer Forschungsfrage, vermittelt, wie filmanalytische Annotationsdaten erstellt und visualisiert werden können. Es werden folglich Annotationsdatensätze produziert. 
+Diese Open Educational Resource (OER) knüpft direkt an die erste QUADRIGA Fallstudie des Datentyps: *Bewegtes Bild* <a href="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-1/intro.html" class="external-link" target="_blank">"Affektrhetorik in Online-Videos zur Klimakrise. Datengestützte Analysen audiovisueller Muster"</a> an. Dort wird, ausgehend von einer Forschungsfrage, vermittelt, wie filmanalytische Annotationsdaten erstellt und visualisiert werden können. Es werden folglich Annotationsdatensätze produziert. 
 
-Wie können solche (und/oder ähnliche) Annotationsdaten publiziert werden? **d. h. was für Eigenschaften müssen die Dateien aufweisen, damit sie publiziert werden können?** Welche Vorbereitungen sind nötig, und welche Metadatenschemata und Systematisierungsprozesse sind erforderlich, damit die Forschungsdaten auch für andere Wissenschaftler:innen erschließbar und nachnutzbar sind?
+Wie können solche (und/oder ähnliche) Annotationsdaten publiziert werden? **D. h., was für Eigenschaften müssen die Dateien aufweisen, damit sie publiziert werden können?** Welche Vorbereitungen sind nötig, und welche Metadatenschemata und Systematisierungsprozesse sind erforderlich, damit die Forschungsdaten auch für andere Wissenschaftler:innen erschließbar und nachnutzbar sind?
 
 Ergänzend soll gezeigt werden, wie diese Annotationsdatensets noch angereichert werden können – beispielsweise durch sogenannte Moviebarcodes ({numref}`moviebarcode-blue-planet-seasonal-seas`). Diese bieten eine einfache und schnell reproduzierbare Möglichkeit, das Farbspektrum ganzer Filme oder einzelner Szenen visuell darzustellen, um den Datensätzen eine zusätzliche analytische Dimension hinzuzufügen.
 
@@ -57,7 +57,7 @@ name: aufbau-fallstudie
 ```
 * Im **ersten Lernmodul** geht es um das Thema Forschungsdaten und Forschungsdatenmanagement in der Filmwissenschaft. Das Kapitel führt in praxisorientierte Konzepte des Forschungsdatenmanagements und der Datenorganisation ein. 
 * Das **zweite Lernmodul** beschäftigt sich mit Metadaten und Metadatenstandards in der Filmwissenschaft. In einem kurzen Exkurs sollen ebenfalls diskriminierungssensible Perspektiven auf Metadaten beleuchtet werden.
-* Das **dritte Lernmodul** vermittelt Grundlagen der Datenpublikation mit Schwerpunkt Filmwissenschaft. Es werden Strategien, Perspektiven und Publikationswege beleuchet sowie Beispiele aus der Praxis herangezogen.
+* Das **dritte Lernmodul** vermittelt Grundlagen der Datenpublikation mit Schwerpunkt Filmwissenschaft. Es werden Strategien, Perspektiven und Publikationswege beleuchtet sowie Beispiele aus der Praxis herangezogen.
 * Das **vierte Lernmodul** widmet sich der systematischen Aufbereitung, Bereinigung und Anreicherung der filmwissenschaftlichen Datensätze aus dem SFB-Projekt. Die Daten werden also für die Publikation aufbereitet, formatiert und organisiert.
 * Im **fünften Lernmodul** geht es schließlich um die konkrete Publikation der aufbereiteten Forschungsdaten und ihre Implementierung in geeignete Dateninfrastrukturen.
 
