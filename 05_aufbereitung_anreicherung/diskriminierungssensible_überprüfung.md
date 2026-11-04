@@ -15,7 +15,7 @@ Da die Produktionen unabhängig von ihrem Umfang ausgewertet wurden, wurden Seri
 
 Der Korpus enthält Produktionen aus 29 unterschiedlichen Ländern. Bei der Auswertung fällt ein deutliches Übergewicht nordamerikanischer sowie mittel- und westeuropäischer Produktionen auf: 49 Produktionen sind US-amerikanisch (56,32 %), 26 britisch (29,89 %) und 17 deutsch (19,54 %). Osteuropäische Produktionen sind mit insgesamt 4 (4,6 %) vertreten (2 aus Griechenland, je eine aus Litauen und der Ukraine). Die am stärksten repräsentierten nicht-europäischen und nicht-nordamerikanischen Länder sind Australien, Japan und China mit je 4 Produktionen (4,6 %). Dies entspricht zwei Drittel aller nicht-europäischen und nicht-nordamerikanischen Produktionen. Aus Afrika stammen lediglich 2 Produktionen (Nigeria und Südafrika; 2,3 %). Produktionen aus Mittel- und Südamerika sowie Südostasien sind im Korpus nicht vorhanden. Der Gesamtanteil nicht-europäischer und nicht-nordamerikanischer Produktionen beträgt 18 (20,69 %).
 
-Bei diesen Daten wurden die einzelnen Episoden der gleichen Serie oder Reihe als ein Element zusammengefasst. Unbereinigt zeigt sich diese Tendenz noch deutlicher, so stammen 142 von 226 Elemente aus Großbritannien (62,83 %), 131 aus den USA (57,96 %) und 56 aus Deutschland (24,78 %). 
+Bei diesen Daten wurden die einzelnen Episoden der gleichen Serie oder Reihe als ein Element zusammengefasst. Unbereinigt zeigt sich diese Tendenz noch deutlicher, so stammen 142 von 226 Elementen aus Großbritannien (62,83 %), 131 aus den USA (57,96 %) und 56 aus Deutschland (24,78 %). 
 
 ```{figure} ../assets/05_aufbereitung_anreicherung/abb_k05_laender_absolut.png
 ---
@@ -38,7 +38,7 @@ Korpusdaten nach Ländern (anteilig, Treemap-Darstellung)
 
 ### Berechnung der Länderauswertung
 
-Die Spalte `country` der Korpusmetadaten wurde in ein Textprogramm kopiert. Mithilfe von `Strg + F` (Mac: `Command + F`) lässt sich nach dem jeweiligen Landeskürzel suchen, um die Trefferzahl im Datensatz zu ermitteln (z. B. ergibt DE 17 Treffer). Nach der Erfassung eines Länderkürzels können die gefundenen Treffer durch ein Leerzeichen ersetzt werden.Dadurch wird die Übersicht verbessert und bereits ausgewertete Kürzel werden bei der weiteren manuellen Auswertung nicht erneut berücksichtigt.
+Die Spalte `country` der Korpusmetadaten wurde in ein Textprogramm kopiert. Mithilfe von `Strg + F` (Mac: `Command + F`) lässt sich nach dem jeweiligen Landeskürzel suchen, um die Trefferzahl im Datensatz zu ermitteln (z. B. ergibt DE 17 Treffer). Nach der Erfassung eines Länderkürzels können die gefundenen Treffer durch ein Leerzeichen ersetzt werden. Dadurch wird die Übersicht verbessert und bereits ausgewertete Kürzel werden bei der weiteren manuellen Auswertung nicht erneut berücksichtigt.
 
 ```{figure} ../assets/05_aufbereitung_anreicherung/abb_k05_berechnung_laender_textprogramm.png
 ---
@@ -69,7 +69,7 @@ Ergebnistabelle: Länder und absolute Vorkommen im Korpus
 ```{admonition} Keypoint: Methodische Einordnung und Schwerpunktsetzung
 :class: keypoint
 Diese geographische Schwerpunktsetzung ist keine zufällige, sondern eine forschungsstrategische Entscheidung. Denn das Teilprojekt untersucht spezifische Logismen und Traditionen des Anthropozentrismus in westlichen filmischen Auseinandersetzungen zum Klimawandel. Eurozentristische Perspektiven und die strukturelle Dominanz westlicher Klimanarrative und ihrer ästhetischen Strategien sind dabei selbst Gegenstand der Analyse und stellen somit nicht einfach blinde Flecken der Korpuszusammenstellung dar. 
-Die Frage, wie marginalisierte Perspektiven (jenseits westlicher Blickregime) filmisch zum Ausdruck kommen und ob bzw. inwiefern sich die Imaginationen des menschlichen Zur-Welt-Seins in der Klimakrise hinsichtlich affektiver sowie formal-ästhetischer Gestaltungsformen in der Zirkulation medialer Bewegtbilder unterscheidet, kann und sollte Ausgangspunkt weiterer Untersuchungen sein (z. B. mit Schwerpunkt auf indigene Formen der Wissens- und Bildproduktion).
+Die Frage, wie marginalisierte Perspektiven (jenseits westlicher Blickregime) filmisch zum Ausdruck kommen und ob bzw. inwiefern sich die Imaginationen des menschlichen Zur-Welt-Seins in der Klimakrise hinsichtlich affektiver sowie formal-ästhetischer Gestaltungsformen in der Zirkulation medialer Bewegtbilder unterscheiden, kann und sollte Ausgangspunkt weiterer Untersuchungen sein (z. B. mit Schwerpunkt auf indigene Formen der Wissens- und Bildproduktion).
 ```
 
 ## Auswertung nach Geschlecht (Regie)
@@ -116,7 +116,7 @@ Offene Transpersonen, nicht-binäre und queere Personen durch Metadatenangaben z
 Da alle Datenbanken einen spezifischen Fokus setzen, sollten sie je nach Korpus ausgewählt oder ergänzend genutzt werden. Im vorliegenden Korpus findet sich **keine** der regieführenden Personen in einer dieser Datenbanken wieder.
 ```
 
-Die Zahlen werfen eine weiterführende Frage auf, die die punktuelle Auswertung der Korpusmetaten übersteigt: Inwieweit bringt die Überrepräsentation männlich gelesener Regie nicht nur eine Eigenheit dieser Zusammenstellung zum Ausdruck, sondern eine strukturelle Tendenz in der filmischen Auseinandersetzung mit dem Klimawandel insgesamt? Und welche Konsequenzen hätte das für die Konstitution der Klimakrise als ästhetische Erfahrung – also ihrer Bildsprache, Narration und affektiven Adressierung – wenn diese überwiegend durch männlich kodierte Blickregime und Erzählpositionen geprägt wäre? 
+Die Zahlen werfen eine weiterführende Frage auf, die die punktuelle Auswertung der Korpusmetadaten übersteigt: Inwieweit bringt die Überrepräsentation männlich gelesener Regie nicht nur eine Eigenheit dieser Zusammenstellung zum Ausdruck, sondern eine strukturelle Tendenz in der filmischen Auseinandersetzung mit dem Klimawandel insgesamt? Und welche Konsequenzen hätte das für die Konstitution der Klimakrise als ästhetische Erfahrung – also ihrer Bildsprache, Narration und affektiven Adressierung – wenn diese überwiegend durch männlich kodierte Blickregime und Erzählpositionen geprägt wäre? 
 
 Diese Fragen lassen sich auf Grundlage der vorliegenden Metadaten zwar nicht abschließend beantworten, sind aber als Impulse für weitere kritische Überlegungen und qualitative Analysen festzuhalten.
 
