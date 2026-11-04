@@ -18,7 +18,7 @@ exclude_patterns:
     LICENSE.md,
     .github,
     "**Reviewbogen.md",
-    Checkliste_Finalisierung.md,
+    Checkliste_Qualitätssicherung.md,
     commit_message_dokumentation.md,
   ]
 
