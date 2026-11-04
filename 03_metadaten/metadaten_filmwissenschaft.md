@@ -88,7 +88,7 @@ Für kleinere filmwissenschaftliche Projekte mit überschaubaren Korpora kann ei
 
 ## FIAF 
 
-Die <a href="https://www.fiafnet.org/" class="external-link" target="_blank">FIAF</a> (International Federation of Film Archives) hat umfassende Katalogisierungsregeln aufgestellt und diese als <a href="https://www.fiafnet.org/pages/e-resources/cataloguing-manual.html" class="external-link" target="_blank">Manual</a> in verschiedenen Sprachen zur Verfügung gestellt. Die Regeln orientieren sich dabei explizit am FBRB-Modell und den EN-Standards zur Erschließung von Filmwerken und sind insbesondere in vielen Filmarchiven die praktische Arbeitsgrundlage {cite}`Fairbairn_2022`. 
+Die <a href="https://www.fiafnet.org/" class="external-link" target="_blank">FIAF</a> (International Federation of Film Archives) hat umfassende Katalogisierungsregeln aufgestellt und diese als <a href="https://www.fiafnet.org/pages/e-resources/cataloguing-manual.html" class="external-link" target="_blank">Manual</a> in verschiedenen Sprachen zur Verfügung gestellt. Die Regeln orientieren sich dabei explizit am FRBR-Modell und den EN-Standards zur Erschließung von Filmwerken und sind insbesondere in vielen Filmarchiven die praktische Arbeitsgrundlage {cite}`Fairbairn_2022`. 
 
 ````{margin}
 ➡️ Zum Vergrößern bitte draufklicken!
@@ -128,7 +128,7 @@ Die Aufteilung der Elemente erfolgt in der Unterscheidung auf:
 * Titelvarianten
 * Credits
 * Quelle
-* Technischen Angaben (Drehformat, Seitenverhältnis, Farbe)
+* Technische Angaben (Drehformat, Seitenverhältnis, Farbe)
 * Verschlagwortung
 * Kategorien
 
