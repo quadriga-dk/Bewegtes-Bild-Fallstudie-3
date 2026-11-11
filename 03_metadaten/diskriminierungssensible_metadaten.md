@@ -1,7 +1,7 @@
 # Diskriminierungssensible Metadaten
 
 Klassifizierungssysteme wie Metadatenstandards, Taxonomien oder Ontologien sind, wie zuvor erwähnt, zur Identifizierung und Organisation von Daten essentiell. Gleichsam sind sie aber auch immer Wissensmodelle, d. h., dass Wissen über festgelegte Strukturen und Beschreibungspraktiken modelliert wird. Dazu gehören die Auswahl eines kontrollierten Vokabulars sowie bereits die Auswahl der zu beschreibenden Elemente selbst. 
-Klassifizierungssysteme sind dahingehend weder wertneutral oder "objektiv" noch selbsterklärend. Sie sind historisch situiert und stellen eine spezifische Sichtweise von Welt- und Wissensordnungen her. Hierzu schreibt Drucker: 
+Klassifizierungssysteme sind dahingehend weder wertneutral noch "objektiv" noch selbsterklärend. Sie sind historisch situiert und stellen eine spezifische Sichtweise von Welt- und Wissensordnungen her. Hierzu schreibt Drucker: 
 > "All classification systems bear within the ideological imprint of their production." {cite}`Drucker_2021`
 
 Sichtbar wird solche Kritik an häufig vorzufindenden Begriffen wie beispielsweise "creator". Kunstproduktion ist nicht zwangsweise in jeder Community an eine konkrete "schöpfende" Person gebunden. Oft entstehen Werke und Arbeiten in kollektiven Herstellungsdynamiken, die explizit versuchen gesellschaftlich verfestigte Hierarchien zu überwinden. Kollektive Arbeitsweisen können so im schlimmsten Fall ungenannt und entsprechend ungewürdigt bleiben ("uncredited") {cite}`Drucker_2021`.
@@ -24,13 +24,13 @@ align: center
 width: 75%
 name: filmportal
 ---
-Screenshot aus dem Eintrag von <a href="https://www.filmportal.de/film/der-schatz-im-silbersee_6d6757dfa66a4e418d85cd27f5fd8f89" class="external-link" target="_blank">filmportal.de</a>  zu *Der Schatz im Silbersee* (R: Harald Reinl, BRD, YUG, FRA 1992)
+Screenshot aus dem Eintrag von <a href="https://www.filmportal.de/film/der-schatz-im-silbersee_6d6757dfa66a4e418d85cd27f5fd8f89" class="external-link" target="_blank">filmportal.de</a> zu *Der Schatz im Silbersee* (R: Harald Reinl, BRD, YUG, FRA 1992)
 ```
 
 Genauer heißt es in einem Ausschnitt der Beschreibung:
 > "Unterstützung im Kampf gegen die skrupellose Bande erhalten die tapferen Westmänner durch den Apachen-Häuptling Winnetou. Auf der Jagd nach dem Schatz im Silbersee gelingt es Brinkley, die Utah-Indianer aufzuwiegeln." {cite}`Filmportal_oJ`
 
-Dabei sind nicht nur die Begriffe "Häuptling" oder "Indianer" aufgrund ihrer kolonialen Prägung aus heutiger Sicht problematisch {cite}`{vgl. hierzu auch das postkoloniale Wörterbuch der}UniversitaetKoeln_2023`, ferner wird in der Inhaltsbeschreibung das koloniale Narrativ des Films ungebrochen reproduziert und übernommen: von "tapferen Westmännern" bis zu "aufgewiegelten Indianern".
+Dabei sind nicht nur die Begriffe "Häuptling" oder "Indianer" aufgrund ihrer kolonialen Prägung aus heutiger Sicht problematisch (vgl. hierzu auch das postkoloniale Wörterbuch der {cite:t}`UniversitaetKoeln_2023`), ferner wird in der Inhaltsbeschreibung das koloniale Narrativ des Films ungebrochen reproduziert und übernommen: von "tapferen Westmännern" bis zu "aufgewiegelten Indianern".
 
 Zusätzlich verstärkt das im obigen Screenshot sichtbare Filmstill diese Fortschreibung. Die ausgewählte Darstellung verfestigt die kolonialen Verhältnisse des Beschreibungstextes. Dadurch wird deutlich, inwiefern durch textuelle und visuelle Metadatenelemente filmische Narrative und Ideologien nicht nur dokumentiert, sondern implizit stabilisiert werden.
 
@@ -60,7 +60,7 @@ Wie also kann ein diskriminierungssensibler Umgang gefunden werden, der die aktu
 Es gibt diverse Methoden und Umgangsweisen, um diskriminierungssensible Praktiken zur Erfassung von Metadaten zu etablieren. Gängig sind insbesondere (nach Dogtas et al.):
 
 1. **Disclaimer** (Titelkontextualisierung)
-    * Disclaimer bzw. Statements schreiben mit dem Hinweis auf diskriminatorische Inhalte
+    * Disclaimer bzw. Statements schreiben mit dem Hinweis auf diskriminierende Inhalte
     * Ggf. Informationen zu Strategien und Zielen zum Umgang bereitstellen
     * Bereitstellung weiterführender Informationen und Feedback-Optionen
 
@@ -74,7 +74,7 @@ Es gibt diverse Methoden und Umgangsweisen, um diskriminierungssensible Praktike
 
 Wie solche Strategien in der Praxis umgesetzt werden, möchten wir anhand von zwei Beispielen exemplarisch veranschaulichen:
 
-Zum einen an der kontextualisierten Beschreibung (`Kurzinhalt`) des NS-Propagandafilms *J\*d Süß*[^2] (1940) von Veit Harlan in der Datenbank der Murnau Stiftung. In der hier vorliegenden <a href="https://www.murnau-stiftung.de/movie/454" class="external-link" target="_blank">Beschreibung</a> wird der Inhalt filmnah eingeordnet, ohne jedoch antisemitische und propagandistische Sprache zu übernehmen – im Gegenteil: Der Text kontextualisiert die historischen Umstände und markiert den Film ausdrücklich als propagandistisch-ideologisches Werk.
+Zum einen an der kontextualisierten Beschreibung (`Kurzinhalt`) des NS-Propagandafilms *J\*d Süß*[^2] (1940) von Veit Harlan in der Datenbank der Murnau-Stiftung. In der hier vorliegenden <a href="https://www.murnau-stiftung.de/movie/454" class="external-link" target="_blank">Beschreibung</a> wird der Inhalt filmnah eingeordnet, ohne jedoch antisemitische und propagandistische Sprache zu übernehmen – im Gegenteil: Der Text kontextualisiert die historischen Umstände und markiert den Film ausdrücklich als propagandistisch-ideologisches Werk.
 
 ```{figure} ../assets/03_metadaten/abb_k03_murnau_stiftung.png
 ---
@@ -199,7 +199,7 @@ D: Datenquellen
 </summary>
 
 <ul style="margin-top:0.6rem;">
-<li>Werden Daten von Datenbanken, Webseiten oder Plattformen gescraped oder via API übernommen (z. B. TMDB, Letterboxd, OMDb)?
+<li>Werden Daten von Datenbanken, Webseiten oder Plattformen gescraped oder via API übernommen (z. B. TMDb, Letterboxd, OMDb)?
 <ul>
 <li>Gibt es problematische Kategorisierungen, Tags oder Genres?</li>
 <li>Wer betreibt die Plattform (größere Konzerne, Archive, Communities)?</li>
