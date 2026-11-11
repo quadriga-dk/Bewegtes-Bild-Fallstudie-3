@@ -51,7 +51,7 @@ intervening-world-projections-dataset/ # Rootverzeichnis
 ```
 
 In dieser Struktur werden Forschungsdaten (`data/`), Dokumentationsdateien (`documentation/`), das projekteigene 
-{ref}`YAML-Schema (Kapitel 5.3.)<yaml-schema>`, sowie projektweite Dateien (LICENSE, CITATION) voneinander getrennt.  Innerhalb von `data/` sind die drei Datentypen – Annotationen, Moviebarcodes und Metadaten – in eigenen Unterordnern organisiert.
+{ref}`YAML-Schema (Kapitel 5.3.)<yaml-schema>`, sowie projektweite Dateien (LICENSE, CITATION) voneinander getrennt. Innerhalb von `data/` sind die drei Datentypen – Annotationen, Moviebarcodes und Metadaten – in eigenen Unterordnern organisiert.
 
 Des Weiteren ist es ratsam, Ordner (hier: `assets/`) für Bilder oder Visualisierungen anzulegen, die für Erklärungs- und Veranschaulichungszwecke genutzt werden, aber nicht Teil des Datensets sind. 
 
@@ -160,7 +160,7 @@ Für Forschungsdaten und Dokumentationsdateien hat sich `snake_case` als gut les
 :class: hinweis
 Die Annotationsdaten (`azp`, `json`) und Moviebarcodes (`png`) tragen die Objekt-ID als Dateinamen. So ist sichergestellt, dass die jeweiligen Daten durch die Metadaten identifiziert und zugeordnet werden können.
 
-So trägt beispielsweise der Film *Anthropocene: The Human Epoch* (R: Jennifer Baichwal, Edward Burtynsky, Nicholas de Pencier, CAN 2018) die Objekt-ID `f002a`. Die korrespondierende Moviebarcodedatei trägt den Namen `mb_f002a_0`, wobei die angehängte Zahl am Ende (Suffix) festlegt, ob es sich um einen Moviebarcode für den gesamten Film `0` oder für eine annotierte Szene handelt (Szene 1 =  `mb_f002a_1`, Szene 2 =  `mb_f002a_2` usw.).
+So trägt beispielsweise der Film *Anthropocene: The Human Epoch* (R: Jennifer Baichwal, Edward Burtynsky, Nicholas de Pencier, CAN 2018) die Objekt-ID `f002a`. Die korrespondierende Moviebarcodedatei trägt den Namen `mb_f002a_0`, wobei die angehängte Zahl am Ende (Suffix) festlegt, ob es sich um einen Moviebarcode für den gesamten Film `0` oder für eine annotierte Szene handelt (Szene 1 = `mb_f002a_1`, Szene 2 = `mb_f002a_2` usw.).
 
 Alle weiteren Dateien (Metadaten und Dokumentationen) sind kleingeschrieben und durch snake_case getrennt. 
 ```
@@ -174,7 +174,7 @@ corpus_metadata_v1-0.csv   →   corpus_metadata_v2-0.csv   (größere Änderung
 corpus_metadata_v1-0.csv   →   corpus_metadata_v1-1.csv   (kleinere Änderung)
 ```
 
-In einer gesonderten Versionstabelle,  z. B. in einer Dokumentationsdatei oder in einem eigenen sogenannten `CHANGELOG.md`, kann der Änderungsverlauf zusätzlich dokumentiert werden:
+In einer gesonderten Versionstabelle, z. B. in einer Dokumentationsdatei oder in einem eigenen sogenannten `CHANGELOG.md`, kann der Änderungsverlauf zusätzlich dokumentiert werden:
 
 <table class="table-clean">
   <thead>
@@ -229,7 +229,7 @@ Vor der Festlegung einer geeigneten Backup-Strategie ist es ratsam, die Wahl des
 
 Für kollaborative Forschungsprojekte empfiehlt sich die Nutzung institutioneller Server- und Clouddienste. Diese bieten einen zentralen Zugang sowie die professionelle Administration und werden zudem von der jeweiligen Einrichtung auf Datenschutzkonformität geprüft.
 
-Neben institutionellen Server- und Clouddiensten stehen diese weiteren Speicherlösungen zur Verfügung: tragbare Speicher (💾 USB-Sticks, externe Festplatten) , lokale Speicher ( 💻 Desktop-PC, Notebook), ☁️ Cloud-Dienste anderer Einrichtungen.
+Neben institutionellen Server- und Clouddiensten stehen diese weiteren Speicherlösungen zur Verfügung: tragbare Speicher (💾 USB-Sticks, externe Festplatten), lokale Speicher (💻 Desktop-PC, Notebook), ☁️ Cloud-Dienste anderer Einrichtungen.
 
 ### Backup-Strategie
 
