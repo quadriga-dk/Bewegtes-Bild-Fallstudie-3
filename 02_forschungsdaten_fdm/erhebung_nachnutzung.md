@@ -37,7 +37,7 @@ Hierzu zählen insbesondere:
 :class: hinweis, dropdown
 Data Dumps sind große bereitgestellte Datenmengen, die von einem Computersystem, einer Datei oder einem Gerät auf ein anderes übertragen werden {cite}`Cambridge_Dictionary_Data_Dump`.
 ```
-* Technisch versierte Nutzer:innen können **API-Schnittstellen** kommerzieller und nicht-kommerzieller Dienste nutzen –  z. B. <a href="https://developer.imdb.com/non-commercial-datasets/" class="external-link" target="_blank">IMDb Non-Commercial Datasets</a>, <a href="https://developer.themoviedb.org/docs/getting-started" class="external-link" target="_blank">The Movie Database</a> (TMDb –  für nicht-kommerzielle Nutzung) oder die <a href="https://opensubtitles.stoplight.io/docs/opensubtitles-api/e3750fd63a100-getting-started)" class="external-link" target="_blank">OpenSubtitles</a> REST API.
+* Technisch versierte Nutzer:innen können **API-Schnittstellen** kommerzieller und nicht-kommerzieller Dienste nutzen – z. B. <a href="https://developer.imdb.com/non-commercial-datasets/" class="external-link" target="_blank">IMDb Non-Commercial Datasets</a>, <a href="https://developer.themoviedb.org/docs/getting-started" class="external-link" target="_blank">The Movie Database</a> (TMDb – für nicht-kommerzielle Nutzung) oder die <a href="https://opensubtitles.stoplight.io/docs/opensubtitles-api/e3750fd63a100-getting-started" class="external-link" target="_blank">OpenSubtitles</a> REST API.
 ```{admonition} Was sind API-Schnittstellen?
 :class: hinweis, dropdown
 Eine API (Application Programming Interface) ist eine Programmierschnittstelle zwischen verschiedenen Softwareanwendungen. Sie ermöglicht die automatisierte Kommunikation zwischen Programmen, um Daten oder Funktionen auszutauschen, also eine Form der "Maschine-zu-Maschine"-Kommunikation. Über APIs können Entwickler:innen auf Inhalte, Daten oder Dienste anderer Systeme zugreifen und diese in eigene Anwendungen integrieren {cite}`Poggel_2025`.
@@ -66,7 +66,7 @@ In jedem Fall sind **Lizenzbedingungen**, **Nutzungsrechte** und **Datenschutz**
 
 ```{admonition} Was ist eine "robots.txt"?
 :class: hinweis, dropdown
-Eine `robots.txt` ist eine einfache Textdatei in dem Hauptverzeichnis einer Website. Darin können Websitebetreiber:innen vorgegeben, aus welchen Bereichen automatisierte Programme Daten auslesen können und aus welchen nicht. Teilweise enthält sie auch Angaben dazu, wie viel Zeit zwischen einzelnen Anfragen liegen soll, damit der Server nicht überlastet wird {cite}`Koster_et_al_2022,Poggel_2025`.
+Eine `robots.txt` ist eine einfache Textdatei in dem Hauptverzeichnis einer Website. Darin können Websitebetreiber:innen vorgeben, aus welchen Bereichen automatisierte Programme Daten auslesen können und aus welchen nicht. Teilweise enthält sie auch Angaben dazu, wie viel Zeit zwischen einzelnen Anfragen liegen soll, damit der Server nicht überlastet wird {cite}`Koster_et_al_2022,Poggel_2025`.
 ```
 
 ```{figure} ../assets/02_forschungsdaten_fdm/abb_k02_webscraping.png
