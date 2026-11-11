@@ -30,8 +30,8 @@ Mehr Informationen zu Repositorien gibt es in [Kapitel 4.2. Publikationswege und
 
 Für die Publikation von Forschungsdaten stehen unterschiedliche Infrastrukturen bzw. Repositorien zur Verfügung, die unterschiedliche Zwecke erfüllen:
 
-* <a href="https://github.com/" class="external-link" target="_blank">GitHub</a> + <a href="https://zenodo.org/" class="external-link" target="_blank">Zenodo</a> : Versionierte Publikation mit DOI-Vergabe; geeignet für aktiv gepflegte Datensätze sowie kollaborative Arbeit → der vom Projekt gewählte primäre Weg
-* <a href="https://refubium.fu-berlin.de/" class="external-link" target="_blank">Refubium</a>: Institutionelles Repositorium der Freien Universität Berlin für  Langzeitarchivierung; für FU-Projekte empfohlen; Kontakt über die Universitätsbibliothek
+* <a href="https://github.com/" class="external-link" target="_blank">GitHub</a> + <a href="https://zenodo.org/" class="external-link" target="_blank">Zenodo</a>: Versionierte Publikation mit DOI-Vergabe; geeignet für aktiv gepflegte Datensätze sowie kollaborative Arbeit → der vom Projekt gewählte primäre Weg
+* <a href="https://refubium.fu-berlin.de/" class="external-link" target="_blank">Refubium</a>: Institutionelles Repositorium der Freien Universität Berlin für Langzeitarchivierung; für FU-Projekte empfohlen; Kontakt über die Universitätsbibliothek
 * <a href="https://mediarep.org/home" class="external-link" target="_blank">FID Media</a> (früher: media/rep): Fachrepositorium für Medienwissenschaft, betrieben an der Universität Marburg; geeignet für die fachspezifische Sichtbarkeit des Datensatzes
 
 Für das vorliegende Projekt wurde GitHub als primäre Publikationsplattform gewählt, kombiniert mit Zenodo für die DOI-Vergabe sowie als zweiter externer Speicherort für die Archivierung und Sichtbarkeit der wissenschaftlichen Arbeit. Das Refubium der FU Berlin soll für die institutionelle Langzeitarchivierung genutzt werden. Es wird ebenso eine Publikation auf FID Media angestrebt. 
@@ -55,7 +55,7 @@ Ein Git-Commit ist ein permanenter Speicherpunkt und zeichnet Änderungen an ein
 * Der Zeitpunkt der Änderungen
 * Wer die Änderungen vorgenommen hat 
 
-Mehr Informationen finden sich in Schritt 5 sowie auf der <a href="https://docs.github.com/de/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits " class="external-link" target="_blank">Dokumentationsseite </a> von GitHub.
+Mehr Informationen finden sich in Schritt 5 sowie auf der <a href="https://docs.github.com/de/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits" class="external-link" target="_blank">Dokumentationsseite</a> von GitHub.
 ```
 Unsere Empfehlung: <a href="https://github.com/apps/desktop?locale=de-de" class="external-link" target="_blank">GitHub Desktop</a> für die Versionskontrolle und <a href="https://code.visualstudio.com/" class="external-link" target="_blank">Visual Studio Code (VS Code)</a> für die Bearbeitung der Dateien. Beide Tools sind kostenlos plattformübergreifend verfügbar und schnell erlernbar.
 
@@ -88,7 +88,7 @@ Neues Repository auf GitHub erstellen
 
 ```{admonition} Einstellungen verwalten
 :class: hinweis
-Die README-Datei sowie LICENSE können auch nachträglich hinzugefügt werden. Es wird empfohlen die beiden Häkchen deaktiviert zu lassen.
+Die README-Datei sowie LICENSE können auch nachträglich hinzugefügt werden. Es wird empfohlen, die beiden Häkchen deaktiviert zu lassen.
 ```
 
 ### Schritt 2: Repository klonen mit GitHub Desktop
@@ -148,7 +148,7 @@ Anschließend können die jeweiligen Dateien in ihre zugehörigen Ordner geladen
 
 ```{admonition} Hinweis: Ordner für Bilder
 :class: hinweis
-Visualisierungen und Bilder, die Erklärungszwecken dienen, sollten in einen separaten Ordner, z. B. `\assets`, gelegt werden. So können sie von den eigentlichen Datensätzen getrennt werden. 
+Visualisierungen und Bilder, die Erklärungszwecken dienen, sollten in einen separaten Ordner, z. B. `assets/`, gelegt werden. So können sie von den eigentlichen Datensätzen getrennt werden. 
 ```
 
 ### Schritt 4: Dokumentationsdateien anlegen
@@ -167,7 +167,7 @@ sichtbar, wie die Datei auf GitHub gerendert aussehen wird.
 Wenn alle Dateien bereit sind, können die Änderungen als Commit zusammengefasst und anschließend auf GitHub hochgeladen (Push) werden.
 
 Wie bereits erwähnt, ist ein **Commit** ein gespeicherter Schnappschuss des Repositories zu einem bestimmten 
-Zeitpunkt. Jeder Commit erhält eine kurze Beschreibung, die **Commit Message**, in der kurz und knapp dokumentiert werden sollte, was geändert wurde. 
+Zeitpunkt. 
 
 Der Commit kann entweder direkt über VS Code oder über GitHub Desktop durchgeführt werden. 
 
@@ -197,7 +197,7 @@ Commit Message über VS Code
 
 ```{admonition} Hinweis: Commit Message Konventionen 
 :class: hinweis
-Für Commit Message empfiehlt sich die Verwendung oder Orientierung an <a href="https://www.conventionalcommits.org/en/v1.0.0/" class="external-link" target="_blank">Conventional Commits</a>. Conventional Commits sind ein standardisiertes Verfahren zur Erstellung von Git-Commits.
+Für Commit Messages empfiehlt sich die Verwendung oder Orientierung an <a href="https://www.conventionalcommits.org/en/v1.0.0/" class="external-link" target="_blank">Conventional Commits</a>. Conventional Commits sind ein standardisiertes Verfahren zur Erstellung von Git-Commits.
 
 Beispiele:
 * `feat: add corpus metadata CSV`
@@ -224,7 +224,7 @@ Ablauf: Branch und Pull Request erstellen auf GitHub
 
 ```{admonition} Achtung: Aktuellen Stand überprüfen
 :class: danger
-Insbesondere bei einer kollaborativen Arbeit am Repository ist es ratsam, vor Beginn einer neuen Arbeitssitzung sicherzustellen, dass das lokale Repository dem aktuellen Stand des sogenannten Remote-Repositorys, also dem Repository auf GitHub, entspricht. Über GitHub Desktop kann hierzu zunächst die aktuelle Branch (z. B. main) ausgewählt und anschließend über `Fetch origin` geprüft werden, ob zwischenzeitlich Änderungen veröffentlicht wurden. Liegen Aktualisierungen vor, können diese über `Pull origin` in das lokale Repository übernommen werden, bevor die weitere Bearbeitung in VS Code erfolgt.
+Insbesondere bei einer kollaborativen Arbeit am Repository ist es ratsam, vor Beginn einer neuen Arbeitssitzung sicherzustellen, dass das lokale Repository dem aktuellen Stand des sogenannten Remote-Repositorys, also dem Repository auf GitHub, entspricht. Über GitHub Desktop kann hierzu zunächst der aktuelle Branch (z. B. main) ausgewählt und anschließend über `Fetch origin` geprüft werden, ob zwischenzeitlich Änderungen veröffentlicht wurden. Liegen Aktualisierungen vor, können diese über `Pull origin` in das lokale Repository übernommen werden, bevor die weitere Bearbeitung in VS Code erfolgt.
 ```
 
 
@@ -236,7 +236,7 @@ Detaillierte Informationen zu Branches und Pull Requests gibt es auf den Dokumen
 * <a href="https://docs.github.com/de/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests" class="external-link" target="_blank">Pull Requests</a>
 ```
 
-### ​​Schritt 6: Release, Versionierung und DOI
+### Schritt 6: Release, Versionierung und DOI
 
 Wenn der Datensatz publikationsreif ist, wird ein **Release** erstellt, also eine benannte und getaggte Version des Repositories zu einem bestimmten Zeitpunkt. Releases folgen den Konventionen von <a href="https://semver.org/" class="external-link" target="_blank">Semantic Versioning</a> (SemVer): `MAJOR.MINOR.PATCH` (z. B. `v1.0.0`, vgl. hierzu den Abschnitt {ref}`Versionierung (Kapitel 6.1.)<versionierung>`).
 
@@ -253,7 +253,7 @@ Das Repository wird in Zenodo nur angezeigt, wenn die notwendigen Zugriffsrechte
 2. Repository in Zenodo aktivieren
 3. Auf GitHub einen Release erstellen:
      * Im Repository `Tags` öffnen → `Create a new release` auswählen; dann bei `Select a tag` die Option `Create a new tag` wählen und einen Versions-Tag (z. B. v1.0.0) vergeben
-     * Einen aussagekräftigen Titel sowie Release Notes hinzufügen, denn diese dokumentieren die wichtigsten Änderungen gegenüber vorherigen Versionen; für die Strukturierung der Release notes können beispielsweise Empfehlungen wie <a href="https://keepachangelog.com/en/1.1.0/" class="external-link" target="_blank">Keep a Changelog</a> oder  <a href="https://www.conventionalcommits.org/en/v1.0.0/" class="external-link" target="_blank">Conventional Commits</a> herangezogen werden
+     * Einen aussagekräftigen Titel sowie Release Notes hinzufügen, denn diese dokumentieren die wichtigsten Änderungen gegenüber vorherigen Versionen; für die Strukturierung der Release Notes können beispielsweise Empfehlungen wie <a href="https://keepachangelog.com/en/1.1.0/" class="external-link" target="_blank">Keep a Changelog</a> oder <a href="https://www.conventionalcommits.org/en/v1.0.0/" class="external-link" target="_blank">Conventional Commits</a> herangezogen werden
 
 ```{figure} ../assets/06_publikation_repositorien/abb_k06_new_release_git.png
 ---
@@ -264,12 +264,12 @@ name: new-release-git
 Einen neuen Release auf GitHub erstellen und taggen
 ```
 
-5. Den Release anschließend veröffentlichen. Ist das GitHub-Repository mit Zenodo verknüpft, wird für den Release automatisch ein DOI generiert
-6. Den DOI in `README.md`, `CITATION.cff` eintragen
+4. Den Release anschließend veröffentlichen. Ist das GitHub-Repository mit Zenodo verknüpft, wird für den Release automatisch ein DOI generiert
+5. Den DOI in `README.md`, `CITATION.cff` eintragen
 
 ### Schritt 7: Langzeitarchivierung und Fachrepositorien
 
-Wie bereits erwähnt, empfehlen sich nach der Erstpublikation auf GitHub und Zenodo die Inanspruchnahme weiterer Publikationsorte für die fachspezifische Sichtbarkeit sowie die Langzeitverfügbarkeit nach den {ref}`FAIR-Prinzipien  (Kapitel 2.5.)<leitlinien-fair>` und den {ref}`DFG-Leitlinien (Kapitel 2.5.)<leitlinien-dfg>` (Aufbewahrung mind. 10 Jahre):
+Wie bereits erwähnt, empfehlen sich nach der Erstpublikation auf GitHub und Zenodo die Inanspruchnahme weiterer Publikationsorte für die fachspezifische Sichtbarkeit sowie die Langzeitverfügbarkeit nach den {ref}`FAIR-Prinzipien (Kapitel 2.5.)<leitlinien-fair>` und den {ref}`DFG-Leitlinien (Kapitel 2.5.)<leitlinien-dfg>` (Aufbewahrung mind. 10 Jahre):
 
 1. Institutionelles Repositorium, sofern von der Hochschule eines zur Verfügung gestellt wird
 2. Für film- und medienwissenschaftliche Forschungsdaten kann auf FID Media (früher media/rep) verwiesen werden. Es ist geeignet für die fachspezifische Auffindbarkeit des Datensatzes. Was bei der Einreichung beachtet werden sollte und welche Schritte hierfür nötig sind, kann in der <a href="https://www.uni-marburg.de/de/fb09/medienwissenschaft/forschung/forschungsprojekte/mediarep/projektmitglieder" class="external-link" target="_blank">Handreichung für Autor:innen – in fünf Schritten zur Publikation auf FID Media Publish</a> eingesehen werden.
