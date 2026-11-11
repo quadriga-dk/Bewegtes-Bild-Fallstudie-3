@@ -38,7 +38,7 @@ name: fid-media
 Startseite des film- und medienwissenschaftlichen Repositoriums <a href="https://publish.fid-media.de/home" class="external-link" target="_blank">FID Media</a>
 ```
 
-Zu den etablierten generischen Repositorien zählen <a href="https://zenodo.org/" class="external-link" target="_blank">Zenodo</a>, <a href="https://github.com/" class="external-link" target="_blank">GitHub</a> und <a href="https://figshare.com/" class="external-link" target="_blank"> Figshare</a>. Sie eignen sich insbesondere für disziplinübergreifende Datensätze, Code und Projektressourcen. Für die Datenpublikation sind persistente Identifikatoren (z. B. DOI) und Versionierungsmöglichkeiten entscheidend. Über Repositorien wie Zenodo oder Figshare werden bei der Publikation DOIs vergeben. GitHub hingegen wird dafür häufig mit einem DOI-fähigen Archivierungsdienst wie Zenodo kombiniert.
+Zu den etablierten generischen Repositorien zählen <a href="https://zenodo.org/" class="external-link" target="_blank">Zenodo</a>, <a href="https://github.com/" class="external-link" target="_blank">GitHub</a> und <a href="https://figshare.com/" class="external-link" target="_blank">Figshare</a>. Sie eignen sich insbesondere für disziplinübergreifende Datensätze, Code und Projektressourcen. Für die Datenpublikation sind persistente Identifikatoren (z. B. DOI) und Versionierungsmöglichkeiten entscheidend. Über Repositorien wie Zenodo oder Figshare werden bei der Publikation DOIs vergeben. GitHub hingegen wird dafür häufig mit einem DOI-fähigen Archivierungsdienst wie Zenodo kombiniert.
 
 ```{figure} ../assets/04_einführung_publikation/abb_k04_generische_repos.png
 ---
@@ -46,7 +46,7 @@ align: center
 width: 85%
 name: generische-repos
 ---
-Startseite der etablierten generischen Repositorien <a href="https://zenodo.org/" class="external-link" target="_blank">Zenodo</a>, <a href="https://github.com/" class="external-link" target="_blank">GitHub</a> und <a href="https://figshare.com/" class="external-link" target="_blank"> Figshare</a>
+Startseite der etablierten generischen Repositorien <a href="https://zenodo.org/" class="external-link" target="_blank">Zenodo</a>, <a href="https://github.com/" class="external-link" target="_blank">GitHub</a> und <a href="https://figshare.com/" class="external-link" target="_blank">Figshare</a>
 ```
 
 ```{admonition} Publikation auf GitHub und Zenodo
@@ -120,7 +120,7 @@ Im [Kapitel 4.3. Ressourcen und Entscheidungshilfen](../04_einführung_publikati
 
 ### Publizierte Daten in einem Repositorium: Fallbeispiel "Affektrhetoriken des Audiovisuellen"
 
-Das Forschungsprojekt <a href="https://www.ada.cinepoetics.fu-berlin.de/ " class="external-link" target="_blank">"Affektrhetoriken des Audiovisuellen"</a> (kurz: AdA) stellt seine filmanalytischen Annotationsdaten als ein öffentlich zugängliches Datenpaket zur Nachnutzung in einem <a href="https://github.com/ProjectAdA/public" class="external-link" target="_blank"> GitHub-Repositorium</a> zur Verfügung. Die Projektergebnisse und Forschungsartefakte umfassen: eine Filmontologie und das Vokabular <a href="https://github.com/ProjectAdA/public/tree/master/manuals" class="external-link" target="_blank">(AdA-Filmontology)</a>, ein projektspezifisches Template für die Annotation mit dem Tool Advene sowie die <a href="https://github.com/ProjectAdA/public/tree/master/annotations" class="external-link" target="_blank">Annotationsdatensätze</a> selbst {cite}`Bakels_2023`. 
+Das Forschungsprojekt <a href="https://www.ada.cinepoetics.fu-berlin.de/" class="external-link" target="_blank">"Affektrhetoriken des Audiovisuellen"</a> (kurz: AdA) stellt seine filmanalytischen Annotationsdaten als ein öffentlich zugängliches Datenpaket zur Nachnutzung in einem <a href="https://github.com/ProjectAdA/public" class="external-link" target="_blank"> GitHub-Repositorium</a> zur Verfügung. Die Projektergebnisse und Forschungsartefakte umfassen: eine Filmontologie und das Vokabular <a href="https://github.com/ProjectAdA/public/tree/master/manuals" class="external-link" target="_blank">(AdA-Filmontology)</a>, ein projektspezifisches Template für die Annotation mit dem Tool Advene sowie die <a href="https://github.com/ProjectAdA/public/tree/master/annotations" class="external-link" target="_blank">Annotationsdatensätze</a> selbst {cite}`Bakels_2023`. 
 
 ```{figure} ../assets/04_einführung_publikation/abb_k04_ada_github.png
 ---
@@ -128,7 +128,7 @@ align: center
 width: 100%
 name: ada-github
 ---
-<a href="https://github.com/ProjectAdA/public" class="external-link" target="_blank">Öffentliches Repositorium</a>  des AdA-Projekts
+<a href="https://github.com/ProjectAdA/public" class="external-link" target="_blank">Öffentliches Repositorium</a> des AdA-Projekts
 ```
 
 Der Datensatz umfasst über 92.000 feingranulare, timecode-basierte Annotationen und wird durch Korpus-Metadaten ergänzt. 
@@ -165,7 +165,7 @@ Infografik Data Paper und Data Journals, © <a href="https://www.tu.berlin/ub/sz
 ```
 In fachspezifischen Data Journals können Data Paper eingereicht werden. Etablierte Journals für die Film- und Medienwissenschaft bzw. Digital Humanities sind <a href="https://necsus-ejms.org/" class="external-link" target="_blank">NECSUS</a> oder das <a href="https://openhumanitiesdata.metajnl.com/" class="external-link" target="_blank">Journal of Open Humanities Data</a>.
 
-Ein Beispiel für ein Data Paper aus der Filmwissenschaft ist der Aufsatz <a href="https://necsus-ejms.org/how-to-capture-the-festival-network-reflections-on-the-film-circulation-datasets/ " class="external-link" target="_blank">"How to capture the festival network: Reflections on the Film Circulation datasets"</a> publiziert auf NECSUS von Skadi Loist und Evgenia (Zhenya) Samoilova. Darin dokumentieren die Autor:innen Kontext, Struktur, Aufbereitung und Auswertung ihres <a href="https://zenodo.org/records/7887672" class="external-link" target="_blank">Film Circulation Project Datensatzes</a> mit entsprechenden Berechnungen, Logiken und Visualisierungen {cite}`Loist_2023`. Als Necsus-Datapaper wird der Datensatz somit zugleich als eigenständiges Forschungsergebnis sichtbar. 
+Ein Beispiel für ein Data Paper aus der Filmwissenschaft ist der Aufsatz <a href="https://necsus-ejms.org/how-to-capture-the-festival-network-reflections-on-the-film-circulation-datasets/" class="external-link" target="_blank">"How to capture the festival network: Reflections on the Film Circulation datasets"</a> publiziert auf NECSUS von Skadi Loist und Evgenia (Zhenya) Samoilova. Darin dokumentieren die Autor:innen Kontext, Struktur, Aufbereitung und Auswertung ihres <a href="https://zenodo.org/records/7887672" class="external-link" target="_blank">Film Circulation Project Datensatzes</a> mit entsprechenden Berechnungen, Logiken und Visualisierungen {cite}`Loist_2023`. Als NECSUS-Data-Paper wird der Datensatz somit zugleich als eigenständiges Forschungsergebnis sichtbar. 
 
 ```{figure} ../assets/04_einführung_publikation/abb_k04_ausschnitt_necsus.png
 ---
@@ -173,7 +173,7 @@ align: center
 width: 90%
 name: necsus-datapaper
 ---
-Ausschnitt aus dem <a href="https://necsus-ejms.org/how-to-capture-the-festival-network-reflections-on-the-film-circulation-datasets/ " class="external-link" target="_blank">Data Paper</a> von Skadi Loist und Evgenia (Zhenya) Samoilova auf NECSUS
+Ausschnitt aus dem <a href="https://necsus-ejms.org/how-to-capture-the-festival-network-reflections-on-the-film-circulation-datasets/" class="external-link" target="_blank">Data Paper</a> von Skadi Loist und Evgenia (Zhenya) Samoilova auf NECSUS
 ```
 
 ```{admonition} Weiterführende Links
@@ -193,9 +193,9 @@ Ausschnitt aus dem <a href="https://necsus-ejms.org/how-to-capture-the-festival-
 GLAM steht für **G**alleries, **L**ibraries, **A**rchives, **M**useums und ist ein Sammelbegriff für kulturelle Gedächtnisorganisationen.
 ```
 
-Neben niedrigschwelligen Einstiegen in die Datenpublikation, wie etwa über Repositorien und Data Papers, können Forschungsdaten ebenfalls auf eigens entwickelten Plattformen oder Webseiten bereitgestellt und kuratiert werden. Je nach Erfahrungslevel ist damit  jedoch ein höherer technischer wie auch zeitlicher Aufwand verbunden. Solche Publikationsformate empfehlen sich für größere und langfristig geförderte Projekte mit entsprechenden Ressourcen. Sind in kleineren Projekten die notwendigen technischen Skills vorhanden, können dort auch solche Lösungen kreativ umgesetzt und entwickelt werden.
+Neben niedrigschwelligen Einstiegen in die Datenpublikation, wie etwa über Repositorien und Data Papers, können Forschungsdaten ebenfalls auf eigens entwickelten Plattformen oder Webseiten bereitgestellt und kuratiert werden. Je nach Erfahrungslevel ist damit jedoch ein höherer technischer wie auch zeitlicher Aufwand verbunden. Solche Publikationsformate empfehlen sich für größere und langfristig geförderte Projekte mit entsprechenden Ressourcen. Sind in kleineren Projekten die notwendigen technischen Skills vorhanden, können dort auch solche Lösungen kreativ umgesetzt und entwickelt werden.
 
-Klassische Beispiele kommen aus dem GLAM-Kontext und sind kuratierte Datenbanken wie das <a href="https://www.europeanfilmgateway.eu/de" class="external-link" target="_blank">European Film Gateway</a>. Das EFG ist ein Portal mit zahlreichen filmhistorischen Materialien sowie den dazugehörigen Metadaten und Beschreibungen  (u.a. Fotos, Plakate, Programme, Zensurdokumente usw.).
+Klassische Beispiele kommen aus dem GLAM-Kontext und sind kuratierte Datenbanken wie das <a href="https://www.europeanfilmgateway.eu/de" class="external-link" target="_blank">European Film Gateway</a>. Das EFG ist ein Portal mit zahlreichen filmhistorischen Materialien sowie den dazugehörigen Metadaten und Beschreibungen (u.a. Fotos, Plakate, Programme, Zensurdokumente usw.).
 
 ```{figure} ../assets/04_einführung_publikation/abb_k04_efg_portal.png
 ---
@@ -203,7 +203,7 @@ align: center
 width: 90%
 name: efg-portal
 ---
-Ergebnisansicht eines <a href="https://www.europeanfilmgateway.eu/de/detail/Der%2028.%20August%201909:%20Unter%20brausendem%20Jubel%20der%20Berliner%20Bev%C3%B6lkerung%20kreuzte%20der%20erste%20Zeppelin%20%C3%BCber%20Berlin/barch::62d0bbc15f9024a86072f2670c7d3e4b " class="external-link" target="_blank">Beitrags</a> aus dem Bundesarchiv auf dem EFG-Portal, © Public Domain
+Ergebnisansicht eines <a href="https://www.europeanfilmgateway.eu/de/detail/Der%2028.%20August%201909:%20Unter%20brausendem%20Jubel%20der%20Berliner%20Bev%C3%B6lkerung%20kreuzte%20der%20erste%20Zeppelin%20%C3%BCber%20Berlin/barch::62d0bbc15f9024a86072f2670c7d3e4b" class="external-link" target="_blank">Beitrags</a> aus dem Bundesarchiv auf dem EFG-Portal, © Public Domain
 ```
 
 Neben klassischen GLAM-Portalen gibt es auch Forschungsprojekte mit umfangreichen Datenmengen, die zur Exploration und Nutzung ihrer Daten eigens dafür entwickelte interaktive Webseiten konzipiert und umgesetzt haben. So beispielsweise der <a href="https://www.informatik.uni-marburg.de/women-film-pioneers-explorer/" class="external-link" target="_blank">Women Film Pioneers Explorer</a> unter der Leitung von Dr. Sarah-Mai Dang und Prof. Dr. Thorsten Thormählen. Der Explorer ermöglicht anhand interaktiver Visualisierungen die Erkundung biografischer Datenmengen von Frauen der frühen Filmgeschichte (1890-1920) {cite}`Dickel_2021`.
@@ -216,7 +216,7 @@ name: women-film-pioneer
 ---
 Visualisierung des transnationalen Netzwerkes von Filmpionierinnen aus den Daten des <a href="https://www.informatik.uni-marburg.de/women-film-pioneers-explorer/" class="external-link" target="_blank">Women Film Pioneers Projektes</a>, © CC BY-SA 4.0
 ```
-Weitere Beispiele bzw. Auflistungen für GLAM-Datenbanken/Portale sowie (interaktive) Webseiten in der Film- und Medienwissenschaft gibt es im  [Kapitel 4.3. Ressourcen und Entscheidungshilfen](../04_einführung_publikation/ressourcen_entscheidungshilfen.md).
+Weitere Beispiele bzw. Auflistungen für GLAM-Datenbanken/Portale sowie (interaktive) Webseiten in der Film- und Medienwissenschaft gibt es im [Kapitel 4.3. Ressourcen und Entscheidungshilfen](../04_einführung_publikation/ressourcen_entscheidungshilfen.md).
 
 ## APIs
 *→ Niveau: Expert:in*
