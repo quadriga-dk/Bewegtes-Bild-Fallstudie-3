@@ -99,7 +99,7 @@ def konvertiere_wert(wert):
         return True
     if wert == "FALSE":
         return False
-    # Ganzzahlen in int umwandeln (z.B. Jahreszahlen, Laufzeiten)
+    # Ganzzahlen in int umwandeln (z. B. Jahreszahlen, Laufzeiten)
     if re.fullmatch(r"-?\d+", wert):
         return int(wert)
     # Alles andere bleibt Text
