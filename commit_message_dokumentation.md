@@ -89,7 +89,7 @@ add-summative-assessment-module
 
 ## Richtlinien 
 
-* Verwendung des Imperativs (z.B. "add" statt "added")
+* Verwendung des Imperativs (z. B. "add" statt "added")
 * Verwendung von Kleinbuchstaben mit Ausnahme von spezifischen Dateinamen (z. B. README.md)
 * Formulierung kurzer und prägnanter Aussagen
 * Verwendung von Englisch für Konsistenz 
