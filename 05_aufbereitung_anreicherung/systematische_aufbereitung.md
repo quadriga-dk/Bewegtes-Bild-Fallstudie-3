@@ -118,7 +118,7 @@ html[data-mode="light"] .table-clean code {
     <td>Korpusspezifisches strukturelles Format des Objekts (audiovisuelle Ressource)</td>
     <td><a target="_blank" href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#type">dcterms:type</a></td>
     <td>Genre</td>
-    <td>Aufteilung folgt nach Werktyp und Filmgattung</td>
+    <td>Aufteilung erfolgt nach Werktyp und Filmgattung</td>
   </tr>
   <tr>
     <td><code>country</code></td>
@@ -229,7 +229,7 @@ Ein beispielhafter Metadatensatz für eine audiovisuelle Ressource im `json`-For
 
 Um die audiovisuellen Ressourcen und die Datensätze dauerhaft referenzierbar zu machen, braucht jedes Objekt (sowohl audiovisuelle Ressourcen als auch die Daten selbst) im Korpus einen stabilen, eindeutigen Identifier. Im Projekt wurden zwei Arten von Identifiern verwendet: ein projektspezifischer und ein externer.
 
-Für den **projektspezifischen Identifier**  wird die Bezeichnung `object_id` verwendet. Die `object_id` folgt einem dreiteiligen Schema: 
+Für den **projektspezifischen Identifier** wird die Bezeichnung `object_id` verwendet. Die `object_id` folgt einem dreiteiligen Schema: 
 
 <style>
 .table-clean {
@@ -285,7 +285,7 @@ Für den **projektspezifischen Identifier**  wird die Bezeichnung `object_id` ve
 
 <br>
 
-So sieht ein vollständiger Identifier, beispielsweise für den Film *Anthropocene: The Human Epoch* (R: 	Jennifer Baichwal, Edward Burtynsky, Nicholas de Pencier, CAN 2018) aus: `f002a`.
+So sieht ein vollständiger Identifier, beispielsweise für den Film *Anthropocene: The Human Epoch* (R: Jennifer Baichwal, Edward Burtynsky, Nicholas de Pencier, CAN 2018) aus: `f002a`.
 
 ```{admonition} Warum nicht die Variante Titel + Jahr verwenden?
 :class: important
@@ -294,10 +294,10 @@ Identifier wie `avatar_2009` wirken auf den ersten Blick einfach und sind intuit
 
 ```{admonition} Fazit
 :class: keypoint
-Die Objekt-IDs setzen sich aus einem **Präfix**, einer **fortlaufenden numerischen Kennung** und einem **Suffix** zusammen. Die numerischen Bestandteile wurden im Zuge der sukzessiven Erweiterung des Korpus vergeben und folgen keiner inhaltlichen Logik, sondern  der projektinternen Erfassungsreihenfolge. 
+Die Objekt-IDs setzen sich aus einem **Präfix**, einer **fortlaufenden numerischen Kennung** und einem **Suffix** zusammen. Die numerischen Bestandteile wurden im Zuge der sukzessiven Erweiterung des Korpus vergeben und folgen keiner inhaltlichen Logik, sondern der projektinternen Erfassungsreihenfolge. 
 ```
 
-Zusätzlich zu dem projektspezifischen Identifier wurde für jeden Film, wo möglich, ein IMDb-Identifier erfasst (z. B. `tt8399690`)- Dieser **externe Identifier** trägt die Bezeichnung `imdb_id`. Er dient als stabile und öffentlich abrufbare Referenz und existiert unabhängig vom Projekt. So können Zusatzinformationen über die Filme von anderen Forschenden auch über die `imdb_id` eingesehen werden.
+Zusätzlich zu dem projektspezifischen Identifier wurde für jeden Film, wo möglich, ein IMDb-Identifier erfasst (z. B. `tt8399690`). Dieser **externe Identifier** trägt die Bezeichnung `imdb_id`. Er dient als stabile und öffentlich abrufbare Referenz und existiert unabhängig vom Projekt. So können Zusatzinformationen über die Filme von anderen Forschenden auch über die `imdb_id` eingesehen werden.
 
 Warum wurde IMDb als externe Referenz verwendet und nicht beispielsweise die ISAN? <a href="https://www.isan.org/de" class="external-link" target="_blank">ISAN</a> (International Standard Audiovisual Number, ISO 15706) ist der offizielle ISO-Standard zur Identifikation audiovisueller Werke, vergleichbar mit der ISBN für Bücher. In der Praxis sind ISANs allerdings sehr lückenhaft vergeben und ohne institutionellen Zugang nur schwer einsehbar. IMDb-IDs hingegen sind sehr etabliert und frei zugänglich. Die Datenbank enthält zudem eine umfangreiche Menge an katalogisierten Werken, wodurch das Auffinden von audiovisuellen Ressourcen vereinfacht wird. Alternative größere Filmdatenbanken sind unter anderem <a href="https://www.themoviedb.org/?language=de-DE" class="external-link" target="_blank">The Movie Database (TMDb)</a> sowie <a href="https://www.omdb.org/de/de" class="external-link" target="_blank">The Open Movie Database (OMDb)</a>. Da IMDb eine kommerziell betriebene Datenbank ist, ist bei der Nachnutzung der Daten Vorsicht geboten. Hierzu mehr in [Kapitel 5.5. Diskriminierungssensible Überprüfung](../05_aufbereitung_anreicherung/diskriminierungssensible_überprüfung.md).
 
@@ -305,7 +305,7 @@ Warum wurde IMDb als externe Referenz verwendet und nicht beispielsweise die ISA
 Welche Anforderungen allgemein für die Entwicklung guter Identifier zu beachten sind, haben wir hier in übersichtlicher Form zusammengefasst:
 
 ```{admonition} Anforderungen an gute Identifier
-:class: Keypoint
+:class: keypoint
 * **Eindeutigkeit**: Jedes Datenobjekt und jede Ressource bekommt eine ID, die nur einmal vorkommt
 * **Persistenz**: Die ID bleibt dauerhaft, auch wenn sich Titel oder Metadaten ändern
 * **Logik und Strukturiertheit**: Die ID muss einer konsistenten Logik entsprechen
@@ -325,11 +325,11 @@ In den Korpusmetadaten wurden für zwei Felder kontrollierte Vokabulare festgele
 ````{margin}
 ```{admonition} Inhalte der Unterprojekte
 :class: hinweis
-Mehr Informationen zum Teilprojekt und den Unterprojekten (UPs)  gibt es in [Kapitel 2.2. Teilprojekt](../02_forschungsdaten_fdm/teilprojektbeschreibung.md).
+Mehr Informationen zum Teilprojekt und den Unterprojekten (UPs) gibt es in [Kapitel 2.2. Teilprojekt](../02_forschungsdaten_fdm/teilprojektbeschreibung.md).
 ```
 ````
 
-Wie bereits oben beschrieben, bildet das Element bzw. Feld `classification` die Aufteilungen des untersuchten Gesamtkorpus (sowie den Teilkorpora von UP 1, UP 2 und UP 3) ab. Diese Aufteilung folgt nach Werktyp (Episode, Video) und Filmgattung (Spielfilm, Dokumentarfilm). Folgende Werte sind für das Feld zugelassen:
+Wie bereits oben beschrieben, bildet das Element bzw. Feld `classification` die Aufteilungen des untersuchten Gesamtkorpus (sowie den Teilkorpora von UP 1, UP 2 und UP 3) ab. Diese Aufteilung erfolgt nach Werktyp (Episode, Video) und Filmgattung (Spielfilm, Dokumentarfilm). Folgende Werte sind für das Feld zugelassen:
 
 * `feature film`
 * `documentary`
@@ -370,7 +370,7 @@ ISO Normen sind weltweit anerkannte, konsensbasierte, schriftlich festgelegte St
 Durch die Verwendung von ISO-Standards wird sichergestellt, dass die Daten maschinenlesbar, interoperabel und unabhängig von Sprache, Kultur oder Konvention interpretierbar sind. 
 
 1. `country`: kodiert nach <a href="https://www.iso.org/iso-3166-country-codes.html" class="external-link" target="_blank">ISO 3166-1 alpha-2</a>, dem internationalen Standard für Ländercodes. Statt "Deutschland", “Germany”, "GER" oder "DEU" wird einheitlich "DE" verwendet. 
-2. `duration_iso8601`: kodiert nach <a href="https://www.iso.org/iso-8601-date-and-time-format.html" class="external-link" target="_blank">ISO 8601</a>, dem internationalen Standard für Datums- und Zeitangaben. Laufzeiten werden im Format `PT[Stunden]H[Minuten]M` angegeben, z. B. `PT1H32M` für 92 Minuten. Das Feld ergänzt `runtime_min` (`92. Min.`), welches für die menschliche Lesbarkeit im Arbeitskontext beibehalten wird. **Maschinenlesbar und interoperabel ist jedoch nur die ISO-kodierte Variante.**
+2. `duration_iso8601`: kodiert nach <a href="https://www.iso.org/iso-8601-date-and-time-format.html" class="external-link" target="_blank">ISO 8601</a>, dem internationalen Standard für Datums- und Zeitangaben. Laufzeiten werden im Format `PT[Stunden]H[Minuten]M` angegeben, z. B. `PT1H32M` für 92 Minuten. Das Feld ergänzt `runtime_min` (`92 Min.`), welches für die menschliche Lesbarkeit im Arbeitskontext beibehalten wird. **Maschinenlesbar und interoperabel ist jedoch nur die ISO-kodierte Variante.**
 
 Beide Beispiele zeigen, wie kontrolliertes Vokabular durch externe Normen eingesetzt werden kann. Die Wertliste wird also folglich nicht selbst definiert, sondern von einem etablierten Standard übernommen.
 
