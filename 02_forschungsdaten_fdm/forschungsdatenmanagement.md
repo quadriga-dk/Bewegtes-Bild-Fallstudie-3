@@ -65,7 +65,7 @@ Die drei Kernpunkte fassen wir hier kurz zusammen:
 
 1. In der **Projektplanung** sollen frühzeitig Überlegungen dazu festgehalten werden, welche Daten aus dem Forschungsvorhaben resultieren, wie sie generiert und ausgewertet werden, welche Konzepte für die Qualitätssicherung relevant sind, welche Datentypen anfallen, wie die langfristige Sicherung erfolgt und welche Publikationswege in Betracht kommen. 
 2. Bei der **Bereitstellung** wird angestrebt, die Forschungsdaten zeitnah und in einer nutzbaren Form (als Rohdaten oder bereits strukturiert) zugänglich zu machen und den Zugang auch bei übertragenen Verwertungsrechten (z. B. an Verlage) sicherzustellen.
-3. Für die **langfristige Sicherung** sollten klare Archivierungsstrategien formuliert werden, wobei die Daten mindestens zehn Jahre in institutionellen (d. h. hochschuleigene Repositorien wie z. B. das <a href="https://refubium.fu-berlin.de/" class="external-link" target="_blank">Refubium der FU</a>) oder fachbezogenen überregionalen Infrastrukturen aufbewahrt werden sollen (z. B. <a href="https://mediarep.org/home" class="external-link" target="_blank">media/rep/</a>, <a href="https://zenodo.org/" class="external-link" target="_blank">Zenodo</a>, <a href="https://github.com/" class="external-link" target="_blank">GitHub</a>).
+3. Für die **langfristige Sicherung** sollten klare Archivierungsstrategien formuliert werden, wobei die Daten mindestens zehn Jahre in institutionellen (d. h. hochschuleigenen Repositorien wie z. B. das <a href="https://refubium.fu-berlin.de/" class="external-link" target="_blank">Refubium der FU</a>) oder fachbezogenen überregionalen Infrastrukturen aufbewahrt werden sollen (z. B. <a href="https://mediarep.org/home" class="external-link" target="_blank">media/rep/</a>, <a href="https://zenodo.org/" class="external-link" target="_blank">Zenodo</a>, <a href="https://github.com/" class="external-link" target="_blank">GitHub</a>).
 
 ```{admonition} Weiterführende Links zum Thema Forschungsdatenmanagement und FAIR-Prinzipien
 :class: seealso
@@ -92,7 +92,7 @@ Im Wesentlichen sind DMPs von Menschen lesbare Dokumente, wobei es mittlerweile 
 
 ### Inhalte eines DMPs
 
-Die konkreten Inhalte eines DMPs sind nicht normiert. Es gibt sowohl eine Reihe institutioneller Handreichungen und Vorlagen als auch digitale Werkzeuge, mit denen DMPs erstellt werden können. Für einen ersten Überblick fassen wir die wichtigsten Inhalte hier kurz zusammen {cite:p}`{vgl. für einen Überblick auch }Dierkes_2021,RatSWD_2023`:
+Die konkreten Inhalte eines DMPs sind nicht normiert. Es gibt sowohl eine Reihe institutioneller Handreichungen und Vorlagen als auch digitale Werkzeuge, mit denen DMPs erstellt werden können. Für einen ersten Überblick fassen wir die wichtigsten Inhalte hier kurz zusammen (vgl. für einen Überblick auch {cite:t}`Dierkes_2021,RatSWD_2023`):
 
 ```{figure} ../assets/02_forschungsdaten_fdm/abb_k02_dmp.png
 ---
