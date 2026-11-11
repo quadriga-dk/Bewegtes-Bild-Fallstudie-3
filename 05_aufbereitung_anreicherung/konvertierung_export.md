@@ -45,7 +45,7 @@ Beim Export aus Excel kann es vorkommen, dass sich Leerzeichen unbemerkt in Spal
 
 ```{admonition} Bug in macOS beim XLSX zu CSV Export 
 :class: danger
-Beim Export aus Microsoft Excel kann es in Einzelfällen vorkommen, dass ISO-8601-Dauerangaben, also das Feld `duration_iso8601` ohne Stundenanteil (z. B. `PT50M`) fälschlicherweise als `PTH50M` exportiert werden. In diesem Fall können die Werte nach dem Export durch Suchen und Ersetzen in der `csv`-Datei (PTH → PT) korrigiert werden.
+Beim Export aus Microsoft Excel kann es in Einzelfällen vorkommen, dass ISO-8601-Dauerangaben, also das Feld `duration_iso8601` ohne Stundenanteil (z. B. `PT50M`), fälschlicherweise als `PTH50M` exportiert werden. In diesem Fall können die Werte nach dem Export durch Suchen und Ersetzen in der `csv`-Datei (PTH → PT) korrigiert werden.
 ```
 
 ### Ergebnis
@@ -69,14 +69,14 @@ Was es zu beachten gilt:
 * Leere Felder (z. B. `season_episode`, `episode_title` bei Spielfilmen) bleiben leer, die Semikolons als *Positionsmarker* bleiben aber erhalten
 * `TRUE`/`FALSE` kennzeichnet, ob Annotationsdaten bzw. Moviebarcodes vorliegen
 
-```{admonition}  Warum in leeren Feldern die Semikolons beibehalten werden müssen
+```{admonition} Warum in leeren Feldern die Semikolons beibehalten werden müssen
 :class: caution
 In einer `csv`-Datei bestimmt die Position des Semikolons, welcher Wert in welche Spalte gehört. Wird ein Semikolon aus einem leeren Feld gelöscht, verschieben sich alle nachfolgenden Werte um eine Spalte, d. h., dass die Tabelle logisch auseinanderbricht. Leere Felder dürfen also nicht einfach weggelassen werden, sondern müssen als leere Positionen (`;;`) erhalten bleiben.
 ```
 
 ## CSV zu HTML
 
-Eine `html`-Version der Korpusmetadaten wird für eine bessere Durchsuchbarkeit zur Verfügung gestellt. `html`-Dokumente bestehen oft aus zwei Teilen: dem eigentlichen **Inhalt** (*„was soll da rein?"*, z. B. Tabellen, Überschriften, Text) in `html`-Syntax und den **Gestaltungsregeln** (*„wie soll es aussehen?"*, z. B. Farben, Abstände, Schriftgröße) in `css`-Syntax. Beide sind im bereitgestellten Code enthalten und kommentiert.
+Eine `html`-Version der Korpusmetadaten wird für eine bessere Durchsuchbarkeit zur Verfügung gestellt. `html`-Dokumente bestehen oft aus zwei Teilen: dem eigentlichen **Inhalt** (*„was soll da rein?“*, z. B. Tabellen, Überschriften, Text) in `html`-Syntax und den **Gestaltungsregeln** (*„wie soll es aussehen?“*, z. B. Farben, Abstände, Schriftgröße) in `css`-Syntax. Beide sind im bereitgestellten Code enthalten und kommentiert.
 
 ```{admonition} Kommentare im Code
 :class: hinweis
@@ -540,7 +540,7 @@ Das `html`-Skript kann auch für andere Datensätze mit abweichenden Feldern üb
 2. Mit Semikolon getrennte Werte verwenden; andernfalls (wie oben beschrieben) das Trennzeichen anpassen
 ```
 
-Alternativ gibt es auch die Möglichkeit, sich mit Generativen-KI-Tools `html`-Skripte generieren zu lassen und diese dann zu bearbeiten oder anzupassen. Dies ist in den Digital Humanities aus heutiger Perspektive gängige Praxis und erleichtert die Arbeitsprozesse. Grundlegende `html`- und `JavaScript`-Kenntnisse (bzw. auch `css`) sind dafür sehr hilfreich, um den Code zu verstehen und entsprechend bearbeiten zu können.
+Alternativ gibt es auch die Möglichkeit, sich mit Generative-KI-Tools `html`-Skripte generieren zu lassen und diese dann zu bearbeiten oder anzupassen. Dies ist in den Digital Humanities aus heutiger Perspektive gängige Praxis und erleichtert die Arbeitsprozesse. Grundlegende `html`- und `JavaScript`-Kenntnisse (bzw. auch `css`) sind dafür sehr hilfreich, um den Code zu verstehen und entsprechend bearbeiten zu können.
 
 ## CSV zu JSON
 
@@ -585,7 +585,7 @@ Um das folgende Skript auszuführen, wird eine funktionierende Python-Umgebung m
 :class: hinweis
 Für Nutzende, die keine Anaconda-Distribution herunterladen möchten, wird im Folgenden ein alternativer Workflow mit VS Code und der offiziellen Python-Erweiterung bereitgestellt:
 
-[Python: CVS-to-JSON-Workflow ohne Anaconda](../assets/05_aufbereitung_anreicherung/doc_python_workflow_csv_to_json_v001.md)
+[Python: CSV-to-JSON-Workflow ohne Anaconda](../assets/05_aufbereitung_anreicherung/doc_python_workflow_csv_to_json_v001.md)
 ```
 
 1. Anaconda Distribution herunterladen und installieren (**Achtung: die Installation benötigt mehrere GB Speicherplatz!**)
@@ -631,7 +631,7 @@ Python-Kernel wählen
 :class: danger
 In der Regel ist `pandas` über Anaconda bereits vorinstalliert. Sollte beim Ausführen des Codes ein Fehler wie `ModuleNotFoundError: No module named 'pandas'` erscheinen, dann direkt in der Notebook-Zelle folgenden Befehl ausführen: `!pip install pandas`
 ```
-Dieses Skript kann in dem geöffneten Notebook ausgeführt werden, die mit `#` gekennzeichneten Kommentare beeinträchtigen die Code-Funktionen nicht.
+Dieses Skript kann in dem geöffneten Notebook ausgeführt werden. Die mit `#` gekennzeichneten Kommentare beeinträchtigen die Code-Funktionen nicht.
 
 Es müssen lediglich die Dateinamen, wie oben angemerkt, unter `input_datei = "annotation_metadata.csv"` (Eingabedatei), 
 `output_datei = "annotation_metadata.json"` (Ausgabedatei) für den eigenen Datensatz angepasst werden. Für den Beispieldatensatz kann folgender Titel der Eingabedatei eingegeben werden: `doc_k05_beispieldatensatz.csv`. Die Ausgabedatei kann entsprechend so benannt werden: `doc_k05_beispieldatensatz.json`. Der Rest des Codes funktioniert für jeden semikolon-getrennten CSV-Datensatz mit `TRUE`/`FALSE`-Werten und numerischen Feldern. Nach dem Ausführen sollte in dem gewählten Ordnerverzeichnis ein `json`-Export der `csv`-Datei vorliegen.
@@ -649,7 +649,7 @@ output_datei = "annotation_metadata.json" # 2. Name der Ausgabedatei anpassen
 
 # 2) CSV einlesen
 # sep=";" → wichtig, weil Datei semikolon-getrennt ist
-# dtype=str Hiermit werden alle Werte erstmal als Text eingelesen 
+# dtype=str: Hiermit werden alle Werte erstmal als Text eingelesen 
 # die Typkonvertierung erfolgt erst im nächsten Schritt kontrolliert
 df = pd.read_csv(input_datei, sep=";", dtype=str)
 
