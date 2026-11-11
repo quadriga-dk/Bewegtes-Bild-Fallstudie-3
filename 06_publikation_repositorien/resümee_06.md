@@ -21,7 +21,7 @@
 * Stabile Objekt-IDs ermöglichen die eindeutige Zuordnung zusammengehöriger Dateien und bilden die Grundlage für eine konsistente Organisation relational verknüpfter Datensätze.
 * Auch ohne Git sollten unterschiedliche Bearbeitungsstände nach einem festen Versionierungsschema benannt und Änderungen gegebenenfalls in einem `CHANGELOG.md` dokumentiert werden.
 * Die 3-2-1-Regel reduziert das Risiko von Datenverlust: drei Kopien auf zwei unterschiedlichen Speichertypen, davon mindestens eine an einem externen Standort.
-* Kuratierung, Dateiorganisation und Datensicherung sind prozessbegleitende Aufgaben des FMDs und schaffen die Voraussetzung für eine Publikation nach guter wissenschaftlicher Praxis.
+* Kuratierung, Dateiorganisation und Datensicherung sind prozessbegleitende Aufgaben des FDMs und schaffen die Voraussetzung für eine Publikation nach guter wissenschaftlicher Praxis.
 ```
 
 ```{admonition} Keypoints: Dateninfrastrukturen und Publikation auf Repositorien
