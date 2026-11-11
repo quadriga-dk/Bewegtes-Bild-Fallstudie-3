@@ -9,7 +9,7 @@ Ausführliche Infos zur Projektbeschreibung und den Forschungsinhalten finden si
 `````{admonition} Story
 :class: story
 
-Das filmwissenschaftliche Teilprojekt <a href="https://www.sfb-intervenierende-kuenste.de/teilprojekte/C/C05/index.html" class="external-link" target="_blank">"C05 Intervenierende Weltentwürfe: Audiovisualität des Klimawandels"</a> des <a href="https://www.sfb-intervenierende-kuenste.de/" class="external-link" target="_blank">"Sonderforschungsbereichs 1512 "Intervenierende Künste"</a> der Freien Universität Berlin forscht zur Audiovisualität des Klimawandels. 
+Das filmwissenschaftliche Teilprojekt <a href="https://www.sfb-intervenierende-kuenste.de/teilprojekte/C/C05/index.html" class="external-link" target="_blank">"C05 Intervenierende Weltentwürfe: Audiovisualität des Klimawandels"</a> des <a href="https://www.sfb-intervenierende-kuenste.de/" class="external-link" target="_blank">"Sonderforschungsbereichs 1512 Intervenierende Künste"</a> der Freien Universität Berlin forscht zur Audiovisualität des Klimawandels. 
 
 ````{admonition} Forschungsfrage
 :class: keypoint
@@ -49,7 +49,7 @@ Das Datenset umfasst fünf zentrale Datentypen, wobei aufgrund urheberrechtliche
 ````{margin}
 ```{admonition} Formate
 :class: hinweis
-Was ist `yaml`,`csv`,`json`? Details hierzu: [Kapitel 5.3. Systematische Datenaufbereitung](../05_aufbereitung_anreicherung/systematische_aufbereitung.md) und [Kapitel 5.4. Formate, Konvertierung, Dokumentation](../05_aufbereitung_anreicherung/formatierung_anpassung.md).
+Was ist `yaml`, `csv`, `json`? Details hierzu: [Kapitel 5.3. Systematische Datenaufbereitung](../05_aufbereitung_anreicherung/systematische_aufbereitung.md) und [Kapitel 5.4. Formate, Konvertierung, Dokumentation](../05_aufbereitung_anreicherung/formatierung_anpassung.md).
 ```
 ````
 
@@ -80,7 +80,7 @@ Architektur des Datensatzes
 
 Die Metadaten wurden während des Projektverlaufs manuell erhoben und in einer tabellarischen Struktur dokumentiert. Aufgrund des überschaubaren Korpus konnte eine kuratierte und kontrollierte Erfassung somit auch manuell erfolgen. 
 
-Für größere Korpora und Datensätze und Projekte mit einem gewissen technischen Know-how oder der Initiative, sich einzuarbeiten, eignen sich alternativ auch automatisierte bzw. semi-automatisierte Verfahren der Extraktion von Metadaten. So etwa über API Keys. API Keys sind Zugangsschlüssel, die Metadaten aus externen Datenbanken abrufen können. Diese Metadaten können dann anschließend beispielsweise mit einem `Python-Skript` als `DataFrame`, d. h. als eine strukturierte maschinenlesbare Tabelle, weiterverarbeitet und gespeichert werden. Der API Key der Seite <a href="https://www.omdbapi.com/apikey.aspx " class="external-link" target="_blank">OMDb</a> ist kostenlos, für andere Filmdatenbanken können Entgelte anfallen. 
+Für größere Korpora und Datensätze und Projekte mit einem gewissen technischen Know-how oder der Initiative, sich einzuarbeiten, eignen sich alternativ auch automatisierte bzw. semi-automatisierte Verfahren der Extraktion von Metadaten. So etwa über API Keys. API Keys sind Zugangsschlüssel, die Metadaten aus externen Datenbanken abrufen können. Diese Metadaten können dann anschließend beispielsweise mit einem `Python-Skript` als `DataFrame`, d. h. als eine strukturierte maschinenlesbare Tabelle, weiterverarbeitet und gespeichert werden. Der API Key der Seite <a href="https://www.omdbapi.com/apikey.aspx" class="external-link" target="_blank">OMDb</a> ist kostenlos, für andere Filmdatenbanken können Entgelte anfallen. 
 
 ```{admonition} Benötigte Kenntnisse
 :class: hinweis
@@ -105,9 +105,9 @@ Zum Nachlesen: {ref}`Kapitel 2.5. Datenmanagementplan <datenmanagement-plan>`.
 ```
 ````
 
-Die hier überblicksartig skizzierten Informationen zum Datenset sind im Prinzip Kurzfassungen der in einem **DMP** festgehaltenen Inhalte. Auf Basis der <a href="https://www.fu-berlin.de/sites/forschungsdatenmanagement/materialien/handreichungen/dmp/index.html#vorlagen" class="external-link" target="_blank">DMP-Vorlage der FU Berlin</a> sowie des <a href="https://rdmorganiser.github.io/ " class="external-link" target="_blank">RDMO-Standardkatalogs </a> stellen wir exemplarisch einen [Projekt-DMP](../assets/05_aufbereitung_anreicherung/doc_k05_dmp_sfb1512_c05.pdf) zum Download zur Verfügung. Dieser kann als Vorlage für die Erstellung eines eigenen DMPs genutzt werden. 
+Die hier überblicksartig skizzierten Informationen zum Datenset sind im Prinzip Kurzfassungen der in einem **DMP** festgehaltenen Inhalte. Auf Basis der <a href="https://www.fu-berlin.de/sites/forschungsdatenmanagement/materialien/handreichungen/dmp/index.html#vorlagen" class="external-link" target="_blank">DMP-Vorlage der FU Berlin</a> sowie des <a href="https://rdmorganiser.github.io/" class="external-link" target="_blank">RDMO-Standardkatalogs </a> stellen wir exemplarisch einen [Projekt-DMP](../assets/05_aufbereitung_anreicherung/doc_k05_dmp_sfb1512_c05.pdf) zum Download zur Verfügung. Dieser kann als Vorlage für die Erstellung eines eigenen DMPs genutzt werden. 
 
-Die Erstellung eines DMPs ist der erste Schritt, um das Fundament für eine nachhaltige Datenpublikation zu ermöglichen. In den nächsten Kapiteln gehen wir die weiteren Schritte zur systematischen Aufbereitung der Forschungsdaten für die Publikation auf Repositorien durch. Doch zunächst möchten wir eine schnell erlernbare und gut reproduzierte Methode zur Anreicherung von Filmannotationsdaten anhand von Moviebarcodes vorstellen. 
+Die Erstellung eines DMPs ist der erste Schritt, um das Fundament für eine nachhaltige Datenpublikation zu ermöglichen. In den nächsten Kapiteln gehen wir die weiteren Schritte zur systematischen Aufbereitung der Forschungsdaten für die Publikation auf Repositorien durch. Doch zunächst möchten wir eine schnell erlernbare und gut reproduzierbare Methode zur Anreicherung von Filmannotationsdaten anhand von Moviebarcodes vorstellen. 
 
 
 ## Literatur
