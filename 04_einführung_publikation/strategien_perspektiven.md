@@ -1,4 +1,4 @@
-#  Strategien, Perspektiven, Publikationswege
+# Strategien, Perspektiven, Publikationswege
 
 Unter Datenpublikation wird die "referenzierbare Beschreibung von Datensätzen" verstanden, über die Daten allgemein zugänglich gemacht werden {cite}`dang_forschungsdatenmanagement_2020`. Neben den Forschungsdaten selbst sind auch deren Beschreibungen (deskriptive Metadaten), Dokumentationen, Codes oder Workflows ein wichtiger Bestandteil der Datenpublikation {cite}`Forschungsdatenorg_2015`.
 
@@ -26,7 +26,7 @@ Welche Publikationswege sinnvoll sind, hängt von verschiedenen Faktoren ab. Ori
 
 4. **Rechte/Lizenzen**: Welche rechtlichen und lizenzrechtlichen Bedingungen gelten (z. B. Urheberrecht, Bildrechte, Persönlichkeitsrechte)?
 
-Ein solides [Forschungsdatenmanagement (Kapitel 2.5.)](../02_forschungsdaten_fdm/forschungsdatenmanagement.md) (FDM) unter Einhaltung der {ref}`FAIR-Prinzipien (Kapitel 2.5.) <leitlinien-fair>` und {ref}`Best Practices (Kapitel 2.5.) <fiwi-best-practices>`  erleichtert die Publikation.
+Ein solides [Forschungsdatenmanagement (Kapitel 2.5.)](../02_forschungsdaten_fdm/forschungsdatenmanagement.md) (FDM) unter Einhaltung der {ref}`FAIR-Prinzipien (Kapitel 2.5.) <leitlinien-fair>` und {ref}`Best Practices (Kapitel 2.5.) <fiwi-best-practices>` erleichtert die Publikation.
 
 In dieser Lerneinheit werden Publikationswege, -orte und -formate anhand konkreter Praxisbeispiele skizziert und anschließend durch eine Übersicht an Ressourcen sowie Orientierungshilfen zur Publikation ergänzt.
 
