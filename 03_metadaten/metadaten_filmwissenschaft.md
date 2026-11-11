@@ -16,7 +16,7 @@ Wie ein Filmkorpus und zugehörige Datensätze am konkreten Projektbeispiel durc
 ```
 ````
 
-Metadatenstandards in der Filmwissenschaft werden vor allem von Filmarchiven, Kinematheken, Fernsehanstalten und Bibliotheken genutzt, um Filme, Fassungen und Materialien (dazu zählen auch die physischen Trägermedien wie z. B. DVD oder Blu Ray) beschreibbar und auffindbar zu machen {cite}`Schild_2017`. Aber auch Forschungsprojekte greifen auf die Fachstandards zurück, um beispielsweise Filmkorpora durch Metadaten zu charakterisieren.
+Metadatenstandards in der Filmwissenschaft werden vor allem von Filmarchiven, Kinematheken, Fernsehanstalten und Bibliotheken genutzt, um Filme, Fassungen und Materialien (dazu zählen auch die physischen Trägermedien wie z. B. DVD oder Blu-ray) beschreibbar und auffindbar zu machen {cite}`Schild_2017`. Aber auch Forschungsprojekte greifen auf die Fachstandards zurück, um beispielsweise Filmkorpora durch Metadaten zu charakterisieren.
 
 Gleichzeitig sind Metadateninformationen zu Filmen auch für die Filmrecherche nicht unerheblich. Dabei können die Recherchegründe variieren – von der Suche nach filmbegleitendem Material, Angaben zu beteiligten Personen und Gewerken bis zur Suche nach Aufführungsrechten, historischen Informationen oder Nutzungsrechten. Online-Kataloge und Filmdatenbanken, wie beispielsweise die der <a href="https://www.deutsche-kinemathek.de/de" class="external-link" target="_blank">Deutschen Kinemathek</a> oder dem <a href="https://www.bfi.org.uk/" class="external-link" target="_blank">BFI</a> (British Film Institute), ermöglichen einen mehrdimensionalen Zugriff auf diese Informationen.
 
@@ -81,7 +81,7 @@ Die vier Begriffe `Werk`, `Variante`, `Manifestation` und `Exemplar` stammen aus
 `Werk`: *Metropolis* von Fritz Lang als das künstlerische Konzept <br>
 `Variante`: Kurzfassung von Metropolis (1927, 115 Min.) oder restaurierte Langfassung (2010, 148 Min.) <br>
 `Manifestation`: 35mm-Filmkopie oder DVD-Ausgabe <br>
-`Exemplar`: Deutsche Kinemathek DVD/Blu Ray DVD375, Barcode: <a href="https://deutsche-kinemathek.bsz-bw.de/cgi-bin/koha/opac-detail.pl?biblionumber=81474" class="external-link" target="_blank">00298186</a>
+`Exemplar`: Deutsche Kinemathek DVD/Blu-ray DVD375, Barcode: <a href="https://deutsche-kinemathek.bsz-bw.de/cgi-bin/koha/opac-detail.pl?biblionumber=81474" class="external-link" target="_blank">00298186</a>
 ```
 
 Für kleinere filmwissenschaftliche Projekte mit überschaubaren Korpora kann eine Orientierung am Minimalstandard bereits ausreichen. Für archivarische und filmhistorische Arbeiten kann eine Ausrichtung am EN 15907 – je nach Forschungsgegenstand und Frage – sinnvoll sein. 
