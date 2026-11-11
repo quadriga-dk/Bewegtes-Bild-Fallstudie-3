@@ -47,7 +47,7 @@ Horizontales Baumdiagramm zu Publikationsstrategien
 
 ## Rechtliche Aspekte bei der Publikation 
 
-Zusätzlich zu den bisher zur Verfügung gestellten Informationen hat <a href="https://forschungsdaten.info/ " class="external-link" target="_blank">forschungsdaten.info</a> einen [Entscheidungsbaum](../assets/04_einführung_publikation/doc_k04_entscheidungsbaum_rechtliche_aspekte.pdf) für rechtliche Aspekte bei der Publikation zusammengestellt. Denn es kommt häufig vor, dass in Bezug auf rechtliche Fragen – vor allem zum Urheberrecht und Datenschutz – Probleme auftreten. 
+Zusätzlich zu den bisher zur Verfügung gestellten Informationen hat <a href="https://forschungsdaten.info/" class="external-link" target="_blank">forschungsdaten.info</a> einen [Entscheidungsbaum](../assets/04_einführung_publikation/doc_k04_entscheidungsbaum_rechtliche_aspekte.pdf) für rechtliche Aspekte bei der Publikation zusammengestellt. Denn es kommt häufig vor, dass in Bezug auf rechtliche Fragen – vor allem zum Urheberrecht und Datenschutz – Probleme auftreten. 
 
 ```{figure} ../assets/04_einführung_publikation/abb_k04_entscheidungsbaum_rechtliche_aspekte.png
 ---
