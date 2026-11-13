@@ -393,7 +393,7 @@ Je nach Disziplin und Anwendungsfall gibt es unterschiedliche Quellen:
 ## Relationale Verknüpfung des Datensets
 
 Neben den Korpusmetadaten, die das Kernelement der Referenzierbarkeit und Dokumentation des Datensatzes bilden, gibt es noch zwei weitere Metadaten-Files:
-1. `annotation_medadata` für die <a href="https://github.com/SFB1512-C05-climate-film/intervening-world-projections-dataset/tree/main/data/annotations" class="external-link" target="_blank">Annotationsdatensätze</a>
+1. `annotation_metadata` für die <a href="https://github.com/SFB1512-C05-climate-film/intervening-world-projections-dataset/tree/main/data/annotations" class="external-link" target="_blank">Annotationsdatensätze</a>
 2. `moviebarcode_metadata` für die <a href="https://github.com/SFB1512-C05-climate-film/intervening-world-projections-dataset/tree/main/data/moviebarcodes" class="external-link" target="_blank">Moviebarcodes</a>
 
 Wie in den [Informationen zum Datenset (Kapitel 5.1.)](../05_aufbereitung_anreicherung/informationen_datenset.md) ausgeführt, handelt es sich hier um ein relationales Prinzip der Datenverknüpfung. Hauptverknüpfungselement ist dabei der projektinterne Identifier, die `object_id`. Jedes `azp` File sowie jede `png` hat einen einzigen, eindeutigen Identifier, der sich aus der `object_id` ableitet und somit den einzelnen audiovisuellen Ressourcen zugeordnet werden kann. In den Metadaten finden sich zudem zusätzliche Informationen, wie beispielsweise das Datum der Erstellung oder technische Komponenten.
