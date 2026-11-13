@@ -2,11 +2,11 @@
 orphan: true
 ---
 
-# 3. MacOS
+# 3. macOS
 ## 3.1. Vorbereitungen
 ### 3.1.1. Homebrew installieren
 
-Um FFmpeg und ImageMagick zu installieren, benutzen wir Homebrew. Homebrew ist eine freie Paketverwaltung für MacOS. Um Homebrew zu installieren, öffnen Sie ein Terminalfenster und setzen dort folgenden Befehl ab:
+Um FFmpeg und ImageMagick zu installieren, benutzen wir Homebrew. Homebrew ist eine freie Paketverwaltung für macOS. Um Homebrew zu installieren, öffnen Sie ein Terminalfenster und setzen dort folgenden Befehl ab:
 
 ```Bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"

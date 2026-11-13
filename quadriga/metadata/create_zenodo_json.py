@@ -208,7 +208,7 @@ def create_zenodo_json() -> bool | None:
 
 <p>Mehr zum Aufbau und zur Umsetzung des Projekts können Sie im <a href="https://doi.org/10.5281/zenodo.10805015" target="_blank">Umsetzungskonzept</a> erfahren.</p>
 
-<p>Weitere Informationen sowie Publikationen finden Sie auf der <a href="https://www.quadriga-dk.de" target="_blank">Webseite</a>, in der <a href="https://zenodo.org/communities/quadriga" target="_blank">Zenodo-Community</a> und der <a href="https://github.com/quadriga-dk" target="_blank">GitHub-Organisation</a> des Projekts.</p>
+<p>Weitere Informationen sowie Publikationen finden Sie auf der <a href="https://www.quadriga-dk.de" target="_blank">Website</a>, in der <a href="https://zenodo.org/communities/quadriga" target="_blank">Zenodo-Community</a> und der <a href="https://github.com/quadriga-dk" target="_blank">GitHub-Organisation</a> des Projekts.</p>
 """
         zenodo_metadata["description"] = description + description_base
         logger.info("Added description")

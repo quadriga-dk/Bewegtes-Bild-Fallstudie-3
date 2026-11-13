@@ -68,7 +68,7 @@ Im [Kapitel 6.3. Dateninfrastrukturen](../06_publikation_repositorien/dateninfra
   <tbody>
     <tr>
       <td style="padding:10px 8px; border-bottom:1px solid #f0f0f0;"><strong>Zenodo</strong></td>
-      <td style="padding:10px 8px; border-bottom:1px solid #f0f0f0;">Forschungsdaten, OER, Code, JupyterBooks</td>
+      <td style="padding:10px 8px; border-bottom:1px solid #f0f0f0;">Forschungsdaten, OER, Code, Jupyter Books</td>
       <td style="padding:10px 8px; border-bottom:1px solid #f0f0f0;">✅ Ja</td>
       <td style="padding:10px 8px; border-bottom:1px solid #f0f0f0;">
         <a href="https://zenodo.org/" target="_blank">zenodo.org</a>
