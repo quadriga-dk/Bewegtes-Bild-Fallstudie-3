@@ -82,7 +82,7 @@ Zusammenfassend lassen sich aus den vorangegangenen Inhalten folgende Kernpunkte
 
 ## Nachnutzungsperspektiven
 
-```{figure} ../assets/relexion_resümee/abb_reflexion_nachnutzung.png
+```{figure} ../assets/reflexion_resümee/abb_reflexion_nachnutzung.png
 ---
 align: center
 width: 75%

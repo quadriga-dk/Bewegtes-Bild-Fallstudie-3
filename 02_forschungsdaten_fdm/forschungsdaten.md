@@ -121,7 +121,7 @@ Neben der Unterscheidung verschiedener Datentypen werden Forschungsdaten in Prim
 
 Doch wie sieht es mit dieser Unterscheidung in der Film- und Medienwissenschaft aus? Welche fachspezifischen Datentypen und Kategorisierungen können hier ausgemacht werden?
 
-(forschungadaten-fiwi)=
+(forschungsdaten-fiwi)=
 ## Forschungsdaten in der Film- und Medienwissenschaft
 
 Unter film- und medienwissenschaftlichen Forschungsdaten fallen diverse **textuelle, visuelle, auditive und audiovisuelle Datentypen**, die entweder primär selbst Untersuchungsgegenstand sind (z. B. ein Film) oder zu denen in sekundären Arbeitsschritten Dokumentationen und Dateien entstehen (z. B. Annotationen) {cite}`matuszkiewicz_forschungsdatenmanagement_2022`.
