@@ -161,4 +161,4 @@ magick "${OUTFILE}_${PRIMARY_HEIGHT}.png" -resize x$SCALED_HEIGHT "${OUTFILE}_72
 rm frame_*.png
 ```
 
-Dieses Script kann angepasst und direkt in eine PowerShell-Session kopiert werden. Es kann aber auch mit einem Texteditor (Notepad++, Visual Studio Code, etc.) in einer Scriptdatei, beispielsweise moviebarcode_script.sh im Arbeitsverzeichnis gespeichert und mit ".\moviebarcode_script.sh" aufgerufen werden. Es sollten automatisch die Einzelframes extrahiert und zu einem Moviebarcode zusammengefügt werden.
+Dieses Script kann angepasst und direkt in eine Terminal-Session kopiert werden. Es kann aber auch mit einem Texteditor (z. B. Visual Studio Code) in einer Scriptdatei, beispielsweise moviebarcode_script.sh im Arbeitsverzeichnis gespeichert und mit "./moviebarcode_script.sh" aufgerufen werden. Es sollten automatisch die Einzelframes extrahiert und zu einem Moviebarcode zusammengefügt werden.
