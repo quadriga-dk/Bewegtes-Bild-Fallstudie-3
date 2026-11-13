@@ -80,6 +80,8 @@ sphinx:
     - sphinx_apa_references
     - sphinxcontrib.mermaid
   config:
+    language: de
+    smartquotes: true
     suppress_warnings:
       - bibtex.duplicate_citation
       - bibtex.duplicate_label
