@@ -230,7 +230,7 @@ Ergänzend zu den bisher genannten Publikationswegen und -formaten gibt es für 
 
 ```{admonition} Was sind API-Schnittstellen?
 :class: hinweis, dropdown
-Eine API (Application Programming Interface) ist eine Programmierschnittstelle zwischen verschiedenen Softwareanwendungen. Sie ermöglicht die automatisierte Kommunikation zwischen Programmen, um Daten oder Funktionen auszutauschen, also eine Form der „Maschine-zu-Maschine“-Kommunikation. Über APIs können Entwickler:innen auf Inhalte, Daten oder Dienste anderer Systeme zugreifen und diese in eigene Anwendungen integrieren {cite}`Poggel_2025`.
+Eine API (Application Programming Interface) ist eine Programmierschnittstelle zwischen verschiedenen Softwareanwendungen. Sie ermöglicht die automatisierte Kommunikation zwischen Programmen, um Daten oder Funktionen auszutauschen, also eine Form der "Maschine-zu-Maschine"-Kommunikation. Über APIs können Entwickler:innen auf Inhalte, Daten oder Dienste anderer Systeme zugreifen und diese in eigene Anwendungen integrieren {cite}`Poggel_2025`.
 ```
 
 Im Bereich der Digital Humanities ist das <a href="https://dracor.org/" class="external-link" target="_blank">DraCor-Projekt</a> unter der Leitung von Prof. Dr. Frank Fischer (FU Berlin) ein gutes Beispiel dafür, wie Forschungsdaten über eine API-Schnittstelle <a href="https://dracor.org/doc/api" class="external-link" target="_blank">(DraCor-API)</a> bereitgestellt werden können. DraCor (drama corpora) ist eine offene digitale Infrastruktur, die für die computergestützte Untersuchung (vorwiegend) europäischer Dramatik von der griechisch-römischen Antike bis zum 20. Jahrhundert entwickelt wurde {cite}`Fischer_2019`.

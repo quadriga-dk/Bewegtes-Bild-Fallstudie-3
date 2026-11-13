@@ -12,7 +12,7 @@ Moviebarcodes sind visuelle Abstraktionen von Bewegtbildmaterial, die Farb- und 
 
 ## Moviebarcodes in der Filmwissenschaft
 
-In der filmwissenschaftlichen Analyse können Moviebarcodes auf unterschiedliche Weise eingesetzt werden. Auf der makroanalytischen Ebene fungieren sie als visuelle “Fingerabdrücke” von Filmen, die es erlauben, stilistische Merkmale wie dominante Farben, Kontraste oder Helligkeitsverläufe zu erfassen. 
+In der filmwissenschaftlichen Analyse können Moviebarcodes auf unterschiedliche Weise eingesetzt werden. Auf der makroanalytischen Ebene fungieren sie als visuelle "Fingerabdrücke" von Filmen, die es erlauben, stilistische Merkmale wie dominante Farben, Kontraste oder Helligkeitsverläufe zu erfassen. 
 Darüber hinaus eignen sich Moviebarcodes ebenso als Werkzeug für die Analyse zeitlicher Dynamiken innerhalb einzelner Werke. Anhand der visuellen Zeitleiste lassen sich Rhythmusverläufe, Wiederholungsstrukturen sowie graduelle Veränderungen auf der Ebene von Farbe, Licht aber auch in Bezug auf das Verhältnis von Kadrierung und ästhetischer Gestaltung auf einen Blick erfassen {cite}`Stratil_2024`. 
 
 Neben der analytischen Auseinandersetzung mit einzelnen Filmen ermöglichen Moviebarcodes ferner auch eine einfache Methode des Vergleichs einer Vielzahl von Filmen auf einem hohen Abstraktionsniveau - etwa nach Genres, Entstehungszeiträumen oder stilistischen bzw. formal-ästhetischen Tendenzen {cite}`Burghardt_2018`. 

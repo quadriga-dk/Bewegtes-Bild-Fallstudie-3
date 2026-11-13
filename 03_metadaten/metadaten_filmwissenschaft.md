@@ -70,7 +70,7 @@ Datenmodell und Elementstruktur des EN 15907
 ```{admonition} Persistente Identifikatoren
 :class: important
 Für eine klare Identifizierung filmischer Werke sind [persistente Identifikatoren](../06_publikation_repositorien/versionierung_lizenzierung.md) notwendig. Die EN-Standards definieren das Feld `identifier` folgendermaßen: 
-> "An unambiguous reference to the resource within a given context, where possible the International Standard Audio-visual Number (ISAN), otherwise a specific number issued by a government department, or other official body in an individual country, or an archive’s inventory number."
+> "An unambiguous reference to the resource within a given context, where possible the International Standard Audio-visual Number (ISAN), otherwise a specific number issued by a government department, or other official body in an individual country, or an archive's inventory number."
 ```
 ```{admonition} Exkurs: Werk – Variante – Manifestation – Exemplar
 :class: hinweis
@@ -111,7 +111,7 @@ Für sogenannte "film related materials" (z. B. Poster, PR Material, Stills) hat
 
 ## Praxisbeispiel: DFFB-Archiv 
 
-Oftmals werden die CWS-Standards in die internen Archiv- oder Bibliotheksinfrastrukturen implementiert. Sie bilden also im “Hintergrund” relationale Strukturen und ordnen Werke, Begriffe, Schlagworte usw. in die systemeigene technische Umgebung ein. 
+Oftmals werden die CWS-Standards in die internen Archiv- oder Bibliotheksinfrastrukturen implementiert. Sie bilden also im "Hintergrund" relationale Strukturen und ordnen Werke, Begriffe, Schlagworte usw. in die systemeigene technische Umgebung ein. 
 Sichtbar wird dies in der Art und Weise der Aufteilung der verschiedenen Metadatenelemente, wie das konkrete Anschauungsbeispiel des <a href="https://dffb-archiv.de/dffb/fremde-tage" class="external-link" target="_blank">DFFB-Archiv-Eintrags</a> zum Film *Fremde Tage* (R: Ernst Martin Schlüter, BRD 1985) zeigt.
 
 ```{figure} ../assets/03_metadaten/abb_k03_archiv_dffb.png
