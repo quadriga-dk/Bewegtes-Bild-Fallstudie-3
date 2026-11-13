@@ -109,7 +109,7 @@ Darunter zählen beispielsweise:
   </tbody>
 </table>
 
-Diese Daten können bereits von Grund auf, also in ihrem Ursprung, digital sein. Jedoch werden auch jene Materialien als Forschungsdaten betrachtet, die analog vorliegen und in späteren Stufen digital gespeichert und verarbeitet werden, wie beispielsweise handschriftliche Notizen oder Filmrollen. Die digitale “Re-mediatisierung” analogen Forschungsmaterials beschreibt Johanna Drucker als “practice of datafication”, also als computergestützte Prozessierung von analogem Material. Objekte und Artefakte, die bereits digital entstanden sind, bezeichnet sie als "born digital materials" {cite}`drucker_digital_humanities_2021`. Diese Unterscheidung spielt hinsichtlich Verarbeitung und Kontextualisierung der Daten eine wichtige Rolle. 
+Diese Daten können bereits von Grund auf, also in ihrem Ursprung, digital sein. Jedoch werden auch jene Materialien als Forschungsdaten betrachtet, die analog vorliegen und in späteren Stufen digital gespeichert und verarbeitet werden, wie beispielsweise handschriftliche Notizen oder Filmrollen. Die digitale "Re-mediatisierung" analogen Forschungsmaterials beschreibt Johanna Drucker als "practice of datafication", also als computergestützte Prozessierung von analogem Material. Objekte und Artefakte, die bereits digital entstanden sind, bezeichnet sie als "born digital materials" {cite}`drucker_digital_humanities_2021`. Diese Unterscheidung spielt hinsichtlich Verarbeitung und Kontextualisierung der Daten eine wichtige Rolle. 
 
 (primär-sekundär)=
 ## Primär- und Sekundärdaten

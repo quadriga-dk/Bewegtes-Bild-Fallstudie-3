@@ -76,7 +76,7 @@ In einer `csv`-Datei bestimmt die Position des Semikolons, welcher Wert in welch
 
 ## CSV zu HTML
 
-Eine `html`-Version der Korpusmetadaten wird für eine bessere Durchsuchbarkeit zur Verfügung gestellt. `html`-Dokumente bestehen oft aus zwei Teilen: dem eigentlichen **Inhalt** (*„was soll da rein?“*, z. B. Tabellen, Überschriften, Text) in `html`-Syntax und den **Gestaltungsregeln** (*„wie soll es aussehen?“*, z. B. Farben, Abstände, Schriftgröße) in `css`-Syntax. Beide sind im bereitgestellten Code enthalten und kommentiert.
+Eine `html`-Version der Korpusmetadaten wird für eine bessere Durchsuchbarkeit zur Verfügung gestellt. `html`-Dokumente bestehen oft aus zwei Teilen: dem eigentlichen **Inhalt** (*"was soll da rein?"*, z. B. Tabellen, Überschriften, Text) in `html`-Syntax und den **Gestaltungsregeln** (*"wie soll es aussehen?"*, z. B. Farben, Abstände, Schriftgröße) in `css`-Syntax. Beide sind im bereitgestellten Code enthalten und kommentiert.
 
 ```{admonition} Kommentare im Code
 :class: hinweis
