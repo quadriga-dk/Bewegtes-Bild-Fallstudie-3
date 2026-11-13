@@ -122,7 +122,7 @@ Diese Fragen lassen sich auf Grundlage der vorliegenden Metadaten zwar nicht abs
 
 ## Zeitliche Situiertheit 
 
-Der Korpus hat einen Fokus auf gegenwärtige bzw. zeitgenössische Produktionen: Nur 4 der 87 Produktionen stammen aus dem 20. Jahrhundert, die älteste aus dem Jahr 1979. Die aktuellsten Produktionen sind auf 2023 datiert (3 Produktionen). 61 der 87 Produktionen (70,11 %) sind nach 2010 erschienen. **Diese zeitliche Ausrichtung lässt sich der Aktualität und zunehmenden medialen Relevanz des Themas rund um die Klimakrise zuschreiben**. Zur Auswertung kann die Spalte `year` in den Korpusmetadaten auf- oder absteigend sortiert werden; wie präzise die Zeiträume gruppiert werden, sollte von der 
+Der Korpus hat einen Fokus auf gegenwärtige bzw. zeitgenössische Produktionen: Nur 4 der 87 Produktionen stammen aus dem 20. Jahrhundert, die älteste aus dem Jahr 1979. Die aktuellsten Produktionen sind auf 2023 datiert (3 Produktionen). 61 der 87 Produktionen (70,11 %) sind nach 2010 erschienen. **Diese zeitliche Ausrichtung ist der Aktualität und zunehmenden medialen Relevanz des Themas rund um die Klimakrise zuzuschreiben**. Zur Auswertung kann die Spalte `year` in den Korpusmetadaten auf- oder absteigend sortiert werden; wie präzise die Zeiträume gruppiert werden, sollte von der 
 Zeitspanne des Korpus abhängig gemacht werden.
 
 ## Visualisierung

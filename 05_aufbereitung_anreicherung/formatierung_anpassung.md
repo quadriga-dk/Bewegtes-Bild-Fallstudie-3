@@ -16,7 +16,7 @@ Im Rahmen des Projekt-Repositoriums stellen wir die Korpus-, Annotations- und Mo
 
 ```{admonition} An Formatkonvertierung aller Forschungsdaten denken!
 :class: important
-Neben den Metadaten werden die Annotationspakete ebenfalls als `json`-Export bereitgestellt, die Moviebarcodes sind bereits als `png`-Dateien ein offenes Format. Alle gängigen Annotationstools verfügen über Exportfunktionen, mehr Informationen können in den jeweiligen begleitenden Dokumentationen oder Manuals der verwendeten Tools nachgelesen werden.
+Neben den Metadaten werden die Annotationspakete ebenfalls als `json`-Export bereitgestellt, die Moviebarcodes liegen bereits als `png`-Dateien in einem offenen Format vor. Alle gängigen Annotationstools verfügen über Exportfunktionen, mehr Informationen können in den jeweiligen begleitenden Dokumentationen oder Manuals der verwendeten Tools nachgelesen werden.
 ```
 Im Folgenden werden die (Export-)Formate kurz vorgestellt.
 

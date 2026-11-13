@@ -16,7 +16,7 @@ name: daten-repositorien
 Daten publizieren in Repositorien – eigene Darstellung in Anlehnung an {cite:t}`Koch_2015`, <a href="https://blog.tib.eu/2015/10/19/das-institutionelle-repositorium-der-leibniz-universitaet-hannover-startet/" class="external-link" target="_blank">TIB Blog</a>.
 ```
 
-Unterschieden wird zwischen institutionellen, disziplinären oder generischen Repositorien. (z. B. <a href="https://refubium.fu-berlin.de/" class="external-link" target="_blank">Refubium</a> der FU Berlin oder der <a href="https://edoc.hu-berlin.de/home" class="external-link" target="_blank">edoc-Server</a> der HU Berlin) betrieben und ermöglichen ihren Mitgliedern die digitale Publikation wissenschaftlicher Dokumente. 
+Unterschieden wird zwischen institutionellen, disziplinären oder generischen Repositorien. Institutionelle Repositorien werden von Hochschulen oder Forschungseinrichtungen (z. B. <a href="https://refubium.fu-berlin.de/" class="external-link" target="_blank">Refubium</a> der FU Berlin oder der <a href="https://edoc.hu-berlin.de/home" class="external-link" target="_blank">edoc-Server</a> der HU Berlin) betrieben und ermöglichen ihren Mitgliedern die digitale Publikation wissenschaftlicher Dokumente. 
 
 ```{figure} ../assets/04_einführung_publikation/abb_k04_refubium_fu.png
 ---
