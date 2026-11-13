@@ -245,7 +245,7 @@ Anschließend kann über die **Zenodo-GitHub-Integration** auf Zenodo automatisc
 ````{margin}
 ```{admonition} Wichtig: Zugriffsrechte
 :class: important
-Das Repository wird in Zenodo nur angezeigt, wenn die notwendigen Zugriffsrechte hierfür vorhanden sind. Wer nur Member und nicht Owner einer Organisation ist, hat keine erforderlichen Zugriffsrechte. 
+Das Repository wird in Zenodo nur angezeigt, wenn die notwendigen Zugriffsrechte hierfür vorhanden sind. Wer nur Member und nicht Owner einer Organisation ist, hat nicht die erforderlichen Zugriffsrechte. 
 ```
 ````
 

@@ -190,7 +190,7 @@ Die Datenanforderungen sowie die Auswahl und Gewichtung der Inhalte sind dabei v
 Mehr zum Umgang mit diskriminierungssensiblen Metadaten gibt es in [Kapitel 3.3. Diskriminierungssensible Metadaten](../03_metadaten/diskriminierungssensible_metadaten.md)
 ```
 ````
-Daten, die aus solchen öffentlichen oder kommerziellen Quellen genutzt (bzw. nachgenutzt) werden, sollten daher immer kritisch geprüft und kontextualisiert werden. Sowohl mit Blick auf ihre Herkunft als auch auf die expliziten oder impliziten Wertungslogiken, denen sie unterliegen.
+Daten, die aus solchen öffentlichen oder kommerziellen Quellen genutzt (bzw. nachgenutzt) werden, sollten daher immer kritisch geprüft und kontextualisiert werden. Das gilt sowohl mit Blick auf ihre Herkunft als auch auf die expliziten oder impliziten Wertungslogiken, denen sie unterliegen.
 
 [^1]: Doughman und Khreich analysierten in ihrer Studie 17.165 professionelle Filmkritiken auf geschlechtsspezifische sprachliche Verzerrungen und zeigen, wie diese Kritiken die öffentliche Wahrnehmung von Filmen beeinflussen und zur Marginalisierung von Frauen in der Filmindustrie beitragen können.
 
