@@ -1,7 +1,7 @@
 # Dateiformate und Dokumentation
 
-Werden Forschungsdaten in Repositorien veröffentlicht, so ist es wichtig, Dateiformate zu wählen, die einen langfristigen Zugang sichern und die Nachnutzbarkeit bzw. Wiederverwendung durch Dritte ermöglichen {cite}`Forschungsdateninfo_Dateiformate_2026`. Grundsätzlich empfiehlt es sich nach den 
-{ref}`FAIR-Prinzipien (Kapitel 2.5.)<leitlinien-fair>` **offene** und  **nicht-proprietäre Formate** zu wählen, darunter zählen beispielsweise Formate wie `csv` oder `json`, hierzu gleich mehr. Doch was bedeutet offen und nicht-proprietär genau?
+Werden Forschungsdaten in Repositorien veröffentlicht, so ist es wichtig, Dateiformate zu wählen, die einen langfristigen Zugang sichern und die Nachnutzbarkeit bzw. Wiederverwendung durch Dritte ermöglichen {cite}`Forschungsdateninfo_Dateiformate_2026`. Grundsätzlich empfiehlt es sich, nach den 
+{ref}`FAIR-Prinzipien (Kapitel 2.5.)<leitlinien-fair>` **offene** und **nicht-proprietäre Formate** zu wählen, darunter zählen beispielsweise Formate wie `csv` oder `json`, hierzu gleich mehr. Doch was bedeutet offen und nicht-proprietär genau?
 
 Nicht-proprietäre Formate sind Formate, die sich ohne die "dazugehörigen Anwendungs-, Hilfs- oder Systemprogramme öffnen, bearbeiten und speichern lassen" {cite}`Forschungsdateninfo_Dateiformate_2026`. Das bedeutet, dass keine spezifische, ggf. kostenpflichtige Software zur Verarbeitung und Weiterverwendung der Daten notwendig ist. Dies ist eine Grundvoraussetzung dafür, dass Daten langfristig nutzbar sind und bleiben – unabhängig davon, ob eine bestimmte Software, Programme oder Tools in 10 oder 20 Jahren noch verfügbar sind. Für die Speicherung in nicht-proprietären Formaten ist es notwendig, die Daten zu exportieren bzw. zu konvertieren. 
 
@@ -16,7 +16,7 @@ Im Rahmen des Projekt-Repositoriums stellen wir die Korpus-, Annotations- und Mo
 
 ```{admonition} An Formatkonvertierung aller Forschungsdaten denken!
 :class: important
-Neben den Metadaten werden die Annotationspakete ebenfalls als `json`-Export bereitgestellt, die Moviebarcodes sind bereits als `png`-Dateien ein offenes Format. Alle gängigen Annotationstools verfügen über Exportfunktionen, mehr Informationen können in den jeweiligen begleitenden Dokumentationen oder Manuals der verwendeten Tools nachgelesen werden.
+Neben den Metadaten werden die Annotationspakete ebenfalls als `json`-Export bereitgestellt, die Moviebarcodes liegen bereits als `png`-Dateien in einem offenen Format vor. Alle gängigen Annotationstools verfügen über Exportfunktionen, mehr Informationen können in den jeweiligen begleitenden Dokumentationen oder Manuals der verwendeten Tools nachgelesen werden.
 ```
 Im Folgenden werden die (Export-)Formate kurz vorgestellt.
 
@@ -109,7 +109,7 @@ Die eckigen Klammern markieren Listenanfang und -ende. Eine Liste kann mehrere O
 * Number (Zahl): `"year": 2018`
 * Boolean (Wahrheitswert): `true`, `false`
 * Null (kein Wert): `"episode": null`
-* Object:`{ ... }`
+* Object: `{ ... }`
 * Array: `[ ... ]`
 
 `````
@@ -125,7 +125,7 @@ Als viertes Format wird ein interaktives, durchsuchbares `html`-Dokument bereitg
 `html` ist kein typisches Forschungsdatenformat, erfüllt hier aber eine Vermittlungsfunktion zwischen Rohdaten und menschenlesbarer Darstellung.
 ```
 
-Was ist `html`? `html` ist eine Auszeichnungssprache (Markup-Language) zur Strukturierung und Darstellung von Inhalten im Web. Anders als `csv` oder `json` dient `html` nicht primär dem Datenaustausch, sondern der Beschreibung von Inhalten wie Texte mit Hyperlinks, Bildern, Überschriften, Absätzen usw. 
+Was ist `html`? `html` ist eine Auszeichnungssprache (Markup-Language) zur Strukturierung und Darstellung von Inhalten im Web. Anders als `csv` oder `json` dient `html` nicht primär dem Datenaustausch, sondern der Beschreibung von Inhalten wie Texten mit Hyperlinks, Bildern, Überschriften, Absätzen usw. 
 `html` basiert auf sogenannten Tags, die den Inhalt eines Dokuments (semantisch) gliedern. Jedes Element besteht aus einem öffnenden Tag, dem Inhalt und einem schließenden Tag {cite}`MDN_HTML_2026`:
 
 ```{figure} ../assets/05_aufbereitung_anreicherung/abb_k05_html_tags_elemente.png

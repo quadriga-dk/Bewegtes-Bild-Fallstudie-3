@@ -25,10 +25,10 @@
 * Unterschiedliche Formate erfüllen unterschiedliche Funktionen: `xlsx` eignet sich als Arbeitsformat, `csv` für tabellarischen Datenaustausch, `json` für strukturierte und maschinenlesbare Daten sowie `html` für eine browserbasierte, nutzerfreundliche Durchsuchbarkeit.
 * Bei Formatkonvertierungen müssen Zeichencodierung, Trennzeichen, leere Felder, Spaltennamen und Datentypen kontrolliert werden, um Struktur- und Informationsverluste zu vermeiden.
 * Die parallele Veröffentlichung des ursprünglichen Arbeitsformats und offener Exportformate erhöht Nachvollziehbarkeit, Zugänglichkeit und langfristige Nachnutzbarkeit.
-* Automatisierte Workflows mit (z. B. `html`-Skript und Python) ermöglichen reproduzierbare Exporte und anpassbare Darstellungsformen für eigene Forschungsdatensätze.
+* Automatisierte Workflows (z. B. mit `html`-Skript und Python) ermöglichen reproduzierbare Exporte und anpassbare Darstellungsformen für eigene Forschungsdatensätze.
 ```
 
-```{admonition} Keypoints:  Datenbereinigung und Dokumentation
+```{admonition} Keypoints: Datenbereinigung und Dokumentation
 :class: keypoint
 
 * Datenbereinigung umfasst die Vereinheitlichung von Strukturen, Schreibweisen, Feldnamen, Trennzeichen, Identifikatoren und kontrollierten Vokabularen, damit Datensätze konsistent und maschinenlesbar vorliegen.

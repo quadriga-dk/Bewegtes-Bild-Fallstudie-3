@@ -109,7 +109,7 @@ Darunter zählen beispielsweise:
   </tbody>
 </table>
 
-Diese Daten können bereits von Grund auf, also in ihrem Ursprung, digital sein. Jedoch werden auch jene Materialien als Forschungsdaten betrachtet, die analog vorliegen und in späteren Stufen digital gespeichert und verarbeitet werden, wie beispielsweise handschriftliche Notizen oder Filmrollen. Die digitale “Re-mediatisierung” analogen Forschungsmaterials beschreibt Johanna Drucker als “practice of datafication”, also als computergestützte Prozessierung von analogem Material. Objekte und Artefakte, die bereits digital entstanden sind, bezeichnet sie als "born digital materials" {cite}`drucker_digital_humanities_2021`. Diese Unterscheidung spielt hinsichtlich Verarbeitung und Kontextualisierung der Daten eine wichtige Rolle. 
+Diese Daten können bereits von Grund auf, also in ihrem Ursprung, digital sein. Jedoch werden auch jene Materialien als Forschungsdaten betrachtet, die analog vorliegen und in späteren Stufen digital gespeichert und verarbeitet werden, wie beispielsweise handschriftliche Notizen oder Filmrollen. Die digitale "Re-mediatisierung" analogen Forschungsmaterials beschreibt Johanna Drucker als "practice of datafication", also als computergestützte Prozessierung von analogem Material. Objekte und Artefakte, die bereits digital entstanden sind, bezeichnet sie als "born digital materials" {cite}`drucker_digital_humanities_2021`. Diese Unterscheidung spielt hinsichtlich Verarbeitung und Kontextualisierung der Daten eine wichtige Rolle. 
 
 (primär-sekundär)=
 ## Primär- und Sekundärdaten
@@ -121,7 +121,7 @@ Neben der Unterscheidung verschiedener Datentypen werden Forschungsdaten in Prim
 
 Doch wie sieht es mit dieser Unterscheidung in der Film- und Medienwissenschaft aus? Welche fachspezifischen Datentypen und Kategorisierungen können hier ausgemacht werden?
 
-(forschungadaten-fiwi)=
+(forschungsdaten-fiwi)=
 ## Forschungsdaten in der Film- und Medienwissenschaft
 
 Unter film- und medienwissenschaftlichen Forschungsdaten fallen diverse **textuelle, visuelle, auditive und audiovisuelle Datentypen**, die entweder primär selbst Untersuchungsgegenstand sind (z. B. ein Film) oder zu denen in sekundären Arbeitsschritten Dokumentationen und Dateien entstehen (z. B. Annotationen) {cite}`matuszkiewicz_forschungsdatenmanagement_2022`.
@@ -134,7 +134,7 @@ Auch wenn sich nicht alle Forschungsdaten eindeutig zuordnen lassen, ist es für
 
 ```{admonition} Rechtliche Vorgaben
 :class: important
-Dies ist insbesondere vor dem Hintergrund unterschiedlicher rechtlicher Vorgaben relevant. Die Verbreitung oder Vervielfältigung von Bild- und Filmmaterial unterliegt oftmals dem Urhebergesetz und muss sorgfältig geprüft werden. Gleiches gilt für personenbezogene Angaben. Weitere Informationen zu rechtlichen Vorgaben finden sich in unserer <a href="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/publikation/problemfelder.html" class="external-link" target="_blank">QUADRIGA Fallstudie: "Studentische Filme an der Filmuniversität Babelsberg zur Wendezeit (1985-1999)"</a>
+Dies ist insbesondere vor dem Hintergrund unterschiedlicher rechtlicher Vorgaben relevant. Die Verbreitung oder Vervielfältigung von Bild- und Filmmaterial unterliegt oftmals dem Urheberrechtsgesetz und muss sorgfältig geprüft werden. Gleiches gilt für personenbezogene Angaben. Weitere Informationen zu rechtlichen Vorgaben finden sich in unserer <a href="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/publikation/problemfelder.html" class="external-link" target="_blank">QUADRIGA Fallstudie: "Studentische Filme an der Filmuniversität Babelsberg zur Wendezeit (1985-1999)"</a>
 ```
 Die folgende Übersicht bietet eine grundlegende Einordnung filmwissenschaftlicher Forschungsdaten in Primär- und Sekundärdaten:
 
@@ -183,14 +183,14 @@ Von Primärdaten zu Sekundärdaten
 
 Die Auseinandersetzung um die Beschaffenheit und Nutzung von Forschungsdaten ist insbesondere dann relevant, wenn die Prozesshaftigkeit der Wissensproduktion mitgedacht wird: Woher kommen die Daten? Wie werden sie erhoben und aufbereitet? Wie werden sie kuratiert und verfügbar gemacht? Ferner sollte es auch immer eine kritische Auseinandersetzung über die Entstehung von Forschungsdaten und -ergebnissen geben. Denn Daten können, je nach Kontext, Biases unterliegen. Ein Anspruch auf Objektivität ist daher nicht einlösbar {cite}`dang_forschungsdatenmanagement_2020`.
 Ein repräsentatives Beispiel ist die weltweit größte Filmdatenbank <a href="https://www.imdb.com/de/" class="external-link" target="_blank">IMDb</a>, deren Inhalte kommerziell von Amazon betrieben und gepflegt werden.
-Die Datenanforderungen sowie die Auswahl und Gewichtung der Inhalte sind dabei von geschlechtsspezifischen und diskriminierenden Inklusions- und Exklusionsmechanismen geprägt. Welche Filme dabei als "gut" oder "schlecht" gerankt werden, hängt von diversen soziopolitischen, ökonomischen, aber auch algorithmischen Variablen ab {cite:p}`drucker_digital_humanities_2021,dang_forschungsdatenmanagement_2020`. Ebenso beeinflussen etwa Kritiken, Nutzer:innenbewertungen und Kommentare die Sichtbarkeit bestimmter Filme oder Personengruppen – während andere Perspektiven systematisch marginalisiert werden {cite}`{vgl. hierzu auch}Doughman_Khreich_2025`.[^1]
+Die Datenanforderungen sowie die Auswahl und Gewichtung der Inhalte sind dabei von geschlechtsspezifischen und diskriminierenden Inklusions- und Exklusionsmechanismen geprägt. Welche Filme dabei als "gut" oder "schlecht" gerankt werden, hängt von diversen soziopolitischen, ökonomischen, aber auch algorithmischen Variablen ab {cite:p}`drucker_digital_humanities_2021,dang_forschungsdatenmanagement_2020`. Ebenso beeinflussen etwa Kritiken, Nutzer:innenbewertungen und Kommentare die Sichtbarkeit bestimmter Filme oder Personengruppen – während andere Perspektiven systematisch marginalisiert werden (vgl. hierzu auch {cite:alp}`Doughman_Khreich_2025`).[^1]
 ````{margin}
 ```{admonition} Diskriminierungssensible Daten
 :class: hinweis
 Mehr zum Umgang mit diskriminierungssensiblen Metadaten gibt es in [Kapitel 3.3. Diskriminierungssensible Metadaten](../03_metadaten/diskriminierungssensible_metadaten.md)
 ```
 ````
-Daten, die aus solchen öffentlichen oder kommerziellen Quellen genutzt (bzw. nachgenutzt) werden, sollten daher immer kritisch geprüft und kontextualisiert werden. Sowohl mit Blick auf ihre Herkunft als auch auf die expliziten oder impliziten Wertungslogiken, denen sie unterliegen.
+Daten, die aus solchen öffentlichen oder kommerziellen Quellen genutzt (bzw. nachgenutzt) werden, sollten daher immer kritisch geprüft und kontextualisiert werden. Das gilt sowohl mit Blick auf ihre Herkunft als auch auf die expliziten oder impliziten Wertungslogiken, denen sie unterliegen.
 
 [^1]: Doughman und Khreich analysierten in ihrer Studie 17.165 professionelle Filmkritiken auf geschlechtsspezifische sprachliche Verzerrungen und zeigen, wie diese Kritiken die öffentliche Wahrnehmung von Filmen beeinflussen und zur Marginalisierung von Frauen in der Filmindustrie beitragen können.
 

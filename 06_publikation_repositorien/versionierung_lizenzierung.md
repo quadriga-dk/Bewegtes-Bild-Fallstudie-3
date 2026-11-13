@@ -12,7 +12,7 @@ name: semver-license-pid
 Versionieren, lizenzieren, zitieren (KI-generiert)
 ```
 
-Die [systematische Aufbereitung der Daten (Kapitel 5.3.)](../05_aufbereitung_anreicherung/systematische_aufbereitung.md) ist abgeschlossen und die zu publizierenden Datensätze sowie Metadaten liegen in [offenen Formaten (Kapitel 5.4.)](../05_aufbereitung_anreicherung/formatierung_anpassung.md) vor. Auch die notwendigen {ref}`Dokumentationsdateien  (Kapitel 5.4.)<dokumentation>` (`README.md`, Guides, Tutorials usw.) wurden erstellt, um die Daten zu kontextualisieren und die angewandten Methoden nachvollziehbar zu machen. Doch wie geht es anschließend weiter?
+Die [systematische Aufbereitung der Daten (Kapitel 5.3.)](../05_aufbereitung_anreicherung/systematische_aufbereitung.md) ist abgeschlossen und die zu publizierenden Datensätze sowie Metadaten liegen in [offenen Formaten (Kapitel 5.4.)](../05_aufbereitung_anreicherung/formatierung_anpassung.md) vor. Auch die notwendigen {ref}`Dokumentationsdateien (Kapitel 5.4.)<dokumentation>` (`README.md`, Guides, Tutorials usw.) wurden erstellt, um die Daten zu kontextualisieren und die angewandten Methoden nachvollziehbar zu machen. Doch wie geht es anschließend weiter?
 
 Das filmwissenschaftliche Teilprojekt <a href="https://www.sfb-intervenierende-kuenste.de/teilprojekte/C/C05/index.html" class="external-link" target="_blank">"C05 Intervenierende Weltentwürfe: Audiovisualität des Klimawandels"</a> hat bereits mehrere Publikationswege evaluiert und sich dazu entschieden, das Datenset in einem ersten Veröffentlichungsschritt auf GitHub/Zenodo zu publizieren. Mehr Informationen zu Repositorien können im Kapitel [Publikationswege und -formate (Kapitel 4.2.)](../04_einführung_publikation/publikationswege_formate.md) abgerufen werden.
 
@@ -36,7 +36,7 @@ Das Schema folgt dem Prinzip eines dreistelligen Nummernsystems:
 
 2. `MINOR`: z. B. 2.**1**.0 → Neue Funktionen wurden hinzugefügt, alte Versionen funktionieren aber noch, sie sind also abwärtskompatibel
 
-3. `PATCH`: z. B.  2.1.**1** → Kleine Bugfixes oder Tippfehler, es wird nichts Strukturelles verändert, alles ist weiterhin abwärtskompatibel 
+3. `PATCH`: z. B. 2.1.**1** → Kleine Bugfixes oder Tippfehler, es wird nichts Strukturelles verändert, alles ist weiterhin abwärtskompatibel 
 
 
 Neben der dreistelligen Versionsnummerierung gibt es zusätzlich noch sogenannte "pre-release version labels" bzw. "pre-release tags". Sie kennzeichnen Entwicklungsstadien vor der offiziellen Veröffentlichung und signalisieren Nutzenden so, dass eine Version noch nicht vollständig oder stabil ist.
@@ -184,7 +184,7 @@ align: center
 width: 95%
 name: lizenzwahl
 ---
-Grafik von Barbara Klute und Jöran Muuß-Merholz für <a href="https://wb-web.de/material/medien/die-cc-lizenzen-im-uberblick-welche-lizenz-fur-welche-zwecke-1.html" class="external-link" target="_blank">wb-web</a> © CC BY SA 3.0
+Grafik von Barbara Klute und Jöran Muuß-Merholz für <a href="https://wb-web.de/material/medien/die-cc-lizenzen-im-uberblick-welche-lizenz-fur-welche-zwecke-1.html" class="external-link" target="_blank">wb-web</a> © CC BY-SA 3.0
 ```
 
 Ebenso kann mit dem <a href="https://creativecommons.org/chooser/" class="external-link" target="_blank">Creative Commons License Chooser</a> eine passende Lizenzempfehlung durch Ausfüllen des Minimalfragebogens ausgegeben werden.
@@ -225,7 +225,7 @@ Das Copyleft-Lizenzmodell erlaubt Nutzenden die freie Bearbeitung und Verbreitun
 
 ### Lizenzierung in der Filmwissenschaft
 
-Die Lizenzierung von Forschungsdaten und Forschungsmaterial ist durch das geltende Urheberrecht an audiovisuellem Material recht komplex. Primärdaten wie Filme, Filmausschnitte, Screenshots oder Videomaterial sind urheberrechtlich geschützt und können in der Regel **nicht offen publiziert werden**. Eine Ausnahme ist das Bildzitatrecht, das unter bestimmten Bedingungen greift (in Deutschland geregelt in §51 des Urheberrechtsgesetzes (UrhG)).
+Die Lizenzierung von Forschungsdaten und Forschungsmaterial ist durch das geltende Urheberrecht an audiovisuellem Material recht komplex. Primärdaten wie Filme, Filmausschnitte, Screenshots oder Videomaterial sind urheberrechtlich geschützt und können in der Regel **nicht offen publiziert werden**. Eine Ausnahme ist das Bildzitatrecht, das unter bestimmten Bedingungen greift (in Deutschland geregelt in § 51 des Urheberrechtsgesetzes (UrhG)).
 
 Für die Publikation von {ref}`Primär- und Sekundärdaten (Kapitel 2.3.)<primär-sekundär>` gelten folgende Empfehlungen:
 
@@ -397,7 +397,7 @@ Vor der Publikation sollte die `CITATION.cff` auf ihre Korrektheit überprüft w
 ````{margin}
 ```{admonition} Siehe auch:
 :class: seealso
-Mehr Informationen zu **persistenten Identifikatoren** gibt es in unserer  <a href="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/5_2_PID.html" class="external-link" target="_blank">QUADRIGA Fallstudie: "Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen Bildungsbericht"</a>.
+Mehr Informationen zu **persistenten Identifikatoren** gibt es in unserer <a href="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/5_2_PID.html" class="external-link" target="_blank">QUADRIGA Fallstudie: "Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen Bildungsbericht"</a>.
 ```
 ````
 

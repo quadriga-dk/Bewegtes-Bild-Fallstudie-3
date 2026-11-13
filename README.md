@@ -14,7 +14,7 @@ Anhand modellhafter Forschungsfragen werden für die drei Datentypen Bewegtes Bi
 
 ## Nutzung dieser OER
 
-Sie können dieses JupyterBook zu Lehr- und Lernzwecken verwenden. Sie können sie zudem teilen und bearbeiten unter der Bedingung der Nennung der Autor:innen und der gleichen Lizenzierung. Weitere Informationen dazu entnehmen Sie bitte den <a href="https://github.com/quadriga-dk/Bewegtes-Bild-Fallstudie-3/blob/main/LICENSE.md" target="_blank">Lizenzhinweisen</a>.  
+Sie können dieses Jupyter Book zu Lehr- und Lernzwecken verwenden. Sie können es zudem teilen und bearbeiten unter der Bedingung der Nennung der Autor:innen und der gleichen Lizenzierung. Weitere Informationen dazu entnehmen Sie bitte den <a href="https://github.com/quadriga-dk/Bewegtes-Bild-Fallstudie-3/blob/main/LICENSE.md" target="_blank">Lizenzhinweisen</a>.  
 
 ## Inhalt der OER
 
@@ -26,6 +26,6 @@ Nach einer grundlegenden Einführung werden anhand praxisnaher Beispiele aus ein
 
 QUADRIGA ist ein Verbundprojekt mehrerer Institutionen, das von der Universität Potsdam koordiniert wird. Partner sind die Fachhochschule Potsdam, die Filmuniversität Babelsberg, das Fraunhofer FOKUS, die Freie Universität Berlin, die Humboldt-Universität zu Berlin, die Technische Universität Berlin und die Gesellschaft für Informatik.  
 
-Fragen und Feedback zu dieser OER können Sie uns sowohl über GitHub Issues als auch über Email zukommen lassen.  
+Fragen und Feedback zu dieser OER können Sie uns sowohl über GitHub Issues als auch über E-Mail zukommen lassen.  
 
 Bei Fragen zum Projekt wenden Sie sich gerne an die [Projektkoordination](mailto:derya.demir@fu-berlin.de?subject=[GitHub]%20Feedback%20Bewegtes-Bild-Fallstudie-3).

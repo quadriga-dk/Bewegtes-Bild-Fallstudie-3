@@ -5,7 +5,7 @@
 Neben der Formatkonvertierung ist auch eine Bereinigung und Vereinheitlichung der Daten als Vorbereitung auf die Publikation notwendig. Dabei soll sichergestellt werden, dass der Datensatz **konsistent, fehlerfrei und maschinenlesbar** ist. Auf welche Komponenten zu achten ist und wie es konkret im Projekt umgesetzt wurde, fassen wir hier zusammen:
 
 ```{admonition} Datenbereinigung: Die wichtigsten Aspekte
-:class: Keypoint
+:class: keypoint
 1. Strukturierung der Daten bzw. Datenmodellierung: 
     * Feste Spalten (`title`, `year`, `director` usw.) 
     * Eine Zeile = eine audiovisuelle Ressource 
@@ -14,7 +14,7 @@ Neben der Formatkonvertierung ist auch eine Bereinigung und Vereinheitlichung de
     * Einheitliche Groß- und Kleinschreibung
     * Entfernung von Leerzeichen, konsistente Verwendung von Sonderzeichen
     * Einheitliche Werte wie z. B. `TRUE` / `FALSE`
-    * Konventionen für Feldwerte durch konsistente Verwendung von Trennzeichen – empfohlen mit Semikolon (";") oder       Tabulator
+    * Konventionen für Feldwerte durch konsistente Verwendung von Trennzeichen – empfohlen mit Semikolon (";") oder Tabulator
     * Leere Felder statt beliebige Werte
 
 3. Verwendung kontrollierter Vokabulare:
@@ -35,7 +35,7 @@ Ein gängiges und bewährtes Open-Source-Tool für die Datenbereinigung ist <a h
 :class: seealso
 * <a href="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/bereinigung/toc.html" class="external-link" target="_blank">QUADRIGA Fallstudie: "Studentische Filme an der Filmuniversität Babelsberg zur Wendezeit (1985-1999)"</a>
 * <a href="https://openrefine.org/docs" class="external-link" target="_blank"> OpenRefine user manual</a>
-* <a href="https://programminghistorian.org/en/lessons/cleaning-data-with-openrefine " class="external-link" target="_blank">Tutorial Programming Historian zu OpenRefine und Data Cleaning</a>
+* <a href="https://programminghistorian.org/en/lessons/cleaning-data-with-openrefine" class="external-link" target="_blank">Tutorial Programming Historian zu OpenRefine und Data Cleaning</a>
 ```
 
 (metadaten-validierung)=
@@ -83,7 +83,7 @@ Ordnerstruktur für die Metadaten-Validierung
 
 Die `csv`-Datei wird also unter `data` abgelegt und das `yaml`-Schema unter `schema`. Der Einfachheit halber wurden die Dateinamen abgekürzt bzw. angepasst. Dies kann zur testweisen Durchführung übernommen werden. 
 
-Um den Python-Code anschließend ausführen zu können, muss die Python-Umgebung aktiviert werden. Hierzu bitte die Schritt-für-Schritt Anleitung aus dem vorigen Abschnitt {ref}`Python-Umgebung einrichten (Kapitel 5.4.)<python-umgebung>` befolgen. Wichtig ist, dass das Notebook in den Ordner `metadata_validation` navigiert wird. Dort wird anschließend das Notebook mit dem Code gespeichert. 
+Um den Python-Code anschließend ausführen zu können, muss die Python-Umgebung aktiviert werden. Hierzu bitte die Schritt-für-Schritt-Anleitung aus dem vorigen Abschnitt {ref}`Python-Umgebung einrichten (Kapitel 5.4.)<python-umgebung>` befolgen. Wichtig ist, dass in den Ordner `metadata_validation` navigiert wird. Dort wird anschließend das Notebook mit dem Code gespeichert. 
 
 ```{figure} ../assets/05_aufbereitung_anreicherung/abb_k05_ordnerstruktur_validation_markierung.png
 ---
@@ -196,7 +196,7 @@ Im gewählten Ordnerverzeichnis sollte nun ein sogenanntes Markdown-Dokument mit
 
 ```{admonition} Was ist Markdown?
 :class: hinweis
-Markdown ist eine leichte Auszeichnungssprache, die mit einfachen Zeichen (bzw. einer schnell lesbaren und lernbaren Syntax) Formatierungen ausdrückt: *kursiv* oder **fett** zeigen Betonungen an, Listen sehen wie tatsächliche Listen aus. Markdown-Dateien sind also im Klartext geschrieben und werden beispielsweise von Plattformen wie GitHub, Zenodo oder Jupyter Book gerendered, d. h. es wird eine menschenfreundliche Darstellung erzeugt {cite}`Gruber_2004`.
+Markdown ist eine leichte Auszeichnungssprache, die mit einfachen Zeichen (bzw. einer schnell lesbaren und lernbaren Syntax) Formatierungen ausdrückt: *kursiv* oder **fett** zeigen Betonungen an, Listen sehen wie tatsächliche Listen aus. Markdown-Dateien sind also im Klartext geschrieben und werden beispielsweise von Plattformen wie GitHub, Zenodo oder Jupyter Book gerendert, d. h. es wird eine menschenfreundliche Darstellung erzeugt {cite}`Gruber_2004`.
 ```
 
 Wenn in der Ausgabedatei alles korrekt ist und mit dem Schema übereinstimmt, dann steht im Report:
@@ -344,7 +344,7 @@ Weitere Details zur Syntax können im offiziellen <a href="https://www.markdowng
 
 ### Beispielhafter Aufbau einer README-Datei
 
-Um eine eigene `README` zu schreiben, wird lediglich ein Text-Editor wie beispielsweise VS Code oder <a href=" https://obsidian.md/ " class="external-link" target="_blank">Obsidian</a> benötigt. Hierzu ein neues Dokument erstellen und mit der Endung `.md` speichern.
+Um eine eigene `README` zu schreiben, wird lediglich ein Text-Editor wie beispielsweise VS Code oder <a href="https://obsidian.md/" class="external-link" target="_blank">Obsidian</a> benötigt. Hierzu ein neues Dokument erstellen und mit der Endung `.md` speichern.
 
 Wie eine finale `README`-Datei für publizierte Forschungsdaten aussehen kann, zeigt das Datenset des <a href="https://github.com/SFB1512-C05-climate-film/intervening-world-projections-dataset" class="external-link" target="_blank">Projektrepositorys</a>. Des Weiteren steht eine entsprechende Vorlage hier zur Verfügung:
 
@@ -397,7 +397,7 @@ name: daten-dokumentation
 Dokumentationsebenen für die Datenpublikation
 ```
 
-Mit der Aufbereitung, Bereinigung und Dokumentation der Forschungsdaten sind die wesentlichen Voraussetzungen für die Publikation geschaffen. Bevor in [Kapitel 6. Publikation von Datensets in einem Repositorium](../06_publikation_repositorien/toc_06.md) die konkreten Schritte der Veröffentlichung behandelt werden, greift der folgende Exkurs die vorgestellten Überlegungen und Impulse aus [Kapitel 3.3. diskriminierungssensiblen Metadaten](../03_metadaten/diskriminierungssensible_metadaten.md) wieder auf und führt eine punktuelle exemplarische Überprüfung anhand der Korpusmetadaten des Projektes durch.
+Mit der Aufbereitung, Bereinigung und Dokumentation der Forschungsdaten sind die wesentlichen Voraussetzungen für die Publikation geschaffen. Bevor in [Kapitel 6. Publikation von Datensets in einem Repositorium](../06_publikation_repositorien/toc_06.md) die konkreten Schritte der Veröffentlichung behandelt werden, greift der folgende Exkurs die vorgestellten Überlegungen und Impulse aus [Kapitel 3.3. Diskriminierungssensible Metadaten](../03_metadaten/diskriminierungssensible_metadaten.md) wieder auf und führt eine punktuelle exemplarische Überprüfung anhand der Korpusmetadaten des Projektes durch.
 
 ## Literatur
 

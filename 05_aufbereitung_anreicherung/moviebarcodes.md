@@ -12,12 +12,12 @@ Moviebarcodes sind visuelle Abstraktionen von Bewegtbildmaterial, die Farb- und 
 
 ## Moviebarcodes in der Filmwissenschaft
 
-In der filmwissenschaftlichen Analyse können Moviebarcodes auf unterschiedliche Weise eingesetzt werden. Auf der makroanalytischen Ebene fungieren sie als visuelle “Fingerabdrücke” von Filmen, die es erlauben, stilistische Merkmale wie dominante Farben, Kontraste oder Helligkeitsverläufe zu erfassen. 
+In der filmwissenschaftlichen Analyse können Moviebarcodes auf unterschiedliche Weise eingesetzt werden. Auf der makroanalytischen Ebene fungieren sie als visuelle "Fingerabdrücke" von Filmen, die es erlauben, stilistische Merkmale wie dominante Farben, Kontraste oder Helligkeitsverläufe zu erfassen. 
 Darüber hinaus eignen sich Moviebarcodes ebenso als Werkzeug für die Analyse zeitlicher Dynamiken innerhalb einzelner Werke. Anhand der visuellen Zeitleiste lassen sich Rhythmusverläufe, Wiederholungsstrukturen sowie graduelle Veränderungen auf der Ebene von Farbe, Licht aber auch in Bezug auf das Verhältnis von Kadrierung und ästhetischer Gestaltung auf einen Blick erfassen {cite}`Stratil_2024`. 
 
 Neben der analytischen Auseinandersetzung mit einzelnen Filmen ermöglichen Moviebarcodes ferner auch eine einfache Methode des Vergleichs einer Vielzahl von Filmen auf einem hohen Abstraktionsniveau - etwa nach Genres, Entstehungszeiträumen oder stilistischen bzw. formal-ästhetischen Tendenzen {cite}`Burghardt_2018`. 
 
-Nicht zuletzt sind Moviebarcodes wichtige wissenschaftliche Argumentationsstützen und können zur Illustration und Darstellung von Hypothesen und Beobachtungen genutzt werden. Dabei können sie qualitative Analysen unterstützen, die die audiovisuelle Inszenierung, also die konkrete zeitliche Anordnung von Bild und Ton, als formale und ästhetische Grundlage von Wahrnehmung, Bedeutungskonstitution und affektivem Erleben im Film verstehen {cite}`Bakels_2020,{vgl. hierzu auch }Mueller_2018`. In diesem Sinne sind Moviebarcodes nicht allein als Werkzeuge zu verstehen. Sie sind Teil von Forschungsergebnissen, durch die Affektstrukturen und Bilddramaturgien aus der zeitlichen Organisation der Filme selbst verständlich gemacht werden können {cite}`Stratil_2024`. 
+Nicht zuletzt sind Moviebarcodes wichtige wissenschaftliche Argumentationsstützen und können zur Illustration und Darstellung von Hypothesen und Beobachtungen genutzt werden. Dabei können sie qualitative Analysen unterstützen, die die audiovisuelle Inszenierung, also die konkrete zeitliche Anordnung von Bild und Ton, als formale und ästhetische Grundlage von Wahrnehmung, Bedeutungskonstitution und affektivem Erleben im Film verstehen ({cite:alp}`Bakels_2020`; vgl. hierzu auch {cite:alp}`Mueller_2018`). In diesem Sinne sind Moviebarcodes nicht allein als Werkzeuge zu verstehen. Sie sind Teil von Forschungsergebnissen, durch die Affektstrukturen und Bilddramaturgien aus der zeitlichen Organisation der Filme selbst verständlich gemacht werden können {cite}`Stratil_2024`. 
 
 ## Technische Einordnung
 
@@ -50,12 +50,12 @@ Da Moviebarcodes keinen Werkcharakter im urheberrechtlichen Sinne aufweisen, sin
 (moviebarcodes-guide)=
 ## Moviebarcodes selbst erstellen: Guides
 
-Nachfolgend haben wir Code-Guides erstellt, die Schritt für Schritt den Prozess der Erzeugung von Moviebarcodes aus einer Filmdatei dokumentieren und selbstständig reproduziert werden können. Die Guides sind hier in der deutschen Version für Windows, MacOS und Linux verfügbar. Die englischen Versionen sind in der 
+Nachfolgend haben wir Code-Guides erstellt, die Schritt für Schritt den Prozess der Erzeugung von Moviebarcodes aus einer Filmdatei dokumentieren und selbstständig reproduziert werden können. Die Guides sind hier in der deutschen Version für Windows, macOS und Linux verfügbar. Die englischen Versionen sind in der 
 Dokumentation des <a href="https://github.com/SFB1512-C05-climate-film/intervening-world-projections-dataset/tree/main/documentation/moviebarcodes_documentation" class="external-link" target="_blank">Projektrepositorys </a> hinterlegt. 
 
 1. [Windows](../assets/05_aufbereitung_anreicherung/doc_windows_moviebarcode_guide_v001.md)
 2. [Linux](../assets/05_aufbereitung_anreicherung/doc_linux_moviebarcode_guide_v001.md)
-3. [MacOS](../assets/05_aufbereitung_anreicherung/doc_mac_moviebarcode_guide_v001.md)
+3. [macOS](../assets/05_aufbereitung_anreicherung/doc_mac_moviebarcode_guide_v001.md)
 
 ## Literatur
 

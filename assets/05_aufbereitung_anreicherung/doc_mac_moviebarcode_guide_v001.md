@@ -2,11 +2,11 @@
 orphan: true
 ---
 
-# 3. MacOS
+# 3. macOS
 ## 3.1. Vorbereitungen
 ### 3.1.1. Homebrew installieren
 
-Um FFmpeg und ImageMagick zu installieren, benutzen wir Homebrew. Homebrew ist eine freie Paketverwaltung für MacOS. Um Homebrew zu installieren, öffnen Sie ein Terminalfenster und setzen dort folgenden Befehl ab:
+Um FFmpeg und ImageMagick zu installieren, benutzen wir Homebrew. Homebrew ist eine freie Paketverwaltung für macOS. Um Homebrew zu installieren, öffnen Sie ein Terminalfenster und setzen dort folgenden Befehl ab:
 
 ```Bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -161,4 +161,4 @@ magick "${OUTFILE}_${PRIMARY_HEIGHT}.png" -resize x$SCALED_HEIGHT "${OUTFILE}_72
 rm frame_*.png
 ```
 
-Dieses Script kann angepasst und direkt in eine PowerShell-Session kopiert werden. Es kann aber auch mit einem Texteditor (Notepad++, Visual Studio Code, etc.) in einer Scriptdatei, beispielsweise moviebarcode_script.sh im Arbeitsverzeichnis gespeichert und mit ".\moviebarcode_script.sh" aufgerufen werden. Es sollten automatisch die Einzelframes extrahiert und zu einem Moviebarcode zusammengefügt werden.
+Dieses Script kann angepasst und direkt in eine Terminal-Session kopiert werden. Es kann aber auch mit einem Texteditor (z. B. Visual Studio Code) in einer Scriptdatei, beispielsweise moviebarcode_script.sh im Arbeitsverzeichnis gespeichert und mit "./moviebarcode_script.sh" aufgerufen werden. Es sollten automatisch die Einzelframes extrahiert und zu einem Moviebarcode zusammengefügt werden.

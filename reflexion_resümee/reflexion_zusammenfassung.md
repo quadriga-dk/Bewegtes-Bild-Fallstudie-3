@@ -2,7 +2,7 @@
 
 Diese Fallstudie und zugleich Open Educational Resource zeigt den Weg von der ersten Einordnung filmwissenschaftlicher Forschungsdaten bis zu ihrer strukturierten Publikation auf Repositorien. Dabei steht nicht allein die technische Frage im Vordergrund, *wie* Daten veröffentlicht werden können, sondern ebenso die methodische, diskriminierungskritische, rechtliche und zuletzt auch epistemische Frage, unter *welchen Bedingungen* Forschungsdaten so aufbereitet und publiziert werden können, dass sie offen, nachvollziehbar, gut dokumentiert und letztlich nachnutzbar sind.
 
-Datenpublikation verstehen wir dabei nicht als einen einzelnen Arbeitsschritt am Ende eines Projektes. Vielmehr begreifen wir sie als den Outcome oder das Ergebnis verschiedener Arbeitsprozesse, Entscheidungen, methodischen Überlegungen und Strategien, wobei "Ergebnis" hier keine abgeschlossene Aktivität meint. Gerade in der Filmwissenschaft greifen Themen wie Ausgangsmaterial, Urheberrecht, Aufbereitung und Nachnutzung ineinander und wirken auf den gesamten Forschungsprozess zurück. 
+Datenpublikation verstehen wir dabei nicht als einen einzelnen Arbeitsschritt am Ende eines Projektes. Vielmehr begreifen wir sie als den Outcome oder das Ergebnis verschiedener Arbeitsprozesse, Entscheidungen, methodischer Überlegungen und Strategien, wobei "Ergebnis" hier keine abgeschlossene Aktivität meint. Gerade in der Filmwissenschaft greifen Themen wie Ausgangsmaterial, Urheberrecht, Aufbereitung und Nachnutzung ineinander und wirken auf den gesamten Forschungsprozess zurück. 
 
 Für den konkreten Workflow bedeutet die Publikation, dass Forschungsdaten zunächst als solche erkannt und eingeordnet, anschließend beschrieben, strukturiert, dokumentiert, bereinigt, versioniert, lizenziert und abschließend in geeigneten Infrastrukturen veröffentlicht werden. 
 Deutlich wird, dass in der Film- und Medienwissenschaft die Publikation von Forschungsdaten häufig nicht in der Veröffentlichung der Untersuchungsgegenstände, also dem primären Film-, Bild- und Videomaterial, selbst besteht, sondern in der kuratierten Bereitstellung von Sekundärdaten, Metadaten, Annotationen, Visualisierungen und Dokumentationen. 
@@ -37,7 +37,7 @@ Zusammenfassend lassen sich aus den vorangegangenen Inhalten folgende Kernpunkte
 :class: keypoint
 * Metadaten sind ein zentraler Bestandteil der Arbeit mit Forschungsdaten.
 * Sie strukturieren, identifizieren und kontextualisieren Daten, Ressourcen und Objekte.
-* In der Film- und Medienwissenschaft gibt es etablierte Standards, wie beispielsweise den EN15744, die bei der Kategorisierung von Metadaten stets herangezogen werden sollten.
+* In der Film- und Medienwissenschaft gibt es etablierte Standards, wie beispielsweise den EN 15744, die bei der Kategorisierung von Metadaten stets herangezogen werden sollten.
 * Beschreibungsmodelle sind dabei nie wertneutral, daher ist die Berücksichtigung diskriminierungssensibler Praktiken notwendig.
 ```
 
@@ -45,7 +45,7 @@ Zusammenfassend lassen sich aus den vorangegangenen Inhalten folgende Kernpunkte
 :class: keypoint
 * Publikationsorte, wie z. B. Repositorien, Data Paper oder APIs, sollten nach Datentyp, Zielgruppe und geplantem Nachnutzungsszenario gewählt werden.
 * Es stehen generische (z. B. Zenodo, GitHub) sowie fachspezifische (z. B. FID Media, NECSUS) Infrastrukturen zur Verfügung, die je nach Zweck unterschiedliche Vorteile bieten.
-* In der Film- und Medienwissenschaft müssen bei der Wahl des Publikationsweges die Besonderheiten des audiovisuellen Primärmaterials und die rechtlichen Rahmenbedingungen stet mitberücksichtigt werden.
+* In der Film- und Medienwissenschaft müssen bei der Wahl des Publikationsweges die Besonderheiten des audiovisuellen Primärmaterials und die rechtlichen Rahmenbedingungen stets mitberücksichtigt werden.
 * Geeignete Infrastrukturen sollten Sichtbarkeit, Auffindbarkeit, Zitierfähigkeit, Versionierung sowie Langzeitverfügbarkeit unterstützen.
 ```
 
@@ -82,7 +82,7 @@ Zusammenfassend lassen sich aus den vorangegangenen Inhalten folgende Kernpunkte
 
 ## Nachnutzungsperspektiven
 
-```{figure} ../assets/relexion_resümee/abb_reflexion_nachnutzung.png
+```{figure} ../assets/reflexion_resümee/abb_reflexion_nachnutzung.png
 ---
 align: center
 width: 75%
@@ -91,7 +91,7 @@ name: forschungsdaten-nachnutzen
 Perspektiven der Nachnutzung publizierter Forschungsdaten
 ```
 
-Die Publikation von Forschungsdaten steht im Forschungsprozess häufig am Ende, sie ist jedoch nicht als abgeschlossner Schritt zu verstehen. Im Sinne guter wissenschaftlicher Praxis und unter Einhaltung der FAIR-Prinzipien sollen Forschungsdaten so publiziert werden, dass sie nachhaltig und für Dritte weiternutzbar sind. Wie bereits erwähnt, zählen zu einer nachhaltigen Bereitstellung, neben den eigentlichen Forschungsdaten, auch Dokumentationen, Metadaten, Schemata, Methoden, Nutzungsbeispiele und weitere Materialien.
+Die Publikation von Forschungsdaten steht im Forschungsprozess häufig am Ende, sie ist jedoch nicht als abgeschlossener Schritt zu verstehen. Im Sinne guter wissenschaftlicher Praxis und unter Einhaltung der FAIR-Prinzipien sollen Forschungsdaten so publiziert werden, dass sie nachhaltig und für Dritte weiternutzbar sind. Wie bereits erwähnt, zählen zu einer nachhaltigen Bereitstellung, neben den eigentlichen Forschungsdaten, auch Dokumentationen, Metadaten, Schemata, Methoden, Nutzungsbeispiele und weitere Materialien.
 
 Am Beispiel des Repositorys <a href="https://github.com/SFB1512-C05-climate-film/intervening-world-projections-dataset" class="external-link" target="_blank">*Intervening World Projections: Audiovisuality of Climate Change*</a> wollen wir nachfolgend einige Nachnutzungsperspektiven skizzieren.
 
@@ -120,4 +120,4 @@ Schließlich eröffnet das Datenset Perspektiven für weiterführende Forschung.
 
 ## Schlusswort
 
-Diese Fallstudie soll einen Beitrag dazu leisten, die Publikation film- und medienwissenschaftlicher Forschungsdaten als integralen Bestandteil des Forschungsprozesses zu betrachten. Wir plädieren dafür, dass Daten nicht nur als "Zwischenergebnisse" abgehandelt, sondern als zentrale Aspekte der Forschung angesehen werden. Daher ist die Datenpublikation in der Filmwissenschaft, trotz all ihren Besonderheiten und Herausforderungen, die das Fach im Speziellen mit sich bringt, ein wichtiger Teil des Diskurses. Insbesondere vor dem Hintergrund Künstlicher Intelligenz und voranschreitender technologischer Entwicklungen braucht es nachhaltige Perspektiven der Datennutzung und eine stärkere Sichtbarkeit entsprechender Forschungspraktiken.
+Diese Fallstudie soll einen Beitrag dazu leisten, die Publikation film- und medienwissenschaftlicher Forschungsdaten als integralen Bestandteil des Forschungsprozesses zu betrachten. Wir plädieren dafür, dass Daten nicht nur als "Zwischenergebnisse" abgehandelt, sondern als zentrale Aspekte der Forschung angesehen werden. Daher ist die Datenpublikation in der Filmwissenschaft, trotz all ihrer Besonderheiten und Herausforderungen, die das Fach im Speziellen mit sich bringt, ein wichtiger Teil des Diskurses. Insbesondere vor dem Hintergrund Künstlicher Intelligenz und voranschreitender technologischer Entwicklungen braucht es nachhaltige Perspektiven der Datennutzung und eine stärkere Sichtbarkeit entsprechender Forschungspraktiken.

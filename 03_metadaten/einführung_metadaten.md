@@ -85,7 +85,7 @@ Es gibt verschiedene Typen von Metadaten, die hinsichtlich ihrer Art und Funktio
 
   <tr>
     <td><strong>Strukturelle Metadaten</strong></td>
-    <td>Beschreiben die Anordnung  und Hierarchie eines Objekts oder einer Sammlung, d. h. die Beziehung der einzelnen Teile zueinander </td>
+    <td>Beschreiben die Anordnung und Hierarchie eines Objekts oder einer Sammlung, d. h. die Beziehung der einzelnen Teile zueinander </td>
     <td>Kapitelstruktur eines Buchs, sequentielle Abfolge eines Films, Verlinkungsstrukturen einer Website, Codelisten uvm.</td>
   </tr>
 
@@ -165,7 +165,7 @@ Es gibt eine Vielzahl von fächerübergreifenden, generischen Metadatenstandards
 (dublin-core-header)=
 ### Dublin Core
 
-Ein weit verbreiteter, generischer Standard zur Beschreibung von Dokumenten und anderen Objekten ist der sogenannte <a href="https://www.dublincore.org/" class="external-link" target="_blank">Dublin Core</a>. Er besteht aus einem Set aus 15 allgemeinen, weit verbreiteten <a href="https://www.dublincore.org/specifications/dublin-core/usageguide/elements/" class="external-link" target="_blank">Elementen </a> (siehe auch <a href="https://www.ietf.org/rfc/rfc2413.txt" class="external-link" target="_blank">hier</a>), darunter beispielsweise `title`, `creator`, `subject` oder `description`, und wird vielseitig für verschiedenste Ressourcen eingesetzt  – von digitalen Objekten in Repositorien über Webseiten bis hin zu Bibliotheksbeständen {cite}`Dierkes_2021`.
+Ein weit verbreiteter, generischer Standard zur Beschreibung von Dokumenten und anderen Objekten ist der sogenannte <a href="https://www.dublincore.org/" class="external-link" target="_blank">Dublin Core</a>. Er besteht aus einem Set aus 15 allgemeinen, weit verbreiteten <a href="https://www.dublincore.org/specifications/dublin-core/usageguide/elements/" class="external-link" target="_blank">Elementen </a> (siehe auch <a href="https://www.ietf.org/rfc/rfc2413.txt" class="external-link" target="_blank">hier</a>), darunter beispielsweise `title`, `creator`, `subject` oder `description`, und wird vielseitig für verschiedenste Ressourcen eingesetzt – von digitalen Objekten in Repositorien über Webseiten bis hin zu Bibliotheksbeständen {cite}`Dierkes_2021`.
 
 ```{figure} ../assets/03_metadaten/abb_k03_dublin_core.png
 ---

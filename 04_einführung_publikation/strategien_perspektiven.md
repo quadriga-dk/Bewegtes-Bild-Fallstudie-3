@@ -1,4 +1,4 @@
-#  Strategien, Perspektiven, Publikationswege
+# Strategien, Perspektiven, Publikationswege
 
 Unter Datenpublikation wird die "referenzierbare Beschreibung von Datensätzen" verstanden, über die Daten allgemein zugänglich gemacht werden {cite}`dang_forschungsdatenmanagement_2020`. Neben den Forschungsdaten selbst sind auch deren Beschreibungen (deskriptive Metadaten), Dokumentationen, Codes oder Workflows ein wichtiger Bestandteil der Datenpublikation {cite}`Forschungsdatenorg_2015`.
 
@@ -14,7 +14,7 @@ Dataset - alles was es für die Publikation braucht
 :class: important
 Daten sind Forschungsergebnisse und sollten daher, wenn möglich, publiziert werden. Denn sie fördern den Austausch zwischen Institutionen, Projekten und Forschenden und können zu einer heterogenen und kreativen Wissensproduktion beitragen {cite}`CRDA_2025`.
 ```
-In der Filmwissenschaft sind Daten einerseits häufig an Korpusentscheidungen gebunden (Auswahl der Filme und ihre Beziehung zueinander), andererseits sind sowohl Annotations- oder Kodierarbeiten als auch bereits Extraktionen (Shotlisten, Transkripte) Forschungsergebnisse. Eine ausführliche Beschreibung und Auflistung filmwissenschaftlicher Forschungsdaten findet sich in {ref}`Kapitel 2.3. Forschungsdaten in der Film- und Medienwissenschaft <forschungadaten-fiwi>`.
+In der Filmwissenschaft sind Daten einerseits häufig an Korpusentscheidungen gebunden (Auswahl der Filme und ihre Beziehung zueinander), andererseits sind sowohl Annotations- oder Kodierarbeiten als auch bereits Extraktionen (Shotlisten, Transkripte) Forschungsergebnisse. Eine ausführliche Beschreibung und Auflistung filmwissenschaftlicher Forschungsdaten findet sich in {ref}`Kapitel 2.3. Forschungsdaten in der Film- und Medienwissenschaft <forschungsdaten-fiwi>`.
 
 Welche Publikationswege sinnvoll sind, hängt von verschiedenen Faktoren ab. Orientierung geben diese vier Leitfragen:
 
@@ -26,7 +26,7 @@ Welche Publikationswege sinnvoll sind, hängt von verschiedenen Faktoren ab. Ori
 
 4. **Rechte/Lizenzen**: Welche rechtlichen und lizenzrechtlichen Bedingungen gelten (z. B. Urheberrecht, Bildrechte, Persönlichkeitsrechte)?
 
-Ein solides [Forschungsdatenmanagement (Kapitel 2.5.)](../02_forschungsdaten_fdm/forschungsdatenmanagement.md) (FDM) unter Einhaltung der {ref}`FAIR-Prinzipien (Kapitel 2.5.) <leitlinien-fair>` und {ref}`Best Practices (Kapitel 2.5.) <fiwi-best-practices>`  erleichtert die Publikation.
+Ein solides [Forschungsdatenmanagement (Kapitel 2.5.)](../02_forschungsdaten_fdm/forschungsdatenmanagement.md) (FDM) unter Einhaltung der {ref}`FAIR-Prinzipien (Kapitel 2.5.) <leitlinien-fair>` und {ref}`Best Practices (Kapitel 2.5.) <fiwi-best-practices>` erleichtert die Publikation.
 
 In dieser Lerneinheit werden Publikationswege, -orte und -formate anhand konkreter Praxisbeispiele skizziert und anschließend durch eine Übersicht an Ressourcen sowie Orientierungshilfen zur Publikation ergänzt.
 
