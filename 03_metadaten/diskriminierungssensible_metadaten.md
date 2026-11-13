@@ -30,7 +30,7 @@ Screenshot aus dem Eintrag von <a href="https://www.filmportal.de/film/der-schat
 Genauer heißt es in einem Ausschnitt der Beschreibung:
 > "Unterstützung im Kampf gegen die skrupellose Bande erhalten die tapferen Westmänner durch den Apachen-Häuptling Winnetou. Auf der Jagd nach dem Schatz im Silbersee gelingt es Brinkley, die Utah-Indianer aufzuwiegeln." {cite}`Filmportal_oJ`
 
-Dabei sind nicht nur die Begriffe "Häuptling" oder "Indianer" aufgrund ihrer kolonialen Prägung aus heutiger Sicht problematisch (vgl. hierzu auch das postkoloniale Wörterbuch der {cite:t}`UniversitaetKoeln_2023`), ferner wird in der Inhaltsbeschreibung das koloniale Narrativ des Films ungebrochen reproduziert und übernommen: von "tapferen Westmännern" bis zu "aufgewiegelten Indianern".
+Dabei sind nicht nur die Begriffe "Häuptling" oder "Indianer" aufgrund ihrer kolonialen Prägung aus heutiger Sicht problematisch (vgl. hierzu auch das postkoloniale Wörterbuch der {cite:alp}`UniversitaetKoeln_2023`), ferner wird in der Inhaltsbeschreibung das koloniale Narrativ des Films ungebrochen reproduziert und übernommen: von "tapferen Westmännern" bis zu "aufgewiegelten Indianern".
 
 Zusätzlich verstärkt das im obigen Screenshot sichtbare Filmstill diese Fortschreibung. Die ausgewählte Darstellung verfestigt die kolonialen Verhältnisse des Beschreibungstextes. Dadurch wird deutlich, inwiefern durch textuelle und visuelle Metadatenelemente filmische Narrative und Ideologien nicht nur dokumentiert, sondern implizit stabilisiert werden.
 

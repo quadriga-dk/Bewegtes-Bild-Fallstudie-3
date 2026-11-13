@@ -92,7 +92,7 @@ Im Wesentlichen sind DMPs von Menschen lesbare Dokumente, wobei es mittlerweile 
 
 ### Inhalte eines DMPs
 
-Die konkreten Inhalte eines DMPs sind nicht normiert. Es gibt sowohl eine Reihe institutioneller Handreichungen und Vorlagen als auch digitale Werkzeuge, mit denen DMPs erstellt werden können. Für einen ersten Überblick fassen wir die wichtigsten Inhalte hier kurz zusammen (vgl. für einen Überblick auch {cite:t}`Dierkes_2021,RatSWD_2023`):
+Die konkreten Inhalte eines DMPs sind nicht normiert. Es gibt sowohl eine Reihe institutioneller Handreichungen und Vorlagen als auch digitale Werkzeuge, mit denen DMPs erstellt werden können. Für einen ersten Überblick fassen wir die wichtigsten Inhalte hier kurz zusammen (vgl. für einen Überblick auch {cite:alp}`Dierkes_2021,RatSWD_2023`):
 
 ```{figure} ../assets/02_forschungsdaten_fdm/abb_k02_dmp.png
 ---
